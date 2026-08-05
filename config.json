@@ -1,0 +1,9 @@
+{
+  "nome": "Notícias IA Brasil",
+  "logo": "assets/logo.png",
+  "anuncio": {
+    "ativo": true,
+    "imagem": "assets/anuncios/banner.jpg",
+    "link": "https://seulink.com"
+  }
+}

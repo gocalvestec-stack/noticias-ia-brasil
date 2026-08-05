@@ -1,9 +1,10 @@
 {
   "nome": "Notícias IA Brasil",
-  "logo": "assets/logo.png",
+  "logo": "logo.png.jpeg",
   "anuncio": {
     "ativo": true,
-    "imagem": "assets/anuncios/banner.jpg",
-    "link": "https://seulink.com"
+    "tipo": "video",
+    "video": "https://youtu.be/U_jX4gu6Vjc?si=iQLtZ70SDf0soV5U",
+    "link": "https://rdbeatmakerr.netlify.app/"
   }
 }

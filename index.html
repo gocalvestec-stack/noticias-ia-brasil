@@ -420,37 +420,7 @@ mostrarNoticias(resultado);
 
 
 function filtrar(categoria){
-
-let palavras = {
-"Esportes":"futebol|flamengo|cruzeiro|atletico|brasileirão|campeonato|jogo|time",
-"Tecnologia":"tecnologia|celular|internet|ia|inteligência artificial",
-"Economia":"economia|dinheiro|mercado|banco|dólar",
-"Brasil":"brasil|governo|política"
-};
-
-
-if(categoria===""){
-mostrarNoticias(todasNoticias);
-return;
-}
-
-
-let busca = palavras[categoria] || categoria;
-
-
-let resultado = todasNoticias.filter(n => {
-
-let texto =
-(n.title + " " + (n.description || "")).toLowerCase();
-
-return new RegExp(busca).test(texto);
-
-});
-
-
-mostrarNoticias(resultado);
-
-}
+ 
 
 
 if(categoria===""){

@@ -1,8 +1,8 @@
 {
   "nome": "Notícias IA Brasil",
-  "logo": "LINK_DA_LOGO",
+  "logo": "https://github.com/gocalvestec-stack/noticias-ia-brasil/blob/main/logo.png.jpeg?raw=true",
   "video": {
     "ativo": true,
-    "youtube": "LINK_DO_VIDEO"
+    "youtube": "https://youtu.be/U_jX4gu6Vjc"
   }
 }

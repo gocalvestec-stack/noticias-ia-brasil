@@ -26,7 +26,7 @@ jobs:
 
       - name: Buscar noticias RSS
         run: |
-          python <<'PY'
+          python3 <<'PY'
           import json, feedparser, random
           from datetime import datetime
 
@@ -46,9 +46,9 @@ jobs:
               for item in feed.entries[:8]:
                   articles.append({
                       "title": item.get("title", "Sem título"),
-                      "description": item.get("summary", "")[:200],
+                      "description": "",
                       "url": item.get("link", "#"),
-                      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+                      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
                       "publishedAt": datetime.utcnow().isoformat() + "Z",
                       "category": categoria
                   })

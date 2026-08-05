@@ -1,211 +1,27 @@
 {
   "articles": [
     {
-      "title": "Viagem do Papa Leão XIV terá parada na Amazônia peruana em novembro",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/viagem-do-papa-leao-xiv-tera-parada-na-amazonia-peruana-em-novembro.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580897Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Apesar de corte na Selic, Brasil tem o maior juro real do mundo; veja ranking",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/ranking-juro-real-agosto.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823876Z",
-      "category": "economia"
-    },
-    {
-      "title": "Novo México processa o governo Trump para ter acesso aos arquivos de Epstein",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/novo-mexico-processa-o-governo-trump-para-ter-acesso-aos-arquivos-de-epstein.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580918Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Quem é Nayib Bukele, o presidente de El Salvador elogiado por Renan Santos",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/quem-e-nayib-bukele-o-ditador-de-el-salvador-elogiado-por-renan-santos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580916Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Prêmio Grande Otelo: moradora de Teresópolis vence por melhor figurino em 'Homem com H'",
-      "description": "",
-      "url": "https://g1.globo.com/rj/regiao-serrana/noticia/2026/08/05/premio-grande-otelo-moradora-de-teresopolis-vence-por-melhor-figurino-em-homem-com-h.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889448Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823883Z",
-      "category": "economia"
-    },
-    {
-      "title": "Kerolin celebra chegada ao Barcelona e sonha em ser melhor do mundo: \"Vou evoluir como jogadora\"",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/08/05/kerolin-celebra-chegada-ao-barcelona-e-sonha-em-ser-melhor-do-mundo-vou-evoluir-como-jogadora.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426838Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Vasco responde à agência reguladora e defende legalidade da operação de venda da SAF",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/05/vasco-responde-a-agencia-reguladora-e-defende-legalidade-da-operacao-de-venda-da-saf.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426832Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Cúpula da Fifa garante apoio a Infantino, que envia pedido de desculpas a federações",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/fifa-divulga-comunicado-apos-reuniao-em-meio-a-crise-com-federacoes.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426825Z",
-      "category": "futebol"
-    },
-    {
-      "title": "VÍDEO: florada de ipês transforma ruas de Itu em corredores cor-de-rosa",
-      "description": "",
-      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/05/video-florada-de-ipes-transforma-ruas-de-itu-em-corredores-cor-de-rosa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889441Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Vitória desbanca Balneário Camboriú e volta ao topo das cidades com m² mais caro do país",
-      "description": "",
-      "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/08/05/vitoria-desbanca-balneario-camboriu-e-volta-ao-topo-das-cidades-com-m-de-imoveis-mais-caro-do-pais.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823873Z",
-      "category": "economia"
-    },
-    {
-      "title": "São Paulo paga dívida com a Lazio para derrubar transfer ban e liberar inscrição de reforços",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/05/sao-paulo-paga-divida-com-a-lazio-para-derrubar-transfer-ban-e-liberar-inscricao-de-reforcos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426834Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Presidente do Irã diz que comunicação com o novo líder supremo está 'muito difícil'",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/presidente-do-ira-diz-que-comunicacao-com-o-novo-lider-supremo-esta-muito-dificil.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580912Z",
-      "category": "mundo"
-    },
-    {
-      "title": "PSG perde para o Mallorca no primeiro amistoso de pré-temporada",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/noticia/2026/08/05/psg-perde-para-o-mallorca-no-primeiro-amistoso-de-pre-temporada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426828Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823881Z",
-      "category": "economia"
-    },
-    {
-      "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823885Z",
-      "category": "economia"
-    },
-    {
-      "title": "Flamengo acerta saída de Rayan Lucas para o Alverca, de Portugal; veja modelo de negócio",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/flamengo-acerta-saida-de-rayan-lucas-para-o-alverca-de-portugal-veja-modelo-de-negocio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426811Z",
-      "category": "futebol"
-    },
-    {
-      "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
-      "description": "",
-      "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889452Z",
-      "category": "brasil"
-    },
-    {
-      "title": "À espera de Bruno Guimarães, Arsenal perde amistoso para o Betis em Dublin",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/05/a-espera-de-bruno-guimaraes-arsenal-perde-amistoso-para-o-betis-em-dublin.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426830Z",
-      "category": "futebol"
-    },
-    {
       "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
       "description": "",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823887Z",
+      "publishedAt": "2026-08-05T22:54:48.893541Z",
       "category": "economia"
-    },
-    {
-      "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
-      "description": "",
-      "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823866Z",
-      "category": "economia"
-    },
-    {
-      "title": "Mãe de homem em situação de rua morto a tiros em Cuiabá pede R$ 574,5 mil de indenização a ex-procurador da ALMT",
-      "description": "",
-      "url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/08/05/mae-de-homem-em-situacao-de-rua-morto-a-tiros-em-cuiaba-pede-r-5745-mil-de-indenizacao-a-ex-procurador-da-almt.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889430Z",
-      "category": "brasil"
-    },
-    {
-      "title": "VÍDEO: vento leva chapéu e salva idoso de atropelamento na China",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/video-vento-leva-chapeu-e-salva-idoso-de-atropelamento-na-china.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580914Z",
-      "category": "mundo"
     },
     {
       "title": "Selic: Copom reduz taxa básica de juros para 14% ao ano",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/05/selic-copom-reduz-taxa-basica-de-juros-para-14percent-ao-ano.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:41.823878Z",
+      "publishedAt": "2026-08-05T22:54:48.893532Z",
       "category": "economia"
     },
     {
-      "title": "Motorista assume direção de ambulância que prestava socorro, atinge paramédico e é detido em Vila Velha",
+      "title": "Personal trainer irregular e aluna são presos suspeitos de vender remédios emagrecedores e anabolizantes no interior de SP",
       "description": "",
-      "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/08/05/motorista-assume-direcao-de-ambulancia-que-prestava-socorro-atinge-paramedico-e-e-detido-em-vila-velha.ghtml",
+      "url": "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/08/05/personal-trainer-irregular-e-aluna-sao-presos-suspeitos-de-vender-remedios-emagrecedores-e-anabolizantes-no-interior-de-sp.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889446Z",
-      "category": "brasil"
-    },
-    {
-      "title": "RN registra maior nota da série histórica do Ideb e fica em 18º entre redes estaduais no ensino médio",
-      "description": "",
-      "url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/08/05/rn-registra-maior-nota-da-serie-historica-do-ideb-e-fica-em-18o-entre-redes-estaduais-no-ensino-medio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889438Z",
+      "publishedAt": "2026-08-05T22:54:47.316876Z",
       "category": "brasil"
     },
     {
@@ -213,23 +29,119 @@
       "description": "",
       "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/05/justica-nega-pedido-do-flamengo-e-determina-que-taca-das-bolinhas-fique-com-o-sao-paulo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:37.426822Z",
+      "publishedAt": "2026-08-05T22:54:45.286981Z",
       "category": "futebol"
+    },
+    {
+      "title": "Kerolin celebra chegada ao Barcelona e sonha em ser melhor do mundo: \"Vou evoluir como jogadora\"",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/08/05/kerolin-celebra-chegada-ao-barcelona-e-sonha-em-ser-melhor-do-mundo-vou-evoluir-como-jogadora.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286998Z",
+      "category": "futebol"
+    },
+    {
+      "title": "PSG perde para o Mallorca no primeiro amistoso de pré-temporada",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/noticia/2026/08/05/psg-perde-para-o-mallorca-no-primeiro-amistoso-de-pre-temporada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286987Z",
+      "category": "futebol"
+    },
+    {
+      "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
+      "description": "",
+      "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893518Z",
+      "category": "economia"
+    },
+    {
+      "title": "Apesar de corte na Selic, Brasil tem o maior juro real do mundo; veja ranking",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/ranking-juro-real-agosto.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893529Z",
+      "category": "economia"
+    },
+    {
+      "title": "TRE-SP rejeita por unanimidade recurso de Pablo Marçal e mantém inelegibilidade até 2032",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/08/05/tre-sp-rejeita-por-unanimidade-recurso-de-pablo-marcal-e-mantem-inelegibilidade-ate-2032.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316888Z",
+      "category": "brasil"
     },
     {
       "title": "A dois meses da eleição, Brasil enfrenta crises diplomáticas inéditas com EUA e Argentina",
       "description": "",
       "url": "https://g1.globo.com/noticia/2026/08/05/a-dois-meses-da-eleicao-brasil-enfrenta-crises-diplomaticas-ineditas-com-eua-e-argentina.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580905Z",
+      "publishedAt": "2026-08-05T22:54:51.173401Z",
       "category": "mundo"
     },
     {
-      "title": "VÍDEO: animais são resgatados vivos após incêndio em indústria de Itaquaquecetuba",
+      "title": "Quem é Nayib Bukele, o presidente de El Salvador elogiado por Renan Santos",
       "description": "",
-      "url": "https://g1.globo.com/sp/mogi-das-cruzes-suzano/noticia/2026/08/05/video-animais-sao-resgatados-vivos-apos-incendio-em-industria-de-itaquaquecetuba.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/quem-e-nayib-bukele-o-ditador-de-el-salvador-elogiado-por-renan-santos.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889444Z",
+      "publishedAt": "2026-08-05T22:54:51.173412Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Quem era Cesar Gastelum, influencer mexicano morto a tiros durante transmissão ao vivo",
+      "description": "",
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/05/quem-era-cesar-gastelum-influencer-mexicano-morto-a-tiros-durante-transmissao-ao-vivo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:51.173406Z",
+      "category": "mundo"
+    },
+    {
+      "title": "VÍDEO: Incêndio atinge prédio abandonado em São João del Rei",
+      "description": "",
+      "url": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/08/05/video-incendio-atinge-predio-abandonado-em-sao-joao-del-rei.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316867Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Flamengo acerta saída de Rayan Lucas para o Alverca, de Portugal; veja modelo de negócio",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/flamengo-acerta-saida-de-rayan-lucas-para-o-alverca-de-portugal-veja-modelo-de-negocio.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286971Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Eleições em SP: o que cabe ao governo do estado na Educação",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/05/eleicoes-em-sp-o-que-cabe-ao-governo-do-estado-na-educacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316884Z",
+      "category": "brasil"
+    },
+    {
+      "title": "À espera de Bruno Guimarães, Arsenal perde amistoso para o Betis em Dublin",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/05/a-espera-de-bruno-guimaraes-arsenal-perde-amistoso-para-o-betis-em-dublin.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286989Z",
+      "category": "futebol"
+    },
+    {
+      "title": "São Paulo paga dívida com a Lazio para derrubar transfer ban e liberar inscrição de reforços",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/05/sao-paulo-paga-divida-com-a-lazio-para-derrubar-transfer-ban-e-liberar-inscricao-de-reforcos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286994Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Idosa de 96 anos é resgatada com suspeita de maus-tratos em Salto de Pirapora",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/05/idosa-e-resgatada-com-suspeita-de-maus-tratos-em-salto-de-pirapora.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316886Z",
       "category": "brasil"
     },
     {
@@ -237,23 +149,111 @@
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/sicario-policia-prende-argentino-que-ameacava-milei-de-morte-pelo-tiktok.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580908Z",
+      "publishedAt": "2026-08-05T22:54:51.173404Z",
       "category": "mundo"
     },
     {
-      "title": "Defesa Civil monta gabinete de crise e alerta para ventos de até 100 km/h em SP a partir desta quinta",
+      "title": "Homem esfaqueia e tenta estrangular ex no interior de SP; vítima tinha medida protetiva",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/05/defesa-civil-monta-gabinete-de-crise-e-alerta-para-ventos-de-ate-100-kmh-em-sp-a-partir-desta-quinta.ghtml",
+      "url": "https://g1.globo.com/sp/santos-regiao/noticia/2026/08/05/homem-esfaqueia-e-tenta-estrangular-ex-no-interior-de-sp-vitima-tinha-medida-protetiva.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:39.889450Z",
+      "publishedAt": "2026-08-05T22:54:47.316890Z",
       "category": "brasil"
     },
     {
-      "title": "Quem era Cesar Gastelum, influencer mexicano morto a tiros durante transmissão ao vivo",
+      "title": "Vasco responde à agência reguladora e defende legalidade da operação de venda da SAF",
       "description": "",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/05/quem-era-cesar-gastelum-influencer-mexicano-morto-a-tiros-durante-transmissao-ao-vivo.ghtml",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/05/vasco-responde-a-agencia-reguladora-e-defende-legalidade-da-operacao-de-venda-da-saf.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T22:06:44.580910Z",
+      "publishedAt": "2026-08-05T22:54:45.286992Z",
+      "category": "futebol"
+    },
+    {
+      "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893539Z",
+      "category": "economia"
+    },
+    {
+      "title": "Motociclista morre após bater de frente com carreta na BR-364, em Pimenta Bueno, RO",
+      "description": "",
+      "url": "https://g1.globo.com/ro/rondonia/noticia/2026/08/05/motociclista-morre-apos-bater-de-frente-com-carreta-na-br-364-em-pimenta-bueno.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316881Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893535Z",
+      "category": "economia"
+    },
+    {
+      "title": "Vitória desbanca Balneário Camboriú e volta ao topo das cidades com m² mais caro do país",
+      "description": "",
+      "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/08/05/vitoria-desbanca-balneario-camboriu-e-volta-ao-topo-das-cidades-com-m-de-imoveis-mais-caro-do-pais.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893526Z",
+      "category": "economia"
+    },
+    {
+      "title": "Presidente do Irã diz que comunicação com o novo líder supremo está 'muito difícil'",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/presidente-do-ira-diz-que-comunicacao-com-o-novo-lider-supremo-esta-muito-dificil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:51.173408Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Cúpula da Fifa garante apoio a Infantino, que envia pedido de desculpas a federações",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/fifa-divulga-comunicado-apos-reuniao-em-meio-a-crise-com-federacoes.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:45.286984Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Ideb 2025: DF não atinge metas da rede pública e fica abaixo da média nacional",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/05/ideb-2025-df-nao-atinge-metas-da-rede-publica-e-fica-abaixo-da-media-nacional.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:47.316879Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+      "description": "",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:48.893537Z",
+      "category": "economia"
+    },
+    {
+      "title": "Novo México processa o governo Trump para ter acesso aos arquivos de Epstein",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/novo-mexico-processa-o-governo-trump-para-ter-acesso-aos-arquivos-de-epstein.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:51.173415Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Viagem do Papa Leão XIV terá parada na Amazônia peruana em novembro",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/viagem-do-papa-leao-xiv-tera-parada-na-amazonia-peruana-em-novembro.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:51.173394Z",
+      "category": "mundo"
+    },
+    {
+      "title": "VÍDEO: vento leva chapéu e salva idoso de atropelamento na China",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/video-vento-leva-chapeu-e-salva-idoso-de-atropelamento-na-china.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T22:54:51.173410Z",
       "category": "mundo"
     }
   ]

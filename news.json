@@ -1,19 +1,91 @@
 {
   "articles": [
     {
-      "title": "VÍDEO: carro bate em outro veículo e capota em avenida de Votorantim",
+      "title": "Flamengo avança pela contratação de Luiz Henrique",
       "description": "",
-      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/05/video-carro-bate-em-outro-veiculo-e-capota-em-avenida-de-votorantim.ghtml",
+      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/flamengo-avanca-pela-contratacao-de-luiz-henrique.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969047Z",
-      "category": "brasil"
+      "publishedAt": "2026-08-05T15:32:45.373490Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Palermo, ídolo do Boca e ex-Fortaleza, é o novo treinador do Platense",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/palermo-idolo-do-boca-e-ex-fortaleza-e-o-novo-treinador-do-platense.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:45.373504Z",
+      "category": "futebol"
     },
     {
       "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
       "description": "",
       "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626725Z",
+      "publishedAt": "2026-08-05T15:32:47.766731Z",
+      "category": "economia"
+    },
+    {
+      "title": "Júnior Santos treina com elenco do Botafogo às vésperas do clássico com o Fluminense",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/junior-santos-treina-com-elenco-do-botafogo-as-vesperas-do-classico-com-o-fluminense.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:45.373486Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Dólar abre em queda, à espera da nova decisão de juros do BC e de olho no Oriente Médio",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/dolar-ibovespa.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:47.766746Z",
+      "category": "economia"
+    },
+    {
+      "title": "IFPA abre seleção para auxílio permanência de estudantes em Santarém com orçamento de R$ 67,2 mil",
+      "description": "",
+      "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/08/05/ifpa-abre-selecao-para-auxilio-permanencia-de-estudantes-em-santarem-com-orcamento-de-r-672-mil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582009Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Homem é preso suspeito de matar a própria mãe a socos e espancar a tia no Pará",
+      "description": "",
+      "url": "https://g1.globo.com/pa/para/noticia/2026/08/05/homem-e-preso-suspeito-de-matar-a-propria-mae-a-socos-e-espancar-a-tia-no-para.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582013Z",
+      "category": "brasil"
+    },
+    {
+      "title": "E o Estrella? Após retorno de empréstimo, meia treina separado e aguarda definição do Vasco",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/05/e-o-estrella-apos-retorno-de-emprestimo-meia-treina-separado-e-aguarda-definicao-do-vasco.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:45.373495Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Mauro Vieira chama discurso de Milei de agressivo ao justificar rebaixamento de embaixador: 'Questão ideológica é secundária'",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mauro-vieira-chama-discurso-de-milei-de-agressivo-ao-justificar-rebaixamento-de-embaixador-questao-ideologica-e-secundaria.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582001Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Mulher é presa em Londres suspeita de esfaquear quatro homens em Covent Garden",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mulher-e-presa-em-londres-suspeita-de-esfaquear-homens.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587578Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Por que recebemos tantas ligações indesejadas? E como evitar esse tipo de chamada?",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/por-que-recebemos-tantas-ligacoes-indesejadas-e-como-evitar-esse-tipo-de-chamada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:47.766754Z",
       "category": "economia"
     },
     {
@@ -21,215 +93,31 @@
       "description": "",
       "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/cbf-comunica-aos-clubes-parada-obrigatoria-durante-periodo-da-copa-do-mundo-feminina-de-2027.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195041Z",
+      "publishedAt": "2026-08-05T15:32:45.373492Z",
       "category": "futebol"
-    },
-    {
-      "title": "Com histórias do Atlético-MG e da Seleção, Reinaldo lança nova edição da biografia Punho Cerrado",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/05/com-historias-do-atletico-mg-e-da-selecao-reinaldo-lanca-nova-edicao-da-biografia-punho-cerrado.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195056Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Entenda por que reforço do Cruzeiro  \"trocou\" Copa por sonho e virou símbolo de geração perdida",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/entenda-por-que-reforco-do-cruzeiro-trocou-copa-por-sonho-e-virou-simbolo-de-geracao-perdida.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195066Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Consórcio Intermunicipal abre concurso com vagas em seis cidades do Oeste Paulista",
-      "description": "",
-      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/08/05/consorcio-intermunicipal-abre-concurso-com-vagas-em-seis-cidades-do-oeste-paulista.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969055Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Palermo, ídolo do Boca e ex-Fortaleza, é o novo treinador do Platense",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/palermo-idolo-do-boca-e-ex-fortaleza-e-o-novo-treinador-do-platense.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195058Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Israel volta a bombardear sul do Líbano e acusa Hezbollah de 'violação flagrante' de cessar-fogo",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/israel-bombardeia-sul-do-libano-cessar-fogo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042100Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Copa do Brasil: veja data e horário do sorteio das quartas de final",
-      "description": "",
-      "url": "https://ge.globo.com/pr/futebol/copa-do-brasil/noticia/2026/08/05/copa-do-brasil-veja-data-e-horario-do-sorteio-das-quartas-de-final.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195060Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Carreta de Mamografia oferece exames gratuitos para mulheres em cidade da Bahia; saiba como agendar",
-      "description": "",
-      "url": "https://g1.globo.com/ba/bahia/saudenabahia/noticia/2026/08/05/exames-gratuitos-bahia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969037Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Por que recebemos tantas ligações indesejadas? E como evitar esse tipo de chamada?",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/por-que-recebemos-tantas-ligacoes-indesejadas-e-como-evitar-esse-tipo-de-chamada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626746Z",
-      "category": "economia"
-    },
-    {
-      "title": "Homem invade casa de agente da Polícia Civil e puxa lençol de adolescente de 15 anos em Alenquer, no Pará",
-      "description": "",
-      "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/08/05/homem-invade-casa-de-agente-da-policia-civil-e-puxa-lencol-de-adolescente-de-15-anos-em-alenquer-no-para.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969053Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Dólar abre em queda, à espera da nova decisão de juros do BC e de olho no Oriente Médio",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/dolar-ibovespa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626738Z",
-      "category": "economia"
-    },
-    {
-      "title": "AO VIVO: Assista aos telejornais da Rede Amazônica Roraima",
-      "description": "",
-      "url": "https://g1.globo.com/rr/roraima/ao-vivo/ao-vivo-assista-aos-telejornais-da-rede-amazonica-roraima.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969051Z",
-      "category": "brasil"
-    },
-    {
-      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626735Z",
-      "category": "economia"
     },
     {
       "title": "Gasolina sobe 30% nos EUA e Trump cobra petroleiras; entenda o que está por trás da alta",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/05/gasolina-sobe-30percent-nos-eua-e-trump-cobra-petroleiras-entenda-o-que-esta-por-tras-da-alta.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626744Z",
+      "publishedAt": "2026-08-05T15:32:47.766752Z",
       "category": "economia"
     },
     {
-      "title": "Avaí encaminha a contratação do melhor lateral-direito do Paulistão",
+      "title": "Edital do transporte público: Natal vai pagar R$ 73 mi por ano em subsídio a empresas",
       "description": "",
-      "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/08/05/avai-encaminha-a-contratacao-do-melhor-lateral-direito-do-paulistao.ghtml",
+      "url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/08/05/edital-transporte-publico-natal-subsidio.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195062Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Como uma avalanche matou uma lenda do alpinismo — e uma geração recordista",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/como-uma-avalanche-matou-uma-lenda-do-alpinismo-e-uma-geracao-recordista.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042091Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Por que o menor país insular do mundo mudou de nome?",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/por-que-o-menor-pais-insular-do-mundo-mudou-de-nome.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042098Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Argentina não tomará nenhuma medida contra o Brasil após rebaixamento de relações diplomáticas, diz chanceler",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/argentina-nao-tomara-nenhuma-medida-contra-o-brasil.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042102Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626739Z",
-      "category": "economia"
-    },
-    {
-      "title": "Assim como no Brasil, mais da metade das embaixadas dos EUA no exterior estão sem embaixador",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/08/05/assim-como-no-brasil-mais-da-metade-das-embaixadas-dos-eua-no-exterior-estao-sem-embaixador.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042104Z",
-      "category": "mundo"
-    },
-    {
-      "title": "E o Estrella? Após retorno de empréstimo, meia treina separado e aguarda definição do Vasco",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/05/e-o-estrella-apos-retorno-de-emprestimo-meia-treina-separado-e-aguarda-definicao-do-vasco.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195051Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Corpo de jovem que se afogou em praia de Aracaju é sepultado",
-      "description": "",
-      "url": "https://g1.globo.com/se/sergipe/noticia/2026/08/05/corpo-de-jovem-que-se-afogou-em-praia-de-aracaju-e-sepultado.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969057Z",
+      "publishedAt": "2026-08-05T15:32:46.582004Z",
       "category": "brasil"
-    },
-    {
-      "title": "Vídeo mostra nuvem em formato de cogumelo em incêndio em indústria de Itaquaquecetuba; VEJA",
-      "description": "",
-      "url": "https://g1.globo.com/sp/mogi-das-cruzes-suzano/noticia/2026/08/05/video-mostra-nuvem-em-formato-de-cogumelo-em-incendio-em-industria-de-itaquaquecetuba-veja.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969049Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626741Z",
-      "category": "economia"
-    },
-    {
-      "title": "O homem abandonado ao nascer que encontrou família biológica 65 anos depois",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/o-homem-abandonado-ao-nascer-que-encontrou-familia-biologica-65-anos-depois.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042094Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Mulher é presa em Londres suspeita de esfaquear quatro homens em Covent Garden",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mulher-e-presa-em-londres-suspeita-de-esfaquear-homens.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042096Z",
-      "category": "mundo"
     },
     {
       "title": "Grego guarda corpo do pai no congelador por mais de 2 anos para receber aposentadoria",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/grego-guarda-corpo-do-pai-no-congelador-para-receber-aposentadoria.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:52.042085Z",
+      "publishedAt": "2026-08-05T15:32:49.587564Z",
       "category": "mundo"
     },
     {
@@ -237,24 +125,136 @@
       "description": "",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:49.626732Z",
+      "publishedAt": "2026-08-05T15:32:47.766740Z",
       "category": "economia"
     },
     {
-      "title": "Governador Tarcísio de Freitas fala agora sobre a greve; ASSISTA",
+      "title": "Como uma avalanche matou uma lenda do alpinismo — e uma geração recordista",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/ao-vivo/greve-afeta-3-linhas-da-cptm-nesta-terca-feira-rodizio-esta-suspenso.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/como-uma-avalanche-matou-uma-lenda-do-alpinismo-e-uma-geracao-recordista.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:47.969044Z",
+      "publishedAt": "2026-08-05T15:32:49.587573Z",
+      "category": "mundo"
+    },
+    {
+      "title": "O homem abandonado ao nascer que encontrou família biológica 65 anos depois",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/o-homem-abandonado-ao-nascer-que-encontrou-familia-biologica-65-anos-depois.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587575Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Israel volta a bombardear sul do Líbano e acusa Hezbollah de 'violação flagrante' de cessar-fogo",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/israel-bombardeia-sul-do-libano-cessar-fogo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587582Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Cartola Feminino: Marília, do Cruzeiro, é a maior pontuadora da 14ª rodada",
+      "description": "",
+      "url": "https://ge.globo.com/cartola/noticia/2026/08/05/cartola-feminino-marilia-do-cruzeiro-e-a-maior-pontuadora-da-14a-rodada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:45.373470Z",
+      "category": "futebol"
+    },
+    {
+      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:47.766743Z",
+      "category": "economia"
+    },
+    {
+      "title": "Argentina não tomará nenhuma medida contra o Brasil após rebaixamento de relações diplomáticas, diz chanceler",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/argentina-nao-tomara-nenhuma-medida-contra-o-brasil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587584Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Bombeira civil é morta a facadas e homem é preso por feminicídio no Grande Recife",
+      "description": "",
+      "url": "https://g1.globo.com/pe/pernambuco/noticia/2026/08/05/bombeira-civil-e-morta-a-facadas-e-homem-e-preso-por-feminicidio-no-grande-recife.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582015Z",
       "category": "brasil"
+    },
+    {
+      "title": "Por que o menor país insular do mundo mudou de nome?",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/por-que-o-menor-pais-insular-do-mundo-mudou-de-nome.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587580Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Com histórias do Atlético-MG e da Seleção, Reinaldo lança nova edição da biografia Punho Cerrado",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/05/com-historias-do-atletico-mg-e-da-selecao-reinaldo-lanca-nova-edicao-da-biografia-punho-cerrado.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:45.373500Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Bebê com vários ossos quebrados é levada a hospital; pai é preso suspeito de maus-tratos",
+      "description": "",
+      "url": "https://g1.globo.com/go/goias/noticia/2026/08/05/bebe-com-varios-ossos-quebrados-e-levada-a-hospital.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.581993Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Irã diz que firmou acordo com Omã sobre nova rota no Estreito de Ormuz",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/ira-diz-ter-acordado-com-oma-sobre-nova-rota-no-estreito-de-ormuz.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582007Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:47.766750Z",
+      "category": "economia"
     },
     {
       "title": "Como jogos da pré-temporada da NFL mudam carreiras e revelaram até Tom Brady",
       "description": "",
       "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/05/como-jogos-da-pre-temporada-da-nfl-mudam-carreiras-e-revelaram-ate-tom-brady.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T15:07:46.195054Z",
+      "publishedAt": "2026-08-05T15:32:45.373497Z",
       "category": "futebol"
+    },
+    {
+      "title": "Gil, Beto Guedes, 14 Bis, teatro, festival, exposições, concertos: confira a agenda desta semana em BH e região",
+      "description": "",
+      "url": "https://g1.globo.com/guia/guia-bh/noticia/2026/08/05/gil-beto-guedes-14-bis-teatro-festival-exposicoes-concertos-confira-a-agenda-desta-semana-em-bh-e-regiao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:46.582011Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Assim como no Brasil, mais da metade das embaixadas dos EUA no exterior estão sem embaixador",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/08/05/assim-como-no-brasil-mais-da-metade-das-embaixadas-dos-eua-no-exterior-estao-sem-embaixador.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:49.587587Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T15:32:47.766748Z",
+      "category": "economia"
     }
   ]
 }

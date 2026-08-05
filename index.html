@@ -252,8 +252,8 @@ Tecnologia
 Economia
 </span>
 
-<span onclick="filtrar('Esportes')">
-Esportes
+<span onclick="filtrar('Futebol')">
+⚽ Futebol
 </span>
 
 </div>
@@ -314,22 +314,91 @@ document.getElementById("noticias").innerHTML =
 
 function mostrarNoticias(lista){
 
-
-let destaque =
-document.getElementById("destaque");
-
-
-let area =
-document.getElementById("noticias");
-
+let area = document.getElementById("noticias");
+let destaque = document.getElementById("destaque");
 
 
 if(lista.length === 0){
-
-area.innerHTML =
-"Nenhuma notícia encontrada";
-
+area.innerHTML = "Nenhuma notícia encontrada";
 return;
+}
+
+
+// embaralha as notícias
+lista = lista.sort(() => Math.random() - 0.5);
+
+
+
+destaque.innerHTML = `
+
+<div class="destaque">
+
+<img src="${lista[0].image || 'https://via.placeholder.com/800'}">
+
+<h2>${lista[0].title}</h2>
+
+<p>
+🕒 ${formatarData(lista[0].publishedAt)}
+</p>
+
+</div>
+
+`;
+
+
+
+area.innerHTML = "";
+
+
+lista.forEach(noticia=>{
+
+area.innerHTML += `
+
+<div class="card">
+
+<img src="${noticia.image || 'https://via.placeholder.com/400'}">
+
+
+<div class="conteudo">
+
+<h3>${noticia.title}</h3>
+
+<p>
+🕒 ${formatarData(noticia.publishedAt)}
+</p>
+
+
+<p>
+${noticia.description || ""}
+</p>
+
+
+<a href="${noticia.url}" target="_blank">
+Ler mais
+</a>
+
+
+</div>
+
+</div>
+
+`;
+
+});
+
+
+}
+
+
+
+
+function formatarData(data){
+
+if(!data){
+return "Horário não informado";
+}
+
+return new Date(data).toLocaleString("pt-BR");
 
 }
 

@@ -4,7 +4,7 @@
   "anuncio": {
     "ativo": true,
     "tipo": "video",
-    "video": "LINK_DO_VIDEO",
-    "link": "LINK_DO_PRODUTO"
+    "video": "https://youtu.be/U_jX4gu6Vjc",
+    "link": "https://rdbeatmakerr.netlify.app/"
   }
 }

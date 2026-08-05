@@ -7,19 +7,31 @@ on:
 
 jobs:
   update:
+
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
+
+      - name: Baixar arquivos
+        uses: actions/checkout@v5
+
 
       - name: Buscar noticias
         run: |
-          curl -L "https://gnews.io/api/v4/search?q=futebol%20OR%20tecnologia%20OR%20economia%20OR%20politica%20OR%20Brasil&country=br&lang=pt&max=20&apikey=${{ secrets.GNEWS_API }}" -o news.json
 
-      - name: Commit
+          curl -L "https://gnews.io/api/v4/top-headlines?country=br&lang=pt&max=20&apikey=${{ secrets.GNEWS_API }}" -o news.json
+
+
+
+      - name: Salvar atualização
         run: |
+
           git config user.name "github-actions"
+
           git config user.email "actions@github.com"
+
           git add news.json
+
           git commit -m "Atualiza noticias" || exit 0
+
           git push

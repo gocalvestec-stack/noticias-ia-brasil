@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,218 +12,225 @@
 
 *{
 box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
 margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#f4f6f8;
+background:#f4f4f4;
 color:#222;
-transition:.3s;
 }
 
-body.dark{
-background:#121212;
-color:#eee;
-}
 
 header{
-background:linear-gradient(135deg,#111,#0057ff);
+background:#111;
 color:white;
-padding:25px 15px;
+padding:25px;
 text-align:center;
 }
 
+
 .logo{
-font-size:35px;
+font-size:30px;
 font-weight:bold;
 }
 
+
 header p{
-margin:8px;
-opacity:.9;
+opacity:.8;
 }
 
 
-.topbar{
-background:white;
-padding:15px;
+.menu{
 display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-box-shadow:0 2px 10px #ddd;
-}
-
-.dark .topbar{
-background:#1e1e1e;
-}
-
-
-button{
-border:0;
-padding:10px 15px;
-border-radius:20px;
-cursor:pointer;
-background:#0057ff;
-color:white;
-}
-
-
-.search{
-max-width:600px;
-margin:20px auto;
-padding:0 15px;
-}
-
-.search input{
-width:100%;
+gap:10px;
+overflow:auto;
 padding:15px;
-border-radius:10px;
-border:1px solid #ccc;
-font-size:16px;
+background:white;
+}
+
+
+.menu button{
+
+border:0;
+padding:10px 18px;
+border-radius:20px;
+background:#111;
+color:white;
+cursor:pointer;
+
 }
 
 
 .container{
-max-width:1200px;
+
+max-width:1100px;
 margin:auto;
-padding:20px;
-}
+padding:15px;
 
-
-.categorias{
-display:flex;
-gap:10px;
-overflow:auto;
-margin-bottom:20px;
-}
-
-
-.categorias span{
-background:#0057ff;
-color:white;
-padding:8px 15px;
-border-radius:20px;
-cursor:pointer;
 }
 
 
 .destaque{
+
 background:white;
 border-radius:15px;
 overflow:hidden;
-box-shadow:0 5px 20px #ddd;
-margin-bottom:30px;
-}
+margin-bottom:20px;
 
-.dark .destaque,
-.dark .card{
-background:#1e1e1e;
 }
 
 
 .destaque img{
+
 width:100%;
 height:350px;
 object-fit:cover;
+
 }
 
 
-.destaque h2{
-padding:20px;
+.destaque h1{
+
+padding:15px;
+
 }
 
 
 .noticias{
+
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:20px;
+
 }
 
 
 .card{
+
 background:white;
 border-radius:15px;
 overflow:hidden;
-box-shadow:0 5px 15px #ddd;
-transition:.3s;
-}
+box-shadow:0 2px 8px #ccc;
 
-
-.card:hover{
-transform:translateY(-5px);
 }
 
 
 .card img{
+
 width:100%;
 height:180px;
 object-fit:cover;
+
 }
 
 
-.conteudo{
+.card div{
+
 padding:15px;
+
 }
 
 
-.conteudo a{
-display:inline-block;
-background:#0057ff;
-color:white;
-padding:10px;
-border-radius:8px;
-text-decoration:none;
+.card h2{
+
+font-size:18px;
+
+}
+
+
+.hora{
+
+color:#777;
+font-size:13px;
+
+}
+
+
+a{
+
+color:#d00;
+font-weight:bold;
+
 }
 
 
 footer{
+
 background:#111;
 color:white;
 text-align:center;
 padding:20px;
 margin-top:30px;
+
+}
+
+
+.dark{
+
+background:#111;
+color:white;
+
+}
+
+
+.dark .card,
+.dark .destaque,
+.dark .menu{
+
+background:#222;
+color:white;
+
 }
 
 
 </style>
+
 </head>
 
 <body>
-
-<header>
+ <header>
 
 <div class="logo">
 📰 Notícias IA Brasil
 </div>
 
 <p>
-Portal de notícias atualizado automaticamente por inteligência artificial
+Seu portal inteligente de notícias
 </p>
 
 </header>
 
 
-<div class="topbar">
+<div class="menu">
 
-<button onclick="modoEscuro()">
-🌙 Modo escuro
+<button onclick="categoria('todas')">
+📰 Todas
 </button>
 
-<button onclick="location.reload()">
-🔄 Atualizar
+<button onclick="categoria('futebol')">
+⚽ Futebol
 </button>
 
-</div>
+<button onclick="categoria('brasil')">
+🇧🇷 Brasil
+</button>
 
+<button onclick="categoria('mundo')">
+🌎 Mundo
+</button>
 
-<div class="search">
+<button onclick="categoria('tecnologia')">
+💻 Tecnologia
+</button>
 
-<input 
-id="busca"
-placeholder="🔎 Pesquisar notícias..."
-onkeyup="pesquisar()">
+<button onclick="categoria('economia')">
+💰 Economia
+</button>
+
+<button onclick="modo()">
+🌙
+</button>
 
 </div>
 
@@ -230,41 +239,16 @@ onkeyup="pesquisar()">
 <div class="container">
 
 
-<div class="categorias">
+<div id="destaque">
 
-<span onclick="filtrar('')">
-Todas
-</span>
-
-<span onclick="filtrar('Brasil')">
-Brasil
-</span>
-
-<span onclick="filtrar('Mundo')">
-Mundo
-</span>
-
-<span onclick="filtrar('Tecnologia')">
-Tecnologia
-</span>
-
-<span onclick="filtrar('Economia')">
-Economia
-</span>
-
-<span onclick="filtrar('Futebol')">
-⚽ Futebol
-</span>
+Carregando destaque...
 
 </div>
 
 
 
-<div id="destaque"></div>
-
-
 <h2>
-🔥 Últimas notícias
+Últimas notícias
 </h2>
 
 
@@ -281,108 +265,99 @@ Carregando notícias...
 
 <footer>
 
-© 2026 Notícias IA Brasil  
-<br>
-Informação rápida, inteligente e atualizada
+© 2026 Notícias IA Brasil
 
 </footer>
+
+
+
 <script>
 
-let todasNoticias = [];
+
+let noticias = [];
+
+
+let categoriaAtual = "todas";
+
 
 
 fetch("news.json")
 
 .then(res => res.json())
 
-.then(data => {
+.then(dados => {
 
-todasNoticias = data.articles || [];
 
-mostrarNoticias(todasNoticias);
+noticias = dados.articles || [];
+
+mostrar();
+
 
 })
 
-.catch(() => {
+.catch(()=>{
+
 
 document.getElementById("noticias").innerHTML =
-"Não foi possível carregar as notícias.";
+"Erro ao carregar notícias";
+
 
 });
 
 
 
-function mostrarNoticias(lista){
+function embaralhar(lista){
 
-let area = document.getElementById("noticias");
-let destaque = document.getElementById("destaque");
+return lista.sort(()=>Math.random()-0.5);
 
-
-if(lista.length === 0){
-area.innerHTML = "Nenhuma notícia encontrada";
-return;
 }
 
 
-// embaralha as notícias
-lista = lista.sort(() => Math.random() - 0.5);
+
+
+function mostrar(){
+
+
+let lista = [...noticias];
+
+
+// embaralha
+
+lista = embaralhar(lista);
 
 
 
-destaque.innerHTML = `
+if(categoriaAtual !== "todas"){
 
-<div class="destaque">
 
-<img src="${lista[0].image || 'https://via.placeholder.com/800'}">
+lista = lista.filter(n=>{
 
-<h2>${lista[0].title}</h2>
 
-<p>
-🕒 ${formatarData(lista[0].publishedAt)}
-</p>
-
-</div>
-
-`;
+let texto =
+(n.title+" "+(n.description||""))
+.toLowerCase();
 
 
 
-area.innerHTML = "";
+if(categoriaAtual=="futebol")
+return texto.match(/futebol|gol|time|flamengo|cruzeiro|atletico|brasileirao/);
 
 
-lista.forEach(noticia=>{
-
-area.innerHTML += `
-
-<div class="card">
-
-<img src="${noticia.image || 'https://via.placeholder.com/400'}">
+if(categoriaAtual=="tecnologia")
+return texto.match(/tecnologia|celular|internet|ia/);
 
 
-<div class="conteudo">
-
-<h3>${noticia.title}</h3>
-
-<p>
-🕒 ${formatarData(noticia.publishedAt)}
-</p>
+if(categoriaAtual=="economia")
+return texto.match(/economia|dinheiro|mercado/);
 
 
-<p>
-${noticia.description || ""}
-</p>
+if(categoriaAtual=="brasil")
+return texto.match(/brasil|governo|política/);
 
 
-<a href="${noticia.url}" target="_blank">
-Ler mais
-</a>
+if(categoriaAtual=="mundo")
+return texto.match(/mundo|internacional/);
 
-
-</div>
-
-</div>
-
-`;
 
 });
 
@@ -391,68 +366,75 @@ Ler mais
 
 
 
-
-function formatarData(data){
-
-if(!data){
-return "Horário não informado";
-}
-
-return new Date(data).toLocaleString("pt-BR");
-
-}
+let destaque = lista[0];
 
 
 
-destaque.innerHTML = `
+document.getElementById("destaque").innerHTML = `
 
 <div class="destaque">
 
-<img src="${lista[0].image || 'https://via.placeholder.com/800'}">
+<img src="${destaque?.image || 'https://via.placeholder.com/800'}">
 
-<h2>${lista[0].title}</h2>
+<h1>${destaque?.title || "Sem notícia"}</h1>
 
 </div>
 
 `;
 
 
+
+let area =
+document.getElementById("noticias");
 
 area.innerHTML="";
 
 
 
-lista.slice(1).forEach(noticia=>{
+lista.forEach(n=>{
 
 
 area.innerHTML += `
 
+
 <div class="card">
 
-<img src="${noticia.image || 'https://via.placeholder.com/400'}">
+
+<img src="${n.image || 'https://via.placeholder.com/400'}">
 
 
-<div class="conteudo">
+<div>
 
 
-<h3>
-${noticia.title}
-</h3>
+<h2>${n.title}</h2>
 
 
-<p>
-${noticia.description || "Clique para ler a notícia completa."}
+<p class="hora">
+
+🕒 ${data(n.publishedAt)}
+
 </p>
 
 
-<a href="${noticia.url}" target="_blank">
-Ler mais
+<p>
+
+${n.description || ""}
+
+</p>
+
+
+<a href="${n.url}" target="_blank">
+
+Ler notícia
+
 </a>
 
 
 </div>
 
+
 </div>
+
 
 `;
 
@@ -465,73 +447,327 @@ Ler mais
 
 
 
-function pesquisar(){
+function data(d){
+
+if(!d)
+return "Horário não informado";
 
 
-let texto =
-document.getElementById("busca").value.toLowerCase();
-
-
-let resultado =
-todasNoticias.filter(n =>
-
-n.title.toLowerCase().includes(texto)
-
-);
-
-
-mostrarNoticias(resultado);
-
+return new Date(d)
+.toLocaleString("pt-BR");
 
 }
 
 
 
 
-function filtrar(categoria){
- 
+function categoria(c){
 
+categoriaAtual=c;
 
-if(categoria===""){
-
-mostrarNoticias(todasNoticias);
-
-return;
-
-}
-
-
-let resultado =
-todasNoticias.filter(n =>
-
-(n.title + n.description)
-.toLowerCase()
-.includes(categoria.toLowerCase())
-
-);
-
-
-mostrarNoticias(resultado);
-
+mostrar();
 
 }
 
 
 
-
-function modoEscuro(){
-
+function modo(){
 
 document.body.classList.toggle("dark");
-
 
 }
 
 
 
 </script>
+ <header>
+
+<div class="logo">
+📰 Notícias IA Brasil
+</div>
+
+<p>
+Seu portal inteligente de notícias
+</p>
+
+</header>
 
 
-</body>
+<div class="menu">
 
-</html>
+<button onclick="categoria('todas')">
+📰 Todas
+</button>
+
+<button onclick="categoria('futebol')">
+⚽ Futebol
+</button>
+
+<button onclick="categoria('brasil')">
+🇧🇷 Brasil
+</button>
+
+<button onclick="categoria('mundo')">
+🌎 Mundo
+</button>
+
+<button onclick="categoria('tecnologia')">
+💻 Tecnologia
+</button>
+
+<button onclick="categoria('economia')">
+💰 Economia
+</button>
+
+<button onclick="modo()">
+🌙
+</button>
+
+</div>
+
+
+
+<div class="container">
+
+
+<div id="destaque">
+
+Carregando destaque...
+
+</div>
+
+
+
+<h2>
+Últimas notícias
+</h2>
+
+
+<div class="noticias" id="noticias">
+
+Carregando notícias...
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+© 2026 Notícias IA Brasil
+
+</footer>
+
+
+
+<script>
+
+
+let noticias = [];
+
+
+let categoriaAtual = "todas";
+
+
+
+fetch("news.json")
+
+.then(res => res.json())
+
+.then(dados => {
+
+
+noticias = dados.articles || [];
+
+mostrar();
+
+
+})
+
+.catch(()=>{
+
+
+document.getElementById("noticias").innerHTML =
+"Erro ao carregar notícias";
+
+
+});
+
+
+
+function embaralhar(lista){
+
+return lista.sort(()=>Math.random()-0.5);
+
+}
+
+
+
+
+function mostrar(){
+
+
+let lista = [...noticias];
+
+
+// embaralha
+
+lista = embaralhar(lista);
+
+
+
+if(categoriaAtual !== "todas"){
+
+
+lista = lista.filter(n=>{
+
+
+let texto =
+(n.title+" "+(n.description||""))
+.toLowerCase();
+
+
+
+if(categoriaAtual=="futebol")
+return texto.match(/futebol|gol|time|flamengo|cruzeiro|atletico|brasileirao/);
+
+
+if(categoriaAtual=="tecnologia")
+return texto.match(/tecnologia|celular|internet|ia/);
+
+
+if(categoriaAtual=="economia")
+return texto.match(/economia|dinheiro|mercado/);
+
+
+if(categoriaAtual=="brasil")
+return texto.match(/brasil|governo|política/);
+
+
+if(categoriaAtual=="mundo")
+return texto.match(/mundo|internacional/);
+
+
+});
+
+
+}
+
+
+
+let destaque = lista[0];
+
+
+
+document.getElementById("destaque").innerHTML = `
+
+<div class="destaque">
+
+<img src="${destaque?.image || 'https://via.placeholder.com/800'}">
+
+<h1>${destaque?.title || "Sem notícia"}</h1>
+
+</div>
+
+`;
+
+
+
+let area =
+document.getElementById("noticias");
+
+area.innerHTML="";
+
+
+
+lista.forEach(n=>{
+
+
+area.innerHTML += `
+
+
+<div class="card">
+
+
+<img src="${n.image || 'https://via.placeholder.com/400'}">
+
+
+<div>
+
+
+<h2>${n.title}</h2>
+
+
+<p class="hora">
+
+🕒 ${data(n.publishedAt)}
+
+</p>
+
+
+<p>
+
+${n.description || ""}
+
+</p>
+
+
+<a href="${n.url}" target="_blank">
+
+Ler notícia
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+}
+
+
+
+
+function data(d){
+
+if(!d)
+return "Horário não informado";
+
+
+return new Date(d)
+.toLocaleString("pt-BR");
+
+}
+
+
+
+
+function categoria(c){
+
+categoriaAtual=c;
+
+mostrar();
+
+}
+
+
+
+function modo(){
+
+document.body.classList.toggle("dark");
+
+}
+
+
+
+</script>

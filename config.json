@@ -1,10 +1,10 @@
 {
   "nome": "Notícias IA Brasil",
-  "logo": "logo.png.jpeg",
+  "logo": "LINK_DA_LOGO",
   "anuncio": {
     "ativo": true,
     "tipo": "video",
-    "video": "https://youtu.be/U_jX4gu6Vjc?si=iQLtZ70SDf0soV5U",
-    "link": "https://rdbeatmakerr.netlify.app/"
+    "video": "LINK_DO_VIDEO",
+    "link": "LINK_DO_PRODUTO"
   }
 }

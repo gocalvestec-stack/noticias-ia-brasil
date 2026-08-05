@@ -1,155 +1,51 @@
 {
   "articles": [
     {
-      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
+      "title": "Marroquinos que permanecem em Ceuta dormem na praia e relatam fome: 'Hoje não comi nada'",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/marroquino-ceuta-chora-dura-realidade-nao-comi-nada.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998513Z",
-      "category": "economia"
-    },
-    {
-      "title": "Mauro Vieira chama fala de Milei de agressiva ao justificar rebaixamento das relações: 'Questão ideológica é secundária'",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mauro-vieira-chama-discurso-de-milei-de-agressivo-ao-justificar-rebaixamento-de-embaixador-questao-ideologica-e-secundaria.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182799Z",
+      "publishedAt": "2026-08-05T20:27:21.572262Z",
       "category": "mundo"
     },
     {
-      "title": "Explosão de carro deixa gravemente ferido diretor de fábrica russa de drones",
+      "title": "Cão da raça pitbull invade casa e mata outro cachorro em Caucaia",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/diretor-de-fabrica-de-drones-russo-ferido-em-explosao-de-carro.ghtml",
+      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/05/cao-da-raca-pitbull-invade-casa-e-mata-outro-cachorro-em-caucaia.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182797Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Melhor ataque do Cartola 2026, Flamengo tem liderança folgada de quase 90 pontos",
-      "description": "",
-      "url": "https://ge.globo.com/cartola/noticia/2026/08/05/melhor-ataque-do-cartola-2026-flamengo-tem-lideranca-folgada-de-quase-90-pontos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411266Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Real Madrid muda postura, \naumenta proposta e clareia cenário por renovação com Vini Jr",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/08/05/real-madrid-muda-postura-aumenta-proposta-e-clareia-cenario-por-renovacao-com-vini-ate-2031.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411261Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Gasolina sobe 30% nos EUA e Trump cobra petroleiras; entenda o que está por trás da alta",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/gasolina-sobe-30percent-nos-eua-e-trump-cobra-petroleiras-entenda-o-que-esta-por-tras-da-alta.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998515Z",
-      "category": "economia"
-    },
-    {
-      "title": "Cruzeiro anuncia Wesley, ex-Corinthians",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/cruzeiro-anuncia-wesley-ex-corinthians.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411242Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998505Z",
-      "category": "economia"
-    },
-    {
-      "title": "Ex-Roma e Corinthians, João Costa chega a BH para assinar com o Cruzeiro",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/ex-roma-e-corinthians-joao-costa-chega-a-bh-para-assinar-com-o-cruzeiro.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411253Z",
-      "category": "futebol"
-    },
-    {
-      "title": "SC terá voos de aeroportos regionais para Florianópolis a partir de R$ 315; veja preços e destinos",
-      "description": "",
-      "url": "https://g1.globo.com/sc/santa-catarina/noticia/2026/08/05/sc-voos-aeroportos-regionais-para-florianopolis-veja-precos-e-destinos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627609Z",
+      "publishedAt": "2026-08-05T20:27:18.435079Z",
       "category": "brasil"
     },
     {
-      "title": "Dólar opera em queda, com nova decisão de juros do BC e eleições no radar; Ibovespa sobe",
+      "title": "Pinguim morto é encontrado no litoral sul de Sergipe",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/dolar-ibovespa.ghtml",
+      "url": "https://g1.globo.com/se/sergipe/noticia/2026/08/05/pinguim-morto-e-encontrado-no-litoral-sul-de-sergipe.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998510Z",
-      "category": "economia"
-    },
-    {
-      "title": "Novo México processa o governo Trump para ter acesso aos arquivos de Epstein",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/novo-mexico-processa-o-governo-trump-para-ter-acesso-aos-arquivos-de-epstein.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182791Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Ministério Público Federal cobra município do Amazonas por falta de professores e merendas em comunidades indígenas",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/05/ministerio-publico-federal-cobra-municipio-do-amazonas-por-falta-de-professores-e-merendas-em-comunidades-indigenas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627612Z",
+      "publishedAt": "2026-08-05T20:27:18.435076Z",
       "category": "brasil"
     },
     {
-      "title": "Engenheiro e CAC: quem é o homem preso por atirar contra motorista após briga de trânsito na Anhanguera",
+      "title": "Portuguesa anuncia saídas de Matheus Cecchini e João Paulo",
       "description": "",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/08/05/engenheiro-e-cac-quem-e-o-homem-preso-por-atirar-contra-motorista-apos-briga-de-transito-na-anhanguera.ghtml",
+      "url": "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/08/05/portuguesa-anuncia-saidas-de-matheus-cecchini-e-joao-paulo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627611Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Cruzeiro acerta venda de jovem da base ao Alverca, de Portugal; veja detalhes",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/cruzeiro-acerta-venda-de-jovem-da-base-ao-alverca-de-portugal-veja-detalhes.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411255Z",
+      "publishedAt": "2026-08-05T20:27:15.973803Z",
       "category": "futebol"
     },
     {
-      "title": "Presidente da CBF se manifesta sobre projeto polêmico de Infantino: \"Sou um pouco contra\"",
+      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
       "description": "",
-      "url": "https://ge.globo.com/pi/futebol/noticia/2026/08/05/presidente-da-cbf-se-manifesta-sobre-projeto-polemico-de-infantino-sou-um-pouco-contra.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411263Z",
-      "category": "futebol"
-    },
-    {
-      "title": "'Marechal' Rubens Paiva: erro em nome de rua no Paraná é corrigido após 30 anos",
-      "description": "",
-      "url": "https://g1.globo.com/pr/oeste-sudoeste/noticia/2026/08/05/marechal-rubens-paiva-erro-em-nome-de-rua-no-parana-e-corrigido-apos-30-anos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627608Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998512Z",
+      "publishedAt": "2026-08-05T20:27:19.783526Z",
       "category": "economia"
     },
     {
-      "title": "Memphis passa nos exames médicos e fica próximo de renovar com o Corinthians",
+      "title": "Palco de Fortaleza x Palmeiras, Arena Pantanal foi inaugurada com jogo da Copa do Brasil",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/05/memphis-passa-nos-exames-medicos-e-fica-proximo-de-renovacao-com-o-corinthians.ghtml",
+      "url": "https://ge.globo.com/mt/futebol/copa-do-brasil/noticia/2026/08/05/palco-de-fortaleza-x-palmeiras-arena-pantanal-foi-inaugurada-com-jogo-da-copa-do-brasil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411257Z",
+      "publishedAt": "2026-08-05T20:27:15.973797Z",
       "category": "futebol"
     },
     {
@@ -157,104 +53,208 @@
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/filhote-de-hipopotamo-da-colonia-de-escobar-e-resgatado-na-colombia.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182796Z",
+      "publishedAt": "2026-08-05T20:27:21.572265Z",
       "category": "mundo"
     },
     {
-      "title": "Dia Nacional da Saúde: cuidar das pessoas é construir o futuro",
+      "title": "Candidato do Missão, Renan Santos abre série de entrevistas do g1 e da GloboNews com presidenciáveis",
       "description": "",
-      "url": "https://g1.globo.com/mt/mato-grosso/especial-publicitario/unimed-cuiaba-unimed-cuiaba-ha-50-anos-cuidando-de-geracoes/noticia/2026/08/05/dia-nacional-da-saude-cuidar-das-pessoas-e-construir-o-futuro.ghtml",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/ao-vivo/renan-santos-entrevista-g1-globonews.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627596Z",
+      "publishedAt": "2026-08-05T20:27:18.435059Z",
       "category": "brasil"
     },
     {
-      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
+      "title": "Cruzeiro anuncia Wesley, ex-Corinthians",
       "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/cruzeiro-anuncia-wesley-ex-corinthians.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998509Z",
+      "publishedAt": "2026-08-05T20:27:15.973806Z",
+      "category": "futebol"
+    },
+    {
+      "title": "MP-BA denuncia gestora de lar de idosos em Salvador por submeter acolhidas a condições degradantes",
+      "description": "",
+      "url": "https://g1.globo.com/ba/bahia/noticia/2026/08/05/denuncia-mp-ba-gestora-lar-de-idosos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:18.435082Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Dólar cai e fecha a R$ 5,12, em dia de nova decisão de juros e com eleições no radar; Ibovespa sobe",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/dolar-ibovespa.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:19.783546Z",
       "category": "economia"
     },
     {
-      "title": "Marroquino que permanece em Ceuta chora com dura realidade: 'Hoje não comi nada'",
+      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/marroquino-ceuta-chora-dura-realidade-nao-comi-nada.ghtml",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182794Z",
+      "publishedAt": "2026-08-05T20:27:19.783536Z",
+      "category": "economia"
+    },
+    {
+      "title": "Homem é preso em flagrante após homicídio em obra no bairro Vila Débora, em Petrolina",
+      "description": "",
+      "url": "https://g1.globo.com/pe/petrolina-regiao/noticia/2026/08/05/homem-e-preso-em-flagrante-apos-homicidio-em-obra-no-bairro-vila-debora-em-petrolina.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:18.435072Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Kerolin celebra chegada ao Barcelona e sonha em ser melhor do mundo: \"Vou evoluir como jogadora\"",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/08/05/kerolin-celebra-chegada-ao-barcelona-e-sonha-em-ser-melhor-do-mundo-vou-evoluir-como-jogadora.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:15.973794Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:19.783551Z",
+      "category": "economia"
+    },
+    {
+      "title": "VÍDEO: vento leva chapéu e salva idoso de atropelamento na China",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/video-vento-leva-chapeu-e-salva-idoso-de-atropelamento-na-china.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:21.572252Z",
       "category": "mundo"
+    },
+    {
+      "title": "Presidente do Irã diz que comunicação com o novo líder supremo está 'muito difícil'",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/presidente-do-ira-diz-que-comunicacao-com-o-novo-lider-supremo-esta-muito-dificil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:21.572248Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Gasolina sobe 30% nos EUA e Trump cobra petroleiras; entenda o que está por trás da alta",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/gasolina-sobe-30percent-nos-eua-e-trump-cobra-petroleiras-entenda-o-que-esta-por-tras-da-alta.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:19.783554Z",
+      "category": "economia"
+    },
+    {
+      "title": "Ex-Roma e Corinthians, João Costa chega a BH para assinar com o Cruzeiro",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/ex-roma-e-corinthians-joao-costa-chega-a-bh-para-assinar-com-o-cruzeiro.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:15.973811Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Vasco responde à agência reguladora e defende legalidade da operação de venda da SAF",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/05/vasco-responde-a-agencia-reguladora-e-defende-legalidade-da-operacao-de-venda-da-saf.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:15.973773Z",
+      "category": "futebol"
     },
     {
       "title": "Incêndio perto de Atenas mobiliza resgate de centenas de animais",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/incendio-perto-de-atenas-mobiliza-resgate-de-centenas-de-animais.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182793Z",
+      "publishedAt": "2026-08-05T20:27:21.572260Z",
       "category": "mundo"
     },
     {
-      "title": "Uma semana após mortes em acampamento católico no Pará, missa homenageia vítimas",
+      "title": "Quem era Cesar Gastelum, influencer mexicano morto a tiros durante transmissão ao vivo",
       "description": "",
-      "url": "https://g1.globo.com/pa/para/noticia/2026/08/05/uma-semana-apos-mortes-em-acampamento-catolico-no-para-missa-homenageia-vitimas.ghtml",
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/05/quem-era-cesar-gastelum-influencer-mexicano-morto-a-tiros-durante-transmissao-ao-vivo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627602Z",
-      "category": "brasil"
+      "publishedAt": "2026-08-05T20:27:21.572239Z",
+      "category": "mundo"
     },
     {
-      "title": "Sesc recebe simpósio que debate saúde mental na segurança pública do Acre",
+      "title": "Salah, reforço do Trabzonspor, é recebido com festa impressionante na Turquia; veja imagens",
       "description": "",
-      "url": "https://g1.globo.com/ac/acre/especial-publicitario/fecomercio-ac-transformando-vidas-fortalecendo-empresas-e-construindo-futuros/noticia/2026/08/05/sesc-recebe-simposio-que-debate-saude-mental-na-seguranca-publica-do-acre.ghtml",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/salah-reforco-do-trabzonspor-e-recebido-com-festa-impressionante-na-turquia-veja-imagens.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627606Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Otero segue como dúvida no Criciúma para enfrentar o Athletic",
-      "description": "",
-      "url": "https://ge.globo.com/sc/futebol/times/criciuma/noticia/2026/08/05/otero-segue-como-duvida-no-criciuma-para-enfrentar-o-athletic.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:33.411259Z",
+      "publishedAt": "2026-08-05T20:27:15.973800Z",
       "category": "futebol"
     },
     {
-      "title": "Padre Fábio de Melo elogia peças em marchetaria feitas por artista do AC: 'Competência e bom gosto'",
+      "title": "São Paulo paga dívida com a Lazio para derrubar transfer ban e liberar inscrição de reforços",
       "description": "",
-      "url": "https://g1.globo.com/ac/acre/noticia/2026/08/05/padre-fabio-de-melo-elogia-pecas-em-marchetaria-feitas-por-artista-do-ac-competencia-e-bom-gosto.ghtml",
+      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/05/sao-paulo-paga-divida-com-a-lazio-para-derrubar-transfer-ban-e-liberar-inscricao-de-reforcos.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:35.627605Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Irã diz que firmou acordo com Omã sobre nova rota no Estreito de Ormuz",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/ira-diz-ter-acordado-com-oma-sobre-nova-rota-no-estreito-de-ormuz.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182800Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Quem é Nayib Bukele, o presidente de El Salvador elogiado por Renan Santos",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/quem-e-nayib-bukele-o-ditador-de-el-salvador-elogiado-por-renan-santos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:40.182785Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998499Z",
-      "category": "economia"
+      "publishedAt": "2026-08-05T20:27:15.973790Z",
+      "category": "futebol"
     },
     {
       "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
       "description": "",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T19:46:37.998507Z",
+      "publishedAt": "2026-08-05T20:27:19.783540Z",
       "category": "economia"
+    },
+    {
+      "title": "Quem é Nayib Bukele, o presidente de El Salvador elogiado por Renan Santos",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/quem-e-nayib-bukele-o-ditador-de-el-salvador-elogiado-por-renan-santos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:21.572254Z",
+      "category": "mundo"
+    },
+    {
+      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:19.783543Z",
+      "category": "economia"
+    },
+    {
+      "title": "Novo México processa o governo Trump para ter acesso aos arquivos de Epstein",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/novo-mexico-processa-o-governo-trump-para-ter-acesso-aos-arquivos-de-epstein.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:21.572257Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:19.783549Z",
+      "category": "economia"
+    },
+    {
+      "title": "Após audiência, funcionários da CPTM aprovam fim da greve e decidem retomar a operação; SIGA",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sao-paulo/ao-vivo/greve-afeta-3-linhas-da-cptm-nesta-terca-feira-rodizio-esta-suspenso.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:18.435085Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Homem atira contra a casa da ex, tenta fugir e acaba preso no interior de SP",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/05/homem-atira-contra-a-casa-da-ex-tenta-fugir-e-acaba-preso-no-interior-de-sp.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:18.435088Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Garanta seu consórcio na Mearim Motos",
+      "description": "",
+      "url": "https://g1.globo.com/ma/maranhao/especial-publicitario/mearim-motos/noticia/2026/08/05/garanta-seu-consorcio-na-mearim-motos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T20:27:18.435091Z",
+      "category": "brasil"
     }
   ]
 }

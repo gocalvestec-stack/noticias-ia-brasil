@@ -14,7 +14,7 @@ jobs:
 
       - name: Buscar noticias
         run: |
-          curl -L "https://gnews.io/api/v4/search?q=futebol OR tecnologia OR economia OR política OR Brasil&country=br&lang=pt&max=20&apikey=${{ secrets.GNEWS_API }}" -o news.json
+          curl -L "https://gnews.io/api/v4/search?q=futebol%20OR%20tecnologia%20OR%20economia%20OR%20politica%20OR%20Brasil&country=br&lang=pt&max=20&apikey=${{ secrets.GNEWS_API }}" -o news.json
 
       - name: Commit
         run: |

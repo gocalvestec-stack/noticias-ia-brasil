@@ -1,77 +1,467 @@
 <!DOCTYPE html>
-<html lang='pt-BR'>
+<html lang="pt-BR">
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Notícias IA Brasil</title>
 
 <style>
+
+*{
+box-sizing:border-box;
+}
+
 body{
-  margin:0;
-  font-family:Arial, sans-serif;
-  background:#111;
-  color:#fff;
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f6f8;
+color:#222;
+transition:.3s;
 }
+
+body.dark{
+background:#121212;
+color:#eee;
+}
+
 header{
-  background:#c40000;
-  padding:18px;
-  text-align:center;
-  font-size:22px;
-  font-weight:bold;
+background:linear-gradient(135deg,#111,#0057ff);
+color:white;
+padding:25px 15px;
+text-align:center;
 }
+
+.logo{
+font-size:35px;
+font-weight:bold;
+}
+
+header p{
+margin:8px;
+opacity:.9;
+}
+
+
+.topbar{
+background:white;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+box-shadow:0 2px 10px #ddd;
+}
+
+.dark .topbar{
+background:#1e1e1e;
+}
+
+
+button{
+border:0;
+padding:10px 15px;
+border-radius:20px;
+cursor:pointer;
+background:#0057ff;
+color:white;
+}
+
+
+.search{
+max-width:600px;
+margin:20px auto;
+padding:0 15px;
+}
+
+.search input{
+width:100%;
+padding:15px;
+border-radius:10px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+
+.categorias{
+display:flex;
+gap:10px;
+overflow:auto;
+margin-bottom:20px;
+}
+
+
+.categorias span{
+background:#0057ff;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+cursor:pointer;
+}
+
+
+.destaque{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 20px #ddd;
+margin-bottom:30px;
+}
+
+.dark .destaque,
+.dark .card{
+background:#1e1e1e;
+}
+
+
+.destaque img{
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+
+.destaque h2{
+padding:20px;
+}
+
+
+.noticias{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+
 .card{
-  background:#1e1e1e;
-  margin:14px;
-  border-radius:14px;
-  overflow:hidden;
-  box-shadow:0 4px 10px rgba(0,0,0,.4);
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 15px #ddd;
+transition:.3s;
 }
+
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+
 .card img{
-  width:100%;
-  height:200px;
-  object-fit:cover;
+width:100%;
+height:180px;
+object-fit:cover;
 }
-.card h2{
-  padding:12px;
-  margin:0;
-  font-size:20px;
+
+
+.conteudo{
+padding:15px;
 }
-.card p{
-  padding:0 12px 14px;
-  margin:0;
-  color:#ccc;
+
+
+.conteudo a{
+display:inline-block;
+background:#0057ff;
+color:white;
+padding:10px;
+border-radius:8px;
+text-decoration:none;
 }
+
+
 footer{
-  text-align:center;
-  padding:20px;
-  color:#888;
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
 }
+
+
 </style>
 </head>
 
 <body>
 
-<header>📰 Notícias IA Brasil</header>
+<header>
 
-<div class='card'>
-  <img src='https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200'>
-  <h2>Inteligência artificial muda o jornalismo digital</h2>
-  <p>Ferramentas automáticas permitem atualizar portais de notícias em tempo real.</p>
+<div class="logo">
+📰 Notícias IA Brasil
 </div>
 
-<div class='card'>
-  <img src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200'>
-  <h2>Brasil cresce no setor de tecnologia</h2>
-  <p>Empresas brasileiras aumentam investimentos em automação e inteligência artificial.</p>
+<p>
+Portal de notícias atualizado automaticamente por inteligência artificial
+</p>
+
+</header>
+
+
+<div class="topbar">
+
+<button onclick="modoEscuro()">
+🌙 Modo escuro
+</button>
+
+<button onclick="location.reload()">
+🔄 Atualizar
+</button>
+
 </div>
 
-<div class='card'>
-  <img src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200'>
-  <h2>Celular vira ferramenta para criar sites profissionais</h2>
-  <p>Usuários conseguem publicar projetos completos usando apenas o navegador do smartphone.</p>
+
+<div class="search">
+
+<input 
+id="busca"
+placeholder="🔎 Pesquisar notícias..."
+onkeyup="pesquisar()">
+
 </div>
 
-<footer>Notícias IA Brasil • Atualizado automaticamente</footer>
+
+
+<div class="container">
+
+
+<div class="categorias">
+
+<span onclick="filtrar('')">
+Todas
+</span>
+
+<span onclick="filtrar('Brasil')">
+Brasil
+</span>
+
+<span onclick="filtrar('Mundo')">
+Mundo
+</span>
+
+<span onclick="filtrar('Tecnologia')">
+Tecnologia
+</span>
+
+<span onclick="filtrar('Economia')">
+Economia
+</span>
+
+<span onclick="filtrar('Esportes')">
+Esportes
+</span>
+
+</div>
+
+
+
+<div id="destaque"></div>
+
+
+<h2>
+🔥 Últimas notícias
+</h2>
+
+
+<div class="noticias" id="noticias">
+
+Carregando notícias...
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+© 2026 Notícias IA Brasil  
+<br>
+Informação rápida, inteligente e atualizada
+
+</footer>
+<script>
+
+let todasNoticias = [];
+
+
+fetch("news.json")
+
+.then(res => res.json())
+
+.then(data => {
+
+todasNoticias = data.articles || [];
+
+mostrarNoticias(todasNoticias);
+
+})
+
+.catch(() => {
+
+document.getElementById("noticias").innerHTML =
+"Não foi possível carregar as notícias.";
+
+});
+
+
+
+function mostrarNoticias(lista){
+
+
+let destaque =
+document.getElementById("destaque");
+
+
+let area =
+document.getElementById("noticias");
+
+
+
+if(lista.length === 0){
+
+area.innerHTML =
+"Nenhuma notícia encontrada";
+
+return;
+
+}
+
+
+
+destaque.innerHTML = `
+
+<div class="destaque">
+
+<img src="${lista[0].image || 'https://via.placeholder.com/800'}">
+
+<h2>${lista[0].title}</h2>
+
+</div>
+
+`;
+
+
+
+area.innerHTML="";
+
+
+
+lista.slice(1).forEach(noticia=>{
+
+
+area.innerHTML += `
+
+<div class="card">
+
+<img src="${noticia.image || 'https://via.placeholder.com/400'}">
+
+
+<div class="conteudo">
+
+
+<h3>
+${noticia.title}
+</h3>
+
+
+<p>
+${noticia.description || "Clique para ler a notícia completa."}
+</p>
+
+
+<a href="${noticia.url}" target="_blank">
+Ler mais
+</a>
+
+
+</div>
+
+</div>
+
+`;
+
+
+});
+
+
+}
+
+
+
+
+function pesquisar(){
+
+
+let texto =
+document.getElementById("busca").value.toLowerCase();
+
+
+let resultado =
+todasNoticias.filter(n =>
+
+n.title.toLowerCase().includes(texto)
+
+);
+
+
+mostrarNoticias(resultado);
+
+
+}
+
+
+
+
+function filtrar(categoria){
+
+
+if(categoria===""){
+
+mostrarNoticias(todasNoticias);
+
+return;
+
+}
+
+
+let resultado =
+todasNoticias.filter(n =>
+
+(n.title + n.description)
+.toLowerCase()
+.includes(categoria.toLowerCase())
+
+);
+
+
+mostrarNoticias(resultado);
+
+
+}
+
+
+
+
+function modoEscuro(){
+
+
+document.body.classList.toggle("dark");
+
+
+}
+
+
+
+</script>
+
 
 </body>
+
 </html>

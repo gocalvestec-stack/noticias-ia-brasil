@@ -16,7 +16,15 @@ jobs:
       - name: Baixar arquivos
         uses: actions/checkout@v4
 
-      - name: Buscar noticias por RSS
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar feedparser
+        run: pip install feedparser
+
+      - name: Buscar noticias RSS
         run: |
           python <<'PY'
           import json, feedparser, random

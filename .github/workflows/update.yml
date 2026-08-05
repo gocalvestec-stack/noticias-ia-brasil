@@ -1,0 +1,23 @@
+name: Atualizar noticias
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar noticias
+        run: |
+          curl -L "https://gnews.io/api/v4/top-headlines?country=br&lang=pt&max=10&apikey=${{ secrets.GNEWS_API }}" -o news.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add news.json
+          git commit -m "Atualiza noticias" || exit 0
+          git push

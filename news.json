@@ -1,235 +1,11 @@
 {
   "articles": [
     {
-      "title": "Franclim Carvalho comenta busca do Botafogo por reforços no mercado: \"Quero dois jogadores\"",
+      "title": "Distante da meta de vendas, Palmeiras fecha primeiro semestre com déficit de R$ 124 milhões",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/franclim-carvalho-comenta-busca-do-botafogo-por-reforcos-no-mercado-quero-dois-jogadores.ghtml",
+      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/05/distante-da-meta-de-vendas-palmeiras-fecha-primeiro-semestre-com-deficit-de-r-124-milhoes.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130382Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581493Z",
-      "category": "economia"
-    },
-    {
-      "title": "Por que colisão de foguete errante da SpaceX com a Lua oferece 'oportunidade única' aos cientistas",
-      "description": "",
-      "url": "https://g1.globo.com/ciencia/noticia/2026/08/05/por-que-colisao-de-foguete-errante-da-spacex-com-a-lua-oferece-oportunidade-unica-aos-cientistas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362130Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Árbitro ia acabar o jogo? Veja detalhes do gol do Atlético-MG no Juventude nos últimos segundos",
-      "description": "",
-      "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/08/05/arbitro-ia-acabar-o-jogo-veja-detalhes-do-gol-do-atletico-mg-no-juventude-nos-ultimos-segundos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130385Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Artilheiro do Figueirense, Igor Bolt vira queridinho da torcida e brinca: \"Sou famoso\"",
-      "description": "",
-      "url": "https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/08/05/artilheiro-e-querido-pela-torcida-igor-bolt-e-protagonista-no-figueirense.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130388Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Primeiro passo na dança pode transformar rotina e autoestima",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/especial-publicitario/centro-de-artes-marcia-costa/noticia/2026/08/05/primeiro-passo-na-danca-pode-transformar-rotina-e-autoestima.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362117Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Economia criativa movimenta a Feira do Empreendedor 2026",
-      "description": "",
-      "url": "https://g1.globo.com/ma/maranhao/especial-publicitario/sebrae-feira-do-empreendedor-2026/noticia/2026/08/05/economia-criativa-movimenta-a-feira-do-empreendedor-2026.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362124Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Influenciador mexicano é morto a tiros em transmissão ao vivo",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/influenciador-mexicano-e-morto-a-tiros-em-transmissao-ao-vivo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362108Z",
-      "category": "brasil"
-    },
-    {
-      "title": "'Nem para comer me chamavam': entenda o que é a solidão corporativa e como pode afetar sua carreira",
-      "description": "",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/05/nem-para-comer-me-chamavam-entenda-o-que-e-a-solidao-corporativa-e-como-pode-afetar-sua-carreira.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581502Z",
-      "category": "economia"
-    },
-    {
-      "title": "Avião de carga faz pouso forçado após colisão no ar na Alemanha; drone com explosivo é encontrado em aeroporto",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/aviao-carga-pouso-forcado-colisao-alemanha-drone-explosivo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336370Z",
-      "category": "mundo"
-    },
-    {
-      "title": "E se não tivesse SG? Veja rankings dos laterais e zagueiros que mais pontuam no Cartola sem o bônus",
-      "description": "",
-      "url": "https://ge.globo.com/cartola/noticia/2026/08/05/e-se-nao-tivesse-sg-veja-rankings-dos-laterais-e-zagueiros-que-mais-pontuam-no-cartola-sem-o-bonus.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130393Z",
-      "category": "futebol"
-    },
-    {
-      "title": "John Kennedy busca redenção contra o Vasco vivendo melhor ano da carreira no Fluminense",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/05/john-kennedy-busca-redencao-contra-o-vasco-vivendo-melhor-ano-da-carreira-no-fluminense.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130391Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Lula e Alcolumbre se encontram na casa de Moraes depois de rompimento",
-      "description": "",
-      "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/08/05/lula-e-alcolumbre-se-encontram-na-casa-de-moraes-depois-de-rompimento.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362119Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Argentina não tomará nenhuma medida contra o Brasil após rebaixamento de relações diplomáticas, diz chanceler",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/argentina-nao-tomara-nenhuma-medida-contra-o-brasil.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336366Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Suspeito de aplicar golpes em negociações de fazendas é preso em Palmas",
-      "description": "",
-      "url": "https://g1.globo.com/to/tocantins/noticia/2026/08/05/suspeito-de-aplicar-golpes-em-negociacoes-de-fazendas-e-preso-em-palmas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362128Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Por que o menor país insular do mundo mudou de nome?",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/por-que-o-menor-pais-insular-do-mundo-mudou-de-nome.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336361Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Assim como no Brasil, mais da metade das embaixadas dos EUA no exterior estão sem embaixador",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/08/05/assim-como-no-brasil-mais-da-metade-das-embaixadas-dos-eua-no-exterior-estao-sem-embaixador.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336368Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Ferraresi é otimista sobre permanência no Botafogo: \"Faltam detalhes\"",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/ferraresi-comenta-preparacao-para-o-classico-e-revela-desejo-de-permanencia-no-botafogo-ideia-e-ficar-aqui.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130400Z",
-      "category": "futebol"
-    },
-    {
-      "title": "O homem abandonado ao nascer que encontrou família biológica 65 anos depois",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/o-homem-abandonado-ao-nascer-que-encontrou-familia-biologica-65-anos-depois.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336356Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Israel volta a bombardear sul do Líbano e acusa Hezbollah de 'violação flagrante' de cessar-fogo",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/israel-bombardeia-sul-do-libano-cessar-fogo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336364Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Milan e Inter prestam homenagem a Baresi antes de clássico amistoso na Austrália",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/milan-e-inter-prestam-homenagem-a-baresi-antes-de-classico-amistoso-na-australia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130396Z",
-      "category": "futebol"
-    },
-    {
-      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581487Z",
-      "category": "economia"
-    },
-    {
-      "title": "Mulher é presa em Londres suspeita de esfaquear quatro homens",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mulher-e-presa-em-londres-suspeita-de-esfaquear-homens.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336359Z",
-      "category": "mundo"
-    },
-    {
-      "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581479Z",
-      "category": "economia"
-    },
-    {
-      "title": "Orquestra Sinfônica de Brasília apresenta clássicos latino-americanos e europeus em agosto",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2026/08/05/orquestra-sinfonica-de-brasilia-apresenta-classicos-latino-americanos-e-europeus-em-agosto.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362126Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581495Z",
-      "category": "economia"
-    },
-    {
-      "title": "Influenciador mexicano é morto a tiros em transmissão ao vivo",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/influenciador-mexicano-e-morto-a-tiros-em-transmissao-ao-vivo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:11.336348Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Por que recebemos tantas ligações indesejadas? E como evitar esse tipo de chamada?",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/por-que-recebemos-tantas-ligacoes-indesejadas-e-como-evitar-esse-tipo-de-chamada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581500Z",
-      "category": "economia"
-    },
-    {
-      "title": "Vitinho revela visita de provável dono da SAF: \"Sabemos o plano do Botafogo\"",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/vitinho-revela-visita-de-provavel-dono-da-saf-sabemos-o-plano-do-botafogo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:07.130367Z",
+      "publishedAt": "2026-08-05T14:44:07.695970Z",
       "category": "futebol"
     },
     {
@@ -237,23 +13,247 @@
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/05/gasolina-sobe-30percent-nos-eua-e-trump-cobra-petroleiras-entenda-o-que-esta-por-tras-da-alta.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581498Z",
+      "publishedAt": "2026-08-05T14:44:10.817400Z",
       "category": "economia"
+    },
+    {
+      "title": "Por que recebemos tantas ligações indesejadas? E como evitar esse tipo de chamada?",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/por-que-recebemos-tantas-ligacoes-indesejadas-e-como-evitar-esse-tipo-de-chamada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817402Z",
+      "category": "economia"
+    },
+    {
+      "title": "Árbitro ia acabar o jogo? Veja detalhes do gol do Atlético-MG no Juventude nos últimos segundos",
+      "description": "",
+      "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/08/05/arbitro-ia-acabar-o-jogo-veja-detalhes-do-gol-do-atletico-mg-no-juventude-nos-ultimos-segundos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695979Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Franclim diz que título brasileiro é impossível e revela quantos reforços pediu ao Botafogo",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/franclim-carvalho-comenta-busca-do-botafogo-por-reforcos-no-mercado-quero-dois-jogadores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695977Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Vitinho revela visita de provável dono da SAF: \"Sabemos o plano do Botafogo\"",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/vitinho-revela-visita-de-provavel-dono-da-saf-sabemos-o-plano-do-botafogo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695975Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Assim como no Brasil, mais da metade das embaixadas dos EUA no exterior estão sem embaixador",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/08/05/assim-como-no-brasil-mais-da-metade-das-embaixadas-dos-eua-no-exterior-estao-sem-embaixador.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022682Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Feira de Flores Holambra em Petrolina tem mais de 200 espécies a partir de R$ 5",
+      "description": "",
+      "url": "https://g1.globo.com/pe/petrolina-regiao/noticia/2026/08/05/feira-de-flores-holambra-em-petrolina-tem-mais-de-200-especies-a-partir-de-r-5.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.245005Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Assista ao Link Vanguarda ao vivo no g1",
+      "description": "",
+      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/ao-vivo/assista-ao-link-vanguarda-ao-vivo-no-g1.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.244996Z",
+      "category": "brasil"
+    },
+    {
+      "title": "O homem abandonado ao nascer que encontrou família biológica 65 anos depois",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/o-homem-abandonado-ao-nascer-que-encontrou-familia-biologica-65-anos-depois.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022666Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Argentina não tomará nenhuma medida contra o Brasil após rebaixamento de relações diplomáticas, diz chanceler",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/argentina-nao-tomara-nenhuma-medida-contra-o-brasil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022680Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Alliança Saúde protocola plano de recuperação extrajudicial para renegociar R$ 1,1 bilhão em dívidas",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/allianca-saude-recuperacao-extrajudicial.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817396Z",
+      "category": "economia"
+    },
+    {
+      "title": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
+      "description": "",
+      "url": "https://g1.globo.com/mg/centro-oeste/ao-vivo/tv-integracao-de-divinopolis-ao-vivo-assista-aos-telejornais.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.245009Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Avião de carga faz pouso forçado após colisão no ar na Alemanha; drone com explosivo é encontrado em aeroporto",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/aviao-carga-pouso-forcado-colisao-alemanha-drone-explosivo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022684Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Mulher é presa em Londres suspeita de esfaquear quatro homens em Covent Garden",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/mulher-e-presa-em-londres-suspeita-de-esfaquear-homens.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022672Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Mobiliza lança candidatura de Alexandre Salomão ao governo do Paraná",
+      "description": "",
+      "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/08/05/mobiliza-lanca-candidatura-ao-governo-do-parana.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.244999Z",
+      "category": "brasil"
     },
     {
       "title": "Dólar abre em queda, à espera da nova decisão de juros do BC e de olho no Oriente Médio",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/05/dolar-ibovespa.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:09.581490Z",
+      "publishedAt": "2026-08-05T14:44:10.817394Z",
       "category": "economia"
     },
     {
-      "title": "PSDB de SP anuncia apoio à candidatura de André do Prado (PL) ao Senado",
+      "title": "Entenda por que reforço do Cruzeiro  \"trocou\" Copa por sonho e virou símbolo de geração perdida",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/05/psdb-de-sp-anuncia-apoio-a-candidatura-de-andre-do-prado-pl-ao-senado.ghtml",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/entenda-por-que-reforco-do-cruzeiro-trocou-copa-por-sonho-e-virou-simbolo-de-geracao-perdida.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-05T13:53:08.362122Z",
+      "publishedAt": "2026-08-05T14:44:07.695967Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Daniel Perez: quem é o indicado de Trump para embaixada em Brasília pivô de crise e o que ele disse sobre o Brasil",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/daniel-perez-quem-e-o-indicado-de-trump-para-embaixada-em-brasilia-pivo-de-crise-e-o-que-ele-disse-sobre-o-brasil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022686Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817398Z",
+      "category": "economia"
+    },
+    {
+      "title": "Pai morto espancado ao tentar defender família: homens são presos no Paraná nove dias após briga que terminou com o crime",
+      "description": "",
+      "url": "https://g1.globo.com/pr/campos-gerais-sul/noticia/2026/08/05/pai-morto-espancado-ao-tentar-defender-familia-homens-sao-presos-no-parana-nove-dias-apos-briga-que-terminou-com-o-crime.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.245001Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Por que o menor país insular do mundo mudou de nome?",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/por-que-o-menor-pais-insular-do-mundo-mudou-de-nome.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022675Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Artilheiro do Figueirense, Igor Bolt vira queridinho da torcida e brinca: \"Sou famoso\"",
+      "description": "",
+      "url": "https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/08/05/artilheiro-e-querido-pela-torcida-igor-bolt-e-protagonista-no-figueirense.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695983Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Israel volta a bombardear sul do Líbano e acusa Hezbollah de 'violação flagrante' de cessar-fogo",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/israel-bombardeia-sul-do-libano-cessar-fogo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:13.022678Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Avaí encaminha a contratação do melhor lateral-direito do Paulistão",
+      "description": "",
+      "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/08/05/avai-encaminha-a-contratacao-do-melhor-lateral-direito-do-paulistao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695956Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+      "description": "",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817382Z",
+      "category": "economia"
+    },
+    {
+      "title": "Mormaço 2026: veja atrações anunciadas para festival cultural em Boa Vista",
+      "description": "",
+      "url": "https://g1.globo.com/rr/roraima/noticia/2026/08/05/mormaco-2026-veja-atracoes-anunciadas-para-festival-cultural-em-boa-vista.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.245007Z",
+      "category": "brasil"
+    },
+    {
+      "title": "IA da Anthropic cria identidades falsas para enganar humanos em novo teste de segurança",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-anthropic-cria-identidades-falsas-para-enganar-humanos-em-novo-teste-de-seguranca.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817392Z",
+      "category": "economia"
+    },
+    {
+      "title": "PCB lança Reginaldo Lima como candidato ao governo do Maranhão",
+      "description": "",
+      "url": "https://g1.globo.com/ma/maranhao/eleicoes/2026/noticia/2026/08/05/pcb-lanca-reginaldo-lima-como-candidato-ao-governo-do-maranhao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.244989Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Paquetá volta ao Flamengo para ampliar opções de Jardim e deixar lesões para trás",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/paqueta-volta-ao-flamengo-para-ampliar-opcoes-de-jardim-e-deixar-lesoes-para-tras.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:07.695973Z",
+      "category": "futebol"
+    },
+    {
+      "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:10.817389Z",
+      "category": "economia"
+    },
+    {
+      "title": "Região Metropolitana de Sorocaba cresce, atrai moradores e enfrenta desafios ambientais",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sorocaba-jundiai/eleicoes/2026/noticia/2026/08/05/regiao-metropolitana-de-sorocaba-cresce-atrai-moradores-e-enfrenta-desafios-ambientais.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-05T14:44:09.245003Z",
       "category": "brasil"
     }
   ]

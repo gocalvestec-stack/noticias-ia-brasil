@@ -191,8 +191,14 @@ color:white;
 <body>
  <header>
 
-<div class="logo">
-📰 Notícias IA Brasil
+<div class="logo-area">
+
+<img id="logoSite" src="" alt="Logo do site">
+
+<h1 id="nomeSite">
+Notícias IA Brasil
+</h1>
+
 </div>
 
 <p>
@@ -494,5 +500,13 @@ style="width:100%;border-radius:15px;">
 }
 
 });
+fetch("config.json")
+.then(res => res.json())
+.then(config => {
 
+document.getElementById("logoSite").src = config.logo;
+
+document.getElementById("nomeSite").innerHTML = config.nome;
+
+});
  </script>

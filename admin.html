@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Painel de Controle</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+padding:20px;
+}
+
+.painel{
+
+max-width:500px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 0 10px #ccc;
+
+}
+
+h1{
+
+text-align:center;
+
+}
+
+
+label{
+
+display:block;
+margin-top:15px;
+font-weight:bold;
+
+}
+
+
+input{
+
+width:100%;
+padding:12px;
+margin-top:5px;
+border-radius:8px;
+border:1px solid #ccc;
+
+}
+
+
+button{
+
+margin-top:20px;
+width:100%;
+padding:14px;
+background:#111;
+color:white;
+border:0;
+border-radius:10px;
+font-size:16px;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="painel">
+
+
+<h1>
+⚙️ Painel Notícias IA Brasil
+</h1>
+
+
+<label>
+Nome do site
+</label>
+
+<input id="nome" placeholder="Nome do portal">
+
+
+
+<label>
+Link da propaganda
+</label>
+
+<input id="link" placeholder="https://...">
+
+
+
+<label>
+Imagem da propaganda
+</label>
+
+<input id="imagem" placeholder="URL da imagem">
+
+
+
+<label>
+Logo do site
+</label>
+
+<input id="logo" placeholder="URL da logo">
+<br>
+
+<button onclick="salvar()">
+💾 Salvar configurações
+</button>
+
+
+</div>
+
+
+
+<script>
+
+
+function salvar(){
+
+
+let config = {
+
+
+nome:
+document.getElementById("nome").value,
+
+
+logo:
+document.getElementById("logo").value,
+
+
+anuncio:{
+
+
+ativo:true,
+
+
+imagem:
+document.getElementById("imagem").value,
+
+
+link:
+document.getElementById("link").value
+
+
+}
+
+
+};
+
+
+
+localStorage.setItem(
+"config",
+JSON.stringify(config)
+);
+
+
+
+alert("Configurações salvas!");
+
+
+
+}
+
+
+
+</script>
+
+
+</body>
+
+</html>

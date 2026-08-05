@@ -238,14 +238,12 @@ Seu portal inteligente de notícias
 
 <div class="container">
 
+<div id="destaque"></div>
 
-<div id="destaque">
-
-Carregando destaque...
 
 </div>
 
-
+<div id="anuncio"></div>
 
 <h2>
 Últimas notícias
@@ -446,7 +444,6 @@ Ler notícia
 
 
 
-
 function data(d){
 
 if(!d)
@@ -477,6 +474,25 @@ document.body.classList.toggle("dark");
 
 }
 
+fetch("config.json")
+.then(res => res.json())
+.then(config => {
 
+if(config.anuncio.ativo){
+
+document.getElementById("anuncio").innerHTML = `
+
+<a href="${config.anuncio.link}" target="_blank">
+
+<img src="${config.anuncio.imagem}" 
+style="width:100%;border-radius:15px;">
+
+</a>
+
+`;
+
+}
+
+});
 
  </script>

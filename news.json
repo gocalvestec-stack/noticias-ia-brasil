@@ -1,131 +1,59 @@
 {
   "articles": [
     {
-      "title": "Que países usam voto eletrônico além do Brasil?",
+      "title": "Por que ministro da Defesa diz que Brasil teria que só 'abrir o portão' aos EUA em caso de ataque (mesmo após alta de 13% nos gastos militares)",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/que-paises-usam-voto-eletronico-alem-do-brasil.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/por-que-ministro-da-defesa-diz-que-brasil-teria-que-so-abrir-o-portao-aos-eua-em-caso-de-ataque-mesmo-apos-alta-de-13-nos-gastos-militares.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345710Z",
+      "publishedAt": "2026-08-06T11:36:10.124113Z",
       "category": "mundo"
     },
     {
-      "title": "Veja quem são os candidatos a governador no Ceará em 2026",
+      "title": "Veja quem são os candidatos a governador do Piauí em 2026",
       "description": "",
-      "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/06/veja-quem-sao-os-candidatos-a-governador-no-ceara-em-2026.ghtml",
+      "url": "https://g1.globo.com/pi/piaui/eleicoes/2026/noticia/2026/08/06/candidatos-governador-do-piaui.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021385Z",
+      "publishedAt": "2026-08-06T11:36:06.656031Z",
       "category": "brasil"
     },
     {
-      "title": "VÍDEO: Livraria 'subaquática' na China atrai turistas e moradores para ver fundo de lago",
+      "title": "STF amplia isenção de impostos para compra de carro por pessoas com autismo e deficiência; veja quem tem direito",
       "description": "",
-      "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/video-livraria-subaquatica-na-china-atrai-turistas-e-moradores-para-ver-fundo-de-lago.ghtml",
+      "url": "https://g1.globo.com/carros/noticia/2026/08/06/stf-amplia-isencao-de-impostos-para-compra-de-carro-por-pessoas-com-autismo-e-deficiencia.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345707Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Amizade no trabalho ajuda ou atrapalha a carreira? Especialistas explicam onde está o limite",
-      "description": "",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/06/amizade-no-trabalho-ajuda-ou-atrapalha-a-carreira-especialistas-explicam-onde-esta-o-limite.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252930Z",
+      "publishedAt": "2026-08-06T11:36:08.103361Z",
       "category": "economia"
     },
     {
-      "title": "TV Integração de Uberlândia ao vivo: assista aos telejornais",
+      "title": "Veja quem são os candidatos a governador em Goiás em 2026",
       "description": "",
-      "url": "https://g1.globo.com/mg/triangulo-mineiro/ao-vivo/assista-ao-vivo-a-tv-integracao-de-uberlandia.ghtml",
+      "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/08/06/veja-quem-sao-os-candidatos-a-governador-em-goias-em-2026.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021406Z",
+      "publishedAt": "2026-08-06T11:36:06.656026Z",
       "category": "brasil"
     },
     {
-      "title": "Concurso da Dataprev: inscrições para 1,8 mil vagas terminam nesta quinta; salários chegam a R$ 10,6 mil",
+      "title": "Saída de Tapia aumenta espaço de Ryan Francisco no São Paulo",
       "description": "",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/06/concurso-dataprev-inscricoes-terminam-nesta-quinta.ghtml",
+      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/06/saida-de-tapia-aumenta-espaco-de-ryan-francisco-no-sao-paulo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252937Z",
-      "category": "economia"
-    },
-    {
-      "title": "Igor Paixão marca de novo em amistoso do Olympique de Marseille e segue em alta na pré-temporada",
-      "description": "",
-      "url": "https://ge.globo.com/ap/noticia/2026/08/06/igor-paixao-marca-de-novo-em-amistoso-do-olympique-de-marseille-e-segue-em-alta-na-pre-temporada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257884Z",
+      "publishedAt": "2026-08-06T11:36:05.123000Z",
       "category": "futebol"
     },
     {
-      "title": "Como a Rússia manda soldados feridos de volta para a linha de frente na Ucrânia",
+      "title": "Homem atira contra prédio da Câmara Municipal de Salto de Pirapora; veja vídeo",
       "description": "",
-      "url": "https://g1.globo.com/mundo/ucrania-russia/noticia/2026/08/06/como-a-russia-manda-soldados-feridos-de-volta-para-a-linha-de-frente-na-ucrania.ghtml",
+      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/06/homem-atira-contra-predio-da-camara-municipal-de-salto-de-pirapora-veja-video.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345695Z",
-      "category": "mundo"
-    },
-    {
-      "title": "TV Integração de Uberaba ao vivo: assista aos telejornais",
-      "description": "",
-      "url": "https://g1.globo.com/mg/triangulo-mineiro/ao-vivo/assista-ao-vivo-a-tv-integracao-de-uberaba.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021404Z",
+      "publishedAt": "2026-08-06T11:36:06.656028Z",
       "category": "brasil"
     },
     {
-      "title": "TV Integração de Juiz de Fora ao vivo: assista aos telejornais",
+      "title": "Bap adia sonho do estádio próprio do Flamengo: \"Talvez meus filhos vejam isso, não sei se eu vou ver\"",
       "description": "",
-      "url": "https://g1.globo.com/mg/zona-da-mata/ao-vivo/assista-ao-vivo-a-tv-integracao-de-juiz-de-fora.ghtml",
+      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/06/bap-adia-sonho-do-estadio-proprio-do-flamengo-talvez-meus-filhos-vejam-isso-nao-sei-se-eu-vou-ver.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021401Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Al-Ahli fez proposta por Deschamps antes de acerto com Marino Pusić, diz jornal",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/al-ahli-faz-proposta-por-deschamps-mas-tecnico-adia-decisao-sobre-futuro-diz-jornal.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257895Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Velocidade e presença na área: como Diniz preparou o Corinthians para jogo contra o Inter",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/velocidade-e-presenca-na-area-como-diniz-preparou-o-corinthians-para-jogo-contra-o-inter.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257881Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Moradores fecham rodovia em protesto por melhorias em Nossa Senhora do Socorro",
-      "description": "",
-      "url": "https://g1.globo.com/se/sergipe/noticia/2026/08/06/moradores-fecham-rodovia-em-protesto-por-melhorias-em-nossa-senhora-do-socorro.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021399Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Por que a Ucrânia está direcionando ataques contra a 'Amazon russa'?",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/ucrania-russia/noticia/2026/08/06/por-que-a-ucrania-esta-direcionando-ataques-contra-wildberries-a-amazon-russa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345703Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Jogadoras iranianas que ficaram na Austrália após Copa da Ásia recebem cidadania australiana",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/jogadoras-iranianas-que-ficaram-na-australia-apos-copa-da-asia-recebem-cidadania-australiana.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345688Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Palmeiras bate meta e aumenta arrecadação com premiações na temporada; veja valores",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/06/palmeiras-bate-meta-e-aumenta-arrecadacao-com-premiacoes-na-temporada-veja-valores.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257878Z",
+      "publishedAt": "2026-08-06T11:36:05.122992Z",
       "category": "futebol"
     },
     {
@@ -133,71 +61,87 @@
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/06/profissionais-de-saude-no-epicentro-do-surto-de-ebola-no-congo-protestam-contra-a-falta-de-pagamento.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345698Z",
+      "publishedAt": "2026-08-06T11:36:10.124106Z",
       "category": "mundo"
     },
     {
-      "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
+      "title": "Por que a Ucrânia está direcionando ataques contra a 'Amazon russa'?",
       "description": "",
-      "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
+      "url": "https://g1.globo.com/mundo/ucrania-russia/noticia/2026/08/06/por-que-a-ucrania-esta-direcionando-ataques-contra-wildberries-a-amazon-russa.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252947Z",
-      "category": "economia"
-    },
-    {
-      "title": "Reforço do Cruzeiro, Wesley desembarca em Belo Horizonte",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/06/reforco-do-cruzeiro-wesley-desembarca-em-belo-horizonte.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257867Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Ídolo do Liverpool critica ida de Salah para a Turquia: \"É melhor do que isso\"",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/idolo-do-liverpool-critica-ida-de-salah-para-a-turquia-e-melhor-do-que-isso.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257891Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Fux marca nova audiência no STF sobre empréstimo bilionário para o BRB; crédito segue travado",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/05/fux-marca-nova-audiencia-no-stf-para-tentar-destravar-emprestimo-bilionario-para-o-brb.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252942Z",
-      "category": "economia"
-    },
-    {
-      "title": "Real Madrid e Leipzig se acertam, e Diomande embarca para a Espanha",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/real-madrid-e-leipzig-se-acertam-e-diomande-embarca-para-a-espanha.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257899Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Barcelona entra na disputa com o Real Madrid pela contratação de Rodri, diz jornal",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/barcelona-entra-na-disputa-com-o-real-madrid-pela-contratacao-de-rodri.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:37.257893Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Após denúncias de barulho e manobras perigosas, PM apreende moto roubada pilotada por adolescente no PI",
-      "description": "",
-      "url": "https://g1.globo.com/pi/piaui/noticia/2026/08/06/barulho-manobras-perigosas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021408Z",
-      "category": "brasil"
+      "publishedAt": "2026-08-06T11:36:10.124111Z",
+      "category": "mundo"
     },
     {
       "title": "Mega-Sena pode pagar R$ 150 milhões nesta quinta-feira; g1 transmite ao vivo",
       "description": "",
       "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-pode-pagar-r-150-milhoes-nesta-quinta-feira-g1-transmite-ao-vivo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252939Z",
+      "publishedAt": "2026-08-06T11:36:08.103366Z",
+      "category": "economia"
+    },
+    {
+      "title": "Como a Rússia manda soldados feridos de volta para a linha de frente na Ucrânia",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/ucrania-russia/noticia/2026/08/06/como-a-russia-manda-soldados-feridos-de-volta-para-a-linha-de-frente-na-ucrania.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:10.124104Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Wesley desembarca em BH para assinar contrato e reforçar ataque do Cruzeiro",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/06/reforco-do-cruzeiro-wesley-desembarca-em-belo-horizonte.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:05.123005Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Cristiano Ronaldo exibe \"brinquedos\" que coleciona em garagem milionária",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/cristiano-ronaldo-exibe-brinquedos-que-coleciona-em-garagem-milionaria.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:05.122998Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Jogadoras iranianas que ficaram na Austrália após Copa da Ásia recebem cidadania australiana",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/jogadoras-iranianas-que-ficaram-na-australia-apos-copa-da-asia-recebem-cidadania-australiana.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:10.124101Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Golpe da antena falsa: criminosos bloqueiam sinal das operadoras para tirar dinheiro de vítimas",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/golpe-da-antena-falsa-criminosos-bloqueiam-sinal-das-operadoras-para-tirar-dinheiro-de-vitimas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:08.103351Z",
+      "category": "economia"
+    },
+    {
+      "title": "Inmet emite alerta de perigo potencial de tempestade e vendaval para as cidades da região",
+      "description": "",
+      "url": "https://g1.globo.com/rj/sul-do-rio-costa-verde/noticia/2026/08/06/inmet-emite-alerta-de-perigo-potencial-de-tempestade-e-vendaval-para-as-cidades-da-regiao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:06.656009Z",
+      "category": "brasil"
+    },
+    {
+      "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
+      "description": "",
+      "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:08.103372Z",
+      "category": "economia"
+    },
+    {
+      "title": "Fux marca nova audiência no STF sobre empréstimo bilionário para o BRB; crédito segue travado",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/05/fux-marca-nova-audiencia-no-stf-para-tentar-destravar-emprestimo-bilionario-para-o-brb.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:08.103369Z",
       "category": "economia"
     },
     {
@@ -205,55 +149,111 @@
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/06/alemanha-abre-investigacao-sobre-terrorismo-apos-descoberta-de-drone-com-explosivos-em-centro-de-carga-aerea.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345701Z",
+      "publishedAt": "2026-08-06T11:36:10.124109Z",
       "category": "mundo"
     },
     {
-      "title": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
+      "title": "Amizade no trabalho ajuda ou atrapalha a carreira? Especialistas explicam onde está o limite",
       "description": "",
-      "url": "https://g1.globo.com/mg/centro-oeste/ao-vivo/tv-integracao-de-divinopolis-ao-vivo-assista-aos-telejornais.ghtml",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/06/amizade-no-trabalho-ajuda-ou-atrapalha-a-carreira-especialistas-explicam-onde-esta-o-limite.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021396Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Por que ministro da Defesa diz que Brasil teria que só 'abrir o portão' aos EUA em caso de ataque (mesmo após alta de 13% nos gastos militares)",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/por-que-ministro-da-defesa-diz-que-brasil-teria-que-so-abrir-o-portao-aos-eua-em-caso-de-ataque-mesmo-apos-alta-de-13-nos-gastos-militares.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:42.345705Z",
-      "category": "mundo"
-    },
-    {
-      "title": "STF amplia isenção de impostos para compra de carro por pessoas com autismo e deficiência; veja quem tem direito",
-      "description": "",
-      "url": "https://g1.globo.com/carros/noticia/2026/08/06/stf-amplia-isencao-de-impostos-para-compra-de-carro-por-pessoas-com-autismo-e-deficiencia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252934Z",
+      "publishedAt": "2026-08-06T11:36:08.103358Z",
       "category": "economia"
     },
     {
-      "title": "Golpe da antena falsa: criminosos bloqueiam sinal das operadoras para tirar dinheiro de vítimas",
+      "title": "Imprensa internacional se impressiona com apresentação de Vozinha no Chile: \"Surreal\"",
       "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/golpe-da-antena-falsa-criminosos-bloqueiam-sinal-das-operadoras-para-tirar-dinheiro-de-vitimas.ghtml",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/imprensa-internacional-se-impressiona-com-apresentacao-de-vozinha-no-chile-surreal.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252923Z",
-      "category": "economia"
+      "publishedAt": "2026-08-06T11:36:05.122981Z",
+      "category": "futebol"
     },
     {
       "title": "Meta diz que sua IA também fez ataque hacker a outra empresa",
       "description": "",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-meta-tambem-fez-ataque-hacker-a-empresa-diz-site.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:40.252944Z",
+      "publishedAt": "2026-08-06T11:36:08.103370Z",
       "category": "economia"
     },
     {
-      "title": "PCO lança Lourdes Melo como candidata ao governo do Piauí",
+      "title": "VÍDEO: britânica de 97 anos se torna a mulher mais velha a fazer acrobacia aérea sobre asas",
       "description": "",
-      "url": "https://g1.globo.com/pi/piaui/eleicoes/2026/noticia/2026/08/06/pco-lourdes-melo-governo.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/video-britanica-de-97-anos-se-torna-a-mulher-mais-velha-a-fazer-acrobacia-aerea-sobre-asas.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T10:53:39.021411Z",
+      "publishedAt": "2026-08-06T11:36:10.124094Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Visitante ingrato, Criciúma é o time com mais pontos conquistados fora de casa na Série B",
+      "description": "",
+      "url": "https://ge.globo.com/sc/futebol/times/criciuma/noticia/2026/08/06/visitante-ingrato-criciuma-e-o-time-com-mais-pontos-conquistados-fora-de-casa-na-serie-b.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:05.122966Z",
+      "category": "futebol"
+    },
+    {
+      "title": "VÍDEOS: Bom Dia Goiás desta quinta-feira, 5 de Agosto de 2026",
+      "description": "",
+      "url": "https://g1.globo.com/go/goias/edicao/2026/08/06/videos-bom-dia-goias-desta-quinta-feira-5-de-agosto-de-2026.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:06.656021Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Assista aos telejornais da TV Bahia",
+      "description": "",
+      "url": "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:06.656018Z",
+      "category": "brasil"
+    },
+    {
+      "title": "De negociável a herói, Brenner vive noite de redenção no Vasco",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/06/de-negociavel-a-heroi-brenner-vive-noite-de-redencao-no-vasco.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:05.122995Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Jogo do Hall da Fama abre pré-temporada da NFL; conheça a história e curiosidades",
+      "description": "",
+      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/06/jogo-do-hall-da-fama-abre-pre-temporada-da-nfl-conheca-a-historia-e-curiosidades.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:05.122987Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Concurso da Dataprev: inscrições para 1,8 mil vagas terminam nesta quinta; salários chegam a R$ 10,6 mil",
+      "description": "",
+      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/06/concurso-dataprev-inscricoes-terminam-nesta-quinta.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:08.103364Z",
+      "category": "economia"
+    },
+    {
+      "title": "VÍDEO: Livraria 'subaquática' na China atrai turistas e moradores para ver fundo de lago",
+      "description": "",
+      "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/video-livraria-subaquatica-na-china-atrai-turistas-e-moradores-para-ver-fundo-de-lago.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:10.124115Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Ônibus com mais de 30 universitários que saiu do ES para MG bate em caminhão na BR-259 e motorista morre",
+      "description": "",
+      "url": "https://g1.globo.com/es/espirito-santo/norte-noroeste-es/noticia/2026/08/06/onibus-com-universitarios-que-saiu-do-es-para-mg-bate-em-caminhao-na-br-259-e-motorista-morre.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:06.656033Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Após apreensão de 35 kg de cocaína em aeroporto do RS, PF prende 17 pessoas em operação contra tráfico internacional de drogas",
+      "description": "",
+      "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/08/06/pf-operacao-trafico-drogas-avioes-rs-pr.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T11:36:06.656023Z",
       "category": "brasil"
     }
   ]

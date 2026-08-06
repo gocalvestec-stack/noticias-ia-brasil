@@ -3,20 +3,42 @@
 
   "logo": "https://raw.githubusercontent.com/gocalvestec-stack/noticiasbrasil/main/logo.png.jpeg",
 
-  "descricao": "RD NEWS - Portal inteligente de notícias atualizado do Brasil e do mundo.",
+  "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil e mundo.",
 
 
   "tema": {
-
     "corPrincipal": "#0b1f3a",
-
     "corSecundaria": "#e50914",
-
     "corFundo": "#f4f6f9",
-
     "corTexto": "#222222",
-
     "modoEscuro": true
+  },
+
+
+  "categoriaPadrao": "Futebol",
+
+
+  "filtroNoticias": {
+
+    "ativo": true,
+
+    "palavras": [
+      "futebol",
+      "gol",
+      "campeonato",
+      "brasileirão",
+      "flamengo",
+      "palmeiras",
+      "corinthians",
+      "santos",
+      "vasco",
+      "grêmio",
+      "internacional",
+      "cruzeiro",
+      "atlético",
+      "seleção brasileira",
+      "libertadores"
+    ]
 
   },
 
@@ -25,34 +47,22 @@
 
     "ativo": true,
 
-    "aleatorio": true,
+    "youtube": "https://youtu.be/U_jX4gu6Vjc",
 
-    "titulo": "🎥 Vídeos em destaque",
-
-    "lista": [
-
-      "https://youtu.be/U_jX4gu6Vjc",
-
-      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-
-      "https://youtu.be/SEU_VIDEO_AQUI"
-
-    ]
+    "titulo": "Últimas notícias do futebol"
 
   },
 
 
   "anuncio": {
 
-    "ativo": false,
+    "ativo": true,
 
-    "imagem": "banner.png",
+    "imagem": "",
 
     "link": "",
 
-    "posicao": "topo",
-
-    "tamanho": "medio"
+    "posicao": "topo"
 
   },
 
@@ -65,22 +75,18 @@
 
     "abrirLinksNovaAba": true,
 
-    "noticiasPorPagina": 12,
-
-    "atualizacaoAutomatica": true,
-
-    "intervaloMinutos": 180
+    "noticiasPorPagina": 12
 
   },
 
 
   "categorias": [
 
+    "Futebol",
+
     "Brasil",
 
     "Mundo",
-
-    "Futebol",
 
     "Tecnologia",
 
@@ -111,11 +117,11 @@
 
   "seo": {
 
-    "titulo": "RD NEWS - Notícias Atualizadas",
+    "titulo": "RD NEWS Futebol - Notícias Atualizadas",
 
-    "descricao": "Veja as principais notícias do Brasil e do mundo, tecnologia, economia e esportes.",
+    "descricao": "Últimas notícias de futebol, campeonatos, clubes e jogadores.",
 
-    "palavrasChave": "notícias brasil, notícias hoje, futebol, tecnologia, economia, mundo"
+    "palavrasChave": "futebol, brasileirão, flamengo, palmeiras, libertadores, seleção brasileira"
 
   },
 

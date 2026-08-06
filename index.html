@@ -3,23 +3,84 @@
 
 <head>
 
+<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9077847530409296"
 crossorigin="anonymous"></script>
+
 
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+<!-- Google Search Console -->
 <meta name="google-site-verification" content="1WkurAw0Lfq6dFBsATI0hLqRy-1tJmVvVJAyK07gtic">
 
-<title>Notícias Brasil</title>
+
+<!-- SEO -->
+<title>Notícias Brasil - Notícias Atualizadas do Brasil e do Mundo</title>
+
+<meta name="description" content="Notícias Brasil é um portal inteligente com notícias atualizadas sobre Brasil, mundo, tecnologia, economia, futebol e principais acontecimentos.">
+
+<meta name="keywords" content="notícias brasil, notícias hoje, futebol, tecnologia, economia, mundo">
+
+<meta name="author" content="Notícias Brasil">
+
+<meta name="robots" content="index, follow">
+
+
+<link rel="canonical" href="https://noticias-ia-brasil.vercel.app/">
+
+
+
+<!-- Open Graph WhatsApp/Facebook -->
+
+<meta property="og:title" content="Notícias Brasil">
+
+<meta property="og:description" content="Acompanhe as principais notícias do Brasil e do mundo.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://noticias-ia-brasil.vercel.app/">
+
+<meta property="og:image" content="https://noticias-ia-brasil.vercel.app/logo.png">
+
+
+
+<!-- Twitter -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Notícias Brasil">
+
+<meta name="twitter:description" content="Portal inteligente de notícias atualizado.">
+
+
+<!-- Dados estruturados Google -->
+
+<script type="application/ld+json">
+
+{
+ "@context":"https://schema.org",
+ "@type":"NewsMediaOrganization",
+ "name":"Notícias Brasil",
+ "url":"https://noticias-ia-brasil.vercel.app/",
+ "logo":{
+   "@type":"ImageObject",
+   "url":"https://noticias-ia-brasil.vercel.app/logo.png"
+ }
+}
+
+</script>
+
 
 <style>
 
 *{
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial,sans-serif;
 }
+
 
 body{
 margin:0;
@@ -37,22 +98,29 @@ text-align:center;
 
 
 .logo-area img{
-    width:300px;
-    height:300px;
-    object-fit:contain;
+
+width:300px;
+height:300px;
+object-fit:contain;
+
 }
 
+
 header p{
+
 opacity:.8;
+
 }
 
 
 .menu{
+
 display:flex;
 gap:10px;
 overflow:auto;
 padding:15px;
 background:white;
+
 }
 
 
@@ -75,9 +143,8 @@ margin:auto;
 padding:15px;
 
 }
-
-
 .destaque{
+
 background:white;
 border-radius:15px;
 overflow:hidden;
@@ -193,11 +260,15 @@ color:white;
 
 </head>
 
- <header>
+
+<body>
+
+
+<header>
 
 <div class="logo-area">
 
-<img id="logoSite" src="" alt="Logo do site">
+<img id="logoSite" src="" alt="Logo Notícias Brasil">
 
 <h1 id="nomeSite">
 Notícias Brasil
@@ -205,42 +276,53 @@ Notícias Brasil
 
 </div>
 
+
 <p>
 Seu portal inteligente de notícias
 </p>
 
+
 </header>
 
 
+
 <div class="menu">
+
 
 <button onclick="categoria('todas')">
 📰 Todas
 </button>
 
+
 <button onclick="categoria('futebol')">
 ⚽ Futebol
 </button>
+
 
 <button onclick="categoria('brasil')">
 🇧🇷 Brasil
 </button>
 
+
 <button onclick="categoria('mundo')">
 🌎 Mundo
 </button>
+
 
 <button onclick="categoria('tecnologia')">
 💻 Tecnologia
 </button>
 
+
 <button onclick="categoria('economia')">
 💰 Economia
 </button>
 
+
 <button onclick="modo()">
 🌙
 </button>
+
 
 </div>
 
@@ -248,12 +330,12 @@ Seu portal inteligente de notícias
 
 <div class="container">
 
+
 <div id="destaque"></div>
 
 
-</div>
-
 <div id="anuncio"></div>
+
 
 <h2>
 Últimas notícias
@@ -271,12 +353,10 @@ Carregando notícias...
 
 
 
-
 <script>
 
 
 let noticias = [];
-
 
 let categoriaAtual = "todas";
 
@@ -300,7 +380,7 @@ mostrar();
 
 
 document.getElementById("noticias").innerHTML =
-"Erro ao carregar notícias";
+"Não foi possível carregar as notícias.";
 
 
 });
@@ -319,10 +399,8 @@ return lista.sort(()=>Math.random()-0.5);
 function mostrar(){
 
 
-let lista = [...noticias];
+let lista=[...noticias];
 
-
-// embaralha
 
 lista = embaralhar(lista);
 
@@ -341,23 +419,23 @@ let texto =
 
 
 if(categoriaAtual=="futebol")
-return texto.match(/futebol|gol|time|flamengo|cruzeiro|atletico|brasileirao/);
+return /futebol|gol|time|flamengo|cruzeiro|atletico|brasileirao/.test(texto);
 
 
 if(categoriaAtual=="tecnologia")
-return texto.match(/tecnologia|celular|internet|ia/);
+return /tecnologia|celular|internet|ia/.test(texto);
 
 
 if(categoriaAtual=="economia")
-return texto.match(/economia|dinheiro|mercado/);
+return /economia|dinheiro|mercado/.test(texto);
 
 
 if(categoriaAtual=="brasil")
-return texto.match(/brasil|governo|política/);
+return /brasil|governo|política/.test(texto);
 
 
 if(categoriaAtual=="mundo")
-return texto.match(/mundo|internacional/);
+return /mundo|internacional/.test(texto);
 
 
 });
@@ -366,27 +444,36 @@ return texto.match(/mundo|internacional/);
 }
 
 
-
 let destaque = lista[0];
 
 
 
 document.getElementById("destaque").innerHTML = `
 
+
 <div class="destaque">
 
-<img src="${destaque?.image || 'https://via.placeholder.com/800'}">
 
-<h1>${destaque?.title || "Sem notícia"}</h1>
+<img src="${destaque?.image || 'https://via.placeholder.com/800'}"
+alt="${destaque?.title || 'Notícia'}">
+
+
+<h1>
+
+${destaque?.title || "Sem notícia disponível"}
+
+</h1>
+
 
 </div>
+
 
 `;
 
 
 
-let area =
-document.getElementById("noticias");
+let area=document.getElementById("noticias");
+
 
 area.innerHTML="";
 
@@ -401,7 +488,8 @@ area.innerHTML += `
 <div class="card">
 
 
-<img src="${n.image || 'https://via.placeholder.com/400'}">
+<img src="${n.image || 'https://via.placeholder.com/400'}"
+alt="${n.title}">
 
 
 <div>
@@ -412,14 +500,12 @@ area.innerHTML += `
 
 <p class="hora">
 
-
+${data(n.publishedAt)}
 
 </p>
 
 
-
-
-<a href="${n.url}" target="_blank">
+<a href="${n.url}" target="_blank" rel="noopener noreferrer">
 
 Ler notícia
 
@@ -438,21 +524,18 @@ Ler notícia
 });
 
 
+
 }
-
-
-
 function data(d){
 
 if(!d)
-return "Horário não informado";
+return "Data não informada";
 
 
 return new Date(d)
 .toLocaleString("pt-BR");
 
 }
-
 
 
 
@@ -472,46 +555,133 @@ document.body.classList.toggle("dark");
 
 }
 
+
+
+// Carrega configuração do site
+
 fetch("config.json")
-.then(res => res.json())
-.then(config => {
 
-if(config.anuncio.ativo){
+.then(res=>res.json())
 
-document.getElementById("anuncio").innerHTML = `
+.then(config=>{
 
-<a href="${config.anuncio.link}" target="_blank">
 
-<img src="${config.anuncio.imagem}" 
-style="width:100%;border-radius:15px;">
+// Logo
 
-</a>
+if(config.logo){
 
-`;
+document.getElementById("logoSite").src=config.logo;
 
 }
 
+
+
+// Nome do site
+
+if(config.nome){
+
+document.getElementById("nomeSite").innerHTML=config.nome;
+
+}
+
+
+
+// Anúncio
+
+if(config.anuncio && config.anuncio.ativo){
+
+
+document.getElementById("anuncio").innerHTML=`
+
+<div style="margin:20px 0">
+
+
+<a href="${config.anuncio.link}" 
+target="_blank"
+rel="noopener noreferrer">
+
+
+<img src="${config.anuncio.imagem}"
+
+alt="Publicidade"
+
+style="width:100%;border-radius:15px;">
+
+
+</a>
+
+
+</div>
+
+
+`;
+
+
+}
+
+
+
+})
+
+.catch(()=>{
+
+console.log("Configuração não encontrada");
+
 });
-fetch("config.json")
-.then(res => res.json())
-.then(config => {
 
-document.getElementById("logoSite").src = config.logo;
 
-document.getElementById("nomeSite").innerHTML = config.nome;
 
-});
- </script>
- <script>
-  // seu código JavaScript
 </script>
 
-  <footer>
-  © 2026 Notícias Brasil
-  <br><br>
-  <a href="sobre.html">Sobre</a>
-  <a href="contato.html">Contato</a>
-  <a href="privacidade.html">Privacidade</a>
-</footer>   
+
+
+<footer>
+
+
+<p>
+
+© 2026 Notícias Brasil - Todos os direitos reservados.
+
+</p>
+
+
+<br>
+
+
+<a href="sobre.html">
+Sobre
+</a>
+
+
+&nbsp; | &nbsp;
+
+
+<a href="contato.html">
+Contato
+</a>
+
+
+&nbsp; | &nbsp;
+
+
+<a href="privacidade.html">
+Privacidade
+</a>
+
+
+&nbsp; | &nbsp;
+
+
+<a href="termos.html">
+Termos de Uso
+</a>
+
+
+
+</footer>
+
+
+
 </body>
-</html>
+
+</html>    

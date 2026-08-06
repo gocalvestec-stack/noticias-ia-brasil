@@ -1,75 +1,51 @@
 {
   "articles": [
     {
-      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+      "title": "Avião cai 90 metros no ar durante turbulência na Ásia, e passageiros ficam feridos",
       "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/passageiros-ficam-feridos-apos-turbulencia-severa-em-voo-entre-tailandia-e-india.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452502Z",
-      "category": "economia"
+      "publishedAt": "2026-08-06T01:42:27.002400Z",
+      "category": "mundo"
     },
     {
-      "title": "A dois meses da eleição, Brasil enfrenta crises diplomáticas inéditas com EUA e Argentina",
+      "title": "Selic: Copom reduz taxa básica de juros para 14% ao ano",
       "description": "",
-      "url": "https://g1.globo.com/noticia/2026/08/05/a-dois-meses-da-eleicao-brasil-enfrenta-crises-diplomaticas-ineditas-com-eua-e-argentina.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/selic-copom-reduz-taxa-basica-de-juros-para-14percent-ao-ano.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064266Z",
-      "category": "mundo"
+      "publishedAt": "2026-08-06T01:42:23.684851Z",
+      "category": "economia"
     },
     {
       "title": "Meta diz que sua IA também fez ataque hacker a outra empresa",
       "description": "",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/ia-da-meta-tambem-fez-ataque-hacker-a-empresa-diz-site.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452484Z",
+      "publishedAt": "2026-08-06T01:42:23.684840Z",
       "category": "economia"
     },
     {
-      "title": "VÍDEO: carro fica preso sob ônibus após acidente em Itaquaquecetuba",
+      "title": "Super Sete hoje: resultado do concurso 882 e números sorteados",
       "description": "",
-      "url": "https://g1.globo.com/sp/mogi-das-cruzes-suzano/noticia/2026/08/05/video-carro-fica-preso-sob-onibus-apos-acidente-em-itaquaquecetuba.ghtml",
+      "url": "https://g1.globo.com/loterias/super-sete/noticia/2026/08/05/super-sete-hoje-resultado-do-concurso-882-e-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708798Z",
+      "publishedAt": "2026-08-06T01:42:21.187458Z",
       "category": "brasil"
     },
     {
-      "title": "VÍDEO: moradores denunciam truculência da Polícia Militar em abordagem em BH",
+      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
       "description": "",
-      "url": "https://g1.globo.com/mg/minas-gerais/noticia/2026/08/05/video-moradores-denunciam-truculencia-da-policia-militar-em-abordagem-em-bh.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708808Z",
-      "category": "brasil"
-    },
-    {
-      "title": "França condena dois streamers após morte de influenciador durante transmissão ao vivo; relembre o caso",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/05/franca-condena-dois-streamers-apos-morte-de-influenciador-durante-transmissao-ao-vivo-relembre-o-caso.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452504Z",
+      "publishedAt": "2026-08-06T01:42:23.684853Z",
       "category": "economia"
     },
     {
-      "title": "São Paulo faz treino tático de olho em jogo contra o Grêmio",
+      "title": "+Milionária hoje: resultado do concurso 378 e números sorteados",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/05/sao-paulo-faz-treino-tatico-de-olho-em-jogo-contra-o-gremio.ghtml",
+      "url": "https://g1.globo.com/loterias/milionaria/noticia/2026/08/05/milionaria-hoje-resultado-do-concurso-378-e-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611536Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Resultados das Loterias Caixa",
-      "description": "",
-      "url": "https://g1.globo.com/loterias/sorteios-caixa/ao-vivo/resultado-loterias-caixa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708800Z",
-      "category": "brasil"
-    },
-    {
-      "title": "TCE mantém suspensão de escolas cívico-militares em MG",
-      "description": "",
-      "url": "https://g1.globo.com/mg/minas-gerais/noticia/2026/08/05/tce-mantem-suspensao-de-escolas-civico-militares-em-mg.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708802Z",
+      "publishedAt": "2026-08-06T01:42:21.187456Z",
       "category": "brasil"
     },
     {
@@ -77,87 +53,167 @@
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/trump-e-secretario-de-guerra-batem-boca-por-falta-de-misseis-e-frustracao-com-guerra-no-ira-diz-jornal.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064253Z",
+      "publishedAt": "2026-08-06T01:42:27.002390Z",
       "category": "mundo"
     },
     {
-      "title": "Se ir ao mercado já pesa no bolso, cenário deve piorar; ONU prevê alta dos alimentos até o fim de 2026",
+      "title": "Dia de Sorte hoje: resultado do concurso 1264 e números sorteados",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/se-ir-ao-mercado-ja-pesa-no-bolso-cenario-deve-piorar-onu-preve-alta-dos-alimentos-ate-o-fim-de-2026.ghtml",
+      "url": "https://g1.globo.com/loterias/dia-de-sorte/noticia/2026/08/05/dia-de-sorte-hoje-resultado-do-concurso-1264-e-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452500Z",
+      "publishedAt": "2026-08-06T01:42:21.187460Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Lotomania hoje: resultado do concurso 2959 e números sorteados",
+      "description": "",
+      "url": "https://g1.globo.com/loterias/lotomania/noticia/2026/08/05/lotomania-hoje-resultado-do-concurso-2959-e-numeros-sorteados.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:21.187463Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Fux marca nova audiência no STF sobre empréstimo bilionário para o BRB; crédito segue travado",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/05/fux-marca-nova-audiencia-no-stf-para-tentar-destravar-emprestimo-bilionario-para-o-brb.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:23.684832Z",
       "category": "economia"
     },
     {
-      "title": "Grupo de conselheiros do Flamengo faz cobrança no clube após déficit de R$ 33 milhões",
+      "title": "Apesar de corte na Selic, Brasil tem o maior juro real do mundo; veja ranking",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/grupo-de-conselheiros-do-flamengo-faz-cobranca-no-clube-apos-deficit-de-r-33-milhoes.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/05/ranking-juro-real-agosto.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611534Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Infantino publica mensagem comemorando apoio recebido por alto escalão da Fifa",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/infantino-publica-mensagem-comemorando-apoio-recebido-por-alto-escalao-da-fifa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611529Z",
-      "category": "futebol"
-    },
-    {
-      "title": "'Sicário': polícia prende argentino que ameaçava Milei de morte pelo TikTok",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/sicario-policia-prende-argentino-que-ameacava-milei-de-morte-pelo-tiktok.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064268Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Messi faz primeiro gol após a Copa do Mundo",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/messi-faz-primeiro-gol-apos-a-copa-do-mundo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611524Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Matheus Henrique fratura o nariz em lance de gol do Cruzeiro e fica sangrando; veja",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/matheus-henrique-fratura-o-nariz-em-lance-de-gol-do-cruzeiro-e-fica-sangrando-veja.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611527Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Flamengo acerta saída de Rayan Lucas para o Alverca, de Portugal; veja modelo de negócio",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/05/flamengo-acerta-saida-de-rayan-lucas-para-o-alverca-de-portugal-veja-modelo-de-negocio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611540Z",
-      "category": "futebol"
+      "publishedAt": "2026-08-06T01:42:23.684849Z",
+      "category": "economia"
     },
     {
       "title": "Quem era Cesar Gastelum, influencer mexicano morto a tiros durante transmissão ao vivo",
       "description": "",
       "url": "https://g1.globo.com/pop-arte/noticia/2026/08/05/quem-era-cesar-gastelum-influencer-mexicano-morto-a-tiros-durante-transmissao-ao-vivo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064270Z",
+      "publishedAt": "2026-08-06T01:42:27.002409Z",
       "category": "mundo"
+    },
+    {
+      "title": "Atuações do Cruzeiro: Matheus Pereira controla jogo, e zagueiro vai bem até no ataque; dê notas",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/atuacoes-do-cruzeiro-matheus-controla-jogo-e-fabricio-bruno-surge-bem-ate-no-ataque-de-notas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419240Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Artur Jorge alerta reforços do ataque do Cruzeiro: \"Têm que mostrar por que fomos buscá-los\"",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/artur-jorge-faz-pedido-a-reforcos-para-o-ataque-do-cruzeiro-e-destaca-dominio-em-classificacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419222Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+      "description": "",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:23.684856Z",
+      "category": "economia"
+    },
+    {
+      "title": "Centro cultural oferece bolsas para curso de teatro em Salvador",
+      "description": "",
+      "url": "https://g1.globo.com/ba/bahia/noticia/2026/08/05/centro-cultural-oferece-bolsas-para-curso-de-teatro-em-salvador.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:21.187453Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Matheus Henrique fratura o nariz em lance de gol do Cruzeiro e fica sangrando; veja",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/05/matheus-henrique-fratura-o-nariz-em-lance-de-gol-do-cruzeiro-e-fica-sangrando-veja.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419247Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Podemos lança candidatos a deputado federal e estadual em MG",
+      "description": "",
+      "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/08/05/podemos-lanca-candidatos-a-deputado-federal-e-estadual-em-mg.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:21.187451Z",
+      "category": "brasil"
     },
     {
       "title": "Presidente do Irã diz que comunicação com o novo líder supremo está 'muito difícil'",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/presidente-do-ira-diz-que-comunicacao-com-o-novo-lider-supremo-esta-muito-dificil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064272Z",
+      "publishedAt": "2026-08-06T01:42:27.002411Z",
       "category": "mundo"
     },
     {
-      "title": "Pela primeira vez, internet em Taiwan vai ficar bem mais lenta por meia hora para simular ataque chinês às comunicações",
+      "title": "A dois meses da eleição, Brasil enfrenta crises diplomáticas inéditas com EUA e Argentina",
       "description": "",
-      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/05/pela-primeira-vez-internet-em-taiwan-vai-ficar-bem-mais-lenta-por-meia-hora-para-simular-ataque-chines-as-comunicacoes.ghtml",
+      "url": "https://g1.globo.com/noticia/2026/08/05/a-dois-meses-da-eleicao-brasil-enfrenta-crises-diplomaticas-ineditas-com-eua-e-argentina.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708806Z",
+      "publishedAt": "2026-08-06T01:42:27.002404Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Autor do gol de título sub-20 do Botafogo marca no fim, tira camisa e é expulso: “Vermelho mais feliz”",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/05/autor-do-gol-de-titulo-sub-20-do-botafogo-marca-no-fim-tira-camisa-e-e-expulso-vermelho-mais-feliz.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419234Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Viagem do Papa Leão XIV terá parada na Amazônia peruana em novembro",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/viagem-do-papa-leao-xiv-tera-parada-na-amazonia-peruana-em-novembro.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:27.002402Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Barra anuncia zagueiro campeão da Copinha pelo Internacional",
+      "description": "",
+      "url": "https://ge.globo.com/sc/futebol/times/barra-sc/noticia/2026/08/05/barra-anuncia-zagueiro-campeao-da-copinha-pelo-internacional.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419242Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Concursos Públicos no Amazonas: confira as vagas abertas e previstas para segundo semestre de 2026",
+      "description": "",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/05/concursos-publicos-no-amazonas-confira-as-vagas-abertas-e-previstas-para-segundo-semestre-de-2026.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:21.187448Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Atuações da Chapecoense: expulsão de Max é crucial e Anderson diminui estragos; dê suas notas",
+      "description": "",
+      "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/08/05/atuacoes-da-chapecoense-expulsao-de-max-e-crucial-e-anderson-diminui-estragos-de-suas-notas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419237Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Messi faz primeiros gols após a Copa do Mundo; veja",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/messi-faz-primeiro-gol-apos-a-copa-do-mundo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:17.419245Z",
+      "category": "futebol"
+    },
+    {
+      "title": "MDB lança Ricardo Ferraço como candidato ao governo do Espírito Santo",
+      "description": "",
+      "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/08/05/mdb-lanca-ricardo-ferraco-como-candidato-ao-governo-do-espirito-santo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-06T01:42:21.187440Z",
       "category": "brasil"
     },
     {
@@ -165,96 +221,40 @@
       "description": "",
       "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/08/05/vitoria-desbanca-balneario-camboriu-e-volta-ao-topo-das-cidades-com-m-de-imoveis-mais-caro-do-pais.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452493Z",
+      "publishedAt": "2026-08-06T01:42:23.684846Z",
       "category": "economia"
-    },
-    {
-      "title": "Barra anuncia zagueiro campeão da Copinha pelo Internacional",
-      "description": "",
-      "url": "https://ge.globo.com/sc/futebol/times/barra-sc/noticia/2026/08/05/barra-anuncia-zagueiro-campeao-da-copinha-pelo-internacional.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611515Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Avião cai 90 metros no ar durante turbulência na Ásia, e passageiros ficam feridos",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/passageiros-ficam-feridos-apos-turbulencia-severa-em-voo-entre-tailandia-e-india.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064262Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Escalação do Corinthians: Diniz testa Pedro Raul como titular para jogo decisivo contra o Inter",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/05/escalacao-do-corinthians-diniz-testa-pedro-raul-como-titular-para-jogo-decisivo-contra-o-inter.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:42.611531Z",
-      "category": "futebol"
     },
     {
       "title": "Quebra de protocolo faz helicóptero de Trump passar a pouco mais de 1 km de avião comercial, diz jornal",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/05/quebra-de-protocolo-faz-helicoptero-de-trump-passar-a-pouco-mais-de-1-km-de-aviao-comercial-diz-jornal.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064259Z",
+      "publishedAt": "2026-08-06T01:42:27.002397Z",
       "category": "mundo"
     },
     {
-      "title": "Método Wolbachia: mosquitos ‘modificados’ são usados para combater a dengue em Porto Velho",
+      "title": "Infantino publica mensagem comemorando apoio recebido por alto escalão da Fifa",
       "description": "",
-      "url": "https://g1.globo.com/ro/rondonia/noticia/2026/08/05/metodo-wolbachia-mosquitos-modificados-sao-usados-para-combater-a-dengue-em-porto-velho.ghtml",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/05/infantino-publica-mensagem-comemorando-apoio-recebido-por-alto-escalao-da-fifa.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708804Z",
-      "category": "brasil"
+      "publishedAt": "2026-08-06T01:42:17.419251Z",
+      "category": "futebol"
     },
     {
-      "title": "Apesar de corte na Selic, Brasil tem o maior juro real do mundo; veja ranking",
+      "title": "'Sicário': polícia prende argentino que ameaçava Milei de morte pelo TikTok",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/ranking-juro-real-agosto.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/sicario-policia-prende-argentino-que-ameacava-milei-de-morte-pelo-tiktok.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452495Z",
-      "category": "economia"
+      "publishedAt": "2026-08-06T01:42:27.002406Z",
+      "category": "mundo"
     },
     {
       "title": "O que é a taxa Selic — e como ela afeta juros, emprego e investimentos",
       "description": "",
       "url": "https://g1.globo.com/g1-explica/noticia/2026/08/05/o-que-e-a-taxa-selic.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452490Z",
+      "publishedAt": "2026-08-06T01:42:23.684843Z",
       "category": "economia"
-    },
-    {
-      "title": "Músico de MS condenado por divulgar pornografia infantil é preso no Aeroporto de Viracopos após cinco meses foragido",
-      "description": "",
-      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/08/05/musico-de-ms-condenado-por-divulgar-pornografia-infantil-e-preso-no-aeroporto-de-viracopos-apos-cinco-meses-foragido.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708788Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Selic: Copom reduz taxa básica de juros para 14% ao ano",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/05/selic-copom-reduz-taxa-basica-de-juros-para-14percent-ao-ano.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:45.452498Z",
-      "category": "economia"
-    },
-    {
-      "title": "Veja o que é #FATO e o que é #FAKE na entrevista de Renan Santos ao g1 e à GloboNews",
-      "description": "",
-      "url": "https://g1.globo.com/fato-ou-fake/noticia/2026/08/05/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-renan-santos-ao-g1-e-a-globonews.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:43.708795Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Viagem do Papa Leão XIV terá parada na Amazônia peruana em novembro",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/05/viagem-do-papa-leao-xiv-tera-parada-na-amazonia-peruana-em-novembro.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-06T00:03:47.064264Z",
-      "category": "mundo"
     }
   ]
 }

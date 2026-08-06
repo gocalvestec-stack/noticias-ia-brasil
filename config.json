@@ -1,8 +1,97 @@
 {
   "nome": "RD NEWS",
-  "logo": "https://github.com/gocalvestec-stack/noticiasbrasil/blob/main/logo.png.jpeg?raw=true",
+
+  "logo": "https://raw.githubusercontent.com/gocalvestec-stack/noticiasbrasil/main/logo.png.jpeg",
+
+  "descricao": "RD NEWS - Portal inteligente de notícias atualizado do Brasil e do mundo.",
+
+  "tema": {
+    "corPrincipal": "#0b1f3a",
+    "corSecundaria": "#e50914",
+    "corFundo": "#f4f6f9",
+    "corTexto": "#222222",
+    "modoEscuro": true
+  },
+
+
   "video": {
+
     "ativo": true,
-    "youtube": "https://youtu.be/U_jX4gu6Vjc"
+
+    "youtube": "https://youtu.be/U_jX4gu6Vjc",
+
+    "titulo": "Vídeo em destaque"
+
+  },
+
+
+  "anuncio": {
+
+    "ativo": true,
+
+    "imagem": "banner.png",
+
+    "link": "https://noticias-ia-brasil.vercel.app/",
+
+    "posicao": "topo"
+
+  },
+
+
+  "portal": {
+
+    "mostrarData": true,
+
+    "mostrarImagem": true,
+
+    "abrirLinksNovaAba": true,
+
+    "noticiasPorPagina": 12
+
+  },
+
+
+  "categorias": [
+
+    "Brasil",
+
+    "Mundo",
+
+    "Futebol",
+
+    "Tecnologia",
+
+    "Economia"
+
+  ],
+
+
+  "redesSociais": {
+
+    "youtube": "",
+
+    "instagram": "",
+
+    "facebook": "",
+
+    "tiktok": ""
+
+  },
+
+
+  "contato": {
+
+    "email": "contato@rdnews.com"
+
+  },
+
+
+  "seo": {
+
+    "titulo": "RD NEWS - Notícias Atualizadas",
+
+    "descricao": "Veja as principais notícias do Brasil, mundo, tecnologia, economia e esportes."
+
   }
+
 }

@@ -5,12 +5,19 @@
 
   "descricao": "RD NEWS - Portal inteligente de notícias atualizado do Brasil e do mundo.",
 
+
   "tema": {
+
     "corPrincipal": "#0b1f3a",
+
     "corSecundaria": "#e50914",
+
     "corFundo": "#f4f6f9",
+
     "corTexto": "#222222",
+
     "modoEscuro": true
+
   },
 
 
@@ -90,7 +97,20 @@
 
     "titulo": "RD NEWS - Notícias Atualizadas",
 
-    "descricao": "Veja as principais notícias do Brasil, mundo, tecnologia, economia e esportes."
+    "descricao": "Veja as principais notícias do Brasil, mundo, tecnologia, economia e esportes.",
+
+    "palavrasChave": "notícias brasil, notícias hoje, futebol, tecnologia, economia, mundo"
+
+  },
+
+
+  "atualizacao": {
+
+    "automatico": true,
+
+    "intervaloHoras": 3,
+
+    "fonte": "news.json"
 
   }
 

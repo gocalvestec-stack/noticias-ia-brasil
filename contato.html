@@ -1,68 +1,193 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato - Notícias Brasil</title>
 
-  <style>
-    body{
-      font-family:Arial,sans-serif;
-      background:#f4f4f4;
-      margin:0;
-      color:#222;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .container{
-      max-width:900px;
-      margin:40px auto;
-      background:#fff;
-      padding:30px;
-      border-radius:16px;
-      box-shadow:0 2px 10px rgba(0,0,0,.08);
-    }
+<title>Contato - Notícias Brasil</title>
 
-    h1{
-      color:#111;
-    }
+<meta name="description" content="Entre em contato com a equipe do Notícias Brasil.">
 
-    a{
-      color:#d00;
-      text-decoration:none;
-      font-weight:bold;
-    }
+<meta name="robots" content="index,follow">
 
-    .botao-contato{
-      display:inline-block;
-      background:#d00;
-      color:white;
-      padding:12px 25px;
-      border-radius:8px;
-      text-decoration:none;
-      margin:15px 0;
-    }
+<link rel="canonical" href="https://noticias-ia-brasil.vercel.app/contato.html">
 
-    .botao-contato:hover{
-      opacity:0.8;
-    }
-  </style>
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#222;
+}
+
+header{
+background:#111;
+color:#fff;
+padding:30px;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.container{
+max-width:900px;
+margin:30px auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+h2{
+margin-bottom:15px;
+}
+
+p{
+margin-bottom:20px;
+line-height:1.7;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:12px;
+font-size:16px;
+border:1px solid #ccc;
+border-radius:8px;
+width:100%;
+}
+
+textarea{
+height:180px;
+resize:vertical;
+}
+
+button{
+background:#111;
+color:white;
+border:0;
+padding:14px;
+font-size:16px;
+cursor:pointer;
+border-radius:8px;
+}
+
+button:hover{
+background:#333;
+}
+
+.info{
+margin-top:35px;
+padding:20px;
+background:#f1f1f1;
+border-radius:10px;
+}
+
+footer{
+margin-top:40px;
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
+
+<h1>Contato</h1>
+
+<p>Fale com a equipe do Notícias Brasil</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Início</a>
+
+<a href="sobre.html">Sobre</a>
+
+<a href="privacidade.html">Privacidade</a>
+
+<a href="termos.html">Termos</a>
+
+</nav>
+
 <div class="container">
 
- <h2>Entre em contato</h2>
+<h2>Entre em contato</h2>
 
- <a href="mailto:contatonoticianrasil@gmail.com" class="botao-contato">
-   Fale conosco
- </a>
+<p>
+Caso tenha dúvidas, sugestões, queira informar algum erro ou entrar em contato com nossa equipe, utilize o formulário abaixo.
+</p>
 
-  <p>
-    <a href="index.html">← Voltar para a página inicial</a>
-  </p>
+<form action="#" method="post">
+
+<input type="text" placeholder="Seu nome" required>
+
+<input type="email" placeholder="Seu e-mail" required>
+
+<textarea placeholder="Digite sua mensagem..." required></textarea>
+
+<button type="submit">
+Enviar Mensagem
+</button>
+
+</form>
+
+<div class="info">
+
+<h2>Informações</h2>
+
+<p>
+📧 E-mail: contato@noticiasbrasil.com
+</p>
+
+<p>
+🕒 Atendimento:
+Segunda a Sexta-feira
+08:00 às 18:00
+</p>
+
+<p>
+Responderemos sua mensagem o mais breve possível.
+</p>
 
 </div>
+
+</div>
+
+<footer>
+
+© 2026 Notícias Brasil - Todos os direitos reservados.
+
+</footer>
 
 </body>
 </html>

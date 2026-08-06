@@ -25,22 +25,34 @@
 
     "ativo": true,
 
-    "youtube": "https://youtu.be/U_jX4gu6Vjc",
+    "aleatorio": true,
 
-    "titulo": "Vídeo em destaque"
+    "titulo": "🎥 Vídeos em destaque",
+
+    "lista": [
+
+      "https://youtu.be/U_jX4gu6Vjc",
+
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+
+      "https://youtu.be/SEU_VIDEO_AQUI"
+
+    ]
 
   },
 
 
   "anuncio": {
 
-    "ativo": true,
+    "ativo": false,
 
-    "imagem": "",
+    "imagem": "banner.png",
 
     "link": "",
 
-    "posicao": "topo"
+    "posicao": "topo",
+
+    "tamanho": "medio"
 
   },
 
@@ -53,7 +65,11 @@
 
     "abrirLinksNovaAba": true,
 
-    "noticiasPorPagina": 12
+    "noticiasPorPagina": 12,
+
+    "atualizacaoAutomatica": true,
+
+    "intervaloMinutos": 180
 
   },
 
@@ -97,7 +113,7 @@
 
     "titulo": "RD NEWS - Notícias Atualizadas",
 
-    "descricao": "Veja as principais notícias do Brasil, mundo, tecnologia, economia e esportes.",
+    "descricao": "Veja as principais notícias do Brasil e do mundo, tecnologia, economia e esportes.",
 
     "palavrasChave": "notícias brasil, notícias hoje, futebol, tecnologia, economia, mundo"
 

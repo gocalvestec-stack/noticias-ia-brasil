@@ -1,196 +1,28 @@
 {
   "articles": [
     {
-      "title": "Grupo suspeito de roubar toneladas de soja é alvo de operação em MT",
-      "description": "<img src=\"https://s2-g1.glbimg.com/3jKwVtMyDWjd4bwLC4rAsY-Rk90=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/p/v/yjMlESTtm2gWFhYu2zyw/whatsapp-image-2026-08-07-at-0",
-      "url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/08/07/grupo-suspeito-de-roubar-toneladas-de-soja-e-alvo-de-operacao-em-mt.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081738Z",
+      "title": "Irmã de adolescente desaparecida na França lamenta ausência dela no aniversário da mãe",
+      "description": "Família sente falta da adolescente desaparecida e busca informações sobre o caso.",
+      "url": "https://g1.globo.com/go/goias/noticia/2026/08/07/irma-de-adolescente-desaparecida-na-franca-lamenta-ausencia-dela-no-aniversario-da-mae-queria-que-seu-presente-fosse-nossa-azedinha-de-volta.ghtml",
+      "image": "https://s2-g1.glbimg.com/ZSzB3DX_dMbh7ptU0_14V1LmmVk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/p/O/5v8DeYSKq80Rw5NBLAuA/g1-foto-7-.jpg",
+      "publishedAt": "2026-08-07T12:49:46Z",
       "category": "Brasil"
     },
     {
-      "title": "'História do Crime': Patrícia Acioli, a juíza executada por enfrentar policiais criminosos",
-      "description": "<img src=\"https://s2-g1.glbimg.com/1oiQsOnP0W9Sdav8sTTQmdNbFjg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/a/t/ZwRv6GS4ad2sdZ8jBV6Q/montagem-acioli.jpg\" /><br /> ",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/historia-do-crime-patricia-acioli-a-juiza-executada-por-enfrentar-policiais-criminosos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081764Z",
+      "title": "Conteúdo vertical ganha espaço e redefine consumo digital",
+      "description": "Especialistas comentam o crescimento dos vídeos verticais e novas formas de consumo na internet.",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/conteudo-vertical-ganha-espaco-e-redefine-consumo-digital-dizem-especialistas-no-rio-innovation-week.ghtml",
+      "image": "https://s2-g1.glbimg.com/lQjGWk377BbRoZH8_BIQpSliIFc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/C/LDTWPNRAKqvALYeD4fKA/bdrj-riw2-1-.jpeg",
+      "publishedAt": "2026-08-07T12:49:46Z",
       "category": "Brasil"
     },
     {
-      "title": "Suspeito de série de arrombamentos é preso em cidade do Piauí; citado em mais de 20 processos",
-      "description": "<img src=\"https://s2-g1.glbimg.com/ENW8eMG2WhUQTnep1M3UaIImVt0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/q/OZGhmASVe1P1jCE6wEzA/edicao-imagens-g1-75-.png\" /><",
-      "url": "https://g1.globo.com/pi/piaui/noticia/2026/08/07/suspeito-preso-piaui.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081774Z",
+      "title": "Vento arranca telhado de prédio durante temporal no RS",
+      "description": "Temporal causou estragos e moradores registraram o momento do acidente.",
+      "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/08/07/video-vento-arranca-telhado-de-predio-durante-temporal-no-rs.ghtml",
+      "image": "https://s2-g1.glbimg.com/4C3pE8sDRZEZARK_HIdwNo8KZjk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/W/KUWlmmRbGbiyKZcmHXjw/g1-2-.jpg",
+      "publishedAt": "2026-08-07T12:49:46Z",
       "category": "Brasil"
-    },
-    {
-      "title": "Zona Sul atrai novos investimentos e amplia mercado imobiliário em São José",
-      "description": "<img src=\"https://s2-g1.glbimg.com/5SVdpymS3mTJa00l845iQFTVUQo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/K/maCdsvS1GYZeOBcCv5WQ/captura-de-tela-2026-08-05-123",
-      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/especial-publicitario/costa-norte/noticia/2026/08/07/zona-sul-atrai-novos-investimentos-e-amplia-mercado-imobiliario-em-sao-jose.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081782Z",
-      "category": "Brasil"
-    },
-    {
-      "title": "Mulher foge para delegacia por medo do companheiro, que chega ao local, ameaça vítima e é preso no PI",
-      "description": "<img src=\"https://s2-g1.glbimg.com/PLOG8nAqX9kzg2nFz7WkmMcgoEM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/Y/sTlg6YQbaHD3kE6emx9Q/edicao-imagens-g1-59-.png\" /><",
-      "url": "https://g1.globo.com/pi/piaui/noticia/2026/08/07/mulher-delegacia-companheiro-preso.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081789Z",
-      "category": "Brasil"
-    },
-    {
-      "title": "Campanha Antirrábica 2026: confira locais de vacinação neste sábado (8) em Natal",
-      "description": "<img src=\"https://s2-g1.glbimg.com/W0L2RnukwC3yt1c8LaznMEgJlho=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/c/m/fIM9EARm64es3PuLwCjA/homem-e-preso-por-tentativa-de",
-      "url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/08/07/campanha-antirrabica-2026-confira-locais-de-vacinacao-neste-sabado-8-em-natal.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081796Z",
-      "category": "Brasil"
-    },
-    {
-      "title": "Vídeo mostra criança sendo assaltada no caminho para escola no Recife",
-      "description": "<img src=\"https://s2-g1.glbimg.com/q4N_z4AGZQHLDcAgyAMY2Fr9gHg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/5/YW555UQFKw1VxtvzX5DA/assalto-7-.jpeg\" /><br />     ",
-      "url": "https://g1.globo.com/pe/pernambuco/bom-dia-pe/noticia/2026/08/07/video-mostra-crianca-sendo-assaltada-no-caminho-para-escola-no-recife.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081803Z",
-      "category": "Brasil"
-    },
-    {
-      "title": "Falso médico é preso em flagrante durante atendimento domiciliar a criança com câncer",
-      "description": "<img src=\"https://s2-g1.glbimg.com/THV_CW7bisdw_tkChfSB5boTpjw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/N/mHCfhATXG4oWdU4n7cnw/preso-falso-medico.jpeg\" /><br",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/rj1/noticia/2026/08/07/homem-e-preso-por-exercicio-ilegal-medicina.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:55.081810Z",
-      "category": "Brasil"
-    },
-    {
-      "title": "Adobe lança plugin para ChatGPT com mais de 70 ferramentas de edição",
-      "description": "<p>Empresa unifica extensões lançadas anteriormente e promete expandir recursos para Gemini e Slack.</p>\n<p><a href=\"https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferra",
-      "url": "https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferramentas-de-edicao/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041337Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Meta lança nova IA focada em programação e games",
-      "description": "<p>Muse Code chega como alternativa para trabalhos específicos de desenvolvimento de software.</p>\n<p><a href=\"https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/\">Meta la",
-      "url": "https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041351Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Smart TV TCL Mini LED C6K de 55” recebe oferta mais barata em até 12x",
-      "description": "<p>TV TCL C6K 55\" tem tecnologia Mini LED e taxa de 144 Hz como destaques. Aproveite a oferta da loja Magalu oficial no AliExpress em até 12x sem juros com o cupom BRAE8</p>\n<p><a href=\"https://tecnob",
-      "url": "https://tecnoblog.net/achados/smart-tv-tcl-mini-led-c6k-de-55-recebe-oferta-mais-barata-em-ate-12x/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041357Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Ar-condicionado LG Inverter Voice 12.000 BTUs cai de preço no Mercado Livre",
-      "description": "<p>Ar-condicionado da LG está com desconto de 28% ao combinar pagamento via Pix e cupom no Mercado Livre; modelo S3-Q12JA31E traz IA integrada, conectividade Wi-Fi e função de para níveis de consumo</",
-      "url": "https://tecnoblog.net/achados/ar-condicionado-lg-inverter-voice-12-000-btus-cai-de-preco-no-mercado-livre/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041362Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Meta diz que sua IA também invadiu sistemas de outra empresa durante teste",
-      "description": "<p>Incidente se soma a episódios revelados por OpenAI e Anthropic. Especialistas questionam capacidade de empresas para criar ambientes controlados.</p>\n<p><a href=\"https://tecnoblog.net/noticias/meta",
-      "url": "https://tecnoblog.net/noticias/meta-diz-que-sua-ia-tambem-invadiu-sistemas-de-outra-empresa-durante-teste/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041367Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Fim do “Enviar como”: Gmail deixará de disparar e-mails de outras contas",
-      "description": "<p>Google marcou fim do recurso \"Enviar como\" no Gmail para contas externas para janeiro de 2027. Gmailify e busca de e-mails via POP também serão encerrados.</p>\n<p><a href=\"https://tecnoblog.net/not",
-      "url": "https://tecnoblog.net/noticias/fim-do-enviar-como-gmail-deixara-de-disparar-e-mails-de-outras-contas/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041372Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Galaxy Watch Ultra tem menor preço desde maio em oferta exclusiva Prime",
-      "description": "<p>Galaxy Watch Ultra com caixa de titânio, GPS integrado e longa bateria recebe desconto significativo com pagamento via Pix na Amazon</p>\n<p><a href=\"https://tecnoblog.net/achados/galaxy-watch-ultra",
-      "url": "https://tecnoblog.net/achados/galaxy-watch-ultra-tem-menor-preco-desde-maio-em-oferta-exclusiva-prime/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041376Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "ChatGPT libera mensagens ilimitadas no plano gratuito",
-      "description": "<p>Atualização remove limites de interação mesmo para não-assinantes e troca o GPT-5.5 pelo GPT-5.6 Luna. </p>\n<p><a href=\"https://tecnoblog.net/noticias/chatgpt-libera-mensagens-ilimitadas-no-plano-g",
-      "url": "https://tecnoblog.net/noticias/chatgpt-libera-mensagens-ilimitadas-no-plano-gratuito/",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:56.041380Z",
-      "category": "Tecnologia"
-    },
-    {
-      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
-      "description": "<img src=\"https://s2-g1.glbimg.com/MtSDLNHkRBCkyX4aZEpyL6C5gwU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/5/ambigBTlKAn3wBcoS8Kw/captura-de-tela-2026-08-07-094",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490722Z",
-      "category": "Economia"
-    },
-    {
-      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
-      "description": "<img src=\"https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63a",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490733Z",
-      "category": "Economia"
-    },
-    {
-      "title": "Dólar abre em queda, de olho em novos dados de emprego dos EUA",
-      "description": "<img src=\"https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490739Z",
-      "category": "Economia"
-    },
-    {
-      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
-      "description": "<img src=\"https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490743Z",
-      "category": "Economia"
-    },
-    {
-      "title": "Como criar galinhas poedeiras e frangos caipiras",
-      "description": "<img src=\"https://s2-g1.glbimg.com/dynSLtr5Ki0_eYjrtuoDbbnURfc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/Z/jdrto5TkuiK2BbMByvgg/galinha.png\" /><br />     Mate",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490747Z",
-      "category": "Economia"
-    },
-    {
-      "title": "Meta é condenada a pagar R$ 2,9 bilhões para estado dos EUA por caso envolvendo menores nas redes",
-      "description": "<img src=\"https://s2-g1.glbimg.com/EltdEqGcNV5PDSmaUGrqZVNybpU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/p4wC8YSpOFgtGa4c4jhQ/2026-07-07t062504z-175072374-r",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/meta-e-condenada-a-pagar-r-29-bilhoes-para-estado-dos-eua-por-caso-envolvendo-menores-nas-redes.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490752Z",
-      "category": "Economia"
-    },
-    {
-      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
-      "description": "<img src=\"https://s2-g1.glbimg.com/eCdqshFTi1zC1J58RvSQsbM2Lmk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/p/JjTGfpSBiHYgYL6ARwTA/globo-canal-4-20260507-2000-fr",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490756Z",
-      "category": "Economia"
-    },
-    {
-      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
-      "description": "<img src=\"https://s2-g1.glbimg.com/PxXcRQYOGU2Kf3IR1kBt1MDXqLE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/l/uYULsITpGXRw7789PYaA/top-view-people-working-desk.j",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-      "publishedAt": "2026-08-07T13:21:57.490761Z",
-      "category": "Economia"
     }
   ]
 }

@@ -1,219 +1,59 @@
 {
   "articles": [
     {
-      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
+      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687316Z",
-      "category": "mundo"
-    },
-    {
-      "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687318Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929146Z",
+      "publishedAt": "2026-08-07T09:15:00.742562Z",
       "category": "economia"
+    },
+    {
+      "title": "Goiás entra em alerta para vendaval; veja cidades",
+      "description": "",
+      "url": "https://g1.globo.com/go/goias/noticia/2026/08/07/goias-entra-em-alerta-para-vendaval-veja-cidades.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388164Z",
+      "category": "brasil"
+    },
+    {
+      "title": "'As pessoas me viam com um casamento maravilhoso': os sinais silenciosos de um relacionamento abusivo revelados por quem viveu",
+      "description": "",
+      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/08/07/as-pessoas-me-viam-com-um-casamento-maravilhoso-os-sinais-silenciosos-de-um-relacionamento-abusivo-revelados-por-quem-viveu.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388160Z",
+      "category": "brasil"
+    },
+    {
+      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960711Z",
+      "category": "mundo"
     },
     {
       "title": "Passaportes de brasileiros no exterior passam a ser impressos no Brasil",
       "description": "",
       "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/passaportes-de-brasileiros-no-exterior-passam-a-ser-impressos-no-brasil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687314Z",
+      "publishedAt": "2026-08-07T09:15:02.960725Z",
       "category": "mundo"
     },
     {
-      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
+      "title": "Real Madrid é sondado por clubes da Espanha interessados em Endrick, diz jornal",
       "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/08/07/real-madrid-e-sondado-por-clubes-espanhois-interessados-em-endrick-diz-jornal.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929147Z",
-      "category": "economia"
-    },
-    {
-      "title": "'A violência começa antes do primeiro tapa': psicóloga conta como identificou sinais de agressão e hoje acolhe vítimas em Manaus",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/a-violencia-comeca-antes-do-primeiro-tapa-psicologa-conta-como-identificou-sinais-de-agressao-e-hoje-acolhe-vitimas-em-manaus.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562293Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Turismo de nascimento: veja perguntas e respostas sobre o novo decreto de Trump para barrar cidadania",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turismo-de-nascimento-veja-perguntas-e-respostas-sobre-o-novo-decreto-de-trump-para-barrar-cidadania.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687308Z",
-      "category": "mundo"
-    },
-    {
-      "title": "20 anos da Lei Maria da Penha: 'Eu já me via morta', diz mulher que superou violência doméstica em Manaus",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/20-anos-da-lei-maria-da-penha-eu-ja-me-via-morta-diz-mulher-que-superou-violencia-domestica-em-manaus.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562289Z",
-      "category": "brasil"
-    },
-    {
-      "title": "China aprova primeiro implante cerebral comercial para pessoas com tetraplegia",
-      "description": "",
-      "url": "https://g1.globo.com/saude/noticia/2026/08/07/china-aprova-primeiro-implante-cerebral-comercial-para-pessoas-com-tetraplegia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562298Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
-      "description": "",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562296Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Consenso entre cientistas: maioria dos processos cerebrais ocorre de forma inconsciente",
-      "description": "",
-      "url": "https://g1.globo.com/saude/noticia/2026/08/07/consenso-entre-cientistas-maioria-dos-processos-cerebrais-ocorre-de-forma-inconsciente.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562300Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Paranaense usa luz negra em taças de leilão, descobre que comprou itens com radiação e passa a colecioná-los; veja riscos e o que diz a lei",
-      "description": "",
-      "url": "https://g1.globo.com/pr/norte-noroeste/noticia/2026/08/07/luz-negra-itens-leilao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562295Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Como funcionava suposto esquema de corrupção que movimentou mais de R$ 100 milhões em Três Lagoas",
-      "description": "",
-      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/08/07/como-funcionava-suposto-esquema-de-corrupcao-que-movimentou-mais-de-r-100-milhoes-em-tres-lagoas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562282Z",
-      "category": "brasil"
-    },
-    {
-      "title": "El Niño: governo decide reduzir geração de hidrelétricas para enfrentar fenômeno climático",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929138Z",
-      "category": "economia"
-    },
-    {
-      "title": "Veja como Arena Fonte Nova ajudou o Bahia a ampliar domínio de confronto sobre o Vasco",
-      "description": "",
-      "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/08/07/veja-como-arena-fonte-nova-ajudou-o-bahia-a-ampliar-dominio-de-confronto-sobre-o-vasco.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651621Z",
+      "publishedAt": "2026-08-07T09:14:56.749733Z",
       "category": "futebol"
-    },
-    {
-      "title": "Espriella toma posse na Colômbia após vitória apertada e promessa de guinada à direita",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espriella-toma-posse-na-colombia-apos-vitoria-apertada-e-promessa-de-guinada-a-direita.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687306Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Livre de transfer ban, São Paulo conta com dupla de reforços para jogo contra o Grêmio",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/07/livre-de-transfer-ban-sao-paulo-conta-com-dupla-de-reforcos-para-jogo-contra-o-gremio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651626Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687312Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929144Z",
-      "category": "economia"
-    },
-    {
-      "title": "Puma Rodríguez se torna o defensor estrangeiro com mais gols na história do Vasco",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/07/puma-rodriguez-se-torna-o-defensor-estrangeiro-com-mais-gols-na-historia-do-vasco.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651624Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
-      "description": "",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929129Z",
-      "category": "economia"
-    },
-    {
-      "title": "Lei Maria da Penha completa 20 anos; violência doméstica cresce no AM, que registra média de 116 ocorrências por dia",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/lei-maria-da-penha-completa-20-anos-violencia-domestica-cresce-no-am-que-registra-media-de-116-ocorrencias-por-dia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:50.562291Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Ataque a tiros deixa 6 mortos em escola na Tailândia; professor, alunos e atirador estão entre as vítimas",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687298Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:54.687310Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929136Z",
-      "category": "economia"
     },
     {
       "title": "Ex-jogador da NFL é preso por fazer sexo em shopping nos EUA",
       "description": "",
       "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/07/ex-jogador-da-nfl-e-preso-por-fazer-sexo-em-shopping-nos-eua.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651609Z",
-      "category": "futebol"
-    },
-    {
-      "title": "\"A cada cabeça, a sua sentença\": Franclim abre o jogo sobre desafios, carreira e metas no Botafogo",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/07/a-cada-cabeca-a-sua-sentenca-franclim-abre-o-jogo-sobre-desafios-carreira-e-metas-no-botafogo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651629Z",
+      "publishedAt": "2026-08-07T09:14:56.749744Z",
       "category": "futebol"
     },
     {
@@ -221,23 +61,23 @@
       "description": "",
       "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929140Z",
+      "publishedAt": "2026-08-07T09:15:00.742570Z",
       "category": "economia"
     },
     {
-      "title": "Palmeiras avança na renovação de Gómez e blinda espinha dorsal com contratos longos",
+      "title": "Trump prefere guerra ideológica com Brasil a interesse estratégico dos EUA no país, diz analista",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/07/palmeiras-avanca-na-renovacao-de-gomez-e-blinda-espinha-dorsal-com-contratos-longos.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/trump-prefere-guerra-ideologica-com-brasil-a-interesse-estrategico-dos-eua-no-pais-diz-analista.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651628Z",
-      "category": "futebol"
+      "publishedAt": "2026-08-07T09:15:02.960703Z",
+      "category": "mundo"
     },
     {
-      "title": "Análise: Corinthians carece de repertório e cai no primeiro grande teste de Fernando Diniz",
+      "title": "Veja como Arena Fonte Nova ajudou o Bahia a ampliar domínio de confronto sobre o Vasco",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/07/analise-corinthians-carece-de-repertorio-e-cai-no-primeiro-grande-teste-de-fernando-diniz.ghtml",
+      "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/08/07/veja-como-arena-fonte-nova-ajudou-o-bahia-a-ampliar-dominio-de-confronto-sobre-o-vasco.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651631Z",
+      "publishedAt": "2026-08-07T09:14:56.749747Z",
       "category": "futebol"
     },
     {
@@ -245,15 +85,175 @@
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:51.929142Z",
+      "publishedAt": "2026-08-07T09:15:00.742572Z",
       "category": "economia"
     },
     {
-      "title": "Manchester United e Arsenal disputam atacante brasileiro de R$ 218 milhões",
+      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
       "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/manchester-united-e-arsenal-disputam-atacante-brasileiro-de-r-218-milhoes.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T08:06:47.651634Z",
+      "publishedAt": "2026-08-07T09:15:00.742556Z",
+      "category": "economia"
+    },
+    {
+      "title": "Puma Rodríguez se torna o defensor estrangeiro com mais gols na história do Vasco",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/07/puma-rodriguez-se-torna-o-defensor-estrangeiro-com-mais-gols-na-historia-do-vasco.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:56.749749Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:00.742575Z",
+      "category": "economia"
+    },
+    {
+      "title": "Ataque a tiros em escola na Tailândia deixa 6 mortos, entre alunos e professores",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960714Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Espriella toma posse na Colômbia após vitória apertada e promessa de guinada à direita",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espriella-toma-posse-na-colombia-apos-vitoria-apertada-e-promessa-de-guinada-a-direita.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960716Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Palmeiras avança na renovação de Gómez e blinda espinha dorsal com contratos longos",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/07/palmeiras-avanca-na-renovacao-de-gomez-e-blinda-espinha-dorsal-com-contratos-longos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:56.749754Z",
+      "category": "futebol"
+    },
+    {
+      "title": "\"A cada cabeça, a sua sentença\": Franclim abre o jogo sobre desafios, carreira e metas no Botafogo",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/07/a-cada-cabeca-a-sua-sentenca-franclim-abre-o-jogo-sobre-desafios-carreira-e-metas-no-botafogo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:56.749756Z",
+      "category": "futebol"
+    },
+    {
+      "title": "El Niño: governo decide reduzir geração de hidrelétricas para enfrentar fenômeno climático",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:00.742567Z",
+      "category": "economia"
+    },
+    {
+      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:00.742573Z",
+      "category": "economia"
+    },
+    {
+      "title": "Vendedor de carros suspeito de aplicar golpes em clientes em Roraima: veja o que se sabe",
+      "description": "",
+      "url": "https://g1.globo.com/rr/roraima/noticia/2026/08/07/vendedor-de-carros-suspeito-de-aplicar-golpes-em-clientes-em-roraima-veja-o-que-se-sabe.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388153Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960721Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Antony e Gabriel, Fabiano Cabota e Mundo Bita são atrações do fim de semana no Vale; veja agenda cultural",
+      "description": "",
+      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/agenda-cultural/noticia/2026/08/07/antony-e-gabriel-fabiano-cabota-e-mundo-bita-sao-atracoes-do-fim-de-semana-no-vale-veja-agenda-cultural.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388158Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Elas decidem a eleição: mulheres são 54% do eleitorado de Juiz de Fora e ampliam influência nas urnas",
+      "description": "",
+      "url": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/08/07/elas-decidem-a-eleicao-mulheres-sao-54percent-do-eleitorado-de-juiz-de-fora-e-ampliam-influencia-nas-urnas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388146Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Análise: Corinthians carece de repertório e cai no primeiro grande teste de Fernando Diniz",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/07/analise-corinthians-carece-de-repertorio-e-cai-no-primeiro-grande-teste-de-fernando-diniz.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:56.749760Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Inscrições para concurso da Polícia Civil da Bahia com 750 vagas começam nesta sexta-feira (6); veja como participar",
+      "description": "",
+      "url": "https://g1.globo.com/ba/bahia/blogdoemprego/noticia/2026/08/07/inscricoes-concurso-da-policia-civil-da-bahia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388166Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Turismo de nascimento: veja perguntas e respostas sobre o novo decreto de Trump para barrar cidadania",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turismo-de-nascimento-veja-perguntas-e-respostas-sobre-o-novo-decreto-de-trump-para-barrar-cidadania.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960718Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:02.960723Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Com espetáculo sobre resistência negra, bailarino do Amapá se apresenta no Rio de Janeiro",
+      "description": "",
+      "url": "https://g1.globo.com/ap/amapa/noticia/2026/08/07/com-espetaculo-sobre-resistencia-negra-bailarino-do-amapa-se-apresenta-no-rio-de-janeiro.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388156Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Google é condenado a indenizar usuário que teve e-mail invadido por hackers",
+      "description": "",
+      "url": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/08/07/google-e-condenado-a-indenizar-usuario-que-teve-e-mail-invadido-por-hackers.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:59.388162Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
+      "description": "",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:15:00.742565Z",
+      "category": "economia"
+    },
+    {
+      "title": "Livre de transfer ban, São Paulo conta com dupla de reforços para jogo contra o Grêmio",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/07/livre-de-transfer-ban-sao-paulo-conta-com-dupla-de-reforcos-para-jogo-contra-o-gremio.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T09:14:56.749752Z",
       "category": "futebol"
     }
   ]

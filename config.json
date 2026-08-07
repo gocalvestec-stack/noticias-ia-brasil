@@ -1,7 +1,7 @@
 {
   "nome": "RD NEWS",
   "logo": "https://raw.githubusercontent.com/gocalvestec-stack/noticiasbrasil/main/logo.png.jpeg",
-  "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil e mundo.",
+  "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil, economia, tecnologia e mundo.",
 
   "tema": {
     "corPrincipal": "#0b1f3a",
@@ -11,32 +11,16 @@
     "modoEscuro": true
   },
 
-  "categoriaPadrao": "futebol",
+  "categoriaPadrao": "Futebol",
 
   "filtroNoticias": {
-    "ativo": true,
-    "palavras": [
-      "futebol",
-      "gol",
-      "campeonato",
-      "brasileirão",
-      "flamengo",
-      "palmeiras",
-      "corinthians",
-      "santos",
-      "vasco",
-      "grêmio",
-      "internacional",
-      "cruzeiro",
-      "atlético",
-      "seleção brasileira",
-      "libertadores"
-    ]
+    "ativo": false,
+    "palavras": []
   },
 
   "video": {
     "ativo": true,
-    "titulo": "Últimas notícias do futebol",
+    "titulo": "Últimas notícias",
     "youtube": "https://youtu.be/U_jX4gu6Vjc",
     "aleatorio": false,
     "lista": [
@@ -59,12 +43,46 @@
   },
 
   "categorias": [
-    { "id": "todas", "nome": "Todas", "icone": "📰" },
-    { "id": "futebol", "nome": "Futebol", "icone": "⚽" },
-    { "id": "brasil", "nome": "Brasil", "icone": "🇧🇷" },
-    { "id": "mundo", "nome": "Mundo", "icone": "🌎" },
-    { "id": "tecnologia", "nome": "Tecnologia", "icone": "💻" },
-    { "id": "economia", "nome": "Economia", "icone": "💰" }
+    {
+      "id": "todas",
+      "nome": "Todas",
+      "icone": "📰"
+    },
+    {
+      "id": "futebol",
+      "nome": "Futebol",
+      "icone": "⚽"
+    },
+    {
+      "id": "brasil",
+      "nome": "Brasil",
+      "icone": "🇧🇷"
+    },
+    {
+      "id": "mundo",
+      "nome": "Mundo",
+      "icone": "🌎"
+    },
+    {
+      "id": "tecnologia",
+      "nome": "Tecnologia",
+      "icone": "💻"
+    },
+    {
+      "id": "economia",
+      "nome": "Economia",
+      "icone": "💰"
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde",
+      "icone": "🏥"
+    },
+    {
+      "id": "entretenimento",
+      "nome": "Entretenimento",
+      "icone": "🎬"
+    }
   ],
 
   "redesSociais": {
@@ -79,9 +97,9 @@
   },
 
   "seo": {
-    "titulo": "RD NEWS Futebol - Notícias Atualizadas",
-    "descricao": "Últimas notícias de futebol, campeonatos, clubes e jogadores.",
-    "palavrasChave": "futebol, brasileirão, flamengo, palmeiras, libertadores, seleção brasileira"
+    "titulo": "RD NEWS - Notícias Atualizadas",
+    "descricao": "Últimas notícias do Brasil, futebol, economia, tecnologia, saúde e mundo.",
+    "palavrasChave": "notícias, futebol, brasileirão, economia, tecnologia, brasil, mundo"
   },
 
   "atualizacao": {

@@ -566,7 +566,7 @@
       </div>
       <div class="noticias-grid" id="noticias">
         <p style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
-          Carregando as últimas notícias...
+          Carregando as últimas notícias em tempo real...
         </p>
       </div>
     </section>
@@ -591,27 +591,107 @@
     let categoriaAtual = "todas";
     const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
 
+    // Imagens de contexto por tema para fallback
+    const imagensCategorias = {
+      futebol: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      brasil: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80",
+      mundo: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80",
+      tecnologia: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      economia: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
+      todas: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80"
+    };
+
+    // RSS Feeds do Google News por Categoria
+    const feedsRSS = {
+      todas: "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      futebol: "https://news.google.com/rss/search?q=futebol+brasileirao&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      brasil: "https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      mundo: "https://news.google.com/rss/headlines/section/topic/WORLD?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      tecnologia: "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      economia: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    };
+
     // Exibir Data Atual Formatada
     const opçõesData = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     document.getElementById("dataAtual").innerText = new Date().toLocaleDateString('pt-BR', opçõesData);
 
-    // Carregar Notícias
-    fetch("news.json")
-      .then(res => res.json())
-      .then(dados => {
-        noticias = dados.articles || [];
-        mostrar();
-      })
-      .catch(() => {
-        document.getElementById("noticias").innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Não foi possível carregar as notícias no momento.</p>";
-      });
+    // Carregar Notícias Dinâmicas da Internet (RSS2JSON)
+    function carregarNoticias(cat = "todas") {
+      const area = document.getElementById("noticias");
+      area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);'>Buscando notícias atualizadas...</p>";
 
-    function embaralhar(lista) {
-      return lista.sort(() => Math.random() - 0.5);
+      const urlRSS = feedsRSS[cat] || feedsRSS.todas;
+      const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(urlRSS)}`;
+
+      fetch(apiUrl)
+        .then(res => res.json())
+        .then(dados => {
+          if (dados && dados.items && dados.items.length > 0) {
+            noticias = dados.items.map(item => {
+              // Extrair imagem do conteúdo HTML do RSS caso exista
+              let img = item.thumbnail || item.enclosure?.link || "";
+              if (!img && item.description) {
+                const match = item.description.match(/src=["'](.*?)["']/);
+                if (match) img = match[1];
+              }
+              return {
+                title: item.title ? item.title.split(" - ")[0] : "Sem título",
+                url: item.link || "#",
+                publishedAt: item.pubDate || new Date().toISOString(),
+                image: img || imagensCategorias[cat] || imagemPadrao,
+                source: item.title && item.title.includes(" - ") ? item.title.split(" - ").pop() : "RD NEWS"
+              };
+            });
+            mostrar();
+          } else {
+            throw new Error("Nenhuma notícia retornada");
+          }
+        })
+        .catch(err => {
+          console.warn("Falha no RSS em tempo real, carregando notícias locais/fallback:", err);
+          carregarFallbackLocal(cat);
+        });
+    }
+
+    // Caso a API atinja limite ou falhe, carrega dados reserva
+    function carregarFallbackLocal(cat) {
+      fetch("news.json")
+        .then(res => res.json())
+        .then(dados => {
+          noticias = dados.articles || [];
+          mostrar();
+        })
+        .catch(() => {
+          // Feed reserva em código para garantia 100% online
+          noticias = [
+            {
+              title: "Avanços em inteligência artificial transformam o mercado global de tecnologia",
+              url: "https://g1.globo.com/tecnologia/",
+              publishedAt: new Date().toISOString(),
+              image: imagensCategorias.tecnologia,
+              category: "tecnologia"
+            },
+            {
+              title: "Mercado financeiro projeta novos cenários econômicos para o próximo trimestre",
+              url: "https://g1.globo.com/economia/",
+              publishedAt: new Date().toISOString(),
+              image: imagensCategorias.economia,
+              category: "economia"
+            },
+            {
+              title: "Rodadas decisivas do campeonato movimentam torcedores pelo Brasil",
+              url: "https://ge.globo.com/",
+              publishedAt: new Date().toISOString(),
+              image: imagensCategorias.futebol,
+              category: "futebol"
+            }
+          ];
+          mostrar();
+        });
     }
 
     function obterImagem(noticia) {
-      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
+      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagensCategorias[categoriaAtual] || imagemPadrao;
     }
 
     function mostrar() {
@@ -620,13 +700,9 @@
       const tituloSecao = document.getElementById("tituloSecao");
       area.innerHTML = "";
 
-      // Filtragem por categoria
       let listaFiltrada = [...noticias];
+
       if (categoriaAtual !== "todas") {
-        listaFiltrada = listaFiltrada.filter(n => {
-          const cat = n.category || n.categoria || "";
-          return cat.toLowerCase() === categoriaAtual.toLowerCase();
-        });
         tituloSecao.innerText = `Notícias sobre ${categoriaAtual}`;
       } else {
         tituloSecao.innerText = "Últimas Notícias";
@@ -640,9 +716,8 @@
 
       // Se estiver em "Todas", exibe a notícia em Destaque no topo
       if (categoriaAtual === "todas") {
-        let listaEmbaralhada = embaralhar([...listaFiltrada]);
-        const destaque = listaEmbaralhada[0];
-        const ultimasNoticias = listaEmbaralhada.slice(1);
+        const destaque = listaFiltrada[0];
+        const ultimasNoticias = listaFiltrada.slice(1);
 
         const imgDestaque = obterImagem(destaque);
         destaqueArea.innerHTML = `
@@ -657,7 +732,6 @@
 
         renderizarGrid(ultimasNoticias, area);
       } else {
-        // Nas categorias específicas, remove o bloco de destaque grande e mostra tudo em grid
         destaqueArea.innerHTML = "";
         renderizarGrid(listaFiltrada, area);
       }
@@ -685,14 +759,24 @@
 
     function data(d) {
       if (!d) return "Recente";
-      return new Date(d).toLocaleDateString("pt-BR", { hour: '2-digit', minute: '2-digit' });
+      const dataObj = new Date(d);
+      if (isNaN(dataObj.getTime())) return "Recente";
+
+      const agora = new Date();
+      const diffMin = Math.floor((agora - dataObj) / (1000 * 60));
+
+      if (diffMin < 60) return `Há ${diffMin <= 1 ? '1 min' : diffMin + ' min'}`;
+      const diffHoras = Math.floor(diffMin / 60);
+      if (diffHoras < 24) return `Há ${diffHoras}h`;
+
+      return dataObj.toLocaleDateString("pt-BR", { day: '2-digit', month: '2-digit' });
     }
 
     function categoria(c, btn) {
       categoriaAtual = c;
       document.querySelectorAll('.nav-links .nav-item').forEach(b => b.classList.remove('active'));
       if(btn) btn.classList.add('active');
-      mostrar();
+      carregarNoticias(c);
     }
 
     function modo() {
@@ -700,7 +784,10 @@
       document.getElementById("themeText").innerText = isDark ? "Claro" : "Escuro";
     }
 
-    // Configurações Adicionais via Config.json
+    // Inicialização do Portal
+    carregarNoticias("todas");
+
+    // Configurações Adicionais via Config.json (se existir)
     fetch("config.json")
       .then(res => res.json())
       .then(config => {
@@ -743,7 +830,7 @@
           `;
         }
       })
-      .catch(() => console.log("Config não carregado ou ausente"));
+      .catch(() => console.log("Config adicional não encontrado (usando padrões)."));
   </script>
 </body>
 </html>

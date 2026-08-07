@@ -2,40 +2,45 @@ name: Atualizar noticias
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  atualizar:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar arquivos
+      - name: Baixar projeto
         uses: actions/checkout@v4
 
       - name: Instalar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.12"
 
-      - name: Instalar feedparser
-        run: pip install feedparser
+      - name: Instalar bibliotecas
+        run: |
+          pip install feedparser requests
 
       - name: Buscar noticias RSS
         run: |
           python3 <<'PY'
-          import json, feedparser, random
+          import json
+          import feedparser
           from datetime import datetime
 
           feeds = {
-              "futebol": "https://ge.globo.com/rss/ge/futebol/",
-              "brasil": "https://g1.globo.com/rss/g1/",
-              "economia": "https://g1.globo.com/rss/g1/economia/",
-              "tecnologia": "https://www.tecmundo.com.br/rss",
-              "mundo": "https://g1.globo.com/rss/g1/mundo/"
+              "Futebol": "https://www.espn.com.br/rss/futebol",
+              "Brasil": "https://g1.globo.com/rss/g1/",
+              "Tecnologia": "https://feeds.feedburner.com/tecnoblog",
+              "Economia": "https://g1.globo.com/rss/g1/economia/"
           }
 
           articles = []
@@ -46,23 +51,26 @@ jobs:
               for item in feed.entries[:8]:
                   articles.append({
                       "title": item.get("title", "Sem título"),
-                      "description": "",
+                      "description": item.get("summary", "")[:200],
                       "url": item.get("link", "#"),
-                      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+                      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
                       "publishedAt": datetime.utcnow().isoformat() + "Z",
                       "category": categoria
                   })
 
-          random.shuffle(articles)
-
           with open("news.json", "w", encoding="utf-8") as f:
               json.dump({"articles": articles}, f, ensure_ascii=False, indent=2)
+
+          print(f"{len(articles)} notícias atualizadas com sucesso!")
           PY
 
-      - name: Salvar atualização
+      - name: Commit das noticias
         run: |
           git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.email "github-actions@github.com"
           git add news.json
-          git commit -m "Atualiza noticias RSS" || exit 0
+          git diff --cached --quiet || git commit -m "Atualizar notícias"
+
+      - name: Enviar alterações
+        run: |
           git push

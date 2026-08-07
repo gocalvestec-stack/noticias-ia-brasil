@@ -478,6 +478,16 @@
       color: white;
     }
 
+    .footer-credits {
+      font-size: 0.85rem;
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    .footer-credits strong {
+      color: #94a3b8;
+    }
+
     /* RESPONSIVIDADE */
     @media (max-width: 768px) {
       .header-container {
@@ -582,6 +592,7 @@
         <a href="termos.html">Termos de Uso</a>
       </div>
       <p>© 2026 RD NEWS. Todos os direitos reservados.</p>
+      <p class="footer-credits">Desenvolvido em parceria com a <strong>IA Gemini</strong></p>
     </div>
   </footer>
 
@@ -598,11 +609,11 @@
     fetch("news.json")
       .then(res => res.json())
       .then(dados => {
-        noticias = dados.articles || [];
+        noticias = dados.articles || dados.noticias || [];
         mostrar();
       })
       .catch(() => {
-        document.getElementById("noticias").innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Não foi possível carregar as notícias no momento.</p>";
+        document.getElementById("noticias").innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted);'>Não foi possível carregar as notícias no momento.</p>";
       });
 
     function embaralhar(lista) {
@@ -613,46 +624,57 @@
       return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
     }
 
-   function mostrar() {
-  let lista = [...noticias];
-  lista = embaralhar(lista);
+    function mostrar() {
+      let lista = [...noticias];
 
-  const area = document.getElementById("noticias");
-  area.innerHTML = "";
+      // Aplica o filtro de categorias
+      if (categoriaAtual !== "todas") {
+        lista = lista.filter(n => {
+          const cat = (n.category || n.categoria || "").toLowerCase();
+          return cat.includes(categoriaAtual.toLowerCase());
+        });
+      }
 
-  if (lista.length === 0) {
-    area.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhuma notícia encontrada.</p>";
-    return;
-  }
+      lista = embaralhar(lista);
 
-  const destaque = lista[0];
-  const ultimasNoticias = lista.slice(1);
+      const area = document.getElementById("noticias");
+      const destaqueArea = document.getElementById("destaque");
+      area.innerHTML = "";
 
-  // Renderiza Destaque Principal
-  const imgDestaque = obterImagem(destaque);
-  document.getElementById("destaque").innerHTML = `
-    <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
-      <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
-      <div class="destaque-overlay">
-        <span class="destaque-badge">Destaque do Dia</span>
-        <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
-      </div>
-    </a>
-  `;
+      if (lista.length === 0) {
+        destaqueArea.innerHTML = "";
+        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;'>Nenhuma notícia encontrada para esta categoria.</p>";
+        return;
+      }
+
+      const destaque = lista[0];
+      const ultimasNoticias = lista.slice(1);
+
+      // Renderiza Destaque Principal
+      const imgDestaque = obterImagem(destaque);
+      destaqueArea.innerHTML = `
+        <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+          <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+          <div class="destaque-overlay">
+            <span class="destaque-badge">Destaque do Dia</span>
+            <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+          </div>
+        </a>
+      `;
 
       // Renderiza Cards do Grid
       ultimasNoticias.forEach(n => {
         const imgCard = obterImagem(n);
         area.innerHTML += `
           <article class="card">
-            <a href="${n.url}" target="_blank" class="card-img-wrapper">
-              <img src="${imgCard}" alt="${n.title}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            <a href="${n.url || '#'}" target="_blank" class="card-img-wrapper">
+              <img src="${imgCard}" alt="${n.title || ''}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
             </a>
             <div class="card-body">
-              <h3 class="card-title">${n.title}</h3>
+              <h3 class="card-title">${n.title || "Sem título"}</h3>
               <div class="card-meta">
-                <span>${data(n.publishedAt)}</span>
-                <a href="${n.url}" target="_blank" class="card-btn">Ler ➔</a>
+                <span>${data(n.publishedAt || n.date)}</span>
+                <a href="${n.url || '#'}" target="_blank" class="card-btn">Ler ➔</a>
               </div>
             </div>
           </article>
@@ -662,13 +684,21 @@
 
     function data(d) {
       if (!d) return "Recente";
-      return new Date(d).toLocaleDateString("pt-BR", { hour: '2-digit', minute: '2-digit' });
+      const dataObj = new Date(d);
+      if (isNaN(dataObj)) return "Recente";
+
+      return dataObj.toLocaleDateString("pt-BR", {
+        day: "2-digit",
+        month: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
     }
 
     function categoria(c, btn) {
       categoriaAtual = c;
       document.querySelectorAll('.nav-links .nav-item').forEach(b => b.classList.remove('active'));
-      if(btn) btn.classList.add('active');
+      if (btn) btn.classList.add('active');
       mostrar();
     }
 
@@ -677,7 +707,7 @@
       document.getElementById("themeText").innerText = isDark ? "Claro" : "Escuro";
     }
 
-    // Configurações Adicionais via Config.json
+    // Configurações Adicionais via config.json
     fetch("config.json")
       .then(res => res.json())
       .then(config => {
@@ -713,9 +743,12 @@
 
         // ANÚNCIO
         if (config.anuncio && config.anuncio.ativo) {
+          const linkAnuncio = config.anuncio.url || "#";
           document.getElementById("anuncio").innerHTML = `
             <div class="anuncio-box">
-              <img src="${config.anuncio.imagem}" alt="Anúncio">
+              <a href="${linkAnuncio}" target="_blank">
+                <img src="${config.anuncio.imagem}" alt="Anúncio">
+              </a>
             </div>
           `;
         }

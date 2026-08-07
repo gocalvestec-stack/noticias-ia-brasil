@@ -4,8 +4,11 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9077847530409296" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="1WkurAw0Lfq6dFBsATI0hLqRy-1tJmVvVJAyK07gtic">
   <title>RD NEWS - Portal de Notícias</title>
+  <meta name="description" content="RD NEWS - Portal inteligente de notícias do Brasil e do mundo.">
 
+  <!-- Fontes Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,8 +25,8 @@
       --text-muted: #64748b;
       --border-color: #e2e8f0;
       --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
       --radius: 12px;
     }
 
@@ -34,12 +37,31 @@
       --text-main: #f3f4f6;
       --text-muted: #9ca3af;
       --border-color: #1f2937;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+      --shadow-lg: 0 10px 25px -3px rgb(0 0 0 / 0.5);
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
-    body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.5; }
-    a { text-decoration: none; color: inherit; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    }
 
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.5;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* TOP BAR & HEADER */
     .top-bar {
       background: rgba(0, 0, 0, 0.2);
       color: #94a3b8;
@@ -47,46 +69,464 @@
       padding: 6px 20px;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    header { background: var(--bg-header); color: white; padding: 24px 20px; }
-    .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
-    .logo-title { font-size: 1.8rem; font-weight: 800; color: #fff; }
+    header {
+      background: var(--bg-header);
+      color: white;
+      padding: 24px 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
 
-    .menu-wrapper { position: sticky; top: 0; z-index: 100; background: var(--bg-card); border-bottom: 1px solid var(--border-color); }
-    .menu { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }
-    .nav-links { display: flex; gap: 8px; overflow-x: auto; }
-    .nav-item { border: none; background: transparent; color: var(--text-muted); padding: 16px 14px; font-weight: 600; cursor: pointer; }
-    .nav-item.active { color: var(--primary-accent); font-weight: 700; border-bottom: 3px solid var(--primary-accent); }
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-    .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
-    .section-title { font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; }
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-    .noticias-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
-    .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
-    
-    .card-img-wrapper { width: 100%; height: 180px; overflow: hidden; background: #e2e8f0; }
-    .card-img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    
-    .card-body { padding: 18px; display: flex; flex-direction: column; flex-grow: 1; }
-    .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; }
-    .card-meta { margin-top: auto; display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-muted); padding-top: 12px; border-top: 1px solid var(--border-color); }
-    .card-btn { color: var(--primary-accent); font-weight: 700; }
+    .logo-area img {
+      max-height: 48px;
+      object-fit: contain;
+    }
+
+    .logo-area img[src=""], .logo-area img:not([src]) {
+      display: none;
+    }
+
+    .logo-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-tagline {
+      font-size: 0.85rem;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+
+    /* MENU NAVEGAÇÃO PROFISSIONAL */
+    .menu-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 0;
+      scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+      display: none;
+    }
+
+    .nav-item {
+      position: relative;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      padding: 16px 14px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: -0.2px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.2s ease, background-color 0.2s ease;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-item:hover {
+      color: var(--text-main);
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    body.dark .nav-item:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    /* Indicador de Aba Ativa */
+    .nav-item.active {
+      color: var(--primary-accent);
+      font-weight: 700;
+    }
+
+    .nav-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: var(--primary-accent);
+      border-radius: 3px 3px 0 0;
+    }
+
+    /* BOTÃO DE TEMA */
+    .btn-theme {
+      border: 1px solid var(--border-color);
+      background: var(--bg-body);
+      color: var(--text-main);
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-theme:hover {
+      border-color: var(--primary-accent);
+      color: var(--primary-accent);
+      transform: translateY(-1px);
+    }
+
+    .theme-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .btn-theme:hover .theme-icon {
+      transform: rotate(15deg);
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    /* HERO / DESTAQUE PRINCIPAL */
+    .destaque-card {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 40px;
+      background: #000;
+      box-shadow: var(--shadow-lg);
+      min-height: 420px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .destaque-img-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.75;
+      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+    }
+
+    .destaque-card:hover .destaque-img-bg {
+      transform: scale(1.03);
+      opacity: 0.65;
+    }
+
+    .destaque-overlay {
+      position: relative;
+      z-index: 2;
+      padding: 40px;
+      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 100%);
+      width: 100%;
+    }
+
+    .destaque-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    .destaque-title {
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      max-width: 900px;
+      letter-spacing: -0.5px;
+    }
+
+    /* SEÇÕES DE CONTEÚDO */
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      position: relative;
+      text-transform: capitalize;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background: var(--primary-accent);
+    }
+
+    /* GRID DE CARDS */
+    .noticias-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(37, 99, 235, 0.3);
+    }
+
+    .card-img-wrapper {
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+      background-color: var(--border-color);
+      position: relative;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover .card-img {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-meta {
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      padding-top: 12px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .card-btn {
+      color: var(--primary-accent);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* MIDIA / VÍDEO & ANÚNCIO */
+    .media-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin: 36px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .media-box h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .anuncio-box {
+      margin: 36px 0;
+      text-align: center;
+      overflow: hidden;
+      border-radius: var(--radius);
+    }
+
+    .anuncio-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg-header);
+      color: #94a3b8;
+      padding: 40px 20px;
+      margin-top: 80px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: #94a3b8;
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    /* RESPONSIVIDADE */
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+      }
+
+      .destaque-card {
+        min-height: 320px;
+      }
+
+      .destaque-overlay {
+        padding: 20px;
+      }
+
+      .destaque-title {
+        font-size: 1.4rem;
+      }
+
+      .noticias-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
 
+  <!-- TOP BAR -->
   <div class="top-bar">
     <span id="dataAtual"></span>
     <span>RD NEWS • O seu portal de notícias</span>
   </div>
 
+  <!-- HEADER -->
   <header>
     <div class="header-container">
-      <h1 class="logo-title">RD NEWS</h1>
+      <div class="logo-area">
+        <img id="logoSite" src="" alt="Logo RD NEWS">
+        <div>
+          <h1 class="logo-title" id="nomeSite">RD NEWS</h1>
+          <p class="logo-tagline">Informação com credibilidade e agilidade</p>
+        </div>
+      </div>
     </div>
   </header>
 
+  <!-- MENU / CATEGORIAS -->
   <div class="menu-wrapper">
     <div class="menu">
       <nav class="nav-links">
@@ -95,22 +535,67 @@
         <button class="nav-item" onclick="categoria('brasil', this)">Brasil</button>
         <button class="nav-item" onclick="categoria('mundo', this)">Mundo</button>
         <button class="nav-item" onclick="categoria('tecnologia', this)">Tecnologia</button>
+        <button class="nav-item" onclick="categoria('economia', this)">Economia</button>
       </nav>
+      
+      <button class="btn-theme" onclick="modo()">
+        <svg class="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeText">Escuro</span>
+      </button>
     </div>
   </div>
 
+  <!-- MAIN CONTAINER -->
   <main class="container">
-    <h2 class="section-title" id="tituloSecao">Últimas Notícias</h2>
-    <div class="noticias-grid" id="noticias"></div>
+    
+    <!-- NOTÍCIA DESTAQUE (Exibida somente na aba "Todas") -->
+    <div id="destaque"></div>
+
+    <!-- SESSÃO DE MÍDIA / VÍDEO -->
+    <div id="videoYoutube"></div>
+
+    <!-- ANÚNCIO -->
+    <div id="anuncio"></div>
+
+    <!-- GRID DE NOTÍCIAS -->
+    <section>
+      <div class="section-header">
+        <h2 class="section-title" id="tituloSecao">Últimas Notícias</h2>
+      </div>
+      <div class="noticias-grid" id="noticias">
+        <p style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+          Carregando as notícias...
+        </p>
+      </div>
+    </section>
+
   </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos de Uso</a>
+      </div>
+      <p>© 2026 RD NEWS. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
   <script>
     let noticias = [];
     let categoriaAtual = "todas";
-    const imagemFutebolPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
+    const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
 
-    document.getElementById("dataAtual").innerText = new Date().toLocaleDateString('pt-BR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    // Exibir Data Atual Formatada
+    const opçõesData = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById("dataAtual").innerText = new Date().toLocaleDateString('pt-BR', opçõesData);
 
+    // Carregar Notícias do JSON
     fetch("news.json")
       .then(res => res.json())
       .then(dados => {
@@ -118,14 +603,20 @@
         mostrar();
       })
       .catch(() => {
-        document.getElementById("noticias").innerHTML = "<p>Erro ao carregar notícias.</p>";
+        document.getElementById("noticias").innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Não foi possível carregar as notícias no momento.</p>";
       });
+
+    function obterImagem(noticia) {
+      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
+    }
 
     function mostrar() {
       const area = document.getElementById("noticias");
+      const destaqueArea = document.getElementById("destaque");
       const tituloSecao = document.getElementById("tituloSecao");
       area.innerHTML = "";
 
+      // Filtragem por categoria
       let listaFiltrada = [...noticias];
       if (categoriaAtual !== "todas") {
         listaFiltrada = listaFiltrada.filter(n => {
@@ -138,37 +629,46 @@
       }
 
       if (listaFiltrada.length === 0) {
-        area.innerHTML = "<p>Nenhuma notícia encontrada nesta categoria.</p>";
+        destaqueArea.innerHTML = "";
+        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; padding: 40px;'>Nenhuma notícia encontrada nesta categoria.</p>";
         return;
       }
 
-      listaFiltrada.forEach(n => {
-        const catNoticia = (n.category || n.categoria || "").toLowerCase();
-        const ehFutebol = catNoticia === "futebol";
+      // Se estiver em "Todas", exibe a notícia de topo em Destaque
+      if (categoriaAtual === "todas") {
+        const destaque = listaFiltrada[0];
+        const ultimasNoticias = listaFiltrada.slice(1);
 
-        // Busca a URL da imagem no JSON
-        let urlImagem = n.image || n.urlToImage || n.url_imagem;
-        if (!urlImagem || urlImagem.trim() === "") {
-          urlImagem = imagemFutebolPadrao;
-        }
+        const imgDestaque = obterImagem(destaque);
+        destaqueArea.innerHTML = `
+          <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+            <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            <div class="destaque-overlay">
+              <span class="destaque-badge">${destaque?.category || "Destaque"}</span>
+              <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+            </div>
+          </a>
+        `;
 
-        // MONTA O HTML DA IMAGEM EXCLUSIVAMENTE SE FOR DA CATEGORIA FUTEBOL
-        let htmlImagem = "";
-        if (ehFutebol) {
-          htmlImagem = `
-            <a href="${n.url}" target="_blank" class="card-img-wrapper">
-              <img src="${urlImagem}" alt="${n.title}" class="card-img" onerror="this.onerror=null; this.src='${imagemFutebolPadrao}';">
-            </a>
-          `;
-        }
+        renderizarGrid(ultimasNoticias, area);
+      } else {
+        destaqueArea.innerHTML = "";
+        renderizarGrid(listaFiltrada, area);
+      }
+    }
 
+    function renderizarGrid(lista, area) {
+      lista.forEach(n => {
+        const imgCard = obterImagem(n);
         area.innerHTML += `
           <article class="card">
-            ${htmlImagem}
+            <a href="${n.url}" target="_blank" class="card-img-wrapper">
+              <img src="${imgCard}" alt="${n.title}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            </a>
             <div class="card-body">
               <h3 class="card-title">${n.title}</h3>
               <div class="card-meta">
-                <span>${n.publishedAt ? new Date(n.publishedAt).toLocaleDateString('pt-BR') : 'Recente'}</span>
+                <span>${data(n.publishedAt)}</span>
                 <a href="${n.url}" target="_blank" class="card-btn">Ler ➔</a>
               </div>
             </div>
@@ -177,12 +677,75 @@
       });
     }
 
+    function data(d) {
+      if (!d) return "Recente";
+      const dataObj = new Date(d);
+      if (isNaN(dataObj.getTime())) return "Recente";
+
+      const agora = new Date();
+      const diffMin = Math.floor((agora - dataObj) / (1000 * 60));
+
+      if (diffMin < 60) return `Há ${diffMin <= 1 ? '1 min' : diffMin + ' min'}`;
+      const diffHoras = Math.floor(diffMin / 60);
+      if (diffHoras < 24) return `Há ${diffHoras}h`;
+
+      return dataObj.toLocaleDateString("pt-BR", { day: '2-digit', month: '2-digit' });
+    }
+
     function categoria(c, btn) {
       categoriaAtual = c;
-      document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
-      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.nav-links .nav-item').forEach(b => b.classList.remove('active'));
+      if(btn) btn.classList.add('active');
       mostrar();
     }
+
+    function modo() {
+      const isDark = document.body.classList.toggle("dark");
+      document.getElementById("themeText").innerText = isDark ? "Claro" : "Escuro";
+    }
+
+    // Configurações Adicionais via Config.json
+    fetch("config.json")
+      .then(res => res.json())
+      .then(config => {
+        if (config.nome) document.getElementById("nomeSite").innerHTML = config.nome;
+        if (config.logo) document.getElementById("logoSite").src = config.logo;
+
+        if (config.video && config.video.ativo) {
+          let videoEscolhido = config.video.youtube;
+          if (config.video.aleatorio && config.video.lista?.length > 0) {
+            let sorteio = Math.floor(Math.random() * config.video.lista.length);
+            videoEscolhido = config.video.lista[sorteio];
+          }
+
+          let videoId = "";
+          if (videoEscolhido.includes("youtu.be")) {
+            videoId = videoEscolhido.split("youtu.be/")[1].split("?")[0];
+          } else if (videoEscolhido.includes("youtube.com")) {
+            videoId = new URL(videoEscolhido).searchParams.get("v");
+          }
+
+          if (videoId) {
+            document.getElementById("videoYoutube").innerHTML = `
+              <div class="media-box">
+                <h3>🎥 ${config.video.titulo || "Vídeo em destaque"}</h3>
+                <div class="iframe-wrapper">
+                  <iframe src="https://www.youtube.com/embed/${videoId}" loading="lazy" allowfullscreen></iframe>
+                </div>
+              </div>
+            `;
+          }
+        }
+
+        if (config.anuncio && config.anuncio.ativo) {
+          document.getElementById("anuncio").innerHTML = `
+            <div class="anuncio-box">
+              <img src="${config.anuncio.imagem}" alt="Anúncio">
+            </div>
+          `;
+        }
+      })
+      .catch(() => console.log("Config adicional ausente"));
   </script>
 </body>
 </html>

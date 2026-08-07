@@ -1,75 +1,196 @@
 {
   "articles": [
     {
-      "title": "Suspeitos de roubar carro são perseguidos por policiais e atropelam idosa durante fuga em Jundiaí",
-      "description": "Suspeitos foram perseguidos após roubo de veículo e uma idosa ficou ferida durante a fuga.",
-      "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/08/07/suspeitos-de-roubar-carro-sao-perseguidos-por-policiais-e-atropelam-idosa-durante-fuga-em-jundiai.ghtml",
-      "image": "https://s2-g1.glbimg.com/D4f0taeZIrNpVfbcmHETre2CKFo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/M/Yhg0x6QhawebBUKB0uCg/idosa-1-.jpg",
-      "publishedAt": "2026-08-07T14:14:13Z",
+      "title": "Confrontos ocorridos ao mesmo tempo terminam com cinco suspeitos mortos na Bahia",
+      "description": "<img src=\"https://s2-g1.glbimg.com/7y_j4IqQRYCRnNqvFnWIvK3ydJM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/y/etLi8ESL2yZU69OXdCzQ/novo-projeto-4-.jpg\" /><br /> ",
+      "url": "https://g1.globo.com/ba/bahia/noticia/2026/08/07/mortes-confronto-na-bahia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831067Z",
       "category": "Brasil"
     },
-
     {
-      "title": "Motociclista sem CNH e motorista ficam feridos após batida na SP-141",
-      "description": "Acidente deixou duas pessoas feridas após colisão em rodovia.",
-      "url": "https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/08/07/motociclista-sem-cnh-e-motorista-ficam-feridos-apos-batida-na-sp-141-em-porangaba.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T14:14:13Z",
+      "title": "Caetano Veloso completa 84 anos e recebe homenagens de Gilberto Gil e Maria Bethânia nas redes sociais",
+      "description": "<img src=\"https://s2-g1.glbimg.com/E-o15gAR2rMToaJuPuR9mwwGHLw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/x/r1TdafTs68Q2BUPyK0Hg/caetano-foto-leawry-3.jpeg\" />",
+      "url": "https://g1.globo.com/ba/bahia/noticia/2026/08/07/caetano-veloso-completa-84-anos-e-recebe-homenagens-de-gilberto-gil-e-maria-bethania-nas-redes-sociais.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831111Z",
       "category": "Brasil"
     },
-
+    {
+      "title": "Mulher é presa suspeita de matar marido com facada após discussão por ciúmes no interior de SP",
+      "description": "<img src=\"https://s2-g1.glbimg.com/OXqPGIsv-BZlPg_zn4VUnJB2YGI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/v/TnQCHLSnWYnQMBfKguhw/novo-projeto-2026-08-07t083744",
+      "url": "https://g1.globo.com/sp/bauru-marilia/noticia/2026/08/07/mulher-e-presa-suspeita-de-matar-marido-com-facada-apos-discussao-por-ciumes-no-interior-de-sp.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831122Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "MPPB instaura inquérito civil para investigar irregularidades em consórcio de saúde de Cuité, PB",
+      "description": "<img src=\"https://s2-g1.glbimg.com/cZ2LFyCpI1AvXz2Kps4letd2j20=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/K/R5lAIPTzivoQOSJmZgxg/consorcio-publico-intermunicip",
+      "url": "https://g1.globo.com/pb/paraiba/noticia/2026/08/07/mppb-instaura-inquerito-civil-para-investigar-irregularidades-em-consorcio-de-saude-de-cuite-pb.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831131Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Prefeitura e governo do RJ recomendam que população antecipe volta para casa após ventos de 74 km/h; rajadas podem chegar a 90 km/h",
+      "description": "A Prefeitura do Rio e o Governo do Estado recomendaram, nesta sexta-feira (7), a antecipação do encerramento de todas as atividades que não sejam essenciais para que a população possa voltar para casa",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/prefeitura-e-governo-do-rj-alertam-sobre-ventos-fortes.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831140Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Rede Municipal de Ensino de Maricá e Saquarema cancelam aulas nesta sexta-feira",
+      "description": "<img src=\"https://s2-g1.glbimg.com/MUFDXom4t4zuzXy3tkBQWOlupsk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/N/oEhtELQ0OlcDOMsfUA8w/prefeitura-de-saquarema.jpg\" /",
+      "url": "https://g1.globo.com/rj/regiao-dos-lagos/noticia/2026/08/07/rede-municipal-de-ensino-de-marica-e-saquarema-cancelam-aulas-nesta-sexta-feira.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831149Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Ventos no RJ já chegam a 74 km/h, e autoridades recomendam encerrar atividades; SIGA",
+      "description": "Ventos no RJ já chegam a 74 km/h, e autoridades recomendam encerrar atividades; SIGA Defesa Civil disparou série de alertas severos e mensagens de SMS sobre o prognóstico de ventos de 90 km/h. Escolas",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/ao-vivo/rio-vento-forte-sexta-feira.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831157Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Dois suspeitos de tentar furtar empresa morrem em troca de tiros com policiais de folga",
+      "description": "<img src=\"https://s2-g1.glbimg.com/b7nxRDo87hv9xO7GKoiOkrIym5Y=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/y/cQIRjLSy22HJGml6TKBA/design-sem-nome-42-.jpg\" /><br",
+      "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/08/07/suspeitos-de-tentar-furtar-empresa-morrem-em-troca-de-tiros-com-policiais-de-folga.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:30.831165Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "TCL libera IA do Google em TVs do Brasil; veja os modelos",
+      "description": "<p>Gemini chega a aparelhos vendidos a partir de 2025 no mercado doméstico.</p>\n<p><a href=\"https://tecnoblog.net/noticias/tcl-libera-ia-do-google-em-tvs-do-brasil-veja-os-modelos/\">TCL libera IA do G",
+      "url": "https://tecnoblog.net/noticias/tcl-libera-ia-do-google-em-tvs-do-brasil-veja-os-modelos/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926562Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Baixou mais: Galaxy S26 fica 50% mais barato em oferta por até 12x sem juros",
+      "description": "<p>Galaxy S26 (256 GB) tem câmera de 50 MP e tela AMOLED de 120 Hz; celular premium e compacto da Samsung sai pela metade do preço com cupom em até 12x sem juros</p>\n<p><a href=\"https://tecnoblog.net/",
+      "url": "https://tecnoblog.net/achados/baixou-mais-galaxy-s26-fica-50-mais-barato-em-oferta-por-ate-12x-sem-juros/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926576Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Nintendo Switch 2 fica mais caro no Brasil; veja novo preço",
+      "description": "<p>Aumento de 2,2% reflete condições de mercado, explica fabricante. Data centers para IA são os vilões da crise da RAM e da escalada dos preços.</p>\n<p><a href=\"https://tecnoblog.net/noticias/nintend",
+      "url": "https://tecnoblog.net/noticias/nintendo-switch-2-fica-mais-caro-no-brasil-veja-novo-preco/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926581Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Microsoft conta por que é difícil remover recursos antigos do Windows 11",
+      "description": "<p>Marcus Ash, da Microsoft, explicou que companhia prioriza a compatibilidade com recursos legados, razão pela qual a modernização é feita com muito cuidado.</p>\n<p><a href=\"https://tecnoblog.net/not",
+      "url": "https://tecnoblog.net/noticias/microsoft-conta-por-que-e-dificil-remover-recursos-antigos-do-windows-11/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926587Z",
+      "category": "Tecnologia"
+    },
     {
       "title": "ANPD manda Paraná suspender reconhecimento facial em escolas públicas",
-      "description": "Agência aponta problemas de transparência no uso de biometria facial.",
+      "description": "<p>Agência considerou excessivo o uso de biometria facial para chamada de alunos e apontou falhas de transparênci.</p>\n<p><a href=\"https://tecnoblog.net/noticias/anpd-manda-parana-suspender-reconhecim",
       "url": "https://tecnoblog.net/noticias/anpd-manda-parana-suspender-reconhecimento-facial-em-escolas-publicas/",
-      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-      "publishedAt": "2026-08-07T14:14:14Z",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926591Z",
       "category": "Tecnologia"
     },
-
     {
       "title": "Adobe lança plugin para ChatGPT com mais de 70 ferramentas de edição",
-      "description": "Nova ferramenta integra recursos de edição com inteligência artificial.",
+      "description": "<p>Empresa unifica extensões lançadas anteriormente e promete expandir recursos para Gemini e Slack.</p>\n<p><a href=\"https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferra",
       "url": "https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferramentas-de-edicao/",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-      "publishedAt": "2026-08-07T14:14:14Z",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926595Z",
       "category": "Tecnologia"
     },
-
     {
-      "title": "Importação de carros chineses dobra no Brasil enquanto exportações recuam",
-      "description": "Mercado automotivo brasileiro registra mudanças nas importações.",
+      "title": "Meta lança nova IA focada em programação e games",
+      "description": "<p>Muse Code chega como alternativa para trabalhos específicos de desenvolvimento de software.</p>\n<p><a href=\"https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/\">Meta la",
+      "url": "https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926599Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Smart TV TCL Mini LED C6K de 55” recebe oferta mais barata em até 12x",
+      "description": "<p>TV TCL C6K 55\" tem tecnologia Mini LED e taxa de 144 Hz como destaques. Aproveite a oferta da loja Magalu oficial no AliExpress em até 12x sem juros com o cupom BRAE8</p>\n<p><a href=\"https://tecnob",
+      "url": "https://tecnoblog.net/achados/smart-tv-tcl-mini-led-c6k-de-55-recebe-oferta-mais-barata-em-ate-12x/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:31.926604Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Importação de carros chineses dobra no Brasil enquanto exportações recuam 20,8%",
+      "description": "<img src=\"https://s2-g1.glbimg.com/O0B3Fv3L_hAshMk31o4036JkLlQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/Z/fGD8zNT6qZU8kvbJTDYg/001-logistica-leapmotor-sepeti",
       "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
-      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
-      "publishedAt": "2026-08-07T14:14:15Z",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543551Z",
       "category": "Economia"
     },
-
     {
-      "title": "Dólar abre em queda de olho em novos dados de emprego",
-      "description": "Mercado financeiro acompanha novos indicadores econômicos.",
+      "title": "EXCLUSIVO: Governo monta acordo para levar modelo de concurso unificado a estados e municípios",
+      "description": "<img src=\"https://s2-g1.glbimg.com/nw50A08K2wzp1ixwtw99agtJ7s0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/5/6/rBfMXDSTaSS86PP6SUSw/aplicacao-prova-cnu-2025-forta",
+      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/07/exclusiva-governo-acordo-modelo-cnu-estados.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543561Z",
+      "category": "Economia"
+    },
+    {
+      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
+      "description": "<img src=\"https://s2-g1.glbimg.com/ttZVN9SeU4bSh_7_Co7zhqDoTZ0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/K/ALvuxUQvGgvDaswt3MRA/propriedade-jeferson-close-nas",
+      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543566Z",
+      "category": "Economia"
+    },
+    {
+      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
+      "description": "<img src=\"https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63a",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543571Z",
+      "category": "Economia"
+    },
+    {
+      "title": "Dólar opera em queda, de olho em novos dados de emprego dos EUA; Ibovespa cai",
+      "description": "<img src=\"https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0",
       "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
-      "publishedAt": "2026-08-07T14:14:15Z",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543575Z",
       "category": "Economia"
     },
-
     {
-      "title": "Brasil se prepara para novos desafios no futebol internacional",
-      "description": "Seleção brasileira intensifica preparação para os próximos jogos e competições.",
-      "url": "https://ge.globo.com/futebol/",
-      "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55",
-      "publishedAt": "2026-08-07T14:15:00Z",
-      "category": "Futebol"
+      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
+      "description": "<img src=\"https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543579Z",
+      "category": "Economia"
     },
-
     {
-      "title": "Mercado da bola movimenta clubes brasileiros com novas contratações",
-      "description": "Times brasileiros trabalham nos bastidores para reforçar seus elencos.",
-      "url": "https://ge.globo.com/futebol/",
-      "image": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c",
-      "publishedAt": "2026-08-07T14:15:20Z",
-      "category": "Futebol"
+      "title": "Como criar galinhas poedeiras e frangos caipiras",
+      "description": "<img src=\"https://s2-g1.glbimg.com/zh0mOSsT6aJb1R2QGk6NiGlaI7w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/v/j/GyhkGFRtSOEAcZsGy2jQ/whatsapp-image-2025-06-13-at-1",
+      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543583Z",
+      "category": "Economia"
+    },
+    {
+      "title": "Meta é condenada a pagar R$ 2,9 bilhões para estado dos EUA por caso envolvendo menores nas redes",
+      "description": "<img src=\"https://s2-g1.glbimg.com/EltdEqGcNV5PDSmaUGrqZVNybpU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/p4wC8YSpOFgtGa4c4jhQ/2026-07-07t062504z-175072374-r",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/meta-e-condenada-a-pagar-r-29-bilhoes-para-estado-dos-eua-por-caso-envolvendo-menores-nas-redes.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T15:18:34.543588Z",
+      "category": "Economia"
     }
   ]
 }

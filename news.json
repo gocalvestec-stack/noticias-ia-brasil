@@ -13,7 +13,7 @@
       "title": "Motociclista sem CNH e motorista ficam feridos após batida na SP-141",
       "description": "Acidente deixou duas pessoas feridas após colisão em rodovia.",
       "url": "https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/08/07/motociclista-sem-cnh-e-motorista-ficam-feridos-apos-batida-na-sp-141-em-porangaba.ghtml",
-      "image": "https://s2-g1.glbimg.com/dGZXzE8kjvufRYlZNNwBmHDa37w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/x/cvbtyQQ3ClIJx9PjlMNw/whatsapp-image-2026-08-07-at-0",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
       "publishedAt": "2026-08-07T14:14:13Z",
       "category": "Brasil"
     },
@@ -52,6 +52,24 @@
       "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
       "publishedAt": "2026-08-07T14:14:15Z",
       "category": "Economia"
+    },
+
+    {
+      "title": "Brasil se prepara para novos desafios no futebol internacional",
+      "description": "Seleção brasileira intensifica preparação para os próximos jogos e competições.",
+      "url": "https://ge.globo.com/futebol/",
+      "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55",
+      "publishedAt": "2026-08-07T14:15:00Z",
+      "category": "Futebol"
+    },
+
+    {
+      "title": "Mercado da bola movimenta clubes brasileiros com novas contratações",
+      "description": "Times brasileiros trabalham nos bastidores para reforçar seus elencos.",
+      "url": "https://ge.globo.com/futebol/",
+      "image": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c",
+      "publishedAt": "2026-08-07T14:15:20Z",
+      "category": "Futebol"
     }
   ]
 }

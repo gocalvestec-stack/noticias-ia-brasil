@@ -614,19 +614,14 @@
     }
 
     function mostrar() {
-      let lista = [...noticias];
-      lista = embaralhar(lista);
+  let lista = [...noticias];
 
-      const area = document.getElementById("noticias");
-      area.innerHTML = "";
+  // Filtrar categoria
+  if (categoriaAtual !== "todas") {
+    lista = lista.filter(n => n.category === categoriaAtual);
+  }
 
-      if (lista.length === 0) {
-        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhuma notícia encontrada.</p>";
-        return;
-      }
-
-      const destaque = lista[0];
-      const ultimasNoticias = lista.slice(1);
+  lista = embaralhar(lista);
 
       // Renderiza Destaque Principal
       const imgDestaque = obterImagem(destaque);

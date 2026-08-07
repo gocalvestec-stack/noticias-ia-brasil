@@ -1,193 +1,314 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Notícias Brasil</title>
+    <meta name="description" content="Entre em contato com a equipe de redação e atendimento do Notícias Brasil.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://noticias-ia-brasil.vercel.app/contato.html">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --primary-hover: #1e293b;
+            --accent: #2563eb;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #334155;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --radius: 12px;
+        }
 
-<title>Contato - Notícias Brasil</title>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
 
-<meta name="description" content="Entre em contato com a equipe do Notícias Brasil.">
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-<meta name="robots" content="index,follow">
+        /* Navigation Bar */
+        nav {
+            background: var(--primary);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
 
-<link rel="canonical" href="https://noticias-ia-brasil.vercel.app/contato.html">
+        .logo {
+            color: #ffffff;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
 
-<style>
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+        .nav-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
 
-body{
-background:#f5f5f5;
-color:#222;
-}
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #ffffff;
+        }
 
-header{
-background:#111;
-color:#fff;
-padding:30px;
-text-align:center;
-}
+        /* Header Section */
+        header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
 
-nav{
-background:#222;
-padding:15px;
-text-align:center;
-}
+        header h1 {
+            color: var(--primary);
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
 
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-font-weight:bold;
-}
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
 
-.container{
-max-width:900px;
-margin:30px auto;
-background:white;
-padding:30px;
-border-radius:12px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
+        /* Main Grid Layout */
+        .main-wrapper {
+            max-width: 1000px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+            width: 100%;
+            flex: 1;
+        }
 
-h2{
-margin-bottom:15px;
-}
+        .grid-container {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 2rem;
+        }
 
-p{
-margin-bottom:20px;
-line-height:1.7;
-}
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
 
-form{
-display:flex;
-flex-direction:column;
-gap:15px;
-}
+        /* Form & Info Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+        }
 
-input,textarea{
-padding:12px;
-font-size:16px;
-border:1px solid #ccc;
-border-radius:8px;
-width:100%;
-}
+        .card h2 {
+            color: var(--primary);
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
 
-textarea{
-height:180px;
-resize:vertical;
-}
+        .card-description {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
 
-button{
-background:#111;
-color:white;
-border:0;
-padding:14px;
-font-size:16px;
-cursor:pointer;
-border-radius:8px;
-}
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
 
-button:hover{
-background:#333;
-}
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
 
-.info{
-margin-top:35px;
-padding:20px;
-background:#f1f1f1;
-border-radius:10px;
-}
+        .form-group label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
 
-footer{
-margin-top:40px;
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-}
+        input, textarea {
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            transition: all 0.2s ease;
+        }
 
-</style>
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            background-color: #ffffff;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
 
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            background: var(--primary);
+            color: #ffffff;
+            border: none;
+            padding: 0.85rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.2s ease;
+            margin-top: 0.5rem;
+        }
+
+        button:hover {
+            background: var(--primary-hover);
+        }
+
+        /* Info Sidebar Styles */
+        .info-card {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .info-item .title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .info-item .value {
+            font-size: 1rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.875rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
+    <nav>
+        <a href="index.html" class="logo">Notícias Brasil</a>
+        <div class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" class="active">Contato</a>
+            <a href="privacidade.html">Privacidade</a>
+            <a href="termos.html">Termos</a>
+        </div>
+    </nav>
 
-<h1>Contato</h1>
+    <header>
+        <h1>Fale Conosco</h1>
+        <p>Estamos à disposição para sugestões, dúvidas ou parcerias.</p>
+    </header>
 
-<p>Fale com a equipe do Notícias Brasil</p>
+    <div class="main-wrapper">
+        <div class="grid-container">
+            
+            <div class="card">
+                <h2>Envie uma mensagem</h2>
+                <p class="card-description">Preencha os campos abaixo e retornaremos o mais breve possível.</p>
+                
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
 
-</header>
+                    <div class="form-group">
+                        <label for="email">E-mail Profissional</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
 
-<nav>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem com detalhes..." required></textarea>
+                    </div>
 
-<a href="index.html">Início</a>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
 
-<a href="sobre.html">Sobre</a>
+            <div class="card info-card">
+                <h2>Canais Diretos</h2>
+                
+                <div class="info-item">
+                    <span class="title">E-mail Corporativo</span>
+                    <span class="value">contato@noticiasbrasil.com</span>
+                </div>
 
-<a href="privacidade.html">Privacidade</a>
+                <div class="info-item">
+                    <span class="title">Horário de Atendimento</span>
+                    <span class="value">Segunda a Sexta-feira</span>
+                    <span class="value" style="color: var(--text-muted); font-size: 0.9rem;">08:00 às 18:00 (BRT)</span>
+                </div>
 
-<a href="termos.html">Termos</a>
+                <div class="info-item">
+                    <span class="title">Prazo de Resposta</span>
+                    <span class="value" style="color: var(--text-muted); font-size: 0.9rem;">Costumamos responder em até 24 horas úteis.</span>
+                </div>
+            </div>
 
-</nav>
+        </div>
+    </div>
 
-<div class="container">
-
-<h2>Entre em contato</h2>
-
-<p>
-Caso tenha dúvidas, sugestões, queira informar algum erro ou entrar em contato com nossa equipe, utilize o formulário abaixo.
-</p>
-
-<form action="#" method="post">
-
-<input type="text" placeholder="Seu nome" required>
-
-<input type="email" placeholder="Seu e-mail" required>
-
-<textarea placeholder="Digite sua mensagem..." required></textarea>
-
-<button type="submit">
-Enviar Mensagem
-</button>
-
-</form>
-
-<div class="info">
-
-<h2>Informações</h2>
-
-<p>
-📧 E-mail: contato@noticiasbrasil.com
-</p>
-
-<p>
-🕒 Atendimento:
-Segunda a Sexta-feira
-08:00 às 18:00
-</p>
-
-<p>
-Responderemos sua mensagem o mais breve possível.
-</p>
-
-</div>
-
-</div>
-
-<footer>
-
-© 2026 Notícias Brasil - Todos os direitos reservados.
-
-</footer>
+    <footer>
+        © 2026 Notícias Brasil. Todos os direitos reservados.
+    </footer>
 
 </body>
 </html>

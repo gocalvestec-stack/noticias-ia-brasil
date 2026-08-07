@@ -1,107 +1,107 @@
 {
   "articles": [
     {
-      "title": "Previsão do tempo hoje para São Gonçalo (RJ): muitas nuvens o dia todo, com aberturas de sol",
+      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
       "description": "",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-sao-goncalo-rj-muitas-nuvens-o-dia-todo-com-aberturas-de-sol.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543601Z",
-      "category": "brasil"
+      "publishedAt": "2026-08-07T08:06:54.687316Z",
+      "category": "mundo"
+    },
+    {
+      "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:54.687318Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:51.929146Z",
+      "category": "economia"
     },
     {
       "title": "Passaportes de brasileiros no exterior passam a ser impressos no Brasil",
       "description": "",
       "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/passaportes-de-brasileiros-no-exterior-passam-a-ser-impressos-no-brasil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629109Z",
+      "publishedAt": "2026-08-07T08:06:54.687314Z",
       "category": "mundo"
     },
     {
-      "title": "Previsão do tempo hoje para Osasco (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-osasco-sp-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-muitas-nuvens.ghtml",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543597Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Concurso 3041 da Mega-Sena acumula e vai a R$ 165 milhões; veja os números sorteados",
-      "description": "",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449722Z",
+      "publishedAt": "2026-08-07T08:06:51.929147Z",
       "category": "economia"
     },
     {
-      "title": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
+      "title": "'A violência começa antes do primeiro tapa': psicóloga conta como identificou sinais de agressão e hoje acolhe vítimas em Manaus",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-sao-bernardo-do-campo-sp-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-muitas-nuvens.ghtml",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/a-violencia-comeca-antes-do-primeiro-tapa-psicologa-conta-como-identificou-sinais-de-agressao-e-hoje-acolhe-vitimas-em-manaus.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543593Z",
+      "publishedAt": "2026-08-07T08:06:50.562293Z",
       "category": "brasil"
-    },
-    {
-      "title": "Previsão do tempo hoje para São Paulo (SP): sol com muitas nuvens; pancadas de chuva à tarde e à noite",
-      "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-sao-paulo-sp-sol-com-muitas-nuvens-pancadas-de-chuva-a-tarde-e-a-noite.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543591Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Entenda como o River Plate virou potência financeira da América e conseguiu contratar Almada",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/entenda-como-o-river-plate-virou-potencia-financeira-da-america-e-conseguiu-contratar-almada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010268Z",
-      "category": "futebol"
     },
     {
       "title": "Turismo de nascimento: veja perguntas e respostas sobre o novo decreto de Trump para barrar cidadania",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turismo-de-nascimento-veja-perguntas-e-respostas-sobre-o-novo-decreto-de-trump-para-barrar-cidadania.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629103Z",
+      "publishedAt": "2026-08-07T08:06:54.687308Z",
       "category": "mundo"
     },
     {
-      "title": "Lista de reforços? Atlético-MG abre o jogo sobre mercado e descarta atacante do Flamengo e meia",
+      "title": "20 anos da Lei Maria da Penha: 'Eu já me via morta', diz mulher que superou violência doméstica em Manaus",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/07/lista-de-reforcos-atletico-mg-abre-o-jogo-sobre-mercado-e-descarta-atacante-do-flamengo-e-meia.ghtml",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/20-anos-da-lei-maria-da-penha-eu-ja-me-via-morta-diz-mulher-que-superou-violencia-domestica-em-manaus.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010257Z",
-      "category": "futebol"
+      "publishedAt": "2026-08-07T08:06:50.562289Z",
+      "category": "brasil"
     },
     {
-      "title": "Ataque a tiros deixa ao menos 7 mortos em escola na Tailândia; professor, alunos e atirador estão entre as vítimas",
+      "title": "China aprova primeiro implante cerebral comercial para pessoas com tetraplegia",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
+      "url": "https://g1.globo.com/saude/noticia/2026/08/07/china-aprova-primeiro-implante-cerebral-comercial-para-pessoas-com-tetraplegia.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629093Z",
-      "category": "mundo"
+      "publishedAt": "2026-08-07T08:06:50.562298Z",
+      "category": "brasil"
     },
     {
-      "title": "Muito caro viajar de avião? Guerra encarece querosene e gera R$ 5,2 bilhões de gastos a mais às aéreas",
+      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/-guerra-encarece-querosene-e-gera-r-52-bilhoes-de-gastos-a-mais-as-aereas.ghtml",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449733Z",
-      "category": "economia"
+      "publishedAt": "2026-08-07T08:06:50.562296Z",
+      "category": "brasil"
     },
     {
-      "title": "Da geração de Endrick no Palmeiras à estreia com Mourinho: conheça reforço luso-brasileiro do Cruzeiro",
+      "title": "Consenso entre cientistas: maioria dos processos cerebrais ocorre de forma inconsciente",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/07/da-geracao-de-endrick-no-palmeiras-a-estreia-com-mourinho-conheca-reforco-luso-brasileiro-do-cruzeiro.ghtml",
+      "url": "https://g1.globo.com/saude/noticia/2026/08/07/consenso-entre-cientistas-maioria-dos-processos-cerebrais-ocorre-de-forma-inconsciente.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010260Z",
-      "category": "futebol"
+      "publishedAt": "2026-08-07T08:06:50.562300Z",
+      "category": "brasil"
     },
     {
-      "title": "Previsão do tempo hoje para Guarulhos (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
+      "title": "Paranaense usa luz negra em taças de leilão, descobre que comprou itens com radiação e passa a colecioná-los; veja riscos e o que diz a lei",
       "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-guarulhos-sp-sol-com-muitas-nuvens-e-periodos-de-ceu-nublado-noite-com-pancadas-de-chuva.ghtml",
+      "url": "https://g1.globo.com/pr/norte-noroeste/noticia/2026/08/07/luz-negra-itens-leilao.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543599Z",
+      "publishedAt": "2026-08-07T08:06:50.562295Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Como funcionava suposto esquema de corrupção que movimentou mais de R$ 100 milhões em Três Lagoas",
+      "description": "",
+      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/08/07/como-funcionava-suposto-esquema-de-corrupcao-que-movimentou-mais-de-r-100-milhoes-em-tres-lagoas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:50.562282Z",
       "category": "brasil"
     },
     {
@@ -109,152 +109,152 @@
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449718Z",
+      "publishedAt": "2026-08-07T08:06:51.929138Z",
       "category": "economia"
     },
     {
-      "title": "Flamengo chega ao Dia D para ter reforços na Libertadores; prazo não influencia em desejo por Luiz Henrique",
+      "title": "Veja como Arena Fonte Nova ajudou o Bahia a ampliar domínio de confronto sobre o Vasco",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/07/flamengo-chega-ao-dia-d-para-ter-reforcos-na-libertadores-prazo-nao-influencia-em-desejo-por-luiz-henrique.ghtml",
+      "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/08/07/veja-como-arena-fonte-nova-ajudou-o-bahia-a-ampliar-dominio-de-confronto-sobre-o-vasco.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010252Z",
+      "publishedAt": "2026-08-07T08:06:47.651621Z",
       "category": "futebol"
-    },
-    {
-      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449727Z",
-      "category": "economia"
-    },
-    {
-      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449711Z",
-      "category": "economia"
-    },
-    {
-      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449729Z",
-      "category": "economia"
-    },
-    {
-      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449731Z",
-      "category": "economia"
     },
     {
       "title": "Espriella toma posse na Colômbia após vitória apertada e promessa de guinada à direita",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espriella-toma-posse-na-colombia-apos-vitoria-apertada-e-promessa-de-guinada-a-direita.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629100Z",
+      "publishedAt": "2026-08-07T08:06:54.687306Z",
       "category": "mundo"
+    },
+    {
+      "title": "Livre de transfer ban, São Paulo conta com dupla de reforços para jogo contra o Grêmio",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/07/livre-de-transfer-ban-sao-paulo-conta-com-dupla-de-reforcos-para-jogo-contra-o-gremio.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651626Z",
+      "category": "futebol"
     },
     {
       "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629107Z",
+      "publishedAt": "2026-08-07T08:06:54.687312Z",
       "category": "mundo"
-    },
-    {
-      "title": "Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens; não chove",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-brasilia-df-sol-com-algumas-nuvens-nao-chove.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543588Z",
-      "category": "brasil"
-    },
-    {
-      "title": "‘Eles chegam revoltados’: por dentro dos grupos reflexivos para autores de violência contra a mulher",
-      "description": "",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/por-dentro-dos-grupos-que-reunem-autores-de-violencia-contra-a-mulher.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543580Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Manchester United e Arsenal disputam atacante brasileiro de R$ 218 milhões",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/manchester-united-e-arsenal-disputam-atacante-brasileiro-de-r-218-milhoes.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010240Z",
-      "category": "futebol"
-    },
-    {
-      "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629113Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Clube recém promovido a Premier League gasta R$ 310,7 milhões em goleiro reserva do Manchester City",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/07/clube-recem-promovido-a-premier-league-gasta-r-3107-milhoes-em-goleiro-reserva-do-manchester-city.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010262Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Previsão do tempo hoje para Santo André (SP): sol com muitas nuvens e períodos de céu nublado; noite com pancadas de chuva",
-      "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/07/previsao-do-tempo-hoje-para-santo-andre-sp-sol-com-muitas-nuvens-e-periodos-de-ceu-nublado-noite-com-pancadas-de-chuva.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:13.543595Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Reforço mais caro da história do Fluminense, Castillo vira quarta opção de Zubeldía no ataque",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/07/reforco-mais-caro-da-historia-do-fluminense-castillo-vira-quarta-opcao-de-zubeldia-no-ataque.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010255Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629105Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:15.449724Z",
-      "category": "economia"
-    },
-    {
-      "title": "Real Madrid chega a seis reforços e R$ 1,3 bilhão em gastos para temporada 2026/27",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/real-madrid-chega-a-seis-reforcos-e-r-13-bilhao-em-gastos-para-temporada-202627.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:12.010264Z",
-      "category": "futebol"
     },
     {
       "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T06:49:18.629111Z",
+      "publishedAt": "2026-08-07T08:06:51.929144Z",
+      "category": "economia"
+    },
+    {
+      "title": "Puma Rodríguez se torna o defensor estrangeiro com mais gols na história do Vasco",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/07/puma-rodriguez-se-torna-o-defensor-estrangeiro-com-mais-gols-na-historia-do-vasco.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651624Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
+      "description": "",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:51.929129Z",
+      "category": "economia"
+    },
+    {
+      "title": "Lei Maria da Penha completa 20 anos; violência doméstica cresce no AM, que registra média de 116 ocorrências por dia",
+      "description": "",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/lei-maria-da-penha-completa-20-anos-violencia-domestica-cresce-no-am-que-registra-media-de-116-ocorrencias-por-dia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:50.562291Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Ataque a tiros deixa 6 mortos em escola na Tailândia; professor, alunos e atirador estão entre as vítimas",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:54.687298Z",
       "category": "mundo"
+    },
+    {
+      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:54.687310Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
+      "description": "",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:51.929136Z",
+      "category": "economia"
+    },
+    {
+      "title": "Ex-jogador da NFL é preso por fazer sexo em shopping nos EUA",
+      "description": "",
+      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/07/ex-jogador-da-nfl-e-preso-por-fazer-sexo-em-shopping-nos-eua.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651609Z",
+      "category": "futebol"
+    },
+    {
+      "title": "\"A cada cabeça, a sua sentença\": Franclim abre o jogo sobre desafios, carreira e metas no Botafogo",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/08/07/a-cada-cabeca-a-sua-sentenca-franclim-abre-o-jogo-sobre-desafios-carreira-e-metas-no-botafogo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651629Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Concurso 3041 da Mega-Sena acumula e vai a R$ 165 milhões; veja os números sorteados",
+      "description": "",
+      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:51.929140Z",
+      "category": "economia"
+    },
+    {
+      "title": "Palmeiras avança na renovação de Gómez e blinda espinha dorsal com contratos longos",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/07/palmeiras-avanca-na-renovacao-de-gomez-e-blinda-espinha-dorsal-com-contratos-longos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651628Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Análise: Corinthians carece de repertório e cai no primeiro grande teste de Fernando Diniz",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/07/analise-corinthians-carece-de-repertorio-e-cai-no-primeiro-grande-teste-de-fernando-diniz.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651631Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:51.929142Z",
+      "category": "economia"
+    },
+    {
+      "title": "Manchester United e Arsenal disputam atacante brasileiro de R$ 218 milhões",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/manchester-united-e-arsenal-disputam-atacante-brasileiro-de-r-218-milhoes.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T08:06:47.651634Z",
+      "category": "futebol"
     }
   ]
 }

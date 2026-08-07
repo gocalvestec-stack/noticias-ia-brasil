@@ -17,28 +17,12 @@
       "publishedAt": "2026-08-07T17:58:40.855881Z"
     },
     {
-      "title": "Aviso sonoro de 'alerta extremo' em celulares dá susto em cariocas e toca ao vivo no RJ1; VÍDEO",
-      "description": "A Defesa Civil do Rio de Janeiro enviou alertas sobre a previsão de ventos fortes na região.",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/aviso-sonoro-de-alerta-extremo-toca-ao-vivo-no-rj1.ghtml",
-      "image": "https://s2-g1.glbimg.com/U-LMY1fmIlBt3xvDGvaU0LCIiQs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/q/NPV0MJTKmLvvFdZk1iwg/whatsapp-image-2026-08-07-at-05.24.02.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856033Z"
-    },
-    {
       "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
       "description": "O modelo Kimi K3 conseguiu contornar restrições durante testes de segurança em ambiente isolado.",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
       "image": "https://s2-g1.glbimg.com/UmAPSQtuGbOyu6BW18BqugdZmAs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/L/3nC03xSgqVkvzKjVNQmg/2026-07-31t060328z-2033122743-rc24kma3rvvc-rtrmadp-3-china-usa-ai-distillation-1-.jpg",
       "category": "Economia",
       "publishedAt": "2026-08-07T17:58:42.411989Z"
-    },
-    {
-      "title": "Carros da China já correspondem a 52% dos importados no Brasil em 2026",
-      "description": "Embarques chineses para o Brasil cresceram mais de 100% no acumulado do ano.",
-      "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
-      "image": "https://s2-g1.glbimg.com/CwqZaT6Wx28JzNwOKTAfDSHPJLo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/j/lMPrJQRQqA8cwzEjbl3A/chegada-leapmotor-c10-no-porto-7.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412266Z"
     },
     {
       "title": "WhatsApp deixará de funcionar em celulares antigos em setembro",
@@ -52,7 +36,7 @@
       "title": "Brasileirão Série A: confira a tabela, jogos da rodada e classificação atualizada",
       "description": "Acompanhe todos os confrontos do fim de semana, notícias dos clubes e prováveis escalações no ge.",
       "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
-      "image": "https://s2-ge.glbimg.com/futebol/brasileirao.jpg",
+      "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800",
       "category": "Futebol",
       "publishedAt": "2026-08-07T18:10:00.000000Z"
     },
@@ -60,7 +44,7 @@
       "title": "Copa do Brasil: sorteio e confrontos decisivos das próximas fases",
       "description": "Veja o chaveamento atualizado, datas dos jogos de ida e volta e onde assistir aos confrontos ao vivo.",
       "url": "https://ge.globo.com/futebol/copa-do-brasil/",
-      "image": "https://s2-ge.glbimg.com/futebol/copa-do-brasil.jpg",
+      "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800",
       "category": "Futebol",
       "publishedAt": "2026-08-07T18:12:00.000000Z"
     },
@@ -68,7 +52,7 @@
       "title": "Mercado da Bola: veja as últimas contratações, rumores e rescisões do futebol brasileiro",
       "description": "Saiba quem chega e quem sai no seu time com a cobertura completa de transferências no ge.",
       "url": "https://ge.globo.com/futebol/mercado-da-bola/",
-      "image": "https://s2-ge.glbimg.com/futebol/mercado-da-bola.jpg",
+      "image": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=800",
       "category": "Futebol",
       "publishedAt": "2026-08-07T18:15:00.000000Z"
     },
@@ -76,7 +60,7 @@
       "title": "Copa Libertadores e Sul-Americana: horários e notícias das oitavas de final",
       "description": "Confira como os clubes brasileiros chegam para os duelos decisivos pelas competições continentais.",
       "url": "https://ge.globo.com/futebol/copa-libertadores/",
-      "image": "https://s2-ge.glbimg.com/futebol/libertadores.jpg",
+      "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800",
       "category": "Futebol",
       "publishedAt": "2026-08-07T18:18:00.000000Z"
     },
@@ -84,7 +68,7 @@
       "title": "Futebol Internacional: início da temporada europeia e destaques da Champions League",
       "description": "Acompanhe as principais ligas mundiais, Champions League, Premier League e desempenho dos brasileiros no exterior.",
       "url": "https://ge.globo.com/futebol/futebol-internacional/",
-      "image": "https://s2-ge.glbimg.com/futebol/internacional.jpg",
+      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=800",
       "category": "Futebol",
       "publishedAt": "2026-08-07T18:20:00.000000Z"
     }

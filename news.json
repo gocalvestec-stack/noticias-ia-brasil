@@ -1,260 +1,196 @@
 {
   "articles": [
     {
-      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861644Z",
-      "category": "economia"
+      "title": "Homem com mandado de prisão por tráfico morre após confronto com o Baep em Dobrada, SP",
+      "description": "<img src=\"https://s2-g1.glbimg.com/KEUNEOg4eGMYpcwzmBDgt9A9w-0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/w/1cLuMvQ1S72Xhs5RvMFA/vlcsnap-2026-08-07-08h52m30s22",
+      "url": "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/08/07/homem-com-mandado-de-prisao-por-trafico-morre-apos-confronto-com-o-baep-em-dobrada-sp.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215012Z",
+      "category": "Brasil"
     },
     {
-      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861656Z",
-      "category": "economia"
+      "title": "VÍDEOS: Bom Dia PE de sexta-feira, 7 de agosto de 2026",
+      "description": "<img src=\"https://s2-g1.glbimg.com/wX4zE2bno3fPAeEQ3-DTzy3EdDQ=/s01.video.glbimg.com/deo/vi/76/76/14847676\" /><br />     Assista aos vídeos do telejornal com as notícias de Pernambuco.",
+      "url": "https://g1.globo.com/pe/pernambuco/videos-bom-dia-pe/playlist/videos-bom-dia-pe-de-sexta-feira-7-de-agosto-de-2026.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215028Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Homem é encontrado morto com as mãos amarradas e marcas de tiros no Cacheado em Petrolina",
+      "description": "<img src=\"https://s2-g1.glbimg.com/2i4fsYrCFdFb2Sgq6p9Y4_B2mSA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/b/q5lhYrQnmqkcj3pIAPpA/img-20260219-101408686.jpg\" />",
+      "url": "https://g1.globo.com/pe/petrolina-regiao/noticia/2026/08/07/homem-e-encontrado-morto-com-as-maos-amarradas-e-marcas-de-tiros-no-caheado-em-petrolina.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215035Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "PF prende homem por armazenar material de abuso sexual infantojuvenil no Sertão da PB",
+      "description": "<img src=\"https://s2-g1.glbimg.com/ajMDaAFDz4cxdN4BA8TmOOdV7ug=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/voBxloQjGq0XF8Q7Z3Tg/operacao-rescue-27-pf-sousa.jp",
+      "url": "https://g1.globo.com/pb/paraiba/noticia/2026/08/07/pf-prende-homem-por-armazenar-material-de-abuso-sexual-infantojuvenil-no-sertao-da-pb.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215039Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Rio Rotativo Digital chega à orla da Zona Sul na segunda-feira; prefeitura cita combate à atuação de flanelinhas",
+      "description": "<img src=\"https://s2-g1.glbimg.com/HH2O3jpgfNItxeQE9G8oX9oHIpM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/Z/NBzaBSQCSPy0Mbpo217w/bdrj-limpo-20260807-0545-frame",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/rio-rotativo-digital-chega-a-orla-da-zona-sul-do-rio.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215044Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
+      "description": "TV Integração de Divinópolis ao vivo: assista aos telejornais",
+      "url": "https://g1.globo.com/mg/centro-oeste/ao-vivo/tv-integracao-de-divinopolis-ao-vivo-assista-aos-telejornais.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215048Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Casa Branca posta montagem de  Homem-Aranha capturando imigrantes",
+      "description": "<img src=\"https://s2-g1.glbimg.com/oeuR6dfBjARmAQkPCeaLpP5xk-0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/k/YyGc9OS2ATGoD9PpgZqw/super-trump.avif\" /><br />    ",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/casa-branca-posta-montagem-de-homem-aranha-capturando-imigrantes.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215052Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "TV Integração de Juiz de Fora ao vivo: assista aos telejornais",
+      "description": "TV Integração de Juiz de Fora ao vivo: assista aos telejornais",
+      "url": "https://g1.globo.com/mg/zona-da-mata/ao-vivo/assista-ao-vivo-a-tv-integracao-de-juiz-de-fora.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.215056Z",
+      "category": "Brasil"
+    },
+    {
+      "title": "Adobe lança plugin para ChatGPT com mais de 70 ferramentas de edição",
+      "description": "<p>Empresa unifica extensões lançadas anteriormente e promete expandir recursos para Gemini e Slack.</p>\n<p><a href=\"https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferra",
+      "url": "https://tecnoblog.net/noticias/adobe-lanca-plugin-para-chatgpt-com-mais-de-70-ferramentas-de-edicao/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966250Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Meta lança nova IA focada em programação e games",
+      "description": "<p>Muse Code chega como alternativa para trabalhos específicos de desenvolvimento de software.</p>\n<p><a href=\"https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/\">Meta la",
+      "url": "https://tecnoblog.net/noticias/meta-lanca-nova-ia-focada-em-programacao-e-games/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966259Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Smart TV TCL Mini LED C6K de 55” recebe oferta mais barata em até 12x",
+      "description": "<p>TV TCL C6K 55\" tem tecnologia Mini LED e taxa de 144 Hz como destaques. Aproveite a oferta da loja Magalu oficial no AliExpress em até 12x sem juros com o cupom BRAE8</p>\n<p><a href=\"https://tecnob",
+      "url": "https://tecnoblog.net/achados/smart-tv-tcl-mini-led-c6k-de-55-recebe-oferta-mais-barata-em-ate-12x/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966264Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Ar-condicionado LG Inverter Voice 12.000 BTUs cai de preço no Mercado Livre",
+      "description": "<p>Ar-condicionado da LG está com desconto de 28% ao combinar pagamento via Pix e cupom no Mercado Livre; modelo S3-Q12JA31E traz IA integrada, conectividade Wi-Fi e função de para níveis de consumo</",
+      "url": "https://tecnoblog.net/achados/ar-condicionado-lg-inverter-voice-12-000-btus-cai-de-preco-no-mercado-livre/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966269Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Meta diz que sua IA também invadiu sistemas de outra empresa durante teste",
+      "description": "<p>Incidente se soma a episódios revelados por OpenAI e Anthropic. Especialistas questionam capacidade de empresas para criar ambientes controlados.</p>\n<p><a href=\"https://tecnoblog.net/noticias/meta",
+      "url": "https://tecnoblog.net/noticias/meta-diz-que-sua-ia-tambem-invadiu-sistemas-de-outra-empresa-durante-teste/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966273Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Fim do “Enviar como”: Gmail deixará de disparar e-mails de outras contas",
+      "description": "<p>Google marcou fim do recurso \"Enviar como\" no Gmail para contas externas para janeiro de 2027. Gmailify e busca de e-mails via POP também serão encerrados.</p>\n<p><a href=\"https://tecnoblog.net/not",
+      "url": "https://tecnoblog.net/noticias/fim-do-enviar-como-gmail-deixara-de-disparar-e-mails-de-outras-contas/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966277Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "Galaxy Watch Ultra tem menor preço desde maio em oferta exclusiva Prime",
+      "description": "<p>Galaxy Watch Ultra com caixa de titânio, GPS integrado e longa bateria recebe desconto significativo com pagamento via Pix na Amazon</p>\n<p><a href=\"https://tecnoblog.net/achados/galaxy-watch-ultra",
+      "url": "https://tecnoblog.net/achados/galaxy-watch-ultra-tem-menor-preco-desde-maio-em-oferta-exclusiva-prime/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966281Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "ChatGPT libera mensagens ilimitadas no plano gratuito",
+      "description": "<p>Atualização remove limites de interação mesmo para não-assinantes e troca o GPT-5.5 pelo GPT-5.6 Luna. </p>\n<p><a href=\"https://tecnoblog.net/noticias/chatgpt-libera-mensagens-ilimitadas-no-plano-g",
+      "url": "https://tecnoblog.net/noticias/chatgpt-libera-mensagens-ilimitadas-no-plano-gratuito/",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:25.966285Z",
+      "category": "Tecnologia"
+    },
+    {
+      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
+      "description": "<img src=\"https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63a",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807007Z",
+      "category": "Economia"
+    },
+    {
+      "title": "Dólar abre em queda, de olho em novos dados de emprego dos EUA",
+      "description": "<img src=\"https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807017Z",
+      "category": "Economia"
+    },
+    {
+      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
+      "description": "<img src=\"https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807022Z",
+      "category": "Economia"
     },
     {
       "title": "Como criar galinhas poedeiras e frangos caipiras",
-      "description": "",
+      "description": "<img src=\"https://s2-g1.glbimg.com/dynSLtr5Ki0_eYjrtuoDbbnURfc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/Z/jdrto5TkuiK2BbMByvgg/galinha.png\" /><br />     Mate",
       "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895111Z",
-      "category": "brasil"
-    },
-    {
-      "title": "El Niño: governo decide reduzir geração de hidrelétricas para enfrentar fenômeno climático",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861663Z",
-      "category": "economia"
-    },
-    {
-      "title": "Qual a origem da aliança entre EUA e Marrocos — e qual o papel dela na crise migratória de Ceuta",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/qual-a-origem-da-alianca-entre-eua-e-marrocos-e-qual-o-papel-dela-na-crise-migratoria-de-ceuta.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847647Z",
-      "category": "mundo"
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807026Z",
+      "category": "Economia"
     },
     {
       "title": "Meta é condenada a pagar R$ 2,9 bilhões para estado dos EUA por caso envolvendo menores nas redes",
-      "description": "",
+      "description": "<img src=\"https://s2-g1.glbimg.com/EltdEqGcNV5PDSmaUGrqZVNybpU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/p4wC8YSpOFgtGa4c4jhQ/2026-07-07t062504z-175072374-r",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/meta-e-condenada-a-pagar-r-29-bilhoes-para-estado-dos-eua-por-caso-envolvendo-menores-nas-redes.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861654Z",
-      "category": "economia"
-    },
-    {
-      "title": "Turquia, Arábia Saudita e Paquistão assinam pacto de defesa em meio a turbulências no Oriente Médio",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turquia-arabia-saudita-e-paquistao-assinam-pacto-de-defesa-em-meio-a-turbulencias-no-oriente-medio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847644Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Como criar galinhas poedeiras e frangos caipiras",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861651Z",
-      "category": "economia"
-    },
-    {
-      "title": "Como Luiz Henrique pode ajudar o Flamengo? Comentaristas opinam",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/07/como-luiz-henrique-pode-ajudar-o-flamengo-comentaristas-opinam.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723357Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Bastidores: por que a negociação com Memphis se arrastou e dividiu o Corinthians",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/07/bastidores-por-que-a-negociacao-com-memphis-se-arrastou-e-dividiu-o-corinthians.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723362Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Como Bia Soull transformou a experiência com prostituição em álbum sobre desejo, tabus e liberdade",
-      "description": "",
-      "url": "https://g1.globo.com/guia/guia-sp/noticia/2026/08/07/como-bia-soull-transformou-a-experiencia-com-prostituicao-em-album-sobre-desejo-tabus-e-liberdade.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895129Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Trump prefere guerra ideológica com Brasil a interesse estratégico dos EUA no país, diz analista",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/trump-prefere-guerra-ideologica-com-brasil-a-interesse-estrategico-dos-eua-no-pais-diz-analista.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847654Z",
-      "category": "mundo"
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807030Z",
+      "category": "Economia"
     },
     {
       "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
-      "description": "",
+      "description": "<img src=\"https://s2-g1.glbimg.com/eCdqshFTi1zC1J58RvSQsbM2Lmk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/p/JjTGfpSBiHYgYL6ARwTA/globo-canal-4-20260507-2000-fr",
       "url": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847656Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Homem é preso com carro roubado na Via Dutra, em Barra Mansa",
-      "description": "",
-      "url": "https://g1.globo.com/rj/sul-do-rio-costa-verde/noticia/2026/08/07/carro-roubado-na-via-dutra-em-barra-mansa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895118Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Ataque a tiros em escola na Tailândia deixa 7 mortos; atirador também matou os avós",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847658Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Espanha ameaça retaliar Itália caso livre circulação entre os países não seja retomada",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espanha-ameaca-retaliar-italia-caso-livre-circulacao-entre-os-paises-nao-seja-retomada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847637Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Dispensado pelo Palmeiras, joia se firma no São Paulo e vira capitão da Seleção Sub-15",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/07/dispensado-pelo-palmeiras-joia-se-firma-no-sao-paulo-e-vira-capitao-da-selecao-sub-15.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723354Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
-      "description": "",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861661Z",
-      "category": "economia"
-    },
-    {
-      "title": "Imigrantes menores de idade em Ceuta serão levados para outras regiões da Espanha nas próximas semanas, diz governo espanhol",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/imigrantes-menores-ceuta-levados-pra-espanha.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847652Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Por que Antonia, da seleção brasileira, decidiu trocar o Real Madrid pelo Palmeiras",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/08/07/por-que-antonia-da-selecao-brasileira-decidiu-trocar-o-real-madrid-pelo-palmeiras.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723360Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Atacante da seleção inglesa é acusado de agressão após confusão em boate de Londres",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/atacante-da-selecao-inglesa-e-acusado-de-agressao-apos-confusao-em-boate-de-londres-diz-jornal.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723365Z",
-      "category": "futebol"
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807035Z",
+      "category": "Economia"
     },
     {
       "title": "Você sabe separar amizade e trabalho? Faça o QUIZ e descubra",
-      "description": "",
+      "description": "<img src=\"https://s2-g1.glbimg.com/PxXcRQYOGU2Kf3IR1kBt1MDXqLE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/l/uYULsITpGXRw7789PYaA/top-view-people-working-desk.j",
       "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/07/voce-sabe-separar-amizade-e-trabalho-faca-o-quiz-e-descubra.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861659Z",
-      "category": "economia"
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807039Z",
+      "category": "Economia"
     },
     {
-      "title": "Governo do Rio investe mais R$ 108 milhões recuperados da corrupção em equipamentos para as polícias",
-      "description": "",
-      "url": "https://g1.globo.com/politica/blog/octavio-guedes/post/2026/08/07/governo-do-rio-investe-mais-r-108-milhoes-recuperados-da-corrupcao-em-equipamentos-para-as-policias.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895120Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Espanha ameaça retaliar Itália caso livre circulação entre os países não seja retomada",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espanha-ameaca-retaliar-italia-caso-livre-circulacao-entre-os-paises-nao-seja-retomada.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895131Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Copa do Brasil: quartas de final reúnem valentes e favoritos",
-      "description": "",
-      "url": "https://ge.globo.com/blogs/meia-encarnada/post/2026/08/07/copa-do-brasil-quartas-de-final-reunem-valentes-e-favoritos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723367Z",
-      "category": "futebol"
-    },
-    {
-      "title": "\"Sim\" de Rodri ao Barcelona agita imprensa espanhola; meia era alvo do Real Madrid",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/sim-de-rodri-ao-barcelona-agita-imprensa-espanhola-meia-era-alvo-do-real-madrid.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723371Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Frente fria avança pelo Paraná com temporais e rajadas de vento de até 80 km/h; confira previsão do tempo",
-      "description": "",
-      "url": "https://g1.globo.com/pr/oeste-sudoeste/noticia/2026/08/07/frente-fria-avanca-pelo-parana-com-temporais-e-rajadas-de-vento.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895122Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Concurso 3041 da Mega-Sena acumula e vai a R$ 165 milhões; veja os números sorteados",
-      "description": "",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:39.861665Z",
-      "category": "economia"
-    },
-    {
-      "title": "Entenda como Barcelona superou Real Madrid para avançar em contratação de Rodri",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/entenda-como-barcelona-superou-real-madrid-para-avancar-em-contratacao-de-rodri.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:37.723341Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Prefeito é preso, acusado de ser responsável por incêndio florestal na Grécia",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/prefeito-e-preso-acusado-de-ser-responsavel-por-incendio-florestal-na-grecia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:41.847650Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Semáforos apagados causam congestionamentos em cruzamentos em Fortaleza; vídeo",
-      "description": "",
-      "url": "https://g1.globo.com/ce/ceara/noticia/2026/08/07/semaforos-apagados-causam-congestionamentos-em-cruzamentos-em-fortaleza-veja-video.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895125Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Últimos dias para se inscrever em curso técnico de Aquicultura do IFPA em Santarém",
-      "description": "",
-      "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/08/07/ultimos-dias-para-se-inscrever-em-curso-tecnico-de-aquicultura-do-ifpa-em-santarem.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T11:12:38.895127Z",
-      "category": "brasil"
+      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
+      "description": "<img src=\"https://s2-g1.glbimg.com/3tyCTcEiIis3pXSoSyQB2WTDf6o=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/e/oIADg5R3ABdZG1W79B1A/cervejaria-alvrada-3-jarra.jpg",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+      "publishedAt": "2026-08-07T12:05:27.807043Z",
+      "category": "Economia"
     }
   ]
 }

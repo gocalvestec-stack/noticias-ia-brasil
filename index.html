@@ -550,7 +550,7 @@
   <!-- MAIN CONTAINER -->
   <main class="container">
     
-    <!-- NOTÍCIA DESTAQUE (Exibida somente na aba "Todas") -->
+    <!-- NOTÍCIA DESTAQUE (Exibida em "Todas" e em Categorias) -->
     <div id="destaque"></div>
 
     <!-- SESSÃO DE MÍDIA / VÍDEO -->
@@ -591,6 +591,15 @@
     let categoriaAtual = "todas";
     const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
 
+    // Mapeamento de imagens padrão por Categoria
+    const imagensPorCategoria = {
+      futebol: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      brasil: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80",
+      mundo: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80",
+      tecnologia: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      economia: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80"
+    };
+
     // Exibir Data Atual Formatada
     const opçõesData = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     document.getElementById("dataAtual").innerText = new Date().toLocaleDateString('pt-BR', opçõesData);
@@ -607,7 +616,11 @@
       });
 
     function obterImagem(noticia) {
-      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
+      if (noticia && (noticia.image || noticia.urlToImage || noticia.url_imagem)) {
+        return noticia.image || noticia.urlToImage || noticia.url_imagem;
+      }
+      const cat = (noticia?.category || noticia?.categoria || categoriaAtual || "").toLowerCase();
+      return imagensPorCategoria[cat] || imagemPadrao;
     }
 
     function mostrar() {
@@ -623,7 +636,7 @@
           const cat = n.category || n.categoria || "";
           return cat.toLowerCase() === categoriaAtual.toLowerCase();
         });
-        tituloSecao.innerText = `Notícias sobre ${categoriaAtual}`;
+        tituloSecao.innerText = `Notícias sobre ${categoriaAtual.charAt(0).toUpperCase() + categoriaAtual.slice(1)}`;
       } else {
         tituloSecao.innerText = "Últimas Notícias";
       }
@@ -634,26 +647,26 @@
         return;
       }
 
-      // Se estiver em "Todas", exibe a notícia de topo em Destaque
-      if (categoriaAtual === "todas") {
-        const destaque = listaFiltrada[0];
-        const ultimasNoticias = listaFiltrada.slice(1);
+      // Exibe a primeira notícia como Destaque com Imagem
+      const destaque = listaFiltrada[0];
+      const ultimasNoticias = listaFiltrada.slice(1);
+      const imgDestaque = obterImagem(destaque);
 
-        const imgDestaque = obterImagem(destaque);
-        destaqueArea.innerHTML = `
-          <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
-            <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
-            <div class="destaque-overlay">
-              <span class="destaque-badge">${destaque?.category || "Destaque"}</span>
-              <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
-            </div>
-          </a>
-        `;
+      destaqueArea.innerHTML = `
+        <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+          <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+          <div class="destaque-overlay">
+            <span class="destaque-badge">${destaque?.category || categoriaAtual}</span>
+            <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+          </div>
+        </a>
+      `;
 
+      // Se houver mais notícias além do destaque, renderiza a grid
+      if (ultimasNoticias.length > 0) {
         renderizarGrid(ultimasNoticias, area);
       } else {
-        destaqueArea.innerHTML = "";
-        renderizarGrid(listaFiltrada, area);
+        renderizarGrid([destaque], area);
       }
     }
 

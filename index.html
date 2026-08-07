@@ -1,613 +1,685 @@
-<!DOCTYPE html>  <html lang="pt-BR">  <head>  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9077847530409296" crossorigin="anonymous"></script>    <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <meta name="google-site-verification" content="1WkurAw0Lfq6dFBsATI0hLqRy-1tJmVvVJAyK07gtic">    <title>RD NEWS - Notícias Atualizadas</title>  
-  <meta name="description" content="RD NEWS - Portal inteligente de notícias do Brasil e do mundo.">    <link rel="preconnect" href="https://fonts.googleapis.com">  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">    <style>  
-    :root {  
-      --corPrincipal: #0b1f3a;  
-      --corHover: #1d3557;  
-      --corDestaque: #e50914;  
-      --corFundo: #f8fafc;  
-      --corCard: #ffffff;  
-      --corTexto: #0f172a;  
-      --corTextoSecundario: #64748b;  
-      --corBorda: #e2e8f0;  
-      --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);  
-      --sombraHover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);  
-      --raioBorda: 16px;  
-    }  
-  
-    body.dark {  
-      --corFundo: #0f172a;  
-      --corCard: #1e293b;  
-      --corTexto: #f8fafc;  
-      --corTextoSecundario: #94a3b8;  
-      --corBorda: #334155;  
-      --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.3);  
-      --sombraHover: 0 20px 25px -5px rgba(0, 0, 0, 0.4);  
-    }  
-  
-    * {  
-      box-sizing: border-box;  
-      margin: 0;  
-      padding: 0;  
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;  
-      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;  
-    }  
-  
-    body {  
-      background: var(--corFundo);  
-      color: var(--corTexto);  
-      line-height: 1.5;  
-    }  
-  
-    a {  
-      text-decoration: none;  
-      color: inherit;  
-    }  
-  
-    /* HEADER */  
-    header {  
-      background: var(--corPrincipal);  
-      color: white;  
-      padding: 30px 20px;  
-      text-align: center;  
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);  
-    }  
-  
-    .logo-area {  
-      display: flex;  
-      flex-direction: column;  
-      align-items: center;  
-      justify-content: center;  
-      gap: 10px;  
-    }  
-  
-    .logo-area img {  
-      max-width: 140px;  
-      max-height: 140px;  
-      object-fit: contain;  
-      border-radius: 12px;  
-    }  
-  
-    .logo-area img[src=""], .logo-area img:not([src]) {  
-      display: none;  
-    }  
-  
-    header h1 {  
-      font-size: 2.2rem;  
-      font-weight: 800;  
-      letter-spacing: -0.5px;  
-    }  
-  
-    header p {  
-      opacity: 0.85;  
-      font-size: 0.95rem;  
-      font-weight: 500;  
-      margin-top: 4px;  
-    }  
-  
-    /* NAV / MENU */  
-    .menu-container {  
-      position: sticky;  
-      top: 0;  
-      z-index: 100;  
-      background: var(--corCard);  
-      border-bottom: 1px solid var(--corBorda);  
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);  
-    }  
-  
-    .menu {  
-      max-width: 1100px;  
-      margin: 0 auto;  
-      display: flex;  
-      gap: 8px;  
-      overflow-x: auto;  
-      padding: 12px 15px;  
-      scrollbar-width: none;  
-    }  
-  
-    .menu::-webkit-scrollbar {  
-      display: none;  
-    }  
-  
-    .menu button {  
-      border: 1px solid var(--corBorda);  
-      padding: 8px 16px;  
-      border-radius: 30px;  
-      background: var(--corFundo);  
-      color: var(--corTexto);  
-      cursor: pointer;  
-      font-weight: 600;  
-      font-size: 0.88rem;  
-      white-space: nowrap;  
-      display: flex;  
-      align-items: center;  
-      gap: 6px;  
-      transition: all 0.2s ease;  
-    }  
-  
-    .menu button:hover {  
-      background: var(--corPrincipal);  
-      color: white;  
-      border-color: var(--corPrincipal);  
-      transform: translateY(-1px);  
-    }  
-  
-    .menu button.btn-dark-toggle {  
-      margin-left: auto;  
-      background: var(--corBorda);  
-    }  
-  
-    /* CONTAINER PRINCIPAL */  
-    .container {  
-      max-width: 1100px;  
-      margin: 30px auto;  
-      padding: 0 15px;  
-    }  
-  
-    /* DESTAQUE */  
-    .destaque {  
-      background: var(--corCard);  
-      border-radius: var(--raioBorda);  
-      overflow: hidden;  
-      margin-bottom: 30px;  
-      box-shadow: var(--sombra);  
-      border: 1px solid var(--corBorda);  
-      transition: transform 0.3s ease, box-shadow 0.3s ease;  
-      position: relative;  
-    }  
-  
-    .destaque:hover {  
-      transform: translateY(-3px);  
-      box-shadow: var(--sombraHover);  
-    }  
-  
-    .destaque-link {  
-      display: block;  
-      color: inherit;  
-    }  
-  
-    .destaque-img-wrapper {  
-      width: 100%;  
-      height: 420px;  
-      overflow: hidden;  
-      background-color: var(--corBorda);  
-    }  
-  
-    .destaque img {  
-      width: 100%;  
-      height: 100%;  
-      object-fit: cover;  
-      display: block;  
-      transition: transform 0.5s ease;  
-    }  
-  
-    .destaque:hover img {  
-      transform: scale(1.02);  
-    }  
-  
-    .destaque-content {  
-      padding: 24px;  
-    }  
-  
-    .destaque-tag {  
-      display: inline-block;  
-      background: var(--corDestaque);  
-      color: white;  
-      font-size: 0.75rem;  
-      font-weight: 700;  
-      text-transform: uppercase;  
-      padding: 4px 10px;  
-      border-radius: 6px;  
-      margin-bottom: 12px;  
-    }  
-  
-    .destaque h1 {  
-      font-size: 1.8rem;  
-      font-weight: 800;  
-      line-height: 1.3;  
-    }  
-  
-    /* SEÇÕES E TÍTULOS */  
-    .section-title {  
-      font-size: 1.4rem;  
-      font-weight: 700;  
-      margin: 30px 0 20px;  
-      display: flex;  
-      align-items: center;  
-      gap: 10px;  
-    }  
-  
-    .section-title::before {  
-      content: '';  
-      display: block;  
-      width: 4px;  
-      height: 20px;  
-      background: var(--corDestaque);  
-      border-radius: 2px;  
-    }  
-  
-    /* VÍDEO */  
-    .video-box {  
-      background: var(--corCard);  
-      padding: 20px;  
-      margin: 30px 0;  
-      border-radius: var(--raioBorda);  
-      box-shadow: var(--sombra);  
-      border: 1px solid var(--corBorda);  
-    }  
-  
-    .video-box h2 {  
-      margin-bottom: 15px;  
-      font-size: 1.2rem;  
-      font-weight: 700;  
-    }  
-  
-    .iframe-wrapper {  
-      position: relative;  
-      padding-bottom: 56.25%;  
-      height: 0;  
-      overflow: hidden;  
-      border-radius: 12px;  
-    }  
-  
-    .iframe-wrapper iframe {  
-      position: absolute;  
-      top: 0;  
-      left: 0;  
-      width: 100%;  
-      height: 100%;  
-      border: 0;  
-    }  
-  
-    /* ANÚNCIO */  
-    .anuncio-box {  
-      max-width: 100%;  
-      margin: 30px auto;  
-      text-align: center;  
-      overflow: hidden;  
-      border-radius: var(--raioBorda);  
-    }  
-  
-    .anuncio-box img {  
-      width: 100%;  
-      max-height: 180px;  
-      object-fit: cover;  
-      border-radius: var(--raioBorda);  
-    }  
-  
-    /* GRID NOTÍCIAS */  
-    .noticias {  
-      display: grid;  
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
-      gap: 25px;  
-    }  
-  
-    .card {  
-      background: var(--corCard);  
-      border-radius: var(--raioBorda);  
-      overflow: hidden;  
-      box-shadow: var(--sombra);  
-      border: 1px solid var(--corBorda);  
-      display: flex;  
-      flex-direction: column;  
-      transition: transform 0.3s ease, box-shadow 0.3s ease;  
-    }  
-  
-    .card:hover {  
-      transform: translateY(-4px);  
-      box-shadow: var(--sombraHover);  
-    }  
-  
-    .card-img-wrapper {  
-      width: 100%;  
-      height: 200px;  
-      overflow: hidden;  
-      background-color: var(--corBorda);  
-    }  
-  
-    .card img {  
-      width: 100%;  
-      height: 100%;  
-      object-fit: cover;  
-      display: block;  
-      transition: transform 0.5s ease;  
-    }  
-  
-    .card:hover img {  
-      transform: scale(1.05);  
-    }  
-  
-    .card-body {  
-      padding: 20px;  
-      display: flex;  
-      flex-direction: column;  
-      flex-grow: 1;  
-    }  
-  
-    .card h2 {  
-      font-size: 1.05rem;  
-      font-weight: 700;  
-      line-height: 1.4;  
-      margin-bottom: 12px;  
-      display: -webkit-box;  
-      -webkit-line-clamp: 3;  
-      -webkit-box-orient: vertical;  
-      overflow: hidden;  
-    }  
-  
-    .hora {  
-      color: var(--corTextoSecundario);  
-      font-size: 0.8rem;  
-      font-weight: 500;  
-      margin-bottom: 15px;  
-      margin-top: auto;  
-    }  
-  
-    .card-link {  
-      color: var(--corDestaque);  
-      font-weight: 700;  
-      font-size: 0.9rem;  
-      display: inline-flex;  
-      align-items: center;  
-      gap: 4px;  
-      transition: gap 0.2s ease;  
-    }  
-  
-    .card-link:hover {  
-      gap: 8px;  
-    }  
-  
-    /* FOOTER */  
-    footer {  
-      background: var(--corPrincipal);  
-      color: white;  
-      text-align: center;  
-      padding: 40px 20px;  
-      margin-top: 60px;  
-      border-top: 1px solid rgba(255, 255, 255, 0.1);  
-    }  
-  
-    footer p {  
-      opacity: 0.8;  
-      font-size: 0.9rem;  
-      margin-bottom: 15px;  
-    }  
-  
-    .footer-links {  
-      display: flex;  
-      justify-content: center;  
-      flex-wrap: wrap;  
-      gap: 15px;  
-    }  
-  
-    .footer-links a {  
-      color: white;  
-      opacity: 0.7;  
-      font-size: 0.88rem;  
-      font-weight: 500;  
-      transition: opacity 0.2s;  
-    }  
-  
-    .footer-links a:hover {  
-      opacity: 1;  
-    }  
-  
-    /* RESPONSIVIDADE */  
-    @media(max-width: 768px) {  
-      .destaque-img-wrapper {  
-        height: 260px;  
-      }  
-  
-      .destaque h1 {  
-        font-size: 1.4rem;  
-      }  
-  
-      header h1 {  
-        font-size: 1.8rem;  
-      }  
-  
-      .container {  
-        margin: 20px auto;  
-      }  
-    }  
-  </style>  </head>  <body>  
-  <header>  
-    <div class="logo-area">  
-      <img id="logoSite" src="" alt="Logo RD NEWS">  
-      <h1 id="nomeSite">RD NEWS</h1>  
-    </div>  
-    <p>Seu portal inteligente de notícias</p>  
-  </header>    <div class="menu-container">  
-    <div class="menu">  
-      <button onclick="categoria('todas')">📰 Todas</button>  
-      <button onclick="categoria('futebol')">⚽ Futebol</button>  
-      <button onclick="categoria('brasil')">🇧🇷 Brasil</button>  
-      <button onclick="categoria('mundo')">🌎 Mundo</button>  
-      <button onclick="categoria('tecnologia')">💻 Tecnologia</button>  
-      <button onclick="categoria('economia')">💰 Economia</button>  
-      <button class="btn-dark-toggle" onclick="modo()">🌙 Tema</button>  
-    </div>  
-  </div>    <div class="container">  
-    <div id="destaque"></div>  
-    <div id="videoYoutube"></div>  
-    <div id="anuncio"></div>  <h2 class="section-title">Últimas notícias</h2>  
-<div class="noticias" id="noticias">  
-  Carregando notícias...  
-</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9077847530409296" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="1WkurAw0Lfq6dFBsATI0hLqRy-1tJmVvVJAyK07gtic">
+  <title>RD NEWS - Portal de Notícias</title>
+  <meta name="description" content="RD NEWS - Portal inteligente de notícias do Brasil e do mundo.">
 
-  </div>    <script>  
-    let noticias = [];  
-    let categoriaAtual = "todas";  
-  
-    // Imagem fallback padrão de alta qualidade para futebol/notícias  
-    const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";  
-  
-    fetch("news.json")  
-      .then(res => res.json())  
-      .then(dados => {  
-        noticias = dados.articles || [];  
-        mostrar();  
-      })  
-      .catch(() => {  
-        document.getElementById("noticias").innerHTML = "Não foi possível carregar as notícias";  
-      });  
-  
-    function embaralhar(lista) {  
-      return lista.sort(() => Math.random() - 0.5);  
-    }  
-  
-    function obterImagem(noticia) {  
-      // Tenta pegar diferentes propriedades de imagem possíveis da API ou usa o fallback  
-      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;  
-    }  
-  
-    function mostrar() {  
-      let lista = [...noticias];  
-      lista = embaralhar(lista);  
-  
-      let area = document.getElementById("noticias");  
-      area.innerHTML = "";  
-  
-      if (lista.length === 0) {  
-        area.innerHTML = "Nenhuma notícia encontrada.";  
-        return;  
-      }  
-  
-      let destaque = lista[0];  
-      let ultimasNoticias = lista.slice(1);  
-  
-      // Renderiza Destaque  
-      let imgDestaque = obterImagem(destaque);  
-      document.getElementById("destaque").innerHTML = `  
-        <div class="destaque">  
-          <a href="${destaque?.url || '#'}" target="_blank" class="destaque-link">  
-            <div class="destaque-img-wrapper">  
-              <img src="${imgDestaque}" alt="${destaque?.title || 'Imagem em Destaque'}" onerror="this.onerror=null; this.src='${imagemPadrao}';">  
-            </div>  
-            <div class="destaque-content">  
-              <span class="destaque-tag">Em Destaque</span>  
-              <h1>${destaque?.title || "Sem notícia"}</h1>  
-            </div>  
-          </a>  
-        </div>  
-      `;  
-  
-      // Renderiza Cards  
-      ultimasNoticias.forEach(n => {  
-        let imgCard = obterImagem(n);  
-        area.innerHTML += `  
-          <div class="card">  
-            <a href="${n.url}" target="_blank" class="card-img-wrapper">  
-              <img src="${imgCard}" alt="${n.title}" onerror="this.onerror=null; this.src='${imagemPadrao}';">  
-            </a>  
-            <div class="card-body">  
-              <h2>${n.title}</h2>  
-              <p class="hora">${data(n.publishedAt)}</p>  
-              <a href="${n.url}" target="_blank" class="card-link">  
-                Ler notícia ➔  
-              </a>  
-            </div>  
-          </div>  
-        `;  
-      });  
-    }  
-  
-    function data(d) {  
-      if (!d) return "Data não informada";  
-      return new Date(d).toLocaleString("pt-BR");  
-    }  
-  
-    function categoria(c) {  
-      categoriaAtual = c;  
-      mostrar();  
-    }  
-  
-    function modo() {  
-      document.body.classList.toggle("dark");  
-    }  
-  
-    // CONFIG.JSON  
-    fetch("config.json")  
-      .then(res => res.json())  
-      .then(config => {  
-  
-        // NOME  
-        if (config.nome) {  
-          document.getElementById("nomeSite").innerHTML = config.nome;  
-        }  
-  
-        // LOGO  
-        if (config.logo) {  
-          document.getElementById("logoSite").src = config.logo;  
-        }  
-  
-        // CORES  
-        if (config.tema) {  
-          if (config.tema.corPrincipal) {  
-            document.documentElement.style.setProperty("--corPrincipal", config.tema.corPrincipal);  
-          }  
-          if (config.tema.corFundo) {  
-            document.documentElement.style.setProperty("--corFundo", config.tema.corFundo);  
-          }  
-          if (config.tema.corTexto) {  
-            document.documentElement.style.setProperty("--corTexto", config.tema.corTexto);  
-          }  
-        }  
-  
-        // VÍDEO ALEATÓRIO  
-        if (config.video && config.video.ativo) {  
-          let videoEscolhido = "";  
-  
-          if (config.video.aleatorio && config.video.lista && config.video.lista.length > 0) {  
-            let sorteio = Math.floor(Math.random() * config.video.lista.length);  
-            videoEscolhido = config.video.lista[sorteio];  
-          } else {  
-            videoEscolhido = config.video.youtube;  
-          }  
-  
-          let videoId = "";  
-          if (videoEscolhido.includes("youtu.be")) {  
-            videoId = videoEscolhido.split("youtu.be/")[1].split("?")[0];  
-          } else if (videoEscolhido.includes("youtube.com")) {  
-            videoId = new URL(videoEscolhido).searchParams.get("v");  
-          }  
-  
-          if (videoId) {  
-            document.getElementById("videoYoutube").innerHTML = `  
-              <div class="video-box">  
-                <h2>🎥 ${config.video.titulo || "Vídeo em destaque"}</h2>  
-                <div class="iframe-wrapper">  
-                  <iframe src="https://www.youtube.com/embed/${videoId}" loading="lazy" allowfullscreen></iframe>  
-                </div>  
-              </div>  
-            `;  
-          }  
-        }  
-  
-        // ANÚNCIO  
-        if (config.anuncio && config.anuncio.ativo) {  
-          document.getElementById("anuncio").innerHTML = `  
-            <div class="anuncio-box">  
-              <img src="${config.anuncio.imagem}" alt="Anúncio">  
-            </div>  
-          `;  
-        }  
-  
-      })  
-      .catch(() => {  
-        console.log("Erro no config.json");  
-      });  
-  </script>    <footer>  
-    <p>© 2026 RD NEWS - Todos os direitos reservados.</p>  
-    <div class="footer-links">  
-      <a href="sobre.html">Sobre</a>  
-      <a href="contato.html">Contato</a>  
-      <a href="privacidade.html">Privacidade</a>  
-      <a href="termos.html">Termos de Uso</a>  
-    </div>  
-  </footer>  
-</body>  </html>
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0f172a;
+      --primary-accent: #2563eb;
+      --accent: #dc2626;
+      --bg-body: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-header: #0f172a;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --radius: 12px;
+    }
+
+    body.dark {
+      --bg-body: #090d16;
+      --bg-card: #111827;
+      --bg-header: #030712;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border-color: #1f2937;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+      --shadow-lg: 0 10px 25px -3px rgb(0 0 0 / 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.5;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* TOP BAR & HEADER */
+    .top-bar {
+      background: rgba(0, 0, 0, 0.2);
+      color: #94a3b8;
+      font-size: 0.8rem;
+      padding: 6px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    header {
+      background: var(--bg-header);
+      color: white;
+      padding: 24px 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-area img {
+      max-height: 48px;
+      object-fit: contain;
+    }
+
+    .logo-area img[src=""], .logo-area img:not([src]) {
+      display: none;
+    }
+
+    .logo-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-tagline {
+      font-size: 0.85rem;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+
+    /* MENU NAUVEGAÇÃO */
+    .menu-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .menu {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      padding: 10px 0;
+      scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+      display: none;
+    }
+
+    .nav-links button {
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .nav-links button:hover, .nav-links button.active {
+      color: var(--primary-accent);
+      background: rgba(37, 99, 235, 0.08);
+    }
+
+    .btn-theme {
+      border: 1px solid var(--border-color);
+      background: var(--bg-body);
+      color: var(--text-main);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-theme:hover {
+      border-color: var(--primary-accent);
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    /* HERO / DESTAQUE PRINCIPAL */
+    .destaque-card {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 40px;
+      background: #000;
+      box-shadow: var(--shadow-lg);
+      min-height: 420px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .destaque-img-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.75;
+      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+    }
+
+    .destaque-card:hover .destaque-img-bg {
+      transform: scale(1.03);
+      opacity: 0.65;
+    }
+
+    .destaque-overlay {
+      position: relative;
+      z-index: 2;
+      padding: 40px;
+      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 100%);
+      width: 100%;
+    }
+
+    .destaque-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    .destaque-title {
+      color: #ffffff;
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      max-width: 900px;
+      letter-spacing: -0.5px;
+    }
+
+    /* SEÇÕES DE CONTEÚDO */
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background: var(--primary-accent);
+    }
+
+    /* GRID DE CARDS */
+    .noticias-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(37, 99, 235, 0.3);
+    }
+
+    .card-img-wrapper {
+      width: 100%;
+      height: 180px;
+      overflow: hidden;
+      background-color: var(--border-color);
+      position: relative;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover .card-img {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-meta {
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      padding-top: 12px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .card-btn {
+      color: var(--primary-accent);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* MIDIA / VÍDEO & ANÚNCIO */
+    .media-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin: 36px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .media-box h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .anuncio-box {
+      margin: 36px 0;
+      text-align: center;
+      overflow: hidden;
+      border-radius: var(--radius);
+    }
+
+    .anuncio-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg-header);
+      color: #94a3b8;
+      padding: 40px 20px;
+      margin-top: 80px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: #94a3b8;
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    /* RESPONSIVIDADE */
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+      }
+
+      .destaque-card {
+        min-height: 320px;
+      }
+
+      .destaque-overlay {
+        padding: 20px;
+      }
+
+      .destaque-title {
+        font-size: 1.4rem;
+      }
+
+      .noticias-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span id="dataAtual"></span>
+    <span>RD NEWS • O seu portal de notícias</span>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <div class="logo-area">
+        <img id="logoSite" src="" alt="Logo RD NEWS">
+        <div>
+          <h1 class="logo-title" id="nomeSite">RD NEWS</h1>
+          <p class="logo-tagline">Informação com credibilidade e agilidade</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU / CATEGORIAS -->
+  <div class="menu-wrapper">
+    <div class="menu">
+      <nav class="nav-links">
+        <button class="active" onclick="categoria('todas', this)">📰 Todas</button>
+        <button onclick="categoria('futebol', this)">⚽ Futebol</button>
+        <button onclick="categoria('brasil', this)">🇧🇷 Brasil</button>
+        <button onclick="categoria('mundo', this)">🌎 Mundo</button>
+        <button onclick="categoria('tecnologia', this)">💻 Tecnologia</button>
+        <button onclick="categoria('economia', this)">💰 Economia</button>
+      </nav>
+      <button class="btn-theme" onclick="modo()">🌙 <span id="themeText">Escuro</span></button>
+    </div>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+    
+    <!-- NOTÍCIA DESTAQUE -->
+    <div id="destaque"></div>
+
+    <!-- SESSÃO DE MÍDIA / VÍDEO -->
+    <div id="videoYoutube"></div>
+
+    <!-- ANÚNCIO -->
+    <div id="anuncio"></div>
+
+    <!-- GRID DE NOTÍCIAS -->
+    <section>
+      <div class="section-header">
+        <h2 class="section-title">Últimas Notícias</h2>
+      </div>
+      <div class="noticias-grid" id="noticias">
+        <p style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+          Carregando as últimas notícias...
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos de Uso</a>
+      </div>
+      <p>© 2026 RD NEWS. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    let noticias = [];
+    let categoriaAtual = "todas";
+    const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
+
+    // Exibir Data Atual Formatada
+    const opçõesData = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById("dataAtual").innerText = new Date().toLocaleDateString('pt-BR', opçõesData);
+
+    // Carregar Notícias
+    fetch("news.json")
+      .then(res => res.json())
+      .then(dados => {
+        noticias = dados.articles || [];
+        mostrar();
+      })
+      .catch(() => {
+        document.getElementById("noticias").innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Não foi possível carregar as notícias no momento.</p>";
+      });
+
+    function embaralhar(lista) {
+      return lista.sort(() => Math.random() - 0.5);
+    }
+
+    function obterImagem(noticia) {
+      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
+    }
+
+    function mostrar() {
+      let lista = [...noticias];
+      lista = embaralhar(lista);
+
+      const area = document.getElementById("noticias");
+      area.innerHTML = "";
+
+      if (lista.length === 0) {
+        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhuma notícia encontrada.</p>";
+        return;
+      }
+
+      const destaque = lista[0];
+      const ultimasNoticias = lista.slice(1);
+
+      // Renderiza Destaque Principal
+      const imgDestaque = obterImagem(destaque);
+      document.getElementById("destaque").innerHTML = `
+        <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+          <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+          <div class="destaque-overlay">
+            <span class="destaque-badge">Destaque do Dia</span>
+            <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+          </div>
+        </a>
+      `;
+
+      // Renderiza Cards do Grid
+      ultimasNoticias.forEach(n => {
+        const imgCard = obterImagem(n);
+        area.innerHTML += `
+          <article class="card">
+            <a href="${n.url}" target="_blank" class="card-img-wrapper">
+              <img src="${imgCard}" alt="${n.title}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">${n.title}</h3>
+              <div class="card-meta">
+                <span>${data(n.publishedAt)}</span>
+                <a href="${n.url}" target="_blank" class="card-btn">Ler ➔</a>
+              </div>
+            </div>
+          </article>
+        `;
+      });
+    }
+
+    function data(d) {
+      if (!d) return "Recente";
+      return new Date(d).toLocaleDateString("pt-BR", { hour: '2-digit', minute: '2-digit' });
+    }
+
+    function categoria(c, btn) {
+      categoriaAtual = c;
+      document.querySelectorAll('.nav-links button').forEach(b => b.classList.remove('active'));
+      if(btn) btn.classList.add('active');
+      mostrar();
+    }
+
+    function modo() {
+      const isDark = document.body.classList.toggle("dark");
+      document.getElementById("themeText").innerText = isDark ? "Claro" : "Escuro";
+    }
+
+    // Configurações Adicionais via Config.json
+    fetch("config.json")
+      .then(res => res.json())
+      .then(config => {
+        if (config.nome) document.getElementById("nomeSite").innerHTML = config.nome;
+        if (config.logo) document.getElementById("logoSite").src = config.logo;
+
+        // VÍDEO
+        if (config.video && config.video.ativo) {
+          let videoEscolhido = config.video.youtube;
+          if (config.video.aleatorio && config.video.lista?.length > 0) {
+            let sorteio = Math.floor(Math.random() * config.video.lista.length);
+            videoEscolhido = config.video.lista[sorteio];
+          }
+
+          let videoId = "";
+          if (videoEscolhido.includes("youtu.be")) {
+            videoId = videoEscolhido.split("youtu.be/")[1].split("?")[0];
+          } else if (videoEscolhido.includes("youtube.com")) {
+            videoId = new URL(videoEscolhido).searchParams.get("v");
+          }
+
+          if (videoId) {
+            document.getElementById("videoYoutube").innerHTML = `
+              <div class="media-box">
+                <h3>🎥 ${config.video.titulo || "Vídeo em destaque"}</h3>
+                <div class="iframe-wrapper">
+                  <iframe src="https://www.youtube.com/embed/${videoId}" loading="lazy" allowfullscreen></iframe>
+                </div>
+              </div>
+            `;
+          }
+        }
+
+        // ANÚNCIO
+        if (config.anuncio && config.anuncio.ativo) {
+          document.getElementById("anuncio").innerHTML = `
+            <div class="anuncio-box">
+              <img src="${config.anuncio.imagem}" alt="Anúncio">
+            </div>
+          `;
+        }
+      })
+      .catch(() => console.log("Config não carregado ou ausente"));
+  </script>
+</body>
+</html>

@@ -613,27 +613,32 @@
       return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
     }
 
-    function mostrar() {
+   function mostrar() {
   let lista = [...noticias];
-
-  // Filtrar categoria
-  if (categoriaAtual !== "todas") {
-    lista = lista.filter(n => n.category === categoriaAtual);
-  }
-
   lista = embaralhar(lista);
 
-      // Renderiza Destaque Principal
-      const imgDestaque = obterImagem(destaque);
-      document.getElementById("destaque").innerHTML = `
-        <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
-          <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
-          <div class="destaque-overlay">
-            <span class="destaque-badge">Destaque do Dia</span>
-            <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
-          </div>
-        </a>
-      `;
+  const area = document.getElementById("noticias");
+  area.innerHTML = "";
+
+  if (lista.length === 0) {
+    area.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhuma notícia encontrada.</p>";
+    return;
+  }
+
+  const destaque = lista[0];
+  const ultimasNoticias = lista.slice(1);
+
+  // Renderiza Destaque Principal
+  const imgDestaque = obterImagem(destaque);
+  document.getElementById("destaque").innerHTML = `
+    <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+      <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+      <div class="destaque-overlay">
+        <span class="destaque-badge">Destaque do Dia</span>
+        <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+      </div>
+    </a>
+  `;
 
       // Renderiza Cards do Grid
       ultimasNoticias.forEach(n => {

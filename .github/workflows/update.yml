@@ -21,178 +21,139 @@ jobs:
       - name: Baixar projeto
         uses: actions/checkout@v4
 
-
       - name: Instalar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-
       - name: Instalar bibliotecas
         run: |
           pip install feedparser requests beautifulsoup4
-
 
       - name: Buscar noticias RSS
         run: |
 
           python3 <<'PY'
 
-          import json
-          import feedparser
-          import requests
-          import re
-
-          from bs4 import BeautifulSoup
-          from datetime import datetime
-
-
-          feeds = {
-
-              "Futebol":
-              "https://www.espn.com.br/rss/futebol",
-
-              "Brasil":
-              "https://g1.globo.com/rss/g1/",
-
-              "Tecnologia":
-              "https://feeds.feedburner.com/tecnoblog",
-
-              "Economia":
-              "https://g1.globo.com/rss/g1/economia/"
-
-          }
+import json
+import feedparser
+import requests
+import re
+from bs4 import BeautifulSoup
+from datetime import datetime
 
 
-          def pegar_imagem(item):
+feeds = {
 
-              # imagem RSS media
-              if "media_content" in item:
-                  try:
-                      return item.media_content[0]["url"]
-                  except:
-                      pass
+"Futebol":
+"https://www.espn.com.br/rss/futebol",
 
+"Brasil":
+"https://g1.globo.com/rss/g1/",
 
-              # thumbnail RSS
-              if "media_thumbnail" in item:
-                  try:
-                      return item.media_thumbnail[0]["url"]
-                  except:
-                      pass
+"Tecnologia":
+"https://feeds.feedburner.com/tecnoblog",
 
+"Economia":
+"https://g1.globo.com/rss/g1/economia/"
 
-              # procura imagem dentro do html
-              html = item.get("summary","")
-
-              soup = BeautifulSoup(html,"html.parser")
-
-              img = soup.find("img")
-
-              if img and img.get("src"):
-                  return img.get("src")
+}
 
 
-              return "https://via.placeholder.com/1200x700?text=Noticias"
+def pegar_imagem(item):
+
+    # imagem do RSS
+    if "media_content" in item:
+        try:
+            return item.media_content[0]["url"]
+        except:
+            pass
 
 
+    # thumbnail
+    if "media_thumbnail" in item:
+        try:
+            return item.media_thumbnail[0]["url"]
+        except:
+            pass
 
-          def limpar_texto(texto):
 
-              soup = BeautifulSoup(texto,"html.parser")
+    # procura imagem dentro do HTML
+    html = item.get("summary","")
 
-              texto = soup.get_text(" ")
+    soup = BeautifulSoup(html,"html.parser")
 
-              texto = re.sub(
-                  r'\s+',
-                  ' ',
-                  texto
-              )
+    img = soup.find("img")
 
-              return texto[:250]
+    if img and img.get("src"):
+        return img.get("src")
+
+
+    # fallback
+    return "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80"
 
 
 
-          artigos=[]
+articles=[]
 
 
-          for categoria,url in feeds.items():
+for categoria,url in feeds.items():
 
-              print("Buscando:",categoria)
-
-              feed = feedparser.parse(url)
+    feed = feedparser.parse(url)
 
 
-              for item in feed.entries[:8]:
+    for item in feed.entries[:10]:
 
-                  artigos.append({
-
-                      "title":
-                      item.get(
-                          "title",
-                          "Sem título"
-                      ),
+        imagem = pegar_imagem(item)
 
 
-                      "description":
-                      limpar_texto(
-                          item.get(
-                              "summary",
-                              ""
-                          )
-                      ),
+        articles.append({
+
+            "title":
+            item.get("title","Sem título"),
 
 
-                      "url":
-                      item.get(
-                          "link",
-                          "#"
-                      ),
+            "description":
+            BeautifulSoup(
+            item.get("summary",""),
+            "html.parser"
+            ).text[:250],
 
 
-                      "image":
-                      pegar_imagem(
-                          item
-                      ),
+            "url":
+            item.get("link","#"),
 
 
-                      "publishedAt":
-                      item.get(
-                          "published",
-                          datetime.utcnow().isoformat()+"Z"
-                      ),
+            "image":
+            imagem,
 
 
-                      "category":
-                      categoria
+            "publishedAt":
+            datetime.utcnow().isoformat()+"Z",
 
-                  })
+
+            "category":
+            categoria
+
+        })
 
 
 
-          with open(
-              "news.json",
-              "w",
-              encoding="utf-8"
-          ) as arquivo:
+with open("news.json","w",encoding="utf-8") as f:
 
-              json.dump(
-                  {
-                    "articles":artigos
-                  },
-                  arquivo,
-                  ensure_ascii=False,
-                  indent=2
-              )
+    json.dump(
+    {"articles":articles},
+    f,
+    ensure_ascii=False,
+    indent=2
+    )
 
 
+print(
+f"{len(articles)} notícias atualizadas!"
+)
 
-          print(
-              f"{len(artigos)} noticias atualizadas!"
-          )
-
-          PY
-
+PY
 
 
       - name: Commit das noticias
@@ -209,5 +170,4 @@ jobs:
 
       - name: Enviar alterações
         run: |
-
           git push

@@ -1,468 +1,599 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RD NEWS - Portal Inteligente de Notícias</title>
-  <meta name="description" content="Últimas notícias do Brasil, mundo, futebol, tecnologia e economia em tempo real." />
 
-  <!-- Google AdSense -->
-  <!-- Cole seu código aqui -->
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9077847530409296" crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="1WkurAw0Lfq6dFBsATI0hLqRy-1tJmVvVJAyK07gtic">
+
+  <title>RD NEWS - Notícias Atualizadas</title>
+  <meta name="description" content="RD NEWS - Portal inteligente de notícias do Brasil e do mundo.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
+    :root {
+      --corPrincipal: #0b1f3a;
+      --corHover: #1d3557;
+      --corDestaque: #e50914;
+      --corFundo: #f8fafc;
+      --corCard: #ffffff;
+      --corTexto: #0f172a;
+      --corTextoSecundario: #64748b;
+      --corBorda: #e2e8f0;
+      --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+      --sombraHover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      --raioBorda: 16px;
     }
 
-    body{
-      font-family:Arial, Helvetica, sans-serif;
-      background:#f4f6f9;
-      color:#111;
-      transition:.3s;
+    body.dark {
+      --corFundo: #0f172a;
+      --corCard: #1e293b;
+      --corTexto: #f8fafc;
+      --corTextoSecundario: #94a3b8;
+      --corBorda: #334155;
+      --sombra: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+      --sombraHover: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
     }
 
-    body.dark{
-      background:#0f172a;
-      color:#fff;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
 
-    header{
-      background:#c00000;
-      color:#fff;
-      padding:16px;
-      position:sticky;
-      top:0;
-      z-index:1000;
-      box-shadow:0 2px 8px rgba(0,0,0,.2);
+    body {
+      background: var(--corFundo);
+      color: var(--corTexto);
+      line-height: 1.5;
     }
 
-    .topo{
-      max-width:1200px;
-      margin:auto;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      flex-wrap:wrap;
+    a {
+      text-decoration: none;
+      color: inherit;
     }
 
-    .logo{
-      font-size:28px;
-      font-weight:900;
-      letter-spacing:1px;
+    /* HEADER */
+    header {
+      background: var(--corPrincipal);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     }
 
-    .acoes{
-      display:flex;
-      gap:10px;
-      align-items:center;
+    .logo-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
 
-    .acoes input{
-      padding:10px;
-      border:none;
-      border-radius:8px;
-      width:180px;
+    .logo-area img {
+      max-width: 140px;
+      max-height: 140px;
+      object-fit: contain;
+      border-radius: 12px;
     }
 
-    .acoes button{
-      padding:10px 14px;
-      border:none;
-      border-radius:8px;
-      cursor:pointer;
-      font-weight:bold;
+    .logo-area img[src=""], .logo-area img:not([src]) {
+      display: none;
     }
 
-    nav{
-      background:#fff;
-      border-bottom:1px solid #ddd;
-      overflow:auto;
-      white-space:nowrap;
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
     }
 
-    body.dark nav{
-      background:#111827;
-      border-color:#1f2937;
+    header p {
+      opacity: 0.85;
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-top: 4px;
     }
 
-    .categorias{
-      max-width:1200px;
-      margin:auto;
-      display:flex;
-      gap:10px;
-      padding:12px;
+    /* NAV / MENU */
+    .menu-container {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--corCard);
+      border-bottom: 1px solid var(--corBorda);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
 
-    .categorias button{
-      border:none;
-      background:#e5e7eb;
-      padding:10px 16px;
-      border-radius:999px;
-      cursor:pointer;
-      font-weight:bold;
-      transition:.2s;
+    .menu {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 12px 15px;
+      scrollbar-width: none;
     }
 
-    body.dark .categorias button{
-      background:#1f2937;
-      color:#fff;
+    .menu::-webkit-scrollbar {
+      display: none;
     }
 
-    .categorias button.ativo{
-      background:#c00000;
-      color:#fff;
+    .menu button {
+      border: 1px solid var(--corBorda);
+      padding: 8px 16px;
+      border-radius: 30px;
+      background: var(--corFundo);
+      color: var(--corTexto);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.88rem;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
     }
 
-    .container{
-      max-width:1200px;
-      margin:20px auto;
-      padding:0 16px;
+    .menu button:hover {
+      background: var(--corPrincipal);
+      color: white;
+      border-color: var(--corPrincipal);
+      transform: translateY(-1px);
     }
 
-    .destaque{
-      display:grid;
-      grid-template-columns:2fr 1fr;
-      gap:20px;
-      margin-bottom:28px;
+    .menu button.btn-dark-toggle {
+      margin-left: auto;
+      background: var(--corBorda);
     }
 
-    @media(max-width:900px){
-      .destaque{
-        grid-template-columns:1fr;
+    /* CONTAINER PRINCIPAL */
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+
+    /* DESTAQUE */
+    .destaque {
+      background: var(--corCard);
+      border-radius: var(--raioBorda);
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: var(--sombra);
+      border: 1px solid var(--corBorda);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .destaque:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--sombraHover);
+    }
+
+    .destaque-link {
+      display: block;
+      color: inherit;
+    }
+
+    .destaque img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .destaque-content {
+      padding: 24px;
+    }
+
+    .destaque-tag {
+      display: inline-block;
+      background: var(--corDestaque);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+
+    .destaque h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    /* SEÇÕES E TÍTULOS */
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 30px 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title::before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 20px;
+      background: var(--corDestaque);
+      border-radius: 2px;
+    }
+
+    /* VÍDEO */
+    .video-box {
+      background: var(--corCard);
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: var(--raioBorda);
+      box-shadow: var(--sombra);
+      border: 1px solid var(--corBorda);
+    }
+
+    .video-box h2 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ANÚNCIO */
+    .anuncio-box {
+      max-width: 100%;
+      margin: 30px auto;
+      text-align: center;
+      overflow: hidden;
+      border-radius: var(--raioBorda);
+    }
+
+    .anuncio-box img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: var(--raioBorda);
+    }
+
+    /* GRID NOTÍCIAS */
+    .noticias {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--corCard);
+      border-radius: var(--raioBorda);
+      overflow: hidden;
+      box-shadow: var(--sombra);
+      border: 1px solid var(--corBorda);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--sombraHover);
+    }
+
+    .card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .hora {
+      color: var(--corTextoSecundario);
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-bottom: 15px;
+      margin-top: auto;
+    }
+
+    .card-link {
+      color: var(--corDestaque);
+      font-weight: 700;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.2s ease;
+    }
+
+    .card-link:hover {
+      gap: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--corPrincipal);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer p {
+      opacity: 0.8;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .footer-links a {
+      color: white;
+      opacity: 0.7;
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .footer-links a:hover {
+      opacity: 1;
+    }
+
+    /* RESPONSIVIDADE */
+    @media(max-width: 768px) {
+      .destaque img {
+        height: 260px;
       }
-    }
 
-    .principal{
-      background:#fff;
-      border-radius:18px;
-      overflow:hidden;
-      box-shadow:0 6px 18px rgba(0,0,0,.08);
-    }
+      .destaque h1 {
+        font-size: 1.4rem;
+      }
 
-    body.dark .principal{
-      background:#111827;
-    }
+      header h1 {
+        font-size: 1.8rem;
+      }
 
-    .principal img{
-      width:100%;
-      height:340px;
-      object-fit:cover;
-      display:block;
-    }
-
-    .principal .texto{
-      padding:20px;
-    }
-
-    .principal h1{
-      font-size:32px;
-      margin-bottom:12px;
-      line-height:1.15;
-    }
-
-    .principal p{
-      color:#555;
-      line-height:1.6;
-    }
-
-    body.dark .principal p{
-      color:#d1d5db;
-    }
-
-    .laterais{
-      display:flex;
-      flex-direction:column;
-      gap:18px;
-    }
-
-    .mini{
-      background:#fff;
-      border-radius:16px;
-      overflow:hidden;
-      box-shadow:0 4px 14px rgba(0,0,0,.08);
-      display:flex;
-      gap:12px;
-    }
-
-    body.dark .mini{
-      background:#111827;
-    }
-
-    .mini img{
-      width:120px;
-      height:100px;
-      object-fit:cover;
-      flex-shrink:0;
-    }
-
-    .mini .texto{
-      padding:12px;
-    }
-
-    .mini h3{
-      font-size:16px;
-      margin-bottom:8px;
-      line-height:1.3;
-    }
-
-    .data{
-      font-size:12px;
-      color:#777;
-    }
-
-    body.dark .data{
-      color:#9ca3af;
-    }
-
-    .titulo-secao{
-      font-size:24px;
-      margin:12px 0 20px;
-      border-left:5px solid #c00000;
-      padding-left:12px;
-    }
-
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-      gap:20px;
-    }
-
-    .card{
-      background:#fff;
-      border-radius:16px;
-      overflow:hidden;
-      box-shadow:0 4px 14px rgba(0,0,0,.08);
-      transition:transform .2s;
-    }
-
-    body.dark .card{
-      background:#111827;
-    }
-
-    .card:hover{
-      transform:translateY(-4px);
-    }
-
-    .card img{
-      width:100%;
-      height:170px;
-      object-fit:cover;
-      display:block;
-    }
-
-    .card .texto{
-      padding:16px;
-    }
-
-    .tag{
-      display:inline-block;
-      background:#c00000;
-      color:#fff;
-      font-size:11px;
-      font-weight:bold;
-      padding:6px 10px;
-      border-radius:999px;
-      margin-bottom:10px;
-      text-transform:uppercase;
-    }
-
-    .card h3{
-      font-size:18px;
-      margin-bottom:10px;
-      line-height:1.35;
-    }
-
-    .card p{
-      font-size:14px;
-      color:#555;
-      line-height:1.5;
-    }
-
-    body.dark .card p{
-      color:#d1d5db;
-    }
-
-    footer{
-      margin-top:40px;
-      background:#111827;
-      color:#fff;
-      text-align:center;
-      padding:28px 16px;
-    }
-
-    .hidden{
-      display:none;
+      .container {
+        margin: 20px auto;
+      }
     }
   </style>
 </head>
+
 <body>
+  <header>
+    <div class="logo-area">
+      <img id="logoSite" src="" alt="Logo RD NEWS">
+      <h1 id="nomeSite">RD NEWS</h1>
+    </div>
+    <p>Seu portal inteligente de notícias</p>
+  </header>
 
-<header>
-  <div class="topo">
-    <div class="logo">RD NEWS</div>
-
-    <div class="acoes">
-      <input type="text" id="busca" placeholder="Buscar notícia...">
-      <button onclick="toggleTema()">🌙</button>
+  <div class="menu-container">
+    <div class="menu">
+      <button onclick="categoria('todas')">📰 Todas</button>
+      <button onclick="categoria('futebol')">⚽ Futebol</button>
+      <button onclick="categoria('brasil')">🇧🇷 Brasil</button>
+      <button onclick="categoria('mundo')">🌎 Mundo</button>
+      <button onclick="categoria('tecnologia')">💻 Tecnologia</button>
+      <button onclick="categoria('economia')">💰 Economia</button>
+      <button class="btn-dark-toggle" onclick="modo()">🌙 Tema</button>
     </div>
   </div>
-</header>
 
-<nav>
-  <div class="categorias">
-    <button class="ativo" onclick="filtrar('todas', this)">Todas</button>
-    <button onclick="filtrar('futebol', this)">⚽ Futebol</button>
-    <button onclick="filtrar('brasil', this)">🇧🇷 Brasil</button>
-    <button onclick="filtrar('mundo', this)">🌎 Mundo</button>
-    <button onclick="filtrar('tecnologia', this)">💻 Tecnologia</button>
-    <button onclick="filtrar('economia', this)">💰 Economia</button>
-  </div>
-</nav>
+  <div class="container">
+    <div id="destaque"></div>
+    <div id="videoYoutube"></div>
+    <div id="anuncio"></div>
 
-<div class="container">
-
-  <section class="destaque">
-    <article class="principal">
-      <img loading="lazy" src="https://picsum.photos/900/500?random=1" alt="Destaque">
-      <div class="texto">
-        <div class="tag">Destaque</div>
-        <h1>Brasil registra novos avanços em tecnologia e inovação</h1>
-        <p>Especialistas apontam crescimento do setor tecnológico e aumento dos investimentos em inteligência artificial e conectividade no país.</p>
-        <div class="data">06 de agosto de 2026 • 22:45</div>
-      </div>
-    </article>
-
-    <div class="laterais">
-
-      <article class="mini">
-        <img loading="lazy" src="https://picsum.photos/300/220?random=2" alt="Futebol">
-        <div class="texto">
-          <div class="tag">Futebol</div>
-          <h3>Atlético vence e sobe na tabela do Brasileirão</h3>
-          <div class="data">06 ago 2026</div>
-        </div>
-      </article>
-
-      <article class="mini">
-        <img loading="lazy" src="https://picsum.photos/300/220?random=3" alt="Economia">
-        <div class="texto">
-          <div class="tag">Economia</div>
-          <h3>Dólar fecha em queda após anúncio econômico</h3>
-          <div class="data">06 ago 2026</div>
-        </div>
-      </article>
-
+    <h2 class="section-title">Últimas notícias</h2>
+    <div class="noticias" id="noticias">
+      Carregando notícias...
     </div>
-  </section>
+  </div>
 
-  <h2 class="titulo-secao">Últimas notícias</h2>
+  <script>
+    let noticias = [];
+    let categoriaAtual = "todas";
 
-  <section class="grid" id="noticias">
+    fetch("news.json")
+      .then(res => res.json())
+      .then(dados => {
+        noticias = dados.articles || [];
+        mostrar();
+      })
+      .catch(() => {
+        document.getElementById("noticias").innerHTML = "Não foi possível carregar as notícias";
+      });
 
-    <article class="card" data-cat="futebol">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=4" alt="">
-      <div class="texto">
-        <div class="tag">Futebol</div>
-        <h3>Clássico mineiro promete casa cheia no fim de semana</h3>
-        <p>Torcedores já esgotam setores do estádio para o confronto decisivo.</p>
-        <div class="data">06 ago 2026 • 21:10</div>
-      </div>
-    </article>
+    function embaralhar(lista) {
+      return lista.sort(() => Math.random() - 0.5);
+    }
 
-    <article class="card" data-cat="brasil">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=5" alt="">
-      <div class="texto">
-        <div class="tag">Brasil</div>
-        <h3>Novas obras de mobilidade são anunciadas</h3>
-        <p>Projetos devem beneficiar milhares de pessoas nas regiões metropolitanas.</p>
-        <div class="data">06 ago 2026 • 20:35</div>
-      </div>
-    </article>
+    function mostrar() {
+      let lista = [...noticias];
+      lista = embaralhar(lista);
 
-    <article class="card" data-cat="tecnologia">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=6" alt="">
-      <div class="texto">
-        <div class="tag">Tecnologia</div>
-        <h3>IA generativa ganha espaço entre pequenas empresas</h3>
-        <p>Ferramentas acessíveis ajudam negócios a automatizar tarefas e vender mais.</p>
-        <div class="data">06 ago 2026 • 19:50</div>
-      </div>
-    </article>
+      let area = document.getElementById("noticias");
+      area.innerHTML = "";
 
-    <article class="card" data-cat="mundo">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=7" alt="">
-      <div class="texto">
-        <div class="tag">Mundo</div>
-        <h3>Líderes discutem clima e energia em encontro internacional</h3>
-        <p>Reunião busca acelerar metas ambientais e investimentos sustentáveis.</p>
-        <div class="data">06 ago 2026 • 18:40</div>
-      </div>
-    </article>
-
-    <article class="card" data-cat="economia">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=8" alt="">
-      <div class="texto">
-        <div class="tag">Economia</div>
-        <h3>Inflação apresenta desaceleração no mês</h3>
-        <p>Resultado veio abaixo das expectativas do mercado financeiro.</p>
-        <div class="data">06 ago 2026 • 17:15</div>
-      </div>
-    </article>
-
-    <article class="card" data-cat="brasil">
-      <img loading="lazy" src="https://picsum.photos/400/240?random=9" alt="">
-      <div class="texto">
-        <div class="tag">Brasil</div>
-        <h3>Educação digital avança nas escolas públicas</h3>
-        <p>Programa amplia acesso à internet e a equipamentos tecnológicos.</p>
-        <div class="data">06 ago 2026 • 16:05</div>
-      </div>
-    </article>
-
-  </section>
-</div>
-
-<footer>
-  <p><strong>RD NEWS</strong> — Seu portal inteligente de notícias</p>
-  <p>© 2026 • Desenvolvido para celular, GitHub e Vercel</p>
-</footer>
-
-<script>
-  function filtrar(cat, el){
-    document.querySelectorAll('.categorias button').forEach(b => b.classList.remove('ativo'));
-    el.classList.add('ativo');
-
-    document.querySelectorAll('.card').forEach(card => {
-      if(cat === 'todas' || card.dataset.cat === cat){
-        card.classList.remove('hidden');
-      } else {
-        card.classList.add('hidden');
+      if (lista.length === 0) {
+        area.innerHTML = "Nenhuma notícia encontrada.";
+        return;
       }
-    });
-  }
 
-  const busca = document.getElementById('busca');
+      let destaque = lista[0];
+      let ultimasNoticias = lista.slice(1);
 
-  busca.addEventListener('input', () => {
-    const termo = busca.value.toLowerCase();
+      // Renderiza Destaque
+      document.getElementById("destaque").innerHTML = `
+        <div class="destaque">
+          <a href="${destaque?.url || '#'}" target="_blank" class="destaque-link">
+            <img src="${destaque?.image || 'https://via.placeholder.com/800x400'}" alt="Imagem destaque">
+            <div class="destaque-content">
+              <span class="destaque-tag">Em Destaque</span>
+              <h1>${destaque?.title || "Sem notícia"}</h1>
+            </div>
+          </a>
+        </div>
+      `;
 
-    document.querySelectorAll('.card').forEach(card => {
-      const texto = card.innerText.toLowerCase();
-      card.style.display = texto.includes(termo) ? 'block' : 'none';
-    });
-  });
+      // Renderiza Cards
+      ultimasNoticias.forEach(n => {
+        area.innerHTML += `
+          <div class="card">
+            <img src="${n.image || 'https://via.placeholder.com/400x200'}" alt="Imagem notícia">
+            <div class="card-body">
+              <h2>${n.title}</h2>
+              <p class="hora">${data(n.publishedAt)}</p>
+              <a href="${n.url}" target="_blank" class="card-link">
+                Ler notícia ➔
+              </a>
+            </div>
+          </div>
+        `;
+      });
+    }
 
-  function toggleTema(){
-    document.body.classList.toggle('dark');
-    localStorage.setItem('tema', document.body.classList.contains('dark') ? 'dark' : 'light');
-  }
+    function data(d) {
+      if (!d) return "Data não informada";
+      return new Date(d).toLocaleString("pt-BR");
+    }
 
-  if(localStorage.getItem('tema') === 'dark'){
-    document.body.classList.add('dark');
-  }
-</script>
+    function categoria(c) {
+      categoriaAtual = c;
+      mostrar();
+    }
 
+    function modo() {
+      document.body.classList.toggle("dark");
+    }
+
+    // CONFIG.JSON
+    fetch("config.json")
+      .then(res => res.json())
+      .then(config => {
+
+        // NOME
+        if (config.nome) {
+          document.getElementById("nomeSite").innerHTML = config.nome;
+        }
+
+        // LOGO
+        if (config.logo) {
+          document.getElementById("logoSite").src = config.logo;
+        }
+
+        // CORES
+        if (config.tema) {
+          if (config.tema.corPrincipal) {
+            document.documentElement.style.setProperty("--corPrincipal", config.tema.corPrincipal);
+          }
+          if (config.tema.corFundo) {
+            document.documentElement.style.setProperty("--corFundo", config.tema.corFundo);
+          }
+          if (config.tema.corTexto) {
+            document.documentElement.style.setProperty("--corTexto", config.tema.corTexto);
+          }
+        }
+
+        // VÍDEO ALEATÓRIO
+        if (config.video && config.video.ativo) {
+          let videoEscolhido = "";
+
+          if (config.video.aleatorio && config.video.lista && config.video.lista.length > 0) {
+            let sorteio = Math.floor(Math.random() * config.video.lista.length);
+            videoEscolhido = config.video.lista[sorteio];
+          } else {
+            videoEscolhido = config.video.youtube;
+          }
+
+          let videoId = "";
+          if (videoEscolhido.includes("youtu.be")) {
+            videoId = videoEscolhido.split("youtu.be/")[1].split("?")[0];
+          } else if (videoEscolhido.includes("youtube.com")) {
+            videoId = new URL(videoEscolhido).searchParams.get("v");
+          }
+
+          if (videoId) {
+            document.getElementById("videoYoutube").innerHTML = `
+              <div class="video-box">
+                <h2>🎥 ${config.video.titulo || "Vídeo em destaque"}</h2>
+                <div class="iframe-wrapper">
+                  <iframe src="https://www.youtube.com/embed/${videoId}" loading="lazy" allowfullscreen></iframe>
+                </div>
+              </div>
+            `;
+          }
+        }
+
+        // ANÚNCIO
+        if (config.anuncio && config.anuncio.ativo) {
+          document.getElementById("anuncio").innerHTML = `
+            <div class="anuncio-box">
+              <img src="${config.anuncio.imagem}" alt="Anúncio">
+            </div>
+          `;
+        }
+
+      })
+      .catch(() => {
+        console.log("Erro no config.json");
+      });
+  </script>
+
+  <footer>
+    <p>© 2026 RD NEWS - Todos os direitos reservados.</p>
+    <div class="footer-links">
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="termos.html">Termos de Uso</a>
+    </div>
+  </footer>
 </body>
+
 </html>

@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "title": "CBF detalha tabela das quartas de final da Copa do Brasil; confira datas e horários",
+      "description": "A entidade definiu os confrontos de ida e volta para a próxima fase da competição. Jogos decisivos começam na próxima semana.",
+      "url": "https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/08/07/cbf-detalha-tabela-quartas.ghtml",
+      "image": "https://s2-ge.glbimg.com/futebol-cruzamento-1.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T17:35:00.000Z"
+    },
+    {
+      "title": "Janela de transferências fecha nesta semana: veja quem seu clube ainda pode contratar",
+      "description": "Equipes da Série A do Brasileirão correm contra o tempo para regularizar novos reforços no BID antes do fim do prazo.",
+      "url": "https://ge.globo.com/futebol/noticia/2026/08/07/janela-transferencias-ultimos-dias.ghtml",
+      "image": "https://s2-ge.glbimg.com/futebol-mercado-2.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T17:20:00.000Z"
+    },
+    {
+      "title": "Libertadores 2026: sorteio define mandos de campo para a fase de mata-mata",
+      "description": "Conmebol realizou a definição das chaves até a grande final em jogo único. Confira os confrontos sorteados.",
+      "url": "https://ge.globo.com/futebol/libertadores/noticia/2026/08/07/sorteio-libertadores.ghtml",
+      "image": "https://s2-ge.glbimg.com/libertadores-3.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T16:50:00.000Z"
+    },
+    {
       "title": "g1 e GloboNews entrevistam Ronaldo Caiado, candidato à Presidência da República",
       "description": "     g1 e GloboNews entrevistam Ronaldo Caiado, candidato à Presidência da República  O candidato à Presidência pelo PSD, Ronaldo Caiado, é o terceiro entrevistado pelo g1 e pela GloboNews.. Renan Santos foi entrevistado na quarta (5), e Romeu Zema, na quinta (6). Lula decidiu não participar, e Fláv",
       "url": "https://g1.globo.com/politica/eleicoes/2026/ao-vivo/caiado-entrevista-g1-globonews.ghtml",
@@ -33,54 +57,6 @@
       "publishedAt": "2026-08-07T17:31:50.230930Z"
     },
     {
-      "title": "VÍDEOS: Bom Dia Amazônia desta sexta-feira, 7 de agosto de 2026.",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/playlist/videos-bom-dia-amazonia-desta-sexta-feira-7-de-agosto-de-2026.ghtml",
-      "image": "https://s2-g1.glbimg.com/ptSBHe_otm7qcmBBEg4qLaDna6A=/s01.video.glbimg.com/deo/vi/21/82/14848221",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231019Z"
-    },
-    {
-      "title": "Acidente entre carro e micro-ônibus deixa uma pessoa ferida em rodovia de Nossa Senhora do Socorro",
-      "description": "     Acidente entre carro e micro-ônibus deixa um ferido em rodovia de Nossa Senhora do Socorro\nPM/SE\nUm acidente entre um carro e micro-ônibus deixou uma pessoa ferida na tarde desta sexta-feira (7) em na rodovia SE-090 de Nossa Senhora do Socorro.\nSegundo a Polícia Militar, uma pessoa ficou ferida",
-      "url": "https://g1.globo.com/se/sergipe/noticia/2026/08/07/acidente-entre-carro-e-micro-onibus-e-registrado-em-rodovia-de-nossa-senhora-do-socorro.ghtml",
-      "image": "https://s2-g1.glbimg.com/GjhA7xQEy7x9ZrRh7wKBJnWlvzQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/h/QWg9PjQIAnhfPxQ8tRAA/imagem-g1-14-.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231137Z"
-    },
-    {
-      "title": "Agência do Trabalhador de Araucária ganha nova sede no Centro",
-      "description": "     Nesta terça-feira (23), a Agência do Trabalhador de Araucária e a Secretaria Municipal de Trabalho e Emprego (SMTE) passaram a atender em uma nova sede, localizada em área central do município, em frente ao Colégio Estadual Júlio Szymanski.\nO novo prédio não vai gerar qualquer custo ao municípi",
-      "url": "https://g1.globo.com/pr/parana/especial-publicitario/municipio-de-araucaria/araucaria-noticias/noticia/2026/08/07/agencia-do-trabalhador-de-araucaria-ganha-nova-sede-no-centro.ghtml",
-      "image": "https://s2-g1.glbimg.com/aLOI1s7BbsB3aNyzqG8sGuchdNs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/D/BwEssLRtmEmJPtOkOOmA/19-nova-sede-sine-foto-carlos-poly03-destaque.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231247Z"
-    },
-    {
-      "title": "Viatura da PM perde o controle após atender capotamento e invade casa no RS",
-      "description": "     Viatura da PM perde o controle e invade casa no RS\nUma viatura da Brigada Militar — a Polícia Militar do RS — invadiu uma residência em Guarani das Missões, no Noroeste do Rio Grande do Sul, nesta sexta-feira (7).\nO acidente aconteceu depois que os policiais prestaram apoio no local onde um car",
-      "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/08/07/viatura-da-pm-invade-casa-no-rs.ghtml",
-      "image": "https://s2-g1.glbimg.com/AGxLjyUYql1f2-ltREkJ5okDfEI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/E/GtftBkR0ycHKNf2HjL9A/whatsapp-image-2026-08-07-at-12.14.003.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231372Z"
-    },
-    {
-      "title": "VÍDEOS: Jornal Anhanguera 1ª Edição-TO de sexta-feira, 7 de agosto de 2026",
-      "description": "     Fique por dentro das principais notícias do telejornal.",
-      "url": "https://g1.globo.com/to/tocantins/playlist/videos-jornal-anhanguera-1-edicao-to-de-sexta-feira-7-de-agosto-de-2026.ghtml",
-      "image": "https://s2-g1.glbimg.com/qFqI0-ueExB7zcjqu0R8CBrHlgE=/s01.video.glbimg.com/deo/vi/30/93/14849330",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231459Z"
-    },
-    {
-      "title": "Mulher presa com 33 kg de skunk no aeroporto de Boa Vista disse à PF que transportava farinha",
-      "description": "     Mulher é presa pela PF com 33 kg de skunk no aeroporto Internacional de Boa Vista\nA jovem Gabriela Vitória Nascimento da Silva, de 25 anos, presa com 33,05 kg de skunk no aeroporto internacional de Boa Vista, disse à Polícia Federal que transportava farinha nas malas ao ser abordada pelos agent",
-      "url": "https://g1.globo.com/rr/roraima/noticia/2026/08/07/mulher-presa-com-33-kg-de-skunk-no-aeroporto-de-boa-vista-disse-a-pf-que-transportava-farinha.ghtml",
-      "image": "https://s2-g1.glbimg.com/VFzRxC5KFq1Vs53cxqEHTXtkTII=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/p/9nz7JVQ3ao3MRtCpv1yQ/aeroporto-de-boa-vista.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:31:50.231603Z"
-    },
-    {
       "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
       "description": "     Logotipo da startup chinesa Moonshot AI ao lado do aplicativo Kimi exibido na tela de um celular, em imagem ilustrativa de 24 de julho de 2026.\nREUTERS/Florence Lo/Ilustração/Foto de Arquivo/Foto de Arquivo\nO Kimi K3, principal modelo de inteligência artificial da startup chinesa Moonshot, cons",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
@@ -90,7 +66,7 @@
     },
     {
       "title": "Trump diz que Congresso dos EUA quer regulamentar a IA \"até acabar com ela\"",
-      "description": "     O presidente dos EUA, Donald Trump, aponta o dedo enquanto responde a perguntas da imprensa após assinar uma ordem executiva que estabelece a Comissão Presidencial para Cônjuges de Militares, que será presidida por Jennifer Rauchet, esposa do secretário de Defesa Pete Hegseth, no Salão Oval da ",
+      "description": "     O presidente dos EUA, Donald Trump, aponta o dedo enquanto responde a perguntas da imprensa após assinar uma ordem executiva que estabelece a Comissão Presidencial para Cônjuges de Militares...",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/trump-diz-que-congresso-quer-regulamentar-setor-de-ia-a-ponto-de-inviabiliza-lo.ghtml",
       "image": "https://s2-g1.glbimg.com/1YwRAgUlamKTYjbwoDML7Nyf--c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/AcnineQ2GujpOVO8BPmg/2026-08-03t185319z-684638-rc22rma599hn-rtrmadp-3-usa-trump-1-.jpg",
       "category": "Economia",
@@ -98,387 +74,27 @@
     },
     {
       "title": "Carros da China já correspondem a 52% dos importados no Brasil em 2026; eletrificados crescem 120%",
-      "description": "     Carros da Leapmotor desembarcam no porto\nDivulgação / Leapmotor\nA importação de veículos chineses para o Brasil mais que dobrou nos sete primeiros meses de 2026. Os embarques da China para o mercado brasileiro cresceram 105,4% na comparação com o mesmo período do ano passado. Os dados são da As",
+      "description": "     Carros da Leapmotor desembarcam no porto\nDivulgação / Leapmotor\nA importação de veículos chineses para o Brasil mais que dobrou nos sete primeiros meses de 2026...",
       "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
       "image": "https://s2-g1.glbimg.com/CwqZaT6Wx28JzNwOKTAfDSHPJLo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/j/lMPrJQRQqA8cwzEjbl3A/chegada-leapmotor-c10-no-porto-7.jpg",
       "category": "Economia",
       "publishedAt": "2026-08-07T17:31:51.712376Z"
     },
     {
-      "title": "EXCLUSIVO: Governo monta acordo para levar modelo do CNU a estados e municípios",
-      "description": "     Agora no g1\nO governo federal iniciou as articulações para levar o modelo do Concurso Público Nacional Unificado (CNU), conhecido como \"Enem dos Concursos\", para estados e municípios.\n📎 Realizado pela primeira vez em 2024, o CNU reúne vagas de vários órgãos públicos em um único concurso. Em vez",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/07/exclusiva-governo-acordo-modelo-cnu-estados.ghtml",
-      "image": "https://s2-g1.glbimg.com/nw50A08K2wzp1ixwtw99agtJ7s0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/5/6/rBfMXDSTaSS86PP6SUSw/aplicacao-prova-cnu-2025-fortaleza.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.712590Z"
-    },
-    {
-      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
-      "description": "     Embrapa lançou uma nova cultivar de Brachiaria decumbens, espécie de capim muito utilizada na alimentação do gado no Brasil. \nReprodução/Embrapa\nA Embrapa lançou este ano uma nova cultivar de Brachiaria decumbens, espécie de capim muito utilizada na alimentação do gado no Brasil. Chamada BRS Ca",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
-      "image": "https://s2-g1.glbimg.com/ttZVN9SeU4bSh_7_Co7zhqDoTZ0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/K/ALvuxUQvGgvDaswt3MRA/propriedade-jeferson-close-nas-especies-3-lavras-do-sul-foto-giaccomo-voccio.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.712695Z"
-    },
-    {
-      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
-      "description": "     JBS inaugura centro de pesquisa e desenvolvimento no Sapiens Parque\nA JBS anunciou nesta sexta-feira (7) uma parceria estratégica com o Danantara Investment Management, unidade do fundo soberano da Indonésia, para acelerar sua expansão na Ásia e Oceania.\nA operação poderá movimentar até US$ 5 b",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
-      "image": "https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63ac912f3.png",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.712800Z"
-    },
-    {
-      "title": "Dólar opera em queda, de olho em novos dados de emprego dos EUA; Ibovespa cai",
-      "description": "     Entenda o que faz o preço do dólar subir ou cair\nO dólar opera em queda nesta sexta-feira (7), com um recuo de 0,24% perto das 11h45, cotado a R$ 5,0945. O Ibovespa, principal índice da bolsa brasileira, caía 1,20% no mesmo horário, aos 173.434 pontos.\n🗒️ Tem alguma sugestão de reportagem? Envi",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
-      "image": "https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0l0qj-rtroptp-4-fluxo-cambial-semanal.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.731729Z"
-    },
-    {
-      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
-      "description": "     WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa\nDaqui a exatamente um mês, o WhatsApp deixará de funcionar em celulares Android mais antigos. A mudança entra em vigor em 8 de setembro de 2026, quando o aplicativo passará a ser compatível apenas com aparelhos que rod",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
-      "image": "https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.731876Z"
-    },
-    {
-      "title": "Como criar galinhas poedeiras e frangos caipiras",
-      "description": "     Material ensina como criar galinhas poedeiras e frangos caipiras.\nDivulgação/Emater-MG\nQuer entender como criar galinhas poedeiras e frangos caipiras? A Empresa de Assistência Técnica e Extensão Rural de Minas Gerais (Emater-MG) disponibiliza gratuitamente uma cartilha com orientações sobre boa",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-      "image": "https://s2-g1.glbimg.com/zh0mOSsT6aJb1R2QGk6NiGlaI7w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/v/j/GyhkGFRtSOEAcZsGy2jQ/whatsapp-image-2025-06-13-at-18.45.17.jpeg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.731979Z"
-    },
-    {
-      "title": "Meta é condenada a pagar R$ 2,9 bilhões para estado dos EUA por caso envolvendo menores nas redes",
-      "description": "     União Europeia exige que Meta mude o 'design viciante' do Facebook e do Instagram\nUm juiz do Novo México, no sudoeste dos Estados Unidos, determinou nesta quinta-feira (6) que a Meta pague US$ 567 milhões (R$ 2,9 bilhões) após uma ação movida pelo estado contra a empresa por causar \"perturbação",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/meta-e-condenada-a-pagar-r-29-bilhoes-para-estado-dos-eua-por-caso-envolvendo-menores-nas-redes.ghtml",
-      "image": "https://s2-g1.glbimg.com/EltdEqGcNV5PDSmaUGrqZVNybpU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/p4wC8YSpOFgtGa4c4jhQ/2026-07-07t062504z-175072374-rc2u8may7ofr-rtrmadp-3-australia-socialmedia.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:31:51.732105Z"
-    },
-    {
-      "title": "'Ciência Aberta': centro que abriga o Sirius recebe público para apresentar curiosidades e atrações da ciência",
-      "description": "     Sirius, laboratório de luz síncrotron de 4ª geração, instalado no CNPEM, em Campinas (SP)\nNelson Kon\nO Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), que abriga o superlaboratório Sirius, em Campinas (SP), promove neste sábado (10), a partir das 9h, a 6ª edição do \"Ciência Aberta\",",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/08/09/ciencia-aberta-centro-que-abriga-o-sirius-recebe-publico-para-apresentar-curiosidades-e-atracoes-da-ciencia.ghtml",
-      "image": "https://s2-g1.glbimg.com/kKUdrY29MpZWo_veboJUOdZ1dnM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/Z/0MdzrrRtyHwZFyLq5f6g/fachadasirius.creditonelsonkon.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.190840Z"
-    },
-    {
-      "title": "Mayaro e o que mais? Unicamp aponta possível transmissão urbana do vírus em Roraima e vê indícios de novas ameaças",
-      "description": "     Imagem de imunofluorescência do vírus mayaro em amostra de paciente de Roraima (RR) analisada por pesquisadores da Unicamp\nReprodução/Unicamp\nUm estudo desenvolvido por pesquisadores do Instituto de Biologia (IB) da Unicamp confirmou a circulação do vírus mayaro entre humanos no estado de Rorai",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/05/12/mayaro-e-o-que-mais-unicamp-aponta-possivel-transmissao-urbana-do-virus-em-roraima-e-ve-indicios-de-novas-ameacas.ghtml",
-      "image": "https://s2-g1.glbimg.com/PjB2HAkBB0kNXtrQBimTDDxyBUc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/x/8/Y5UI1gQV6ir2FlFMvEQg/ifa-mayv-rr.png",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191007Z"
-    },
-    {
-      "title": "'Ciência Aberta': centro que abriga o Sirius terá dia exclusivo para receber escolas e grupos de alunos; saiba como se inscrever",
-      "description": "     Sirius, laboratório de luz síncrotron de 4ª geração, reforça a ciência no enfrentamento do novo coronavírus\nNelson Kon\nUm dos maiores centros de produção científica do Brasil, o Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), que abriga o superlaboratório Sirius, em Campinas (SP), p",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/05/09/ciencia-aberta-centro-que-abriga-o-sirius-tera-dia-exclusivo-para-receber-escolas-e-grupos-de-alunos-saiba-como-se-inscrever.ghtml",
-      "image": "https://s2-g1.glbimg.com/kKUdrY29MpZWo_veboJUOdZ1dnM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/Z/0MdzrrRtyHwZFyLq5f6g/fachadasirius.creditonelsonkon.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191130Z"
-    },
-    {
-      "title": "MC Marcinho usa terapia conhecida como ECMO, espécie de pulmão artificial; entenda como funciona",
-      "description": "     ECMO: entenda como funciona a terapia usada em MC Marcinho\nUm dos maiores nomes da história do funk carioca, Marcio André Nepomuceno Garcia, o MC Marcinho, está desde segunda-feira (10) na UTI do Hospital Copa D'Or após uma parada cardiorrespiratória. \nDe acordo com o boletim médico divulgado n",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2023/07/12/mc-marcinho-usa-terapia-conhecida-como-ecmo-especie-de-pulmao-artificial-entenda-como-funciona.ghtml",
-      "image": "https://s2-g1.glbimg.com/waCPY0Zo8WT23L7PqO32HVfZbsE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/u/F/CKlX5BQ5qmoJyLwJtAuQ/ecmo.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191251Z"
-    },
-    {
-      "title": "Cuidar bem dos dentes é bom para o cérebro",
-      "description": "     Não é a primeira vez que trato do tema, mas sempre é bom voltar ao assunto até que não somente as pessoas, mas também os gestores públicos se deem conta da sua relevância. Estudo publicado semana passada na revista científica “Neurology” afirma que a periodontite (doença das gengivas) e a perda",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/11/cuidar-bem-dos-dentes-e-bom-para-o-cerebro.ghtml",
-      "image": "https://s2-g1.glbimg.com/1MefgAewhvPkjCXaje1UGBAKfzk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/s/B/dfUvaZSNyPeKJIOPkgTA/cuidardosdentesbomparacerebro.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191370Z"
-    },
-    {
-      "title": "Cuidado para não sabotar o seu futuro eu",
-      "description": "     Hal Hershfield é professor de marketing, decisão comportamental e psicologia da Universidade da Califórnia, Los Angeles. Mês passado, lançou “Your future self: how to make tomorrow better today” (“Seu futuro eu: como tornar o amanhã melhor hoje”), onde aborda a dificuldade de planejamento a lon",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/09/cuidado-para-nao-sabotar-o-seu-futuro-eu.ghtml",
-      "image": "https://s2-g1.glbimg.com/SgaUNF913X9GM7tXy4SbNu1qKFE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/C/f/xk0qB8SZSLjsnVNcCSIQ/halhershfield3repro.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191483Z"
-    },
-    {
-      "title": "Por que nossos órgãos envelhecem de forma diferente",
-      "description": "     Quando pensamos em nossa idade, o que vem à mente é o número que nos acompanha o ano inteiro, até o aniversário seguinte. No entanto, em nosso organismo, há nuances: os órgãos apresentam diferentes graus de envelhecimento. De acordo com os especialistas, os ovários, por exemplo, já se encontram",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/06/por-que-nossos-orgaos-envelhecem-de-forma-diferente.ghtml",
-      "image": "https://s2-g1.glbimg.com/ent7ojzrxjJWa0hKrFpmz77qx4E=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/5/7/RFdbVURniwzDfrkxXI4w/porquenossosorgaosenvelhecemdeformadiferente.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191623Z"
-    },
-    {
-      "title": "Obesidade, ansiedade e inflamações: entenda como suplemento de óleo de coco pode se tornar 'vilão' na dieta",
-      "description": "     Suplementação com óleo de coco pode causar danos à saúde, diz pesquisa da Unicamp\nPixabay/Divulgação\nGanho de peso, comportamento ansioso e aumento de marcadores inflamatórios são algumas das consequências do uso prolongado do óleo de coco como suplemento alimentar. É o que aponta um estudo rea",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2023/07/05/obesidade-ansiedade-e-inflamacoes-entenda-como-suplemento-de-oleo-de-coco-pode-se-tornar-vilao-na-dieta.ghtml",
-      "image": "https://s2-g1.glbimg.com/k2jTI5pP9Q1sClFBo88bT6UVTwY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/u/Y/fWmlsOQzqCvfBDNLxGtQ/oleo-de-coco.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191747Z"
-    },
-    {
-      "title": "Crianças e adolescentes que sobrevivem ao câncer têm risco aumentado para distúrbios psicológicos",
-      "description": "     Anualmente, cerca de 300 mil crianças e adolescentes, entre zero e 19 anos, são diagnosticados com câncer, sendo que os tipos mais comuns são leucemias, linfomas e tumores do sistema nervoso central. Nos países ricos, graças aos avanços no tratamento, mais de 80% dos jovens pacientes sobrevivem",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/04/criancas-e-adolescentes-que-sobrevivem-ao-cancer-tem-risco-aumentado-para-disturbios-psicologicos.ghtml",
-      "image": "https://s2-g1.glbimg.com/PuBJa27hPJnjdDPiSTYfS2fDZRU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/T/b/brtA8hRbqQg5y7Asjjow/cancercrianca.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.191864Z"
-    },
-    {
-      "title": "Como cor de traje de banho pode salvar vidas",
-      "description": "     As cores das roupas de banho mudam surpreendentemente debaixo d’água e podem fazer diferença em situações de emergência\nAlamy via BBC\nEm uma bela noite no início do verão, em vez me sentar no pátio e apreciar o céu, estou no meu computador, olhando imagens e mais imagens de trajes de banho para",
-      "url": "https://g1.globo.com/ciencia-e-saude/noticia/2023/07/02/como-cor-de-traje-de-banho-pode-salvar-vidas.ghtml",
-      "image": "https://s2-g1.glbimg.com/QrXcbnVGH_Rs0d1p7tLo17a_gag=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/n/H/EWR3hbRdqDT46xEAqSBA/cores-roupa-banho.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:31:53.192030Z"
-    },
-    {
       "title": "Echo Dot em destaque: confira uma seleção de Smart Speakers Alexa em promoção na Amazon",
-      "description": "Se você quer deixar a casa mais inteligente sem complicação, os Smart Speakers com Alexa são uma das escolhas mais práticas do mercado. Reunimos três opções do Echo Dot — nas cores Preta, Azul e Branca — todas com acesso antecipado à Alexa+ e disponíveis agora na Amazon Brasil. Confira! Echo Dot (Ge",
+      "description": "Se você quer deixar a casa mais inteligente sem complicação, os Smart Speakers com Alexa são uma das escolhas mais práticas do mercado...",
       "url": "https://olhardigital.com.br/2026/08/07/reviews/echo-dot-em-destaque-confira-uma-selecao-de-smart-speakers-alexa-em-promocao-na-amazon/",
       "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-smart-speakers-alexa-6.jpg",
       "category": "Tecnologia",
       "publishedAt": "2026-08-07T17:31:53.508553Z"
     },
     {
-      "title": "Hora de renovar o som da sua sala: veja uma seleção de soundbars em promoção na Amazon",
-      "description": "Se o áudio da TV ainda deixa a desejar, este é o momento certo para dar um upgrade. Reunimos três opções de soundbars em oferta na Amazon, de marcas consagradas como JBL, Samsung e LG, com subwoofer sem fio, Dolby Atmos e muito mais. Confira: JBL Soundbar Cinema SB180 — 2.1 Canais com Subwoofer Sem ",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/hora-de-renovar-o-som-da-sua-sala-veja-uma-selecao-de-soundbars-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-soundbars-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.570836Z"
-    },
-    {
-      "title": "Hora de turbinar o som: veja uma seleção de caixas de som Bluetooth em promoção na Amazon",
-      "description": "Se você está em busca de uma boa caixa de som Bluetooth, a Amazon reúne agora algumas opções interessantes com ótimo custo-benefício. Selecionamos três modelos que se destacam por portabilidade, resistência à água e qualidade sonora — do básico ao intermediário, tem algo para todo perfil. Caixa de S",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/hora-de-turbinar-o-som-veja-uma-selecao-de-caixas-de-som-bluetooth-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-caixas-de-som-bluetooth-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.636673Z"
-    },
-    {
-      "title": "O coração das galáxias revela segredos em nova simulação cósmica",
-      "description": "Modelo acompanha 4 bilhões de anos de evolução e mostra como gás, estrelas e matéria escura moldam os centros galácticos\nO post O coração das galáxias revela segredos em nova simulação cósmica apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/o-coracao-das-galaxias-revela-segredos-em-nova-simulacao-cosmica/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/via-lactea.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.713196Z"
-    },
-    {
-      "title": "O gelo da Antártida está devolvendo ao mar um antigo poluente: o mercúrio",
-      "description": "O gelo da Antártida guardou mercúrio por décadas, mas o derretimento está liberando esse poluente no oceano, alerta estudo\nO post O gelo da Antártida está devolvendo ao mar um antigo poluente: o mercúrio apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/o-gelo-da-antartida-esta-devolvendo-ao-mar-um-antigo-poluente-o-mercurio/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/iStock-2257262752.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.786166Z"
-    },
-    {
-      "title": "Upgrade no setup: headsets gamer com boa relação custo-benefício para você conferir agora",
-      "description": "Seja para partidas competitivas ou sessões mais longas de jogo, um bom headset faz toda a diferença na experiência. Separamos três opções de headsets gamer em oferta na Amazon para diferentes perfis de jogador — confira e veja qual combina mais com o seu estilo. Headset Gamer Redragon Zeus Lite Pret",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/upgrade-no-setup-headsets-gamer-com-boa-relacao-custo-beneficio-para-voce-conferir-agora/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-headsets-gamer-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.850113Z"
-    },
-    {
       "title": "GeForce NOW recebe 26 novos jogos em agosto; veja os destaques",
-      "description": "Serviço de jogos em nuvem da NVIDIA terá novidades como The Sinking City 2, Mortal Shell II, Resonance: A Plague Tale Legacy e High on Life 2 ao longo do mês\nO post GeForce NOW recebe 26 novos jogos em agosto; veja os destaques apareceu primeiro em Olhar Digital.",
+      "description": "Serviço de jogos em nuvem da NVIDIA terá novidades como The Sinking City 2, Mortal Shell II, Resonance: A Plague Tale Legacy e High on Life 2 ao longo do mês",
       "url": "https://olhardigital.com.br/2026/08/07/games-e-consoles/geforce-now-ganha-26-jogos-em-agosto-de-2026/",
       "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/GeForce-NOW-NVIDIA.webp",
       "category": "Tecnologia",
       "publishedAt": "2026-08-07T17:31:53.932085Z"
-    },
-    {
-      "title": "Ofertas 8.8: Smart TVs com descontos de até 47% OFF",
-      "description": "A campanha 8.8 traz uma leva forte de ofertas em Smart TVs, cobrindo desde modelos de 32 polegadas para quartos até painéis QLED e QNED premium de 50″. Reunimos 7 ofertas em destaque com descontos que chegam a 47% OFF, incluindo Smart TVs AOC, Philco, LG e Samsung — com opções em Full HD, 4K […]\nO p",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/ofertas-8-8-smart-tvs/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/ofertas-8.8-smart-tvs.png",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:53.999002Z"
-    },
-    {
-      "title": "Ouça tudo sem fio: seleção de fones Bluetooth em promoção na Amazon",
-      "description": "Se você está pensando em trocar aquele fone com cabo por uma opção sem fio, este é um bom momento para pesquisar. Reunimos três opções de fones Bluetooth em promoção na Amazon, com modelos para diferentes perfis — de quem prioriza bateria longa a quem busca resistência à água para os treinos. Confir",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/ouca-tudo-sem-fio-selecao-de-fones-bluetooth-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-fones-bluetooth-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:54.064247Z"
-    },
-    {
-      "title": "Você já achou seu próprio nome estranho? A ciência explica",
-      "description": "Entenda por que palavras familiares podem perder o sentido por alguns segundos e descubra o que a ciência sabe sobre o jamais vu\nO post Você já achou seu próprio nome estranho? A ciência explica apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/voce-ja-achou-seu-proprio-nome-estranho-a-ciencia-explica/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/Gemini_Generated_Image_2f1u5m2f1u5m2f1u.png",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:31:54.143290Z"
-    },
-    {
-      "title": "Trump diz que Congresso dos EUA quer regulamentar a IA \"até acabar com ela\"",
-      "description": "     O presidente dos EUA, Donald Trump, aponta o dedo enquanto responde a perguntas da imprensa após assinar uma ordem executiva que estabelece a Comissão Presidencial para Cônjuges de Militares, que será presidida por Jennifer Rauchet, esposa do secretário de Defesa Pete Hegseth, no Salão Oval da ",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/trump-diz-que-congresso-quer-regulamentar-setor-de-ia-a-ponto-de-inviabiliza-lo.ghtml",
-      "image": "https://s2-g1.glbimg.com/1YwRAgUlamKTYjbwoDML7Nyf--c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/AcnineQ2GujpOVO8BPmg/2026-08-03t185319z-684638-rc22rma599hn-rtrmadp-3-usa-trump-1-.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.783719Z"
-    },
-    {
-      "title": "Investigação sobre OVNI no Brasil faz parte de nova leva de documentos liberados pelos EUA",
-      "description": "     Carta da CIA pedindo investigação sobre avistamento de OVNI na Bahia\nDepartamento de Guerra dos EUA / Divulgação\nUma investigação sobre o avistamento de um objeto voador não identificado no Brasil faz parte dos novos arquivos liberados pelo governo dos Estados Unidos, nesta sexta-feira (7), sob",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/investigacao-sobre-ovni-no-brasil-faz-parte-de-nova-leva-de-documentos-liberados-pelos-eua.ghtml",
-      "image": "https://s2-g1.glbimg.com/4up78ip2Mhi9Y16hggvICTCgwPk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/N/mDQlg3RAuCzkQFTyflBA/carta-ovni.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.783859Z"
-    },
-    {
-      "title": "Justiça dos EUA bloqueia projeto de salão de baile na Casa Branca de Trump",
-      "description": "     Donald Trump mostra imagens do projeto do salão de baile da Casa Branca, a bordo do Força Aérea Um, em 29 de março de 2026\nElizabeth Frantz/Reuters\nA Corte de Apelações dos Estados Unidos bloqueou nesta sexta-feira (7) o projeto do presidente dos Estados Unidos, Donald Trump, de criar um salão ",
-      "url": "https://g1.globo.com/mundo/post/2026/08/07/justica-dos-eua-bloqueia-projeto-de-salao-de-festas-na-casa-branca-de-trump.ghtml",
-      "image": "https://s2-g1.glbimg.com/VCYEsc_QegfWA794wzTYsJ13ogE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/R/YxHatwQXq6VvhwUGYLkA/2026-03-30t011527z-357749357-rc2pekarhri3-rtrmadp-3-usa-trump.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.783996Z"
-    },
-    {
-      "title": "Decreto de Trump contra turismo de nascimento indica interesse eleitoral",
-      "description": "     EUA: grupos de direitos civis criticam decretos de Trump que proíbem cidadania a filhos de imigrantes\nA três meses das eleições legislativas que podem redefinir o controle do Partido Republicano sobre a Câmara e o Senado, o presidente Donald Trump voltou a insistir numa de suas obsessões: restr",
-      "url": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/08/07/decreto-de-trump-contra-turismo-de-nascimento-indica-interesse-eleitoral.ghtml",
-      "image": "https://s2-g1.glbimg.com/GBosyTF1nPPG52CiIrvmNEKcLTI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/P/ed2QyIRzCAzbFMe7LYKg/captura-de-tela-2026-01-14-162922.png",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784125Z"
-    },
-    {
-      "title": "Jantar dentro de piscina com 'sereia' entre mesas viraliza e rende piadas no Brasil; conheça",
-      "description": "     Jantar com sereias? Festa viraliza e vira piada nas redes\nUm vídeo de uma festa com mesas, pratos e convidados dentro de uma piscina se tornou viral nas redes sociais. Além do inusitado do jantar dentro d'água, \"sereias\" nadam entre os presentes. \nA cena, que parece ter saído de um filme de fan",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/jantar-dentro-de-piscina-com-sereia-entre-mesas-viraliza-e-rende-piadas-no-brasil-conheca.ghtml",
-      "image": "https://s2-g1.glbimg.com/tiQXRby-zlZpahOWvw7VNDtZwX8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/z/kbEqkbSYGsjiocUgXfOQ/sirene-villa-renoir.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784240Z"
-    },
-    {
-      "title": "Coreia do Norte recomenda sopa de carne de cachorro para enfrentar onda de calor",
-      "description": "     Coreia do Norte recomenda sopa de carne de cachorro para enfrentar onda de calor\nHoang Dinh Nam/AFP\nSopa de carne de cachorro, caldo de galinha e orientações sobre hidratação estão entre as recomendações divulgadas pela Coreia do Norte para ajudar a população a enfrentar uma onda de calor que a",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/coreia-do-norte-recomenda-sopa-de-carne-de-cachorro-para-enfrentar-onda-de-calor.ghtml",
-      "image": "https://s2-g1.glbimg.com/g_n5Xh8_0R7YfxoVEY2XOSyMoIc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/Q/BhRl7BTnO0xD2OBisnFw/000-hkg7600846-1-2-1-.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784364Z"
-    },
-    {
-      "title": "Peru e México retomam relações diplomáticas",
-      "description": "     Claudia Sheinbaum\nReprodução / X\nDepois de mais de nove meses de rompimento, o governo do Peru anunciou nesta sexta-feira (7) que retomou as relações diplomáticas com o México. Os dois países não mantinham relações desde novembro de ano passado. \n➡️ Na ocasião, o Peru rompeu relações com o Méxi",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/peru-e-mexico-restabelecem-relacoes-diplomaticas.ghtml",
-      "image": "https://s2-g1.glbimg.com/ldwIN2Cjgl-BCRuerFYGhxsh6_w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/S/S/WgBVBTToGcfqWbLBLtsg/sheinbaum2.png",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784471Z"
-    },
-    {
-      "title": "Casa Branca posta montagem de  Homem-Aranha capturando imigrantes",
-      "description": "     Casa Branca posta montagem do Homem-Aranha com a frase \"Criminosos estrangeiros serão pegos e deportados\".\ndivulgação/ Casa Branca\nA Casa Branca publicou nesta sexta-feira (7), uma montagem associando o famoso personagem homem-aranha a um agente do ICE, a agência do governo norte-americano resp",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/casa-branca-posta-montagem-de-homem-aranha-capturando-imigrantes.ghtml",
-      "image": "https://s2-g1.glbimg.com/FZE6_8bDC7FN0Mb_jo_eCBm7jM0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/5/Z102BvTRe7kW69KSCB7w/design-sem-nome-58-.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784606Z"
-    },
-    {
-      "title": "Espanha ameaça retaliar Itália caso livre circulação entre os países não seja retomada em 2 dias",
-      "description": "     Crise em Ceuta completa uma semana ainda sem respostas\nO governo espanhol ameaçou impor represálias aos viajantes vindos da Itália caso o país não suspenda até este domingo (9) os controles de fronteira impostos a viajantes vindos da Espanha.\n✅ Siga o canal de notícias internacionais do g1 no W",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espanha-ameaca-retaliar-italia-caso-livre-circulacao-entre-os-paises-nao-seja-retomada.ghtml",
-      "image": "https://s2-g1.glbimg.com/27lCCSBcJLSX6-zXD7IstVWIcj0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/y/paZ7OHSWqPCjhLnbbYBg/2026-08-02t032946z-138855051-rc2vpma8ilfl-rtrmadp-3-migration-europe-spain-ceuta.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784731Z"
-    },
-    {
-      "title": "Turquia, Arábia Saudita e Paquistão assinam pacto de defesa em meio a turbulências no Oriente Médio",
-      "description": "     O presidente turco, Recep Tayyip Erdogan (à esq.), o príncipe herdeiro saudita, Mohammed bin Salman (ao centro), é o primeiro-ministro do Paquistão, Shehbaz Sharif, durante assinatura de pacto de defesa entre os dois países, em Meca, na Arábia Saudita, em 7 de agosto de 2026.\nMurat Cetinmuhurda",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turquia-arabia-saudita-e-paquistao-assinam-pacto-de-defesa-em-meio-a-turbulencias-no-oriente-medio.ghtml",
-      "image": "https://s2-g1.glbimg.com/eJU53JISR22Fx6E17jDD4FfSs0A=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/3/Dr8rAHRc62aCt68ODlpQ/2026-08-07t111511z-1629884279-rc2ntma04dk1-rtrmadp-3-saudi-defence-agreement.jpg",
-      "category": "Mundo",
-      "publishedAt": "2026-08-07T17:31:55.784837Z"
-    },
-    {
-      "title": "Katseye anuncia pausa de Sophia para 'priorizar saúde mental e bem-estar'",
-      "description": "     Sophia Laforteza anuncia pausa temporária do Katseye\nReprodução/Instagram\nO Katseye anunciou nesta sexta (7) que Sophia Laforteza, uma das integrantes do grupo, fará um hiato temporário \"para priorizar sua saúde mental e bem-estar\". \nEla está afastada desde o fim de julho e não se apresentou co",
-      "url": "https://g1.globo.com/pop-arte/musica/noticia/2026/08/07/katseye-anuncia-pausa-de-sophia-para-priorizar-saude-mental-e-bem-estar.ghtml",
-      "image": "https://s2-g1.glbimg.com/UoVo23Rps8FMZnXbnaZFv3kxmmU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/K/jHLOYKQCSthsKzwSjgHw/sophiakatseye-1-.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.242948Z"
-    },
-    {
-      "title": "Ed Motta ecoa James Brown no pulso da música que batiza o álbum 'Toc toc'",
-      "description": "     Ed Motta reverbera influências de James Brown (1933 – 2006) e João Donato (1934 – 2023) no repertório autoral do álbum 'Toc toc'\nJorge Bispo / Divulgação\n♫ NOTÍCIA\n♬ Uma das grandes referências do funk produzido no universo pop ocidental a partir dos anos 1960, a música do cantor e compositor n",
-      "url": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2026/08/07/ed-motta-ecoa-james-brown-no-pulso-da-musica-que-batiza-o-album-toc-toc.ghtml",
-      "image": "https://s2-g1.glbimg.com/22loKohDe9kKkxL-iti7AHLcBao=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/1/GSBL56S3iFIaALeqS4GA/bispo-4539.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243072Z"
-    },
-    {
-      "title": "Bruno Gagliasso expõe fast food fechado 10 minutos antes do horário, é criticado e se arrepende: 'Fui imaturo'",
-      "description": "     Bruno Gagliasso reclama de unidade do McDonald's fechada antes do horário em vídeo publicado nos stories. Entenda.\nRedes Sociais\nO ator Bruno Gagliasso se envolveu em uma polêmica nas redes sociais depois de publicar um vídeo reclamando que uma unidade do McDonald's havia fechado dez minutos an",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/07/bruno-gagliasso-expoe-fast-food-fechado-10-minutos-antes-do-horario-e-criticado-e-se-arrepende-de-reacao-fui-imaturo.ghtml",
-      "image": "https://s2-g1.glbimg.com/U95s1TmYXu0qSsfePvpUeyPdbCI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/5/n0Xp2WSnKA3SCef0i8sA/design-sem-nome-2026-08-07t113854.325.png",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243191Z"
-    },
-    {
-      "title": "Mariana Rios relata perda gestacional após engravidar naturalmente: 'Coração em paz'",
-      "description": "     Mariana Rios relata perda gestacional após engravidar naturalmente\nA atriz e apresentadora Mariana Rios revelou que perdeu uma gravidez natural. Em um vídeo publicado nas redes sociais, ela contou que a gestação não evoluiu e afirmou que encontrou conforto na fé para enfrentar o momento.\n📱Favor",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/07/mariana-rios-relata-perda-gestacional.ghtml",
-      "image": "https://s2-g1.glbimg.com/eJQUQexcdmP-cTYXSuC3_8LczOE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/2/z/Blo60ZS3a83B81J1Azow/fotojet-28-.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243313Z"
-    },
-    {
-      "title": "Conheça os candidatos do ‘Estrelas da Casa’",
-      "description": "     Ana Clara é a apresentadora do \"Estrelas da Casa\"\nGlobo/ Estevam Avellar\nO \"Estrelas da Casa\" divulgou nesta quinta-feira (6) os candidatos à etapa final de seleção da nova temporada, que estreia em 25 de agosto. Pela primeira vez, a escolha dos participantes contará com votação popular, e o re",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/07/conheca-os-candidatos-do-estrelas-da-casa.ghtml",
-      "image": "https://s2-g1.glbimg.com/v6zL571-2g6Nevcb-Jjln5zE5FI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/H/InzWb4SZGxobMh8ZGkgQ/terceira-temporada-do-estrelas-da-casa-tera-novo-formato-b31745575ec4.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243477Z"
-    },
-    {
-      "title": "William Orbit, produtor musical que assinou álbuns de Madonna e Blur, morre aos 69 anos",
-      "description": "     William Orbit\nInstagram\nWilliam Orbit, produtor britânico responsável por discos de Madonna, Blur e outros grandes artistas, morreu no dia 23 de julho, aos 69 anos. A informação foi confirmada nas redes sociais do músico nesta sexta (7).\n“Sentiremos imensamente a sua falta, assim como tantas pe",
-      "url": "https://g1.globo.com/pop-arte/musica/noticia/2026/08/07/william-orbit-produtor-musical-britanico-morre-aos-69-anos.ghtml",
-      "image": "https://s2-g1.glbimg.com/znUZBv5zrel6wtfsyj_dFjaDR88=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/A/ARy5rWRAKLGBhVliGIRg/william.png",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243595Z"
-    },
-    {
-      "title": "Miss perde a coroa nos EUA após supostas postagens racistas",
-      "description": "     A empresária Brittany Boltinhouse, de 27 anos, foi oficialmente destituída do título de Miss Carolina do Norte USA nesta quarta-feira (6)\nReprodução/Instagram\nA empresária Brittany Boltinhouse, de 27 anos, foi oficialmente destituída do título de Miss Carolina do Norte USA nesta quarta-feira (6",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/07/miss-perde-a-coroa-nos-eua-apos-supostas-postagens-racistas.ghtml",
-      "image": "https://s2-g1.glbimg.com/nSgb5-xwtsEFeZOb-LEA1sjsKXQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/u/mBfD8TQ5CzfKiOl18Tnw/miss.png",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243701Z"
-    },
-    {
-      "title": "Alex Escobar passa por cirurgia para retirada de tumor e comemora: 'Dei um grande passo'",
-      "description": "     Alex Escobar se recupera bem após cirurgia para retirada de tumor no timo, realizada nesta quinta-feira no Rio de Janeiro.\nRedes Sociais\nO apresentador Alex Escobar, de 51 anos, foi submetido nesta quinta-feira (6) a uma cirurgia bem-sucedida na Casa de Saúde São José, na Zona Sul do Rio de Jan",
-      "url": "https://g1.globo.com/pop-arte/tv-e-series/noticia/2026/08/07/alex-escobar-passa-por-cirurgia-bem-sucedida-para-retirada-de-tumor-dei-um-grande-passo.ghtml",
-      "image": "https://s2-g1.glbimg.com/pNswdYbLBIZDSlwr_RXDCWp9CNo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/p/kByF38SDO9n4U560h3zw/design-sem-nome-2026-08-07t072559.271.png",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243811Z"
-    },
-    {
-      "title": "Lucina busca o respiro na leveza natural das canções do álbum 'Bicho Pedra Gente'",
-      "description": "     Lucina canta 13 parcerias com o poeta André Arruda no álbum 'Bicho Pedra Gente', gravado com produção e direção musical de Patrícia Ferraz\nGabriel Marcondes / Divulgação\n♫ CRÍTICA DE ÁLBUM\nTítulo: Bicho Pedra Gente\nArtista: Lucina e arrudA\nCotação: ★ ★ ★ 1/2\n♬ “Ainda que eu não saiba rezar / As",
-      "url": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2026/08/07/lucina-busca-o-respiro-na-leveza-natural-das-cancoes-do-album-bicho-pedra-gente.ghtml",
-      "image": "https://s2-g1.glbimg.com/OOVelZZKNrjjQnyUacQ0oiOoTuU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/z/RTPA9oSeaApk1GS8zSWg/lucinarrruda-fotogabrielmarcondes.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.243936Z"
-    },
-    {
-      "title": "De Anitta a Thiaguinho: por que artistas estão apostando no feat entre música e bem-estar",
-      "description": "     De Anitta a Thiaguinho: por que artistas estão apostando no feat entre música e bem-estar\nMúsica e bem-estar. A relação dos dois tópicos é comum quando se fala sobre a influências das batidas e vibrações sonoras para a saúde física e mental. E, agora, alguns artistas estão usando esta conexão p",
-      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/07/de-anitta-a-thiaguinho-por-que-artistas-estao-apostando-no-feat-entre-musica-e-bem-estar.ghtml",
-      "image": "https://s2-g1.glbimg.com/RUUqriSco9FfHZo5yyfscN3CwaU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/7/CZXjxBTkG7hgUIUxCrVw/novo-projeto-29-.jpg",
-      "category": "Entretenimento",
-      "publishedAt": "2026-08-07T17:31:57.244081Z"
     }
   ]
 }

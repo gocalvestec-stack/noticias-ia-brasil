@@ -1,157 +1,84 @@
 {
-  "articles": [
-    {
-      "title": "Brasileirão 2026: Confira a tabela e os jogos decisivos da rodada",
-      "description": "Rodada do fim de semana promete grandes confrontos na disputa pela liderança e na fuga do rebaixamento. Veja horários e onde assistir.",
-      "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
-      "image": "https://s2-ge.glbimg.com/exemplo-brasileirao-2026.jpg",
-      "category": "Futebol",
-      "publishedAt": "2026-08-07T16:30:00.000Z"
-    },
-    {
-      "title": "Libertadores 2026: Conmebol detalha datas e transmissões do mata-mata",
-      "description": "Clubes brasileiros conhecem a ordem dos mandos de campo e os horários das partidas das oitavas de final do torneio continental.",
-      "url": "https://ge.globo.com/futebol/libertadores/",
-      "image": "https://s2-ge.glbimg.com/exemplo-libertadores-2026.jpg",
-      "category": "Futebol",
-      "publishedAt": "2026-08-07T16:35:00.000Z"
-    },
-    {
-      "title": "Da denúncia ao julgamento: os próximos passos após PF indiciar 16 por queda de avião da Voepass",
-      "description": "Acidente Voepass: quem são os indiciados pelo desastre aéreo com 62 mortos. O relatório final da Polícia Federal (PF) sobre o acidente com o avião da Voepass que matou 62 pessoas em agosto de 2024, em Vinhedo (SP), resultou no indiciamento de 16 pessoas, incluindo o proprietário da companhia.",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/08/07/proximos-passos-pf-indiciar-16-queda-aviao-voepass.ghtml",
-      "image": "https://s2-g1.glbimg.com/kMFJr-dj6mvwW5B8GZSDHx1iRNw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/L/uZ71RcSyuFs7GGAHPYlQ/whatsapp-image-2026-08-06-at-14.30.54.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:13.035375Z"
-    },
-    {
-      "title": "Revolução Acreana 'adiada': Veja o que abre e o que fecha no ponto facultativo desta sexta (7) em Rio Branco",
-      "description": "Vários serviços e estabelecimentos estão sem funcionar nesta sexta-feira (7), ponto facultativo referente ao dia da Revolução Acreana, celebrada nessa quinta (6). O atendimento ao público retorna na próxima semana.",
-      "url": "https://g1.globo.com/ac/acre/noticia/2026/08/07/veja-o-que-abre-e-o-que-fecha-no-ponto-facultativo-desta-sexta-7-em-rio-branco.ghtml",
-      "image": "https://s2-g1.glbimg.com/kyO2VlxQw44xde9iisWNMKt0xBk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/H/b2TnBPSRqFwXIBLtTnbw/midia-de-distribuicao-g1-2026-06-25t175917.187.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:13.035585Z"
-    },
-    {
-      "title": "Katseye anuncia pausa de Sophia para 'priorizar saúde mental e bem-estar'",
-      "description": "O Katseye anunciou nesta sexta (7) que Sophia Laforteza, uma das integrantes do grupo, fará um hiato temporário 'para priorizar sua saúde mental e bem-estar'. Ela está afastada desde o fim de julho.",
-      "url": "https://g1.globo.com/pop-arte/musica/noticia/2026/08/07/katseye-anuncia-pausa-de-sophia-para-priorizar-saude-mental-e-bem-estar.ghtml",
-      "image": "https://s2-g1.glbimg.com/UQM5W5w0RZuSiymBJshpMsKCmlg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/p/h/heNQmRRZSRmiVWxdpw1w/ketseye1.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:13.035797Z"
-    },
-    {
-      "title": "Jovem de 19 anos morre após passar mal em Olímpia",
-      "description": "Um jovem de 19 anos morreu após passar mal no Recinto do Folclore na noite de quinta-feira (6), em Olímpia (SP). Ele sofreu duas paradas cardiorrespiratórias e não resistiu.",
-      "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/08/07/jovem-morre-apos-passar-mal-em-olimpia.ghtml",
-      "image": "https://s2-g1.glbimg.com/zD55kAJwn-9Q3D-WLp1IvlmQN2g=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/w/0rvaNDQUAxm4I8rkBSBw/foto-g1-35-.png",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:13.035896Z"
-    },
-    {
-      "title": "'Estou desesperada', diz esposa de caseiro desaparecido há três meses em Goianorte",
-      "description": "A família do caseiro Ronaldo de Moura, de 38 anos, cobra respostas sobre o desaparecimento dele, registrado há três meses no Tocantins.",
-      "url": "https://g1.globo.com/to/tocantins/noticia/2026/08/07/estou-desesperada-diz-esposa-de-caseiro-desaparecido-ha-tres-meses-em-goianorte.ghtml",
-      "image": "https://s2-g1.glbimg.com/fN0YeRj3lkOomcQblUiCtDcFJS4=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/a/03l3YoSya30o91BxxoRQ/modelo-foto-fundo-borrado-6-.png",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:13.036004Z"
-    },
-    {
-      "title": "Ventania no RJ bate 74 km/h, e autoridades disparam alerta extremo e decretam ponto facultativo",
-      "description": "Há previsão de rajadas de até 90 km/h à tarde e à noite. O município do Rio entrou em Estágio 3 devido às condições meteorológicas extremas.",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/ao-vivo/rio-vento-forte-sexta-feira.ghtml",
-      "image": "https://s2-g1.glbimg.com/QZSa5cWPiO4LbOzUEdbSYwTY5yo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/c/nBQMpxSdOdURd8T1c2rw/ezgif-1640019cc9a62fb5.gif",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T16:24:14.407277Z"
-    },
-    {
-      "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
-      "description": "O Kimi K3, principal modelo de inteligência artificial da startup chinesa Moonshot, conseguiu superar limites de isolamento durante testes de segurança.",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
-      "image": "https://s2-g1.glbimg.com/UmAPSQtuGbOyu6BW18BqugdZmAs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/L/3nC03xSgqVkvzKjVNQmg/2026-07-31t060328z-2033122743-rc24kma3rvvc-rtrmadp-3-china-usa-ai-distillation-1-.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T16:24:17.465351Z"
-    },
-    {
-      "title": "Trump diz que Congresso dos EUA quer regulamentar a IA 'até acabar com ela'",
-      "description": "O presidente dos EUA, Donald Trump, afirmou em entrevista que as propostas de regulamentação do Congresso podem inviabilizar o avanço do setor no país.",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/trump-diz-que-congresso-quer-regulamentar-setor-de-ia-a-ponto-de-inviabiliza-lo.ghtml",
-      "image": "https://s2-g1.glbimg.com/1YwRAgUlamKTYjbwoDML7Nyf--c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/AcnineQ2GujpOVO8BPmg/2026-08-03t185319z-684638-rc22rma599hn-rtrmadp-3-usa-trump-1-.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T16:24:17.465487Z"
-    },
-    {
-      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro",
-      "description": "A partir de 8 de setembro de 2026, o aplicativo deixará de dar suporte a dispositivos Android que não atendam aos requisitos mínimos de sistema.",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
-      "image": "https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T16:24:17.466205Z"
-    },
-    {
-      "title": "NASA testa antena ultraleve que ajudará helicópteros a procurar gelo em Marte",
-      "description": "NASA realiza ensaios com antena flexível projetada para equipar helicópteros na identificação de reservatórios de gelo no subsolo do planeta vermelho.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/nasa-testa-antena-ultraleve-que-ajudara-helicopteros-a-procurar-gelo-em-marte/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/nasa-skyfall-marte-scaled.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T16:24:19.979888Z"
-    },
-    {
-      "title": "Baterias de sal avançam nos EUA e desafiam domínio chinês no setor energético",
-      "description": "Tecnologia aposta em abundância de sódio para baratear custos de armazenamento de energia e acelerar a transição energética global.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/baterias-de-sal-avancam-nos-eua-e-desafiam-dominio-chines-no-setor-energetico/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2024/12/bateria-de-ions-de-sodio-scaled.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T16:24:20.121590Z"
-    },
-    {
-      "title": "Importação de carros chineses dobra no Brasil enquanto exportações recuam 20,8%",
-      "description": "A importação de veículos chineses para o Brasil cresceu 105,4% nos sete primeiros meses de 2026 na comparação com o mesmo período do ano passado.",
-      "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
-      "image": "https://s2-g1.glbimg.com/O0B3Fv3L_hAshMk31o4036JkLlQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/Z/fGD8zNT6qZU8kvbJTDYg/001-logistica-leapmotor-sepetiba.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.465641Z"
-    },
-    {
-      "title": "EXCLUSIVO: Governo monta acordo para levar modelo do CNU a estados e municípios",
-      "description": "O Governo Federal iniciou articulações para expandir a estrutura do Concurso Público Nacional Unificado (CNU) para seleções estaduais e municipais.",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/07/exclusiva-governo-acordo-modelo-cnu-estados.ghtml",
-      "image": "https://s2-g1.glbimg.com/nw50A08K2wzp1ixwtw99agtJ7s0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/5/6/rBfMXDSTaSS86PP6SUSw/aplicacao-prova-cnu-2025-fortaleza.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.465815Z"
-    },
-    {
-      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
-      "description": "A JBS formalizou parceria estratégica com fundo de investimento da Indonésia para alavancar suas operações nas regiões da Ásia e Oceania.",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
-      "image": "https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63ac912f3.png",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.465992Z"
-    },
-    {
-      "title": "Dólar opera em queda, de olho em novos dados de emprego dos EUA; Ibovespa cai",
-      "description": "A moeda norte-americana apresentou recuo cotada na casa dos R$ 5,09, enquanto o Ibovespa registrou desaceleração em meio a dados do mercado externo.",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
-      "image": "https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0l0qj-rtroptp-4-fluxo-cambial-semanal.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.466113Z"
-    },
-    {
-      "title": "Meta é condenada a pagar R$ 2,9 bilhões para estado dos EUA por caso envolvendo menores nas redes",
-      "description": "Tribunal norte-americano determinou o pagamento de US$ 567 milhões pela Meta em processo focado no impacto das plataformas em usuários jovens.",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/meta-e-condenada-a-pagar-r-29-bilhoes-para-estado-dos-eua-por-caso-envolvendo-menores-nas-redes.ghtml",
-      "image": "https://s2-g1.glbimg.com/EltdEqGcNV5PDSmaUGrqZVNybpU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/9/p4wC8YSpOFgtGa4c4jhQ/2026-07-07t062504z-175072374-rc2u8may7ofr-rtrmadp-3-australia-socialmedia.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.466389Z"
-    },
-    {
-      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
-      "description": "Nova cultivar BRS Capaçu promete otimizar o manejo de pastagens e elevar índices produtivos da pecuária de corte nacional.",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
-      "image": "https://s2-g1.glbimg.com/ttZVN9SeU4bSh_7_Co7zhqDoTZ0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/K/ALvuxUQvGgvDaswt3MRA/propriedade-jeferson-close-nas-especies-3-lavras-do-sul-foto-giaccomo-voccio.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T16:24:17.465903Z"
-    }
-  ]
+  "articles": [
+    {
+      "title": "Brasileirão 2026: Confira a tabela e os jogos decisivos da rodada",
+      "description": "Rodada do fim de semana promete grandes confrontos na disputa pela liderança e na fuga do rebaixamento. Veja horários e onde assistir.",
+      "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
+      "image": "https://s2-ge.glbimg.com/exemplo-brasileirao-2026.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T16:30:00.000Z"
+    },
+    {
+      "title": "Libertadores 2026: Conmebol detalha datas e transmissões do mata-mata",
+      "description": "Clubes brasileiros conhecem a ordem dos mandos de campo e os horários das partidas das oitavas de final do torneio continental.",
+      "url": "https://ge.globo.com/futebol/libertadores/",
+      "image": "https://s2-ge.glbimg.com/exemplo-libertadores-2026.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T16:35:00.000Z"
+    },
+    {
+      "title": "Da denúncia ao julgamento: os próximos passos após PF indiciar 16 por queda de avião da Voepass",
+      "description": "Acidente Voepass: quem são os indiciados pelo desastre aéreo com 62 mortos. O relatório final da Polícia Federal (PF) resultou no indiciamento de 16 pessoas.",
+      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/08/07/proximos-passos-pf-indiciar-16-queda-aviao-voepass.ghtml",
+      "image": "https://s2-g1.glbimg.com/kMFJr-dj6mvwW5B8GZSDHx1iRNw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/L/uZ71RcSyuFs7GGAHPYlQ/whatsapp-image-2026-08-06-at-14.30.54.jpeg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T16:24:13.035375Z"
+    },
+    {
+      "title": "Ventania no RJ bate 74 km/h, e autoridades disparam alerta extremo e decretam ponto facultativo",
+      "description": "Há previsão de rajadas de até 90 km/h à tarde e à noite. O município do Rio entrou em Estágio 3 devido às condições meteorológicas extremas.",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/ao-vivo/rio-vento-forte-sexta-feira.ghtml",
+      "image": "https://s2-g1.glbimg.com/QZSa5cWPiO4LbOzUEdbSYwTY5yo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/c/nBQMpxSdOdURd8T1c2rw/ezgif-1640019cc9a62fb5.gif",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T16:24:14.407277Z"
+    },
+    {
+      "title": "União Europeia convoca cúpula de emergência para debater novos acordos globais de segurança",
+      "description": "Líderes europeus se reúnem em Bruxelas para alinhar estratégias de estabilidade econômica e política na região.",
+      "url": "https://g1.globo.com/mundo/",
+      "image": "https://s2-g1.glbimg.com/exemplo-mundo-2026.jpg",
+      "category": "Mundo",
+      "publishedAt": "2026-08-07T15:10:00.000Z"
+    },
+    {
+      "title": "Eleições nos EUA: Campanhas intensificam comícios nos estados decisivos",
+      "description": "Candidatos direcionam discursos para o eleitorado jovem e priorizam pautas de inovação e empregabilidade no cenário internacional.",
+      "url": "https://g1.globo.com/mundo/",
+      "image": "https://s2-g1.glbimg.com/1YwRAgUlamKTYjbwoDML7Nyf--c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/AcnineQ2GujpOVO8BPmg/2026-08-03t185319z-684638-rc22rma599hn-rtrmadp-3-usa-trump-1-.jpg",
+      "category": "Mundo",
+      "publishedAt": "2026-08-07T14:45:00.000Z"
+    },
+    {
+      "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
+      "description": "O Kimi K3, principal modelo de inteligência artificial da startup chinesa Moonshot, conseguiu superar limites de isolamento durante testes de segurança.",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
+      "image": "https://s2-g1.glbimg.com/UmAPSQtuGbOyu6BW18BqugdZmAs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/L/3nC03xSgqVkvzKjVNQmg/2026-07-31t060328z-2033122743-rc24kma3rvvc-rtrmadp-3-china-usa-ai-distillation-1-.jpg",
+      "category": "Tecnologia",
+      "publishedAt": "2026-08-07T16:24:17.465351Z"
+    },
+    {
+      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro",
+      "description": "A partir de 8 de setembro de 2026, o aplicativo deixará de dar suporte a dispositivos Android que não atendam aos requisitos mínimos de sistema.",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
+      "image": "https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
+      "category": "Tecnologia",
+      "publishedAt": "2026-08-07T16:24:17.466205Z"
+    },
+    {
+      "title": "Importação de carros chineses dobra no Brasil enquanto exportações recuam 20,8%",
+      "description": "A importação de veículos chineses para o Brasil cresceu 105,4% nos sete primeiros meses de 2026 na comparação com o mesmo período do ano passado.",
+      "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
+      "image": "https://s2-g1.glbimg.com/O0B3Fv3L_hAshMk31o4036JkLlQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/Z/fGD8zNT6qZU8kvbJTDYg/001-logistica-leapmotor-sepetiba.jpg",
+      "category": "Economia",
+      "publishedAt": "2026-08-07T16:24:17.465641Z"
+    },
+    {
+      "title": "Dólar opera em queda, de olho em novos dados de emprego dos EUA; Ibovespa cai",
+      "description": "A moeda norte-americana apresentou recuo cotada na casa dos R$ 5,09, enquanto o Ibovespa registrou desaceleração em meio a dados do mercado externo.",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
+      "image": "https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0l0qj-rtroptp-4-fluxo-cambial-semanal.jpg",
+      "category": "Economia",
+      "publishedAt": "2026-08-07T16:24:17.466113Z"
+    }
+  ]
 }
- edita

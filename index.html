@@ -181,11 +181,23 @@
       color: inherit;
     }
 
-    .destaque img {
+    .destaque-img-wrapper {
       width: 100%;
       height: 420px;
+      overflow: hidden;
+      background-color: var(--corBorda);
+    }
+
+    .destaque img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .destaque:hover img {
+      transform: scale(1.02);
     }
 
     .destaque-content {
@@ -301,10 +313,23 @@
       box-shadow: var(--sombraHover);
     }
 
+    .card-img-wrapper {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      background-color: var(--corBorda);
+    }
+
     .card img {
       width: 100%;
-      height: 190px;
+      height: 100%;
       object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
     }
 
     .card-body {
@@ -384,7 +409,7 @@
 
     /* RESPONSIVIDADE */
     @media(max-width: 768px) {
-      .destaque img {
+      .destaque-img-wrapper {
         height: 260px;
       }
 
@@ -439,6 +464,9 @@
     let noticias = [];
     let categoriaAtual = "todas";
 
+    // Imagem fallback padrão de alta qualidade para futebol/notícias
+    const imagemPadrao = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80";
+
     fetch("news.json")
       .then(res => res.json())
       .then(dados => {
@@ -451,6 +479,11 @@
 
     function embaralhar(lista) {
       return lista.sort(() => Math.random() - 0.5);
+    }
+
+    function obterImagem(noticia) {
+      // Tenta pegar diferentes propriedades de imagem possíveis da API ou usa o fallback
+      return noticia.image || noticia.urlToImage || noticia.url_imagem || imagemPadrao;
     }
 
     function mostrar() {
@@ -469,10 +502,13 @@
       let ultimasNoticias = lista.slice(1);
 
       // Renderiza Destaque
+      let imgDestaque = obterImagem(destaque);
       document.getElementById("destaque").innerHTML = `
         <div class="destaque">
           <a href="${destaque?.url || '#'}" target="_blank" class="destaque-link">
-            <img src="${destaque?.image || 'https://via.placeholder.com/800x400'}" alt="Imagem destaque">
+            <div class="destaque-img-wrapper">
+              <img src="${imgDestaque}" alt="${destaque?.title || 'Imagem em Destaque'}" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            </div>
             <div class="destaque-content">
               <span class="destaque-tag">Em Destaque</span>
               <h1>${destaque?.title || "Sem notícia"}</h1>
@@ -483,9 +519,12 @@
 
       // Renderiza Cards
       ultimasNoticias.forEach(n => {
+        let imgCard = obterImagem(n);
         area.innerHTML += `
           <div class="card">
-            <img src="${n.image || 'https://via.placeholder.com/400x200'}" alt="Imagem notícia">
+            <a href="${n.url}" target="_blank" class="card-img-wrapper">
+              <img src="${imgCard}" alt="${n.title}" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            </a>
             <div class="card-body">
               <h2>${n.title}</h2>
               <p class="hora">${data(n.publishedAt)}</p>

@@ -1,10 +1,7 @@
 {
   "nome": "RD NEWS",
-
   "logo": "https://raw.githubusercontent.com/gocalvestec-stack/noticiasbrasil/main/logo.png.jpeg",
-
   "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil e mundo.",
-
 
   "tema": {
     "corPrincipal": "#0b1f3a",
@@ -14,14 +11,10 @@
     "modoEscuro": true
   },
 
-
-  "categoriaPadrao": "Futebol",
-
+  "categoriaPadrao": "futebol",
 
   "filtroNoticias": {
-
     "ativo": true,
-
     "palavras": [
       "futebol",
       "gol",
@@ -39,101 +32,61 @@
       "seleção brasileira",
       "libertadores"
     ]
-
   },
-
 
   "video": {
-
     "ativo": true,
-
+    "titulo": "Últimas notícias do futebol",
     "youtube": "https://youtu.be/U_jX4gu6Vjc",
-
-    "titulo": "Últimas notícias do futebol"
-
+    "aleatorio": false,
+    "lista": [
+      "https://youtu.be/U_jX4gu6Vjc"
+    ]
   },
-
 
   "anuncio": {
-
     "ativo": true,
-
-    "imagem": "",
-
-    "link": "",
-
+    "imagem": "https://via.placeholder.com/728x90?text=Seu+Anúncio+Aqui",
+    "link": "#",
     "posicao": "topo"
-
   },
-
 
   "portal": {
-
     "mostrarData": true,
-
     "mostrarImagem": true,
-
     "abrirLinksNovaAba": true,
-
     "noticiasPorPagina": 12
-
   },
-
 
   "categorias": [
-
-    "Futebol",
-
-    "Brasil",
-
-    "Mundo",
-
-    "Tecnologia",
-
-    "Economia"
-
+    { "id": "todas", "nome": "Todas", "icone": "📰" },
+    { "id": "futebol", "nome": "Futebol", "icone": "⚽" },
+    { "id": "brasil", "nome": "Brasil", "icone": "🇧🇷" },
+    { "id": "mundo", "nome": "Mundo", "icone": "🌎" },
+    { "id": "tecnologia", "nome": "Tecnologia", "icone": "💻" },
+    { "id": "economia", "nome": "Economia", "icone": "💰" }
   ],
 
-
   "redesSociais": {
-
-    "youtube": "",
-
-    "instagram": "",
-
-    "facebook": "",
-
-    "tiktok": ""
-
+    "youtube": "https://youtube.com",
+    "instagram": "https://instagram.com",
+    "facebook": "https://facebook.com",
+    "tiktok": "https://tiktok.com"
   },
-
 
   "contato": {
-
     "email": "contato@rdnews.com"
-
   },
-
 
   "seo": {
-
     "titulo": "RD NEWS Futebol - Notícias Atualizadas",
-
     "descricao": "Últimas notícias de futebol, campeonatos, clubes e jogadores.",
-
     "palavrasChave": "futebol, brasileirão, flamengo, palmeiras, libertadores, seleção brasileira"
-
   },
 
-
   "atualizacao": {
-
     "automatico": true,
-
     "intervaloHoras": 3,
-
     "fonte": "news.json"
-
   }
-
 }

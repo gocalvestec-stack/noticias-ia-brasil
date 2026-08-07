@@ -118,14 +118,14 @@
       font-weight: 500;
     }
 
-    /* MENU NAUVEGAÇÃO */
+    /* MENU NAVEGAÇÃO PROFISSIONAL */
     .menu-wrapper {
       position: sticky;
       top: 0;
       z-index: 100;
       background: var(--bg-card);
       border-bottom: 1px solid var(--border-color);
-      box-shadow: var(--shadow-sm);
+      box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
     }
 
     .menu {
@@ -139,9 +139,9 @@
 
     .nav-links {
       display: flex;
-      gap: 4px;
+      gap: 8px;
       overflow-x: auto;
-      padding: 10px 0;
+      padding: 0;
       scrollbar-width: none;
     }
 
@@ -149,41 +149,76 @@
       display: none;
     }
 
-    .nav-links button {
+    .nav-item {
+      position: relative;
       border: none;
       background: transparent;
       color: var(--text-muted);
-      padding: 8px 16px;
-      border-radius: 8px;
+      padding: 16px 14px;
       font-weight: 600;
       font-size: 0.9rem;
+      letter-spacing: -0.2px;
       cursor: pointer;
       white-space: nowrap;
-      transition: all 0.2s ease;
+      transition: color 0.2s ease, background-color 0.2s ease;
+      display: flex;
+      align-items: center;
     }
 
-    .nav-links button:hover, .nav-links button.active {
+    .nav-item:hover {
+      color: var(--text-main);
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    body.dark .nav-item:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    /* Indicador de Aba Ativa */
+    .nav-item.active {
       color: var(--primary-accent);
-      background: rgba(37, 99, 235, 0.08);
+      font-weight: 700;
     }
 
+    .nav-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: var(--primary-accent);
+      border-radius: 3px 3px 0 0;
+    }
+
+    /* BOTÃO DE TEMA */
     .btn-theme {
       border: 1px solid var(--border-color);
       background: var(--bg-body);
       color: var(--text-main);
-      padding: 6px 12px;
+      padding: 8px 14px;
       border-radius: 20px;
       font-weight: 600;
-      font-size: 0.8rem;
+      font-size: 0.82rem;
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
       transition: all 0.2s ease;
     }
 
     .btn-theme:hover {
       border-color: var(--primary-accent);
+      color: var(--primary-accent);
+      transform: translateY(-1px);
+    }
+
+    .theme-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .btn-theme:hover .theme-icon {
+      transform: rotate(15deg);
     }
 
     /* MAIN CONTAINER */
@@ -494,14 +529,20 @@
   <div class="menu-wrapper">
     <div class="menu">
       <nav class="nav-links">
-        <button class="active" onclick="categoria('todas', this)">📰 Todas</button>
-        <button onclick="categoria('futebol', this)">⚽ Futebol</button>
-        <button onclick="categoria('brasil', this)">🇧🇷 Brasil</button>
-        <button onclick="categoria('mundo', this)">🌎 Mundo</button>
-        <button onclick="categoria('tecnologia', this)">💻 Tecnologia</button>
-        <button onclick="categoria('economia', this)">💰 Economia</button>
+        <button class="nav-item active" onclick="categoria('todas', this)">Todas</button>
+        <button class="nav-item" onclick="categoria('futebol', this)">Futebol</button>
+        <button class="nav-item" onclick="categoria('brasil', this)">Brasil</button>
+        <button class="nav-item" onclick="categoria('mundo', this)">Mundo</button>
+        <button class="nav-item" onclick="categoria('tecnologia', this)">Tecnologia</button>
+        <button class="nav-item" onclick="categoria('economia', this)">Economia</button>
       </nav>
-      <button class="btn-theme" onclick="modo()">🌙 <span id="themeText">Escuro</span></button>
+      
+      <button class="btn-theme" onclick="modo()">
+        <svg class="theme-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeText">Escuro</span>
+      </button>
     </div>
   </div>
 
@@ -626,7 +667,7 @@
 
     function categoria(c, btn) {
       categoriaAtual = c;
-      document.querySelectorAll('.nav-links button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.nav-links .nav-item').forEach(b => b.classList.remove('active'));
       if(btn) btn.classList.add('active');
       mostrar();
     }

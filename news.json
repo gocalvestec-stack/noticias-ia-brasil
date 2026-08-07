@@ -1,302 +1,92 @@
 {
-  "articles": [
-    {
-      "title": "Homem é preso e drogas enterradas em tambor são apreendidas em Governador Valadares",
-      "description": "     Homem é preso e drogas enterradas em tambor são apreendidas em Governador Valadares\nPolícia Militar\nUm homem foi preso após a apreensão de drogas e outros materiais relacionados ao tráfico em uma residência no bairro Santo Antônio, em Governador Valadares. Segundo a Polícia Militar, os entorpec",
-      "url": "https://g1.globo.com/mg/vales-mg/noticia/2026/08/07/homem-e-preso-e-drogas-enterradas-em-tambor-sao-apreendidas-em-governador-valadares.ghtml",
-      "image": "https://s2-g1.glbimg.com/zt3QXzKS89JA8RwExWV4eM0h8sA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/U/MTL8BuRQawpRhsKgVeIg/whatsapp-image-2026-08-07-at-06.39.45.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.855679Z"
-    },
-    {
-      "title": "TRE-RJ mantém condenação de prefeito de Natividade e define pena de quase 5 anos de reclusão",
-      "description": "     Prefeito de Natividade foi condenado pelo TRE-RJ. Defesa cabe recurso\nTVN+\nAgora no g1\nO Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) manteve, nesta quinta-feira (6), a condenação do prefeito de Natividade, Marcos Antônio da Silva Toledo, o Taninho (União Brasil), por um suposto esque",
-      "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/08/07/tre-rj-mantem-condenacao-de-prefeito-de-natividade-e-define-pena-de-quase-5-anos-de-reclusao.ghtml",
-      "image": "https://s2-g1.glbimg.com/3WQbVIbQwtGImKvkbdbV-LoE_ys=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/8/uePYzHRzWQnhWFbG6PfQ/prefeito-condenado.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.855881Z"
-    },
-    {
-      "title": "Aviso sonoro de 'alerta extremo' em celulares dá susto em cariocas e toca ao vivo no RJ1; VÍDEO",
-      "description": "     Aviso sonoro de 'alerta extremo' em celulares dá susto em cariocas e toca ao vivo no RJ1\nA Defesa Civil do Rio de Janeiro enviou o quarto alerta em um intervalo de 7 horas no início da tarde desta sexta-feira (7) sobre a previsão de ventos fortes. O primeiro alarme foi por volta de 5h. O último",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/aviso-sonoro-de-alerta-extremo-toca-ao-vivo-no-rj1.ghtml",
-      "image": "https://s2-g1.glbimg.com/U-LMY1fmIlBt3xvDGvaU0LCIiQs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/q/NPV0MJTKmLvvFdZk1iwg/whatsapp-image-2026-08-07-at-05.24.02.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856033Z"
-    },
-    {
-      "title": "Trump volta a atacar Lisa Cook após derrota na Suprema Corte dos EUA",
-      "description": "     Montagem mostra Lisa Cook e Donald Trump\nSAUL LOEB and ANDREW CABALLERO-REYNOLDS / AFP\nO presidente dos Estados Unidos, Donald Trump, retomou nesta semana a tentativa de demitir a diretora do Federal Reserve Lisa Cook, após a Suprema Corte americana ter impedido, em junho, que o presidente a af",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/trump-lisa-cook.ghtml",
-      "image": "https://s2-g1.glbimg.com/Reg27VQHixs2jsJejYXdQyw0ozI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/E/A/tOhU1ES16P1GA0mzPXSQ/afp-20250822-72934we-v2-midres-combofilesuspoliticstrumpfedcook.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856152Z"
-    },
-    {
-      "title": "Integração entre Direito e Contabilidade avança nas empresas",
-      "description": "     A crescente complexidade do ambiente empresarial brasileiro vem exigindo uma leitura mais integrada das decisões que envolvem tributação, contabilidade e estrutura jurídica.\nEsse movimento não surgiu por acaso.\nNos últimos anos, empresas passaram a lidar simultaneamente com mudanças regulatória",
-      "url": "https://g1.globo.com/pr/parana/especial-publicitario/domann-contabilidade-estrategia-tributaria-para-empresas/noticia/2026/08/07/integracao-entre-direito-e-contabilidade-avanca-nas-empresas.ghtml",
-      "image": "https://s2-g1.glbimg.com/75aSxvqlSRyXuekWBvqBNENADcc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/n/AFZtG4Riiu1Oi3BNW22g/imagem-interna-1-1400x788.png",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856293Z"
-    },
-    {
-      "title": "VÍDEOS: Jornal do Amazonas 1ª edição desta quinta-feira, 7 de agosto de 2026",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/playlist/videos-jornal-do-amazonas-1-edicao-desta-quinta-feira-7-de-agosto-de-2026.ghtml",
-      "image": "https://s2-g1.glbimg.com/b85Zd63VR0uYz1ySow-Pk45OkwA=/s01.video.glbimg.com/deo/vi/14/94/14849414",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856386Z"
-    },
-    {
-      "title": "Vídeo mostra assalto à mão armada em Niterói; homem é preso horas depois",
-      "description": "     Vídeo registra assalto à mão armada em Niterói\nImagens de uma câmera de segurança registraram o momento em que um motociclista armado assalta um pedestre na Rua Senador Lúcio Bittencourt, em Itaipu, na Região Oceânica de Niterói, na manhã desta sexta-feira (7).\n📱Baixe o app do g1 para ver notíc",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/video-mostra-assalto-a-mao-armada-em-niteroi.ghtml",
-      "image": "https://s2-g1.glbimg.com/CKnwQDoNZ5czDX4QZeJc9Fx8XAY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/O/PbDjkCTXWkACW1cjT6Xw/whatsapp-image-2026-08-07-at-14.20.50.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856498Z"
-    },
-    {
-      "title": "Prefeitura de Poços de Caldas cria comitê para acompanhar exploração de terras raras",
-      "description": "     Prefeitura de Poços de Caldas cria comitê para acompanhar mineração de terras raras\nA Prefeitura de Poços de Caldas anunciou a criação de um comitê para acompanhar e ampliar as discussões sobre a exploração de terras raras no município. De acordo com a gestão municipal, o objetivo é garantir qu",
-      "url": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/08/07/prefeitura-de-pocos-de-caldas-cria-comite-para-acompanhar-exploracao-de-terras-raras.ghtml",
-      "image": "https://s2-g1.glbimg.com/PylL53CqXqNJo-WrtXscKG0DWq4=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/y/XHQeB8RDu2TyQSWxLlUg/terras-raras-amostra.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856653Z"
-    },
-    {
-      "title": "Operação Inverno amplia acolhimento a pessoas em situação de vulnerabilidade",
-      "description": "     Com a chegada das temperaturas mais baixas, a Prefeitura de Araucária, por meio da Secretaria Municipal de Assistência Social (SMAS), iniciou a Operação Inverno 2026, que vai até 4 de setembro. A ação tem como objetivo reforçar a proteção às pessoas em situação de rua e àquelas que enfrentam si",
-      "url": "https://g1.globo.com/pr/parana/especial-publicitario/municipio-de-araucaria/araucaria-noticias/noticia/2026/08/07/operacao-inverno-amplia-acolhimento-a-pessoas-em-situacao-de-vulnerabilidade.ghtml",
-      "image": "https://s2-g1.glbimg.com/vfSfG4aJlMm7LjU8h5zXIOXobG8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/4/iJyqm8QZCypjv3etMDww/29-opercao-inverno-abordagem-social-foto-carlos-poly07-destaque.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856774Z"
-    },
-    {
-      "title": "FASC 2026 tem datas divulgadas e convoca artistas sergipanos para credenciamento",
-      "description": "     37ª Edição do FASC\nDivulgação\nForam definidas as datas da 41ª edição do Festival de Artes de São Cristóvão (FASC). Promovido pela Prefeitura de São Cristóvão, o festival será realizado entre os dias 20 e 22 de novembro, com o tema \"Tradição que move o presente\". \nArtistas, grupos, produtores e ",
-      "url": "https://g1.globo.com/se/sergipe/noticia/2026/08/07/fasc-2026-tem-datas-divulgadas-e-convoca-artistas-sergipanos-para-credenciamento.ghtml",
-      "image": "https://s2-g1.glbimg.com/RBxG9lRMLe98c_hRwNUG8ITuxX8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/0/i/XV9Xc1QzWBzHc6Fah90A/37a-edicao-do-fasc-foto-fernando-correia-.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856888Z"
-    },
-    {
-      "title": "Trump volta a atacar Lisa Cook após derrota na Suprema Corte dos EUA",
-      "description": "     Montagem mostra Lisa Cook e Donald Trump\nSAUL LOEB and ANDREW CABALLERO-REYNOLDS / AFP\nO presidente dos Estados Unidos, Donald Trump, retomou nesta semana a tentativa de demitir a diretora do Federal Reserve Lisa Cook, após a Suprema Corte americana ter impedido, em junho, que o presidente a af",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/trump-lisa-cook.ghtml",
-      "image": "https://s2-g1.glbimg.com/Reg27VQHixs2jsJejYXdQyw0ozI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/E/A/tOhU1ES16P1GA0mzPXSQ/afp-20250822-72934we-v2-midres-combofilesuspoliticstrumpfedcook.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.411866Z"
-    },
-    {
-      "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
-      "description": "     Logotipo da startup chinesa Moonshot AI ao lado do aplicativo Kimi exibido na tela de um celular, em imagem ilustrativa de 24 de julho de 2026.\nREUTERS/Florence Lo/Ilustração/Foto de Arquivo/Foto de Arquivo\nO Kimi K3, principal modelo de inteligência artificial da startup chinesa Moonshot, cons",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
-      "image": "https://s2-g1.glbimg.com/UmAPSQtuGbOyu6BW18BqugdZmAs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/L/3nC03xSgqVkvzKjVNQmg/2026-07-31t060328z-2033122743-rc24kma3rvvc-rtrmadp-3-china-usa-ai-distillation-1-.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.411989Z"
-    },
-    {
-      "title": "Trump diz que Congresso dos EUA quer regulamentar a IA \"até acabar com ela\"",
-      "description": "     O presidente dos EUA, Donald Trump, aponta o dedo enquanto responde a perguntas da imprensa após assinar uma ordem executiva que estabelece a Comissão Presidencial para Cônjuges de Militares, que será presidida por Jennifer Rauchet, esposa do secretário de Defesa Pete Hegseth, no Salão Oval da ",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/trump-diz-que-congresso-quer-regulamentar-setor-de-ia-a-ponto-de-inviabiliza-lo.ghtml",
-      "image": "https://s2-g1.glbimg.com/1YwRAgUlamKTYjbwoDML7Nyf--c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/AcnineQ2GujpOVO8BPmg/2026-08-03t185319z-684638-rc22rma599hn-rtrmadp-3-usa-trump-1-.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412110Z"
-    },
-    {
-      "title": "Carros da China já correspondem a 52% dos importados no Brasil em 2026; eletrificados crescem 120%",
-      "description": "     Carros da Leapmotor desembarcam no porto\nDivulgação / Leapmotor\nA importação de veículos chineses para o Brasil mais que dobrou nos sete primeiros meses de 2026. Os embarques da China para o mercado brasileiro cresceram 105,4% na comparação com o mesmo período do ano passado. Os dados são da As",
-      "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
-      "image": "https://s2-g1.glbimg.com/CwqZaT6Wx28JzNwOKTAfDSHPJLo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/j/lMPrJQRQqA8cwzEjbl3A/chegada-leapmotor-c10-no-porto-7.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412266Z"
-    },
-    {
-      "title": "EXCLUSIVO: Governo monta acordo para levar modelo do CNU a estados e municípios",
-      "description": "     Agora no g1\nO governo federal iniciou as articulações para levar o modelo do Concurso Público Nacional Unificado (CNU), conhecido como \"Enem dos Concursos\", para estados e municípios.\n📎 Realizado pela primeira vez em 2024, o CNU reúne vagas de vários órgãos públicos em um único concurso. Em vez",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/08/07/exclusiva-governo-acordo-modelo-cnu-estados.ghtml",
-      "image": "https://s2-g1.glbimg.com/nw50A08K2wzp1ixwtw99agtJ7s0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/5/6/rBfMXDSTaSS86PP6SUSw/aplicacao-prova-cnu-2025-fortaleza.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412447Z"
-    },
-    {
-      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
-      "description": "     Embrapa lançou uma nova cultivar de Brachiaria decumbens, espécie de capim muito utilizada na alimentação do gado no Brasil. \nReprodução/Embrapa\nA Embrapa lançou este ano uma nova cultivar de Brachiaria decumbens, espécie de capim muito utilizada na alimentação do gado no Brasil. Chamada BRS Ca",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
-      "image": "https://s2-g1.glbimg.com/ttZVN9SeU4bSh_7_Co7zhqDoTZ0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/K/ALvuxUQvGgvDaswt3MRA/propriedade-jeferson-close-nas-especies-3-lavras-do-sul-foto-giaccomo-voccio.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412558Z"
-    },
-    {
-      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
-      "description": "     JBS inaugura centro de pesquisa e desenvolvimento no Sapiens Parque\nA JBS anunciou nesta sexta-feira (7) uma parceria estratégica com o Danantara Investment Management, unidade do fundo soberano da Indonésia, para acelerar sua expansão na Ásia e Oceania.\nA operação poderá movimentar até US$ 5 b",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
-      "image": "https://s2-g1.glbimg.com/0zcTezFGNGCY7vZJa2Naa1oec58=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/R/sFmovtSyKvVLou24qjwA/b8000be8-3005-40f1-99aa-96e63ac912f3.png",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.412663Z"
-    },
-    {
-      "title": "Dólar opera em queda, de olho em novos dados de emprego dos EUA; Ibovespa cai",
-      "description": "     Entenda o que faz o preço do dólar subir ou cair\nO dólar opera em queda nesta sexta-feira (7), com um recuo de 0,24% perto das 11h45, cotado a R$ 5,0945. O Ibovespa, principal índice da bolsa brasileira, caía 1,20% no mesmo horário, aos 173.434 pontos.\n🗒️ Tem alguma sugestão de reportagem? Envi",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/dolar-ibovespa.ghtml",
-      "image": "https://s2-g1.glbimg.com/en-e3pXXYmmv5grpZimBQ0X1DaM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/L/9pGXOhQjWMbLFeAbXt6w/2025-01-22t173936z-1-lynxnpel0l0qj-rtroptp-4-fluxo-cambial-semanal.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.430270Z"
-    },
-    {
-      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro; veja se o seu será afetado",
-      "description": "     WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa\nDaqui a exatamente um mês, o WhatsApp deixará de funcionar em celulares Android mais antigos. A mudança entra em vigor em 8 de setembro de 2026, quando o aplicativo passará a ser compatível apenas com aparelhos que rod",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
-      "image": "https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.430402Z"
-    },
-    {
-      "title": "Como criar galinhas poedeiras e frangos caipiras",
-      "description": "     Material ensina como criar galinhas poedeiras e frangos caipiras.\nDivulgação/Emater-MG\nQuer entender como criar galinhas poedeiras e frangos caipiras? A Empresa de Assistência Técnica e Extensão Rural de Minas Gerais (Emater-MG) disponibiliza gratuitamente uma cartilha com orientações sobre boa",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-      "image": "https://s2-g1.glbimg.com/zh0mOSsT6aJb1R2QGk6NiGlaI7w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/v/j/GyhkGFRtSOEAcZsGy2jQ/whatsapp-image-2025-06-13-at-18.45.17.jpeg",
-      "category": "Economia",
-      "publishedAt": "2026-08-07T17:58:42.430502Z"
-    },
-    {
-      "title": "'Ciência Aberta': centro que abriga o Sirius recebe público para apresentar curiosidades e atrações da ciência",
-      "description": "     Sirius, laboratório de luz síncrotron de 4ª geração, instalado no CNPEM, em Campinas (SP)\nNelson Kon\nO Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), que abriga o superlaboratório Sirius, em Campinas (SP), promove neste sábado (10), a partir das 9h, a 6ª edição do \"Ciência Aberta\",",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/08/09/ciencia-aberta-centro-que-abriga-o-sirius-recebe-publico-para-apresentar-curiosidades-e-atracoes-da-ciencia.ghtml",
-      "image": "https://s2-g1.glbimg.com/kKUdrY29MpZWo_veboJUOdZ1dnM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/Z/0MdzrrRtyHwZFyLq5f6g/fachadasirius.creditonelsonkon.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942047Z"
-    },
-    {
-      "title": "Mayaro e o que mais? Unicamp aponta possível transmissão urbana do vírus em Roraima e vê indícios de novas ameaças",
-      "description": "     Imagem de imunofluorescência do vírus mayaro em amostra de paciente de Roraima (RR) analisada por pesquisadores da Unicamp\nReprodução/Unicamp\nUm estudo desenvolvido por pesquisadores do Instituto de Biologia (IB) da Unicamp confirmou a circulação do vírus mayaro entre humanos no estado de Rorai",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/05/12/mayaro-e-o-que-mais-unicamp-aponta-possivel-transmissao-urbana-do-virus-em-roraima-e-ve-indicios-de-novas-ameacas.ghtml",
-      "image": "https://s2-g1.glbimg.com/PjB2HAkBB0kNXtrQBimTDDxyBUc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/x/8/Y5UI1gQV6ir2FlFMvEQg/ifa-mayv-rr.png",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942205Z"
-    },
-    {
-      "title": "'Ciência Aberta': centro que abriga o Sirius terá dia exclusivo para receber escolas e grupos de alunos; saiba como se inscrever",
-      "description": "     Sirius, laboratório de luz síncrotron de 4ª geração, reforça a ciência no enfrentamento do novo coronavírus\nNelson Kon\nUm dos maiores centros de produção científica do Brasil, o Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), que abriga o superlaboratório Sirius, em Campinas (SP), p",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/05/09/ciencia-aberta-centro-que-abriga-o-sirius-tera-dia-exclusivo-para-receber-escolas-e-grupos-de-alunos-saiba-como-se-inscrever.ghtml",
-      "image": "https://s2-g1.glbimg.com/kKUdrY29MpZWo_veboJUOdZ1dnM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/0/Z/0MdzrrRtyHwZFyLq5f6g/fachadasirius.creditonelsonkon.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942320Z"
-    },
-    {
-      "title": "MC Marcinho usa terapia conhecida como ECMO, espécie de pulmão artificial; entenda como funciona",
-      "description": "     ECMO: entenda como funciona a terapia usada em MC Marcinho\nUm dos maiores nomes da história do funk carioca, Marcio André Nepomuceno Garcia, o MC Marcinho, está desde segunda-feira (10) na UTI do Hospital Copa D'Or após uma parada cardiorrespiratória. \nDe acordo com o boletim médico divulgado n",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2023/07/12/mc-marcinho-usa-terapia-conhecida-como-ecmo-especie-de-pulmao-artificial-entenda-como-funciona.ghtml",
-      "image": "https://s2-g1.glbimg.com/waCPY0Zo8WT23L7PqO32HVfZbsE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/u/F/CKlX5BQ5qmoJyLwJtAuQ/ecmo.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942437Z"
-    },
-    {
-      "title": "Cuidar bem dos dentes é bom para o cérebro",
-      "description": "     Não é a primeira vez que trato do tema, mas sempre é bom voltar ao assunto até que não somente as pessoas, mas também os gestores públicos se deem conta da sua relevância. Estudo publicado semana passada na revista científica “Neurology” afirma que a periodontite (doença das gengivas) e a perda",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/11/cuidar-bem-dos-dentes-e-bom-para-o-cerebro.ghtml",
-      "image": "https://s2-g1.glbimg.com/1MefgAewhvPkjCXaje1UGBAKfzk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/s/B/dfUvaZSNyPeKJIOPkgTA/cuidardosdentesbomparacerebro.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942578Z"
-    },
-    {
-      "title": "Cuidado para não sabotar o seu futuro eu",
-      "description": "     Hal Hershfield é professor de marketing, decisão comportamental e psicologia da Universidade da Califórnia, Los Angeles. Mês passado, lançou “Your future self: how to make tomorrow better today” (“Seu futuro eu: como tornar o amanhã melhor hoje”), onde aborda a dificuldade de planejamento a lon",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/09/cuidado-para-nao-sabotar-o-seu-futuro-eu.ghtml",
-      "image": "https://s2-g1.glbimg.com/SgaUNF913X9GM7tXy4SbNu1qKFE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/C/f/xk0qB8SZSLjsnVNcCSIQ/halhershfield3repro.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942698Z"
-    },
-    {
-      "title": "Por que nossos órgãos envelhecem de forma diferente",
-      "description": "     Quando pensamos em nossa idade, o que vem à mente é o número que nos acompanha o ano inteiro, até o aniversário seguinte. No entanto, em nosso organismo, há nuances: os órgãos apresentam diferentes graus de envelhecimento. De acordo com os especialistas, os ovários, por exemplo, já se encontram",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/06/por-que-nossos-orgaos-envelhecem-de-forma-diferente.ghtml",
-      "image": "https://s2-g1.glbimg.com/ent7ojzrxjJWa0hKrFpmz77qx4E=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/5/7/RFdbVURniwzDfrkxXI4w/porquenossosorgaosenvelhecemdeformadiferente.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942805Z"
-    },
-    {
-      "title": "Obesidade, ansiedade e inflamações: entenda como suplemento de óleo de coco pode se tornar 'vilão' na dieta",
-      "description": "     Suplementação com óleo de coco pode causar danos à saúde, diz pesquisa da Unicamp\nPixabay/Divulgação\nGanho de peso, comportamento ansioso e aumento de marcadores inflamatórios são algumas das consequências do uso prolongado do óleo de coco como suplemento alimentar. É o que aponta um estudo rea",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2023/07/05/obesidade-ansiedade-e-inflamacoes-entenda-como-suplemento-de-oleo-de-coco-pode-se-tornar-vilao-na-dieta.ghtml",
-      "image": "https://s2-g1.glbimg.com/k2jTI5pP9Q1sClFBo88bT6UVTwY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/u/Y/fWmlsOQzqCvfBDNLxGtQ/oleo-de-coco.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.942917Z"
-    },
-    {
-      "title": "Crianças e adolescentes que sobrevivem ao câncer têm risco aumentado para distúrbios psicológicos",
-      "description": "     Anualmente, cerca de 300 mil crianças e adolescentes, entre zero e 19 anos, são diagnosticados com câncer, sendo que os tipos mais comuns são leucemias, linfomas e tumores do sistema nervoso central. Nos países ricos, graças aos avanços no tratamento, mais de 80% dos jovens pacientes sobrevivem",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/07/04/criancas-e-adolescentes-que-sobrevivem-ao-cancer-tem-risco-aumentado-para-disturbios-psicologicos.ghtml",
-      "image": "https://s2-g1.glbimg.com/PuBJa27hPJnjdDPiSTYfS2fDZRU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/T/b/brtA8hRbqQg5y7Asjjow/cancercrianca.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.943021Z"
-    },
-    {
-      "title": "Como cor de traje de banho pode salvar vidas",
-      "description": "     As cores das roupas de banho mudam surpreendentemente debaixo d’água e podem fazer diferença em situações de emergência\nAlamy via BBC\nEm uma bela noite no início do verão, em vez me sentar no pátio e apreciar o céu, estou no meu computador, olhando imagens e mais imagens de trajes de banho para",
-      "url": "https://g1.globo.com/ciencia-e-saude/noticia/2023/07/02/como-cor-de-traje-de-banho-pode-salvar-vidas.ghtml",
-      "image": "https://s2-g1.glbimg.com/QrXcbnVGH_Rs0d1p7tLo17a_gag=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/n/H/EWR3hbRdqDT46xEAqSBA/cores-roupa-banho.jpg",
-      "category": "Saúde",
-      "publishedAt": "2026-08-07T17:58:43.943173Z"
-    },
-    {
-      "title": "Echo Dot em destaque: confira uma seleção de Smart Speakers Alexa em promoção na Amazon",
-      "description": "Se você quer deixar a casa mais inteligente sem complicação, os Smart Speakers com Alexa são uma das escolhas mais práticas do mercado. Reunimos três opções do Echo Dot — nas cores Preta, Azul e Branca — todas com acesso antecipado à Alexa+ e disponíveis agora na Amazon Brasil. Confira! Echo Dot (Ge",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/echo-dot-em-destaque-confira-uma-selecao-de-smart-speakers-alexa-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-smart-speakers-alexa-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.284316Z"
-    },
-    {
-      "title": "Hora de renovar o som da sua sala: veja uma seleção de soundbars em promoção na Amazon",
-      "description": "Se o áudio da TV ainda deixa a desejar, este é o momento certo para dar um upgrade. Reunimos três opções de soundbars em oferta na Amazon, de marcas consagradas como JBL, Samsung e LG, com subwoofer sem fio, Dolby Atmos e muito mais. Confira: JBL Soundbar Cinema SB180 — 2.1 Canais com Subwoofer Sem ",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/hora-de-renovar-o-som-da-sua-sala-veja-uma-selecao-de-soundbars-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-soundbars-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.339235Z"
-    },
-    {
-      "title": "Hora de turbinar o som: veja uma seleção de caixas de som Bluetooth em promoção na Amazon",
-      "description": "Se você está em busca de uma boa caixa de som Bluetooth, a Amazon reúne agora algumas opções interessantes com ótimo custo-benefício. Selecionamos três modelos que se destacam por portabilidade, resistência à água e qualidade sonora — do básico ao intermediário, tem algo para todo perfil. Caixa de S",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/hora-de-turbinar-o-som-veja-uma-selecao-de-caixas-de-som-bluetooth-em-promocao-na-amazon/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-caixas-de-som-bluetooth-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.403327Z"
-    },
-    {
-      "title": "O coração das galáxias revela segredos em nova simulação cósmica",
-      "description": "Modelo acompanha 4 bilhões de anos de evolução e mostra como gás, estrelas e matéria escura moldam os centros galácticos\nO post O coração das galáxias revela segredos em nova simulação cósmica apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/o-coracao-das-galaxias-revela-segredos-em-nova-simulacao-cosmica/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/via-lactea.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.473185Z"
-    },
-    {
-      "title": "O gelo da Antártida está devolvendo ao mar um antigo poluente: o mercúrio",
-      "description": "O gelo da Antártida guardou mercúrio por décadas, mas o derretimento está liberando esse poluente no oceano, alerta estudo\nO post O gelo da Antártida está devolvendo ao mar um antigo poluente: o mercúrio apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/ciencia-e-espaco/o-gelo-da-antartida-esta-devolvendo-ao-mar-um-antigo-poluente-o-mercurio/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/iStock-2257262752.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.550607Z"
-    },
-    {
-      "title": "Upgrade no setup: headsets gamer com boa relação custo-benefício para você conferir agora",
-      "description": "Seja para partidas competitivas ou sessões mais longas de jogo, um bom headset faz toda a diferença na experiência. Separamos três opções de headsets gamer em oferta na Amazon para diferentes perfis de jogador — confira e veja qual combina mais com o seu estilo. Headset Gamer Redragon Zeus Lite Pret",
-      "url": "https://olhardigital.com.br/2026/08/07/reviews/upgrade-no-setup-headsets-gamer-com-boa-relacao-custo-beneficio-para-voce-conferir-agora/",
-      "image": "https://img.odcdn.com.br/wp-content/uploads/2026/08/hero-headsets-gamer-6.jpg",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.609179Z"
-    },
-    {
-      "title": "GeForce NOW recebe 26 novos jogos em agosto; veja os destaques",
-      "description": "Serviço de jogos em nuvem da NVIDIA terá novidades como The Sinking City 2, Mortal Shell II, Resonance: A Plague Tale Legacy e High on Life 2 ao longo do mês\nO post GeForce NOW recebe 26 novos jogos em agosto; veja os destaques apareceu primeiro em Olhar Digital.",
-      "url": "https://olhardigital.com.br/2026/08/07/games-e-consoles/geforce-now-ganha-26-jogos-em-agosto-de-2026/",
-      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/GeForce-NOW-NVIDIA.webp",
-      "category": "Tecnologia",
-      "publishedAt": "2026-08-07T17:58:44.677759Z"
-    },
-    {
-      "title": "Ofertas 8.8: Smart TVs com descontos de até 47% OFF",
-      "description": "A campanha 8.8 traz uma leva forte de ofertas em Smart TVs, cobrindo desde modelos de 32 polegadas para quartos até painéis QLED e QNED premium de 50″. Reunimos 7 ofertas em destaque com descontos que chegam a 47% OFF, incluindo Smart TVs AOC, Philco, LG e Samsung — com opções em Full HD, 4K […]\nO p",
-      "url": "https://olhardigital.com.br
+  "articles": [
+    {
+      "title": "Homem é preso e drogas enterradas em tambor são apreendidas em Governador Valadares",
+      "description": "Homem é preso após a apreensão de drogas e outros materiais relacionados ao tráfico em uma residência no bairro Santo Antônio, em Governador Valadares.",
+      "url": "https://g1.globo.com/mg/vales-mg/noticia/2026/08/07/homem-e-preso-e-drogas-enterradas-em-tambor-sao-apreendidas-em-governador-valadares.ghtml",
+      "image": "https://s2-g1.glbimg.com/zt3QXzKS89JA8RwExWV4eM0h8sA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/U/MTL8BuRQawpRhsKgVeIg/whatsapp-image-2026-08-07-at-06.39.45.jpeg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.855679Z"
+    },
+    {
+      "title": "TRE-RJ mantém condenação de prefeito de Natividade e define pena de quase 5 anos de reclusão",
+      "description": "O Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) manteve a condenação do prefeito de Natividade, Marcos Antônio da Silva Toledo.",
+      "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/08/07/tre-rj-mantem-condenacao-de-prefeito-de-natividade-e-define-pena-de-quase-5-anos-de-reclusao.ghtml",
+      "image": "https://s2-g1.glbimg.com/3WQbVIbQwtGImKvkbdbV-LoE_ys=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/8/uePYzHRzWQnhWFbG6PfQ/prefeito-condenado.jpg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.855881Z"
+    },
+    {
+      "title": "Aviso sonoro de 'alerta extremo' em celulares dá susto em cariocas e toca ao vivo no RJ1; VÍDEO",
+      "description": "A Defesa Civil do Rio de Janeiro enviou alertas sobre a previsão de ventos fortes na região.",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/aviso-sonoro-de-alerta-extremo-toca-ao-vivo-no-rj1.ghtml",
+      "image": "https://s2-g1.glbimg.com/U-LMY1fmIlBt3xvDGvaU0LCIiQs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/q/NPV0MJTKmLvvFdZk1iwg/whatsapp-image-2026-08-07-at-05.24.02.jpeg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.856033Z"
+    },
+    {
+      "title": "Trump volta a atacar Lisa Cook após derrota na Suprema Corte dos EUA",
+      "description": "O presidente dos Estados Unidos retomou a tentativa de demitir a diretora do Federal Reserve.",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/trump-lisa-cook.ghtml",
+      "image": "https://s2-g1.glbimg.com/Reg27VQHixs2jsJejYXdQyw0ozI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/E/A/tOhU1ES16P1GA0mzPXSQ/afp-20250822-72934we-v2-midres-combofilesuspoliticstrumpfedcook.jpg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.856152Z"
+    },
+    {
+      "title": "Integração entre Direito e Contabilidade avança nas empresas",
+      "description": "Crescente complexidade do ambiente empresarial exige leitura integrada sobre tributação e estrutura jurídica.",
+      "url": "https://g1.globo.com/pr/parana/especial-publicitario/domann-contabilidade-estrategia-tributaria-para-empresas/noticia/2026/08/07/integracao-entre-direito-e-contabilidade-avanca-nas-empresas.ghtml",
+      "image": "https://s2-g1.glbimg.com/75aSxvqlSRyXuekWBvqBNENADcc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/n/AFZtG4Riiu1Oi3BNW22g/imagem-interna-1-1400x788.png",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.856293Z"
+    },
+    {
+      "title": "Vídeo mostra assalto à mão armada em Niterói; homem é preso horas depois",
+      "description": "Câmera de segurança registrou assalto na Região Oceânica de Niterói.",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/video-mostra-assalto-a-mao-armada-em-niteroi.ghtml",
+      "image": "https://s2-g1.glbimg.com/CKnwQDoNZ5czDX4QZeJc9Fx8XAY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/O/PbDjkCTXWkACW1cjT6Xw/whatsapp-image-2026-08-07-at-14.20.50.jpeg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-07T17:58:40.856498Z"
+    },
+    {
+      "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
+      "description": "O modelo Kimi K3 conseguiu contornar restrições durante testes de segurança em ambiente isolado.",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
+      "image": "https://s2-g1.glbimg.com/UmAPSQtuGbOyu6BW18BqugdZmAs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/L/3nC03xSgqVkvzKjVNQmg/2026-07-31t060328z-2033122743-rc24kma3rvvc-rtrmadp-3-china-usa-ai-distillation-1-.jpg",
+      "category": "Economia",
+      "publishedAt": "2026-08-07T17:58:42.411989Z"
+    },
+    {
+      "title": "Carros da China já correspondem a 52% dos importados no Brasil em 2026",
+      "description": "Embarques chineses para o Brasil cresceram mais de 100% no acumulado do ano.",
+      "url": "https://g1.globo.com/carros/noticia/2026/08/07/importacao-de-carros-chineses-dobra-no-brasil.ghtml",
+      "image": "https://s2-g1.glbimg.com/CwqZaT6Wx28JzNwOKTAfDSHPJLo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/j/lMPrJQRQqA8cwzEjbl3A/chegada-leapmotor-c10-no-porto-7.jpg",
+      "category": "Economia",
+      "publishedAt": "2026-08-07T17:58:42.412266Z"
+    },
+    {
+      "title": "WhatsApp deixará de funcionar em celulares antigos em setembro",
+      "description": "Mudança entra em vigor no próximo mês e afetará aparelhos Android com versões antigas do sistema.",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/whatsapp-deixara-de-funcionar-em-celulares-antigos-em-setembro-veja-se-o-seu-sera-afetado.ghtml",
+      "image": "https://s2-g1.glbimg.com/iG3EGQ6gRq9U_77qAPaeEYO44EE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/X/Bnp7clSoyQMalIBBgdCg/amanz-juicquyhmu0-unsplash.jpg",
+      "category": "Tecnologia",
+      "publishedAt": "2026-08-07T17:58:42.430402Z"
+    },
+    {
+      "title": "Copa do Brasil: Fluminense e Vasco definem vaga nas oitavas em clássico decisivo",
+      "description": "Equipes se enfrentam no jogo de volta valendo vaga nas quartas de final com transmissão ao vivo pela TV Globo e ge.",
+      "url": "https://ge.globo.com/futebol/copa-do-brasil/",
+      "image": "https://s2-ge.glbimg.com/exemplo-fluminense-vasco.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T18:00:00.000000Z"
+    },
+    {
+      "title": "Brasileirão Série A: confira a classificação e as novidades dos clubes para a rodada",
+      "description": "Acompanhe tudo sobre os treinos, escalações e bastidores dos times no ge.",
+      "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
+      "image": "https://s2-ge.glbimg.com/exemplo-brasileirao.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T18:05:00.000000Z"
+    }
+  ]
+}

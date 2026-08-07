@@ -1,171 +1,59 @@
 {
   "articles": [
     {
-      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
+      "title": "'Nenhum dinheiro repara', diz esposa de lutador preso injustamente; Justiça reverteu decisão e definiu que Estado deve indenizar Sílvio Pantera",
       "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/nenhum-dinheiro-repara-diz-esposa-de-lutador-preso-injustamente.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426367Z",
-      "category": "economia"
-    },
-    {
-      "title": "Unimed Campos celebra 35 anos e mira o futuro com a expansão de serviços",
-      "description": "",
-      "url": "https://g1.globo.com/rj/norte-fluminense/especial-publicitario/unimed-campos/noticia/2026/08/07/unimed-campos-celebra-35-anos-e-mira-o-futuro-com-a-expansao-de-servicos.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423096Z",
+      "publishedAt": "2026-08-07T05:24:26.734721Z",
       "category": "brasil"
     },
     {
-      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
+      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
       "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426369Z",
-      "category": "economia"
-    },
-    {
-      "title": "Da escola na Flórida ao estrelato no Real Madrid: entenda a ascensão meteórica de Yan Diomande",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/08/07/da-escola-na-florida-ao-estrelato-no-real-madrid-entenda-a-ascensao-meteorica-de-yan-diomande.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362569Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Mini boiadeiras: Público infantil marca presença no show de Ana Castela na Expoacre 2026; VÍDEO",
-      "description": "",
-      "url": "https://g1.globo.com/ac/acre/noticia/2026/08/07/mini-boiadeiras-publico-infantil-marca-presenca-no-show-de-ana-castela-na-expoacre-2026-video.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423088Z",
-      "category": "brasil"
-    },
-    {
-      "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270120Z",
+      "publishedAt": "2026-08-07T05:24:32.015743Z",
       "category": "mundo"
-    },
-    {
-      "title": "El Niño: governo decide reduzir geração de hidrelétricas para enfrentar fenômeno climático",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426359Z",
-      "category": "economia"
-    },
-    {
-      "title": "Espriella toma posse na Colômbia após vitória apertada e promessa de guinada à direita",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espriella-toma-posse-na-colombia-apos-vitoria-apertada-e-promessa-de-guinada-a-direita.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270100Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Corrida 10 Milhas de Macaé bate recorde e reúne mais de 3 mil atletas",
-      "description": "",
-      "url": "https://g1.globo.com/rj/regiao-dos-lagos/especial-publicitario/prefeitura-de-macae/capital-de-energia-e-do-orgulho-de-ser-macaense/noticia/2026/08/07/corrida-10-milhas-de-macae-bate-recorde-e-reune-mais-de-3-mil-atletas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423098Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Casos Master e INSS: desconfiança entre Andrei e Mendonça marca investigações; entenda",
-      "description": "",
-      "url": "https://g1.globo.com/politica/noticia/2026/08/07/casos-master-e-inss-desconfianca-entre-andrei-e-mendonca-marca-investigacoes-entenda.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423091Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Atuações: Corinthians luta, marca nas bolas aéreas, mas não evita eliminação; dê suas notas",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/atuacoes-corinthians-luta-marca-nas-bolas-aereas-mas-nao-evita-eliminacao-de-suas-notas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362580Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Muito caro viajar de avião? Guerra encarece querosene e gera R$ 5,2 bilhões de gastos a mais às aéreas",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/-guerra-encarece-querosene-e-gera-r-52-bilhoes-de-gastos-a-mais-as-aereas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426374Z",
-      "category": "economia"
-    },
-    {
-      "title": "Área que era usada para descarte irregular vira praça moderna em Montes Claros",
-      "description": "",
-      "url": "https://g1.globo.com/mg/grande-minas/especial-publicitario/pm-montes-claro/noticia/2026/08/07/area-que-era-usada-para-descarte-irregular-vira-praca-moderna-em-montes-claros.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423094Z",
-      "category": "brasil"
-    },
-    {
-      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
-      "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426372Z",
-      "category": "economia"
-    },
-    {
-      "title": "Turismo de nascimento: veja perguntas e respostas sobre o novo decreto de Trump para barrar cidadania",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turismo-de-nascimento-veja-perguntas-e-respostas-sobre-o-novo-decreto-de-trump-para-barrar-cidadania.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270108Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426365Z",
-      "category": "economia"
     },
     {
       "title": "Passaportes de brasileiros no exterior passam a ser impressos no Brasil",
       "description": "",
       "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/passaportes-de-brasileiros-no-exterior-passam-a-ser-impressos-no-brasil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270116Z",
+      "publishedAt": "2026-08-07T05:24:32.015747Z",
       "category": "mundo"
+    },
+    {
+      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:28.968105Z",
+      "category": "economia"
+    },
+    {
+      "title": "Artista plástico Alex Flemming leva exposição sobre o fim do mundo às ruínas de prédio histórico no Centro de SP",
+      "description": "",
+      "url": "https://g1.globo.com/guia/guia-sp/noticia/2026/08/07/artista-plastico-alex-flemming-leva-exposicao-sobre-o-fim-do-mundo-as-ruinas-de-predio-historico-no-centro-de-sp.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:26.734717Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:28.968099Z",
+      "category": "economia"
     },
     {
       "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270118Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Quartas de final da Copa do Brasil 2026: veja classificados, datas e detalhes do sorteio",
-      "description": "",
-      "url": "https://ge.globo.com/ba/futebol/copa-do-brasil/noticia/2026/08/06/quartas-de-final-da-copa-do-brasil-2026-veja-classificados-datas-e-detalhes-do-sorteio.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362585Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270113Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Concurso 3041 da Mega-Sena acumula e vai a R$ 165 milhões; veja os números sorteados",
-      "description": "",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426362Z",
+      "publishedAt": "2026-08-07T05:24:28.968101Z",
       "category": "economia"
     },
     {
@@ -173,88 +61,200 @@
       "description": "",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/noticia/2026/08/07/brasileiro-feminino-tem-classicos-e-duelo-direto-no-g-4-veja-onde-assistir-a-15a-rodada.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362556Z",
+      "publishedAt": "2026-08-07T05:24:24.162602Z",
       "category": "futebol"
     },
     {
-      "title": "John Kennedy tem lesão no joelho e desfalca Fluminense na Libertadores",
+      "title": "Clube recém promovido a Premier League gasta R$ 310,7 milhões em goleiro reserva do Manchester City",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/06/john-kennedy-tem-lesao-no-joelho-e-desfalca-fluminense-na-libertadores.ghtml",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/07/clube-recem-promovido-a-premier-league-gasta-r-3107-milhoes-em-goleiro-reserva-do-manchester-city.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362574Z",
+      "publishedAt": "2026-08-07T05:24:24.162587Z",
       "category": "futebol"
     },
     {
-      "title": "Diniz aponta irregularidade em gol do Inter e atribui eliminação do Corinthians à arbitragem",
+      "title": "Maior São João do Cerrado 2026 começa nesta sexta em Ceilândia, no DF; veja detalhes",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/diniz-aponta-irregularidade-em-gol-do-inter-e-atribui-eliminacao-do-corinthians-a-erros-da-arbitragem.ghtml",
+      "url": "https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2026/08/07/maior-sao-joao-do-cerrado-2026-comeca-nesta-sexta-em-ceilandia-no-df-veja-detalhes.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362572Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Trump assina decreto para negar cidadania em casos de 'turismo de nascimento'",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/trump-planeja-decreto-para-negar-cidadania-em-casos-de-turismo-de-nascimento-diz-site.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270122Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Léo Santana, Gusttavo Lima e atividades na Expofeira: o que fazer no fim de semana em Macapá",
-      "description": "",
-      "url": "https://g1.globo.com/ap/amapa/noticia/2026/08/07/leo-santana-gusttavo-lima-e-atividades-na-expofeira-o-que-fazer-no-fim-de-semana-em-macapa.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423102Z",
+      "publishedAt": "2026-08-07T05:24:26.734713Z",
       "category": "brasil"
     },
     {
-      "title": "Eleições 2026: Com que idade é obrigatório votar?",
+      "title": "Adolescentes denunciam abusos sexuais dentro da escola municipal onde estudam",
       "description": "",
-      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/07/eleicoes-2026-com-que-idade-e-obrigatorio-votar.ghtml",
+      "url": "https://g1.globo.com/pe/pernambuco/noticia/2026/08/07/adolescentes-denunciam-abusos-sexuais-dentro-da-escola-municipal-onde-estudam.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423100Z",
+      "publishedAt": "2026-08-07T05:24:26.734719Z",
       "category": "brasil"
     },
     {
-      "title": "VÍDEOS: Jornal do Acre 2ª Edição desta quinta-feira, 6 de agosto de 2026",
+      "title": "Titãs, Paralamas, Nando Reis, Simone Mendes e Filho do Piseiro agitam fim de semana no DF",
       "description": "",
-      "url": "https://g1.globo.com/ac/acre/playlist/videos-jornal-do-acre-2-edicao-desta-quinta-feira-6-de-agosto-de-2026.ghtml",
+      "url": "https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2026/08/07/titas-paralamas-nando-reis-simone-mendes-e-filho-do-piseiro-agitam-fim-de-semana-no-df.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:33.423080Z",
+      "publishedAt": "2026-08-07T05:24:26.734715Z",
       "category": "brasil"
-    },
-    {
-      "title": "Veja os públicos dos jogos de volta das oitavas da Copa do Brasil 2026",
-      "description": "",
-      "url": "https://ge.globo.com/gato-mestre/noticia/2026/08/06/veja-os-publicos-dos-jogos-de-volta-das-oitavas-de-final-da-copa-do-brasil.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362578Z",
-      "category": "futebol"
     },
     {
       "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
       "description": "",
       "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:34.426352Z",
+      "publishedAt": "2026-08-07T05:24:28.968088Z",
       "category": "economia"
     },
     {
-      "title": "Quem é a irmã de Kim Jong-un, que ameaçou o Japão após testarem míssil norte-americano",
+      "title": "Concurso 3041 da Mega-Sena acumula e vai a R$ 165 milhões; veja os números sorteados",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/quem-e-a-irma-de-kim-jong-un-que-ameacou-o-japao-apos-testarem-missil-norte-americano.ghtml",
+      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:36.270111Z",
+      "publishedAt": "2026-08-07T05:24:28.968097Z",
+      "category": "economia"
+    },
+    {
+      "title": "Da escola na Flórida ao estrelato no Real Madrid: entenda a ascensão meteórica de Yan Diomande",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/08/07/da-escola-na-florida-ao-estrelato-no-real-madrid-entenda-a-ascensao-meteorica-de-yan-diomande.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:24.162605Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Dia dos Pais: o maior concorrente da sua loja pode não o concorrente, mas a indecisão do cliente",
+      "description": "",
+      "url": "https://g1.globo.com/empreendedorismo/pegn/noticia/2026/08/07/dia-dos-pais-o-maior-concorrente-da-sua-loja-pode-nao-o-concorrente-mas-a-indecisao-do-cliente.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:26.734710Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Real Madrid chega a seis reforços e R$ 1,3 bilhão em gastos para temporada 2026/27",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/real-madrid-chega-a-seis-reforcos-e-r-13-bilhao-em-gastos-para-temporada-202627.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:24.162595Z",
+      "category": "futebol"
+    },
+    {
+      "title": "El Niño: governo decide reduzir geração de hidrelétricas para enfrentar fenômeno climático",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/el-nino-governo-decide-reduzir-geracao-de-hidreletricas-para-enfrentar-fenomeno-climatico.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:28.968094Z",
+      "category": "economia"
+    },
+    {
+      "title": "John Kennedy tem lesão no joelho e desfalca Fluminense na Libertadores",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/06/john-kennedy-tem-lesao-no-joelho-e-desfalca-fluminense-na-libertadores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:24.162611Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Entenda como o River Plate virou potência financeira da América e conseguiu contratar Almada",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/07/entenda-como-o-river-plate-virou-potencia-financeira-da-america-e-conseguiu-contratar-almada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:24.162598Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Turismo de nascimento: veja perguntas e respostas sobre o novo decreto de Trump para barrar cidadania",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/turismo-de-nascimento-veja-perguntas-e-respostas-sobre-o-novo-decreto-de-trump-para-barrar-cidadania.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015741Z",
       "category": "mundo"
     },
     {
-      "title": "Gustavo Henrique pede desculpas por eliminação do Corinthians na Copa do Brasil: \"Não pode parar\"",
+      "title": "Diniz aponta irregularidade em gol do Inter e atribui eliminação do Corinthians à arbitragem",
       "description": "",
-      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/gustavo-henrique-pede-desculpas-por-eliminacao-do-corinthians-na-copa-do-brasil-nao-pode-parar.ghtml",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/diniz-aponta-irregularidade-em-gol-do-inter-e-atribui-eliminacao-do-corinthians-a-erros-da-arbitragem.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T03:38:31.362576Z",
+      "publishedAt": "2026-08-07T05:24:24.162607Z",
       "category": "futebol"
+    },
+    {
+      "title": "Muito caro viajar de avião? Guerra encarece querosene e gera R$ 5,2 bilhões de gastos a mais às aéreas",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/-guerra-encarece-querosene-e-gera-r-52-bilhoes-de-gastos-a-mais-as-aereas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:28.968107Z",
+      "category": "economia"
+    },
+    {
+      "title": "Ataque a tiros em escola na Tailândia deixa mortos e feridos; professor é uma das vítimas",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:26.734704Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015745Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015749Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Espriella toma posse na Colômbia após vitória apertada e promessa de guinada à direita",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/espriella-toma-posse-na-colombia-apos-vitoria-apertada-e-promessa-de-guinada-a-direita.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015739Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Ataque a tiros em escola na Tailândia deixa mortos e feridos; professor é uma das vítimas",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/ataque-a-tiros-em-escola-na-tailandia-deixa-mortos-e-feridos.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015733Z",
+      "category": "mundo"
+    },
+    {
+      "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:32.015751Z",
+      "category": "mundo"
+    },
+    {
+      "title": "NFL: Panthers viram sobre os Cardinals no último lance da abertura da pré-temporada",
+      "description": "",
+      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/07/nfl-panthers-viram-sobre-os-cardinals-no-ultimo-lance-da-abertura-da-pre-temporada.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:24.162600Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Justiça do RJ volta atrás e condena Estado pela prisão injusta do lutador Sílvio Pantera; ele deverá receber indenização",
+      "description": "",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/justica-do-rj-volta-atras-e-condena-estado-pela-prisao-injusta-do-lutador-silvio-pantera-ele-devera-receber-indenizacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:26.734723Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T05:24:28.968103Z",
+      "category": "economia"
     }
   ]
 }

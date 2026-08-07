@@ -302,6 +302,7 @@
       font-weight: 800;
       letter-spacing: -0.3px;
       position: relative;
+      text-transform: capitalize;
     }
 
     .section-title::after {
@@ -549,7 +550,7 @@
   <!-- MAIN CONTAINER -->
   <main class="container">
     
-    <!-- NOTÍCIA DESTAQUE -->
+    <!-- NOTÍCIA DESTAQUE (Exibida somente na aba "Todas") -->
     <div id="destaque"></div>
 
     <!-- SESSÃO DE MÍDIA / VÍDEO -->
@@ -561,7 +562,7 @@
     <!-- GRID DE NOTÍCIAS -->
     <section>
       <div class="section-header">
-        <h2 class="section-title">Últimas Notícias</h2>
+        <h2 class="section-title" id="tituloSecao">Últimas Notícias</h2>
       </div>
       <div class="noticias-grid" id="noticias">
         <p style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
@@ -614,34 +615,56 @@
     }
 
     function mostrar() {
-      let lista = [...noticias];
-      lista = embaralhar(lista);
-
       const area = document.getElementById("noticias");
+      const destaqueArea = document.getElementById("destaque");
+      const tituloSecao = document.getElementById("tituloSecao");
       area.innerHTML = "";
 
-      if (lista.length === 0) {
-        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center;'>Nenhuma notícia encontrada.</p>";
+      // Filtragem por categoria
+      let listaFiltrada = [...noticias];
+      if (categoriaAtual !== "todas") {
+        listaFiltrada = listaFiltrada.filter(n => {
+          const cat = n.category || n.categoria || "";
+          return cat.toLowerCase() === categoriaAtual.toLowerCase();
+        });
+        tituloSecao.innerText = `Notícias sobre ${categoriaAtual}`;
+      } else {
+        tituloSecao.innerText = "Últimas Notícias";
+      }
+
+      if (listaFiltrada.length === 0) {
+        destaqueArea.innerHTML = "";
+        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; padding: 40px;'>Nenhuma notícia encontrada nesta categoria.</p>";
         return;
       }
 
-      const destaque = lista[0];
-      const ultimasNoticias = lista.slice(1);
+      // Se estiver em "Todas", exibe a notícia em Destaque no topo
+      if (categoriaAtual === "todas") {
+        let listaEmbaralhada = embaralhar([...listaFiltrada]);
+        const destaque = listaEmbaralhada[0];
+        const ultimasNoticias = listaEmbaralhada.slice(1);
 
-      // Renderiza Destaque Principal
-      const imgDestaque = obterImagem(destaque);
-      document.getElementById("destaque").innerHTML = `
-        <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
-          <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
-          <div class="destaque-overlay">
-            <span class="destaque-badge">Destaque do Dia</span>
-            <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
-          </div>
-        </a>
-      `;
+        const imgDestaque = obterImagem(destaque);
+        destaqueArea.innerHTML = `
+          <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
+            <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+            <div class="destaque-overlay">
+              <span class="destaque-badge">Destaque do Dia</span>
+              <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
+            </div>
+          </a>
+        `;
 
-      // Renderiza Cards do Grid
-      ultimasNoticias.forEach(n => {
+        renderizarGrid(ultimasNoticias, area);
+      } else {
+        // Nas categorias específicas, remove o bloco de destaque grande e mostra tudo em grid
+        destaqueArea.innerHTML = "";
+        renderizarGrid(listaFiltrada, area);
+      }
+    }
+
+    function renderizarGrid(lista, area) {
+      lista.forEach(n => {
         const imgCard = obterImagem(n);
         area.innerHTML += `
           <article class="card">

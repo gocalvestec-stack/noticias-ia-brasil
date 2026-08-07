@@ -14,6 +14,7 @@ permissions:
 
 
 jobs:
+
   atualizar:
 
     runs-on: ubuntu-latest
@@ -44,91 +45,129 @@ jobs:
           import json
           import feedparser
           import requests
+
           from bs4 import BeautifulSoup
           from datetime import datetime
 
 
+
           feeds = {
 
-              "Futebol":
+              "Esportes":
               "https://www.espn.com.br/rss/futebol",
 
               "Brasil":
               "https://g1.globo.com/rss/g1/",
 
               "Economia":
-              "https://g1.globo.com/rss/g1/economia/"
+              "https://g1.globo.com/rss/g1/economia/",
+
+              "Tecnologia":
+              "https://feeds.feedburner.com/tecnoblog",
+
+              "Saúde":
+              "https://g1.globo.com/rss/g1/ciencia-e-saude/"
 
           }
+
 
 
 
           imagens = {
 
-              "Futebol":
-              "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1200",
+
+              "Esportes":
+              "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200",
+
 
               "Brasil":
               "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
 
+
               "Economia":
-              "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200"
+              "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200",
+
+
+              "Tecnologia":
+              "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+
+
+              "Saúde":
+              "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1200"
 
           }
 
 
 
-          def pegar_imagem(item,categoria):
+
+          def buscar_imagem(item,categoria):
 
 
               try:
+
                   if item.get("media_content"):
-                      img = item.media_content[0].get("url")
+
+                      img=item.media_content[0].get("url")
+
                       if img:
                           return img
+
               except:
+
                   pass
 
 
 
               try:
+
                   if item.get("media_thumbnail"):
-                      img = item.media_thumbnail[0].get("url")
+
+                      img=item.media_thumbnail[0].get("url")
+
                       if img:
                           return img
+
               except:
+
                   pass
+
 
 
 
               try:
 
-                  resposta = requests.get(
+                  pagina=requests.get(
+
                       item.get("link"),
+
                       headers={
                           "User-Agent":"Mozilla/5.0"
                       },
-                      timeout=10
+
+                      timeout=8
+
                   )
 
 
-                  soup = BeautifulSoup(
-                      resposta.text,
+                  soup=BeautifulSoup(
+                      pagina.text,
                       "html.parser"
                   )
 
 
-                  img = soup.find(
+                  og=soup.find(
                       "meta",
                       property="og:image"
                   )
 
 
-                  if img:
-                      return img.get("content")
+                  if og:
+
+                      return og.get("content")
 
 
               except:
+
                   pass
 
 
@@ -138,19 +177,24 @@ jobs:
 
 
 
-          artigos=[]
+
+          noticias=[]
+
+
 
 
           for categoria,url in feeds.items():
 
 
-              feed = feedparser.parse(url)
+              feed=feedparser.parse(url)
+
 
 
               for item in feed.entries[:10]:
 
 
-                  artigos.append({
+                  noticias.append({
+
 
                       "title":
                       item.get(
@@ -159,11 +203,17 @@ jobs:
                       ),
 
 
+
                       "description":
                       BeautifulSoup(
-                          item.get("summary",""),
+                          item.get(
+                              "summary",
+                              ""
+                          ),
                           "html.parser"
-                      ).text[:250],
+
+                      ).text[:300],
+
 
 
                       "url":
@@ -173,21 +223,27 @@ jobs:
                       ),
 
 
+
                       "image":
-                      pegar_imagem(
+                      buscar_imagem(
                           item,
                           categoria
                       ),
 
 
-                      "publishedAt":
-                      datetime.utcnow().isoformat()+"Z",
-
 
                       "category":
-                      categoria
+                      categoria,
+
+
+
+                      "publishedAt":
+                      datetime.utcnow().isoformat()+"Z"
+
 
                   })
+
+
 
 
 
@@ -195,26 +251,33 @@ jobs:
               "news.json",
               "w",
               encoding="utf-8"
-          ) as arquivo:
+          ) as f:
 
 
               json.dump(
+
                   {
-                      "articles":artigos
+                      "articles":noticias
                   },
-                  arquivo,
+
+                  f,
+
                   ensure_ascii=False,
+
                   indent=2
+
               )
 
 
 
           print(
-              f"{len(artigos)} notícias atualizadas!"
+              f"{len(noticias)} noticias criadas"
           )
 
 
           PY
+
+
 
 
 

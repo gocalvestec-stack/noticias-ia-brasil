@@ -3,7 +3,6 @@ name: Atualizar noticias
 on:
   schedule:
     - cron: "0 */3 * * *"
-
   workflow_dispatch:
 
 concurrency:
@@ -16,7 +15,9 @@ permissions:
 
 jobs:
   atualizar:
+
     runs-on: ubuntu-latest
+
 
     steps:
 
@@ -65,45 +66,92 @@ jobs:
 
 
 
-          def pegar_imagem(item):
+          imagens = {
+
+              "Futebol":
+              "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1200",
+
+              "Brasil":
+              "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
+
+              "Tecnologia":
+              "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+
+              "Economia":
+              "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200"
+
+          }
+
+
+
+          def pegar_imagem(item,categoria):
+
 
               # imagem RSS
+
               try:
+
                   if item.get("media_content"):
-                      return item.media_content[0].get("url")
+
+                      img = item.media_content[0].get("url")
+
+                      if img:
+                          return img
+
               except:
+
                   pass
 
 
-              # thumbnail RSS
+
+              # thumbnail
+
               try:
+
                   if item.get("media_thumbnail"):
-                      return item.media_thumbnail[0].get("url")
+
+                      img = item.media_thumbnail[0].get("url")
+
+                      if img:
+                          return img
+
               except:
+
                   pass
 
 
-              # enclosure
+
+              # imagem enclosure
+
               try:
+
                   if item.get("enclosures"):
-                      return item.enclosures[0].get("url")
+
+                      img = item.enclosures[0].get("url")
+
+                      if img:
+                          return img
+
               except:
+
                   pass
 
 
 
-              # buscar imagem na página
+              # procurar og:image
+
               try:
-
-                  link = item.get("link")
-
 
                   resposta = requests.get(
-                      link,
+
+                      item.get("link"),
+
                       headers={
                           "User-Agent":"Mozilla/5.0"
                       },
+
                       timeout=10
+
                   )
 
 
@@ -113,41 +161,46 @@ jobs:
                   )
 
 
-                  imagem = soup.find(
+                  img = soup.find(
                       "meta",
                       property="og:image"
                   )
 
 
-                  if imagem:
-                      return imagem.get("content")
+                  if img:
+
+                      return img.get("content")
 
 
               except:
+
                   pass
 
 
 
-              # imagem padrão
-              return "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200"
+              # cria imagem automática
+
+              return imagens.get(
+                  categoria
+              )
 
 
 
-          articles = []
+
+          artigos=[]
 
 
 
-          for categoria, url in feeds.items():
+          for categoria,url in feeds.items():
 
 
               feed = feedparser.parse(url)
 
 
-
               for item in feed.entries[:10]:
 
 
-                  articles.append({
+                  artigos.append({
 
 
                       "title":
@@ -172,7 +225,10 @@ jobs:
 
 
                       "image":
-                      pegar_imagem(item),
+                      pegar_imagem(
+                          item,
+                          categoria
+                      ),
 
 
                       "publishedAt":
@@ -182,7 +238,6 @@ jobs:
                       "category":
                       categoria
 
-
                   })
 
 
@@ -191,21 +246,27 @@ jobs:
               "news.json",
               "w",
               encoding="utf-8"
-          ) as f:
+          ) as arquivo:
 
 
               json.dump(
+
                   {
-                      "articles":articles
+                      "articles":artigos
                   },
-                  f,
+
+                  arquivo,
+
                   ensure_ascii=False,
+
                   indent=2
+
               )
 
 
+
           print(
-              f"{len(articles)} notícias atualizadas!"
+              f"{len(artigos)} notícias atualizadas com imagens!"
           )
 
 
@@ -228,4 +289,5 @@ jobs:
 
       - name: Enviar alterações
         run: |
+
           git push

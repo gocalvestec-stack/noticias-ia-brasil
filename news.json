@@ -1,171 +1,195 @@
 {
   "articles": [
     {
-      "title": "El Niño e guerras podem aumentar preço dos alimentos e fazer milhões de pessoas passarem fome no mundo, alerta ONU",
+      "title": "Gustavo Henrique pede desculpas por eliminação do Corinthians na Copa do Brasil: \"Não pode parar\"",
       "description": "",
-      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/06/el-nino-e-guerras-podem-aumentar-preco-dos-alimentos-e-fazer-milhoes-de-pessoas-passarem-fome-no-mundo-alerta-onu.ghtml",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/gustavo-henrique-pede-desculpas-por-eliminacao-do-corinthians-na-copa-do-brasil-nao-pode-parar.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297424Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Agir oficializa Edjane Lima de Sousa como candidata ao governo de SP em convenção estadual",
-      "description": "",
-      "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/08/06/agir-oficializa-edjane-lima-de-sousa-como-candidata-ao-governo-de-sp-em-convencao-estadual.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297418Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Muito caro viajar de avião? Guerra encarece querosene e gera R$ 5,2 bilhões de gastos a mais às aéreas",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/-guerra-encarece-querosene-e-gera-r-52-bilhoes-de-gastos-a-mais-as-aereas.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593654Z",
-      "category": "economia"
-    },
-    {
-      "title": "Casal que viralizou explica discussão em Fluminense x Vasco",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/06/casal-que-viralizou-explica-discussao-em-fluminense-x-vasco.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154085Z",
+      "publishedAt": "2026-08-07T01:59:20.202950Z",
       "category": "futebol"
-    },
-    {
-      "title": "Casal de missionários é denunciado pelo Ministério Público por ocupação irregular em reserva ambiental",
-      "description": "",
-      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/06/casal-de-missionarios-e-denunciado-pelo-ministerio-publico-por-ocupacao-irregular-em-reserva-ambiental.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297426Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Veja quem são os candidatos a vice-governador em Goiás em 2026",
-      "description": "",
-      "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/08/06/veja-quem-sao-os-candidatos-a-vice-governador-em-goias-em-2026.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297422Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Bombeiros são acionados para mais de 100 incêndios em vegetação em 1 dia; vídeo mostra fogo perto da Grajaú-Jacarepaguá",
-      "description": "",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/06/bombeiros-incendios-vegetacao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297428Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593648Z",
-      "category": "economia"
-    },
-    {
-      "title": "Luiz Araújo evolui em recuperação e se aproxima de retorno ao Flamengo",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/06/luiz-araujo-evolui-em-recuperacao-e-se-aproxima-de-retorno-ao-flamengo.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154097Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Trump assina decreto para negar cidadania em casos de 'turismo de nascimento'",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/trump-planeja-decreto-para-negar-cidadania-em-casos-de-turismo-de-nascimento-diz-site.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501126Z",
-      "category": "mundo"
-    },
-    {
-      "title": "Bastidores: reapresentação do Fluminense é marcada por cobranças e manutenção de Zubeldía",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/06/bastidores-reapresentacao-do-fluminense-e-marcada-por-cobrancas-e-manutencao-de-zubeldia.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154089Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Balança comercial tem superávit de US$ 7,1 bilhões em julho; exportações para os EUA caem 5%",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/balanca-comercial-tem-superavit-de-us-71-bilhoes-em-julho-exportacoes-para-os-eua-caem-5percent.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593657Z",
-      "category": "economia"
     },
     {
       "title": "Passaportes de brasileiros no exterior passam a ser impressos no Brasil",
       "description": "",
       "url": "https://g1.globo.com/turismo-e-viagem/noticia/2026/08/06/passaportes-de-brasileiros-no-exterior-passam-a-ser-impressos-no-brasil.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501112Z",
+      "publishedAt": "2026-08-07T01:59:26.367218Z",
       "category": "mundo"
+    },
+    {
+      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393032Z",
+      "category": "economia"
     },
     {
       "title": "Aliada de Milei defende presidente argentino, mas pede cautela com o vocabulário e apela ao Brasil: 'Volte o embaixador'",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/06/aliada-de-milei-defende-presidente-argentino-mas-faz-apelo-ao-brasil-volte-o-embaixador.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501128Z",
+      "publishedAt": "2026-08-07T01:59:26.367225Z",
       "category": "mundo"
     },
     {
-      "title": "NFL: Veja todos os jogos da pré-temporada 2026-27",
+      "title": "Atuações: Corinthians luta, marca nas bolas aéreas, mas não evita eliminação; dê suas notas",
       "description": "",
-      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/06/nfl-veja-todos-os-jogos-da-pre-temporada-2026-27.ghtml",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/atuacoes-corinthians-luta-marca-nas-bolas-aereas-mas-nao-evita-eliminacao-de-suas-notas.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154082Z",
+      "publishedAt": "2026-08-07T01:59:20.202954Z",
       "category": "futebol"
-    },
-    {
-      "title": "'Efeito China': ofensiva chinesa traz 7 novas marcas de carros ao Brasil até 2028",
-      "description": "",
-      "url": "https://g1.globo.com/carros/noticia/2026/08/06/efeito-china-ofensiva-chinesa-traz-novas-marcas-de-carros-ao-brasil-ate-2028.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593656Z",
-      "category": "economia"
-    },
-    {
-      "title": "Jahmyr Gibbs bate recorde de rival e se torna o running back mais bem pago da NFL; veja valores",
-      "description": "",
-      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/06/jahmyr-gibbs-bate-recorde-de-rival-e-se-torna-o-running-back-mais-bem-pago-da-nfl-veja-valores.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154069Z",
-      "category": "futebol"
-    },
-    {
-      "title": "VÍDEO: sala de cirurgia chacoalha durante terremoto no Japão",
-      "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/video-sala-de-cirurgia-no-japao-chacoalha-durante-terremoto.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501132Z",
-      "category": "mundo"
     },
     {
       "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
       "description": "",
       "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501121Z",
+      "publishedAt": "2026-08-07T01:59:26.367220Z",
       "category": "mundo"
+    },
+    {
+      "title": "Veja os públicos dos jogos de volta das oitavas da Copa do Brasil 2026",
+      "description": "",
+      "url": "https://ge.globo.com/gato-mestre/noticia/2026/08/06/veja-os-publicos-dos-jogos-de-volta-das-oitavas-de-final-da-copa-do-brasil.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:20.202952Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Avião retorna ao aeroporto de Manaus após problema técnico e assusta passageiros",
+      "description": "",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/06/aviao-faz-retorno-ao-aeroporto-de-manaus-apos-problema-tecnico-e-assusta-passageiros.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086333Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Cuiabá rescinde contrato com atacante Victor Barbara",
+      "description": "",
+      "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/08/06/cuiaba-rescinde-contrato-com-atacante-victor-barbara.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:20.202957Z",
+      "category": "futebol"
     },
     {
       "title": "O que é o turismo de nascimento nos EUA e como decretos de Trump podem afetar brasileiros",
       "description": "",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/06/o-que-e-o-turismo-de-nascimento-nos-eua-e-como-decreto-de-trump-pode-afetar-brasileiros.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501124Z",
+      "publishedAt": "2026-08-07T01:59:26.367222Z",
       "category": "mundo"
     },
     {
-      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
+      "title": "VÍDEO: sala de cirurgia chacoalha durante terremoto no Japão",
       "description": "",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/video-sala-de-cirurgia-no-japao-chacoalha-durante-terremoto.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593652Z",
+      "publishedAt": "2026-08-07T01:59:26.367228Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Lula sanciona projeto que aumenta penas para crimes cometidos contra crianças e adolescentes na internet",
+      "description": "",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/06/lula-sanciona-projeto-que-aumenta-penas-para-crimes-cometidos-contra-criancas-e-adolescentes-na-internet.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086331Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Polícia Federal indicia 6 pessoas em novo inquérito sobre as fraudes bilionárias contra aposentados e pensionistas",
+      "description": "",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/06/policia-federal-indicia-6-pessoas-em-novo-inquerito-sobre-as-fraudes-bilionarias-contra-aposentados-e-pensionistas.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086337Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Motoboys abrem caminho no trânsito de BH para levar mulher com suspeita de infarto ao hospital",
+      "description": "",
+      "url": "https://g1.globo.com/mg/minas-gerais/noticia/2026/08/06/motoboys-abrem-caminho-no-transito-de-bh-para-levar-mulher-com-suspeita-de-infarto-ao-hospital.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086335Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
+      "description": "",
+      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393037Z",
+      "category": "economia"
+    },
+    {
+      "title": "John Kennedy tem lesão no joelho e desfalca Fluminense na Libertadores",
+      "description": "",
+      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/06/john-kennedy-tem-lesao-no-joelho-e-desfalca-fluminense-na-libertadores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:20.202938Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Explosão deixa 2 mortos e 13 feridos em cidade nos arredores de Damasco, na Síria",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/explosao-deixa-mortos-em-cidade-nos-arredores-de-damasco-na-siria.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:26.367226Z",
+      "category": "mundo"
+    },
+    {
+      "title": "Jahmyr Gibbs bate recorde de rival e se torna o running back mais bem pago da NFL; veja valores",
+      "description": "",
+      "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/06/jahmyr-gibbs-bate-recorde-de-rival-e-se-torna-o-running-back-mais-bem-pago-da-nfl-veja-valores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:20.202963Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Quartas de final da Copa do Brasil 2026: veja classificados, datas e detalhes do sorteio",
+      "description": "",
+      "url": "https://ge.globo.com/ba/futebol/copa-do-brasil/noticia/2026/08/06/quartas-de-final-da-copa-do-brasil-2026-veja-classificados-datas-e-detalhes-do-sorteio.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:20.202956Z",
+      "category": "futebol"
+    },
+    {
+      "title": "Motorista de ônibus é retirado de veículo por PM durante abordagem na Zona Norte de SP; sindicato denuncia truculência",
+      "description": "",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/06/motorista-de-onibus-e-retirado-de-veiculo-por-pm-durante-abordagem-na-zona-norte-de-sp-sindicato-denuncia-truculencia.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086341Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Trump anuncia nova tarifa para proteger indústria de chips e energia solar dos EUA",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/trump-nova-tarifa-materia-prima-semicondutores.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393035Z",
+      "category": "economia"
+    },
+    {
+      "title": "Balança comercial tem superávit de US$ 7,1 bilhões em julho; exportações para os EUA caem 5%",
+      "description": "",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/balanca-comercial-tem-superavit-de-us-71-bilhoes-em-julho-exportacoes-para-os-eua-caem-5percent.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393044Z",
+      "category": "economia"
+    },
+    {
+      "title": "Exploração de petróleo e gás natural na Bacia do Tacutu em Roraima é incluída em edital da ANP",
+      "description": "",
+      "url": "https://g1.globo.com/rr/roraima/noticia/2026/08/06/exploracao-de-petroleo-e-gas-natural-na-bacia-do-tacutu-em-roraima-e-incluida-em-edital-da-anp.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086338Z",
+      "category": "brasil"
+    },
+    {
+      "title": "'Efeito China': ofensiva chinesa traz 7 novas marcas de carros ao Brasil até 2028",
+      "description": "",
+      "url": "https://g1.globo.com/carros/noticia/2026/08/06/efeito-china-ofensiva-chinesa-traz-novas-marcas-de-carros-ao-brasil-ate-2028.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393042Z",
       "category": "economia"
     },
     {
@@ -173,88 +197,64 @@
       "description": "",
       "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/06/mega-sena-concurso-3041-confira-os-numeros-sorteados.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593636Z",
+      "publishedAt": "2026-08-07T01:59:23.393025Z",
       "category": "economia"
     },
     {
-      "title": "Crise em Ceuta: imigrantes menores de idade fazem fila para serem registradas",
+      "title": "Governo e oposição começam a negociar transição política e novas eleições na Venezuela",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/crise-em-ceuta-imigrantes-menores-de-idade-fazem-fila-para-registro-policial.ghtml",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/governo-e-oposicao-comecam-a-negociar-transicao-politica-e-novas-eleicoes-na-venezuela.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501134Z",
+      "publishedAt": "2026-08-07T01:59:26.367212Z",
       "category": "mundo"
     },
     {
-      "title": "Seca dos rios afeta rotas comerciais na Europa e revela vestígios da Segunda Guerra",
+      "title": "Muito caro viajar de avião? Guerra encarece querosene e gera R$ 5,2 bilhões de gastos a mais às aéreas",
       "description": "",
-      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/06/seca-dos-rios-afeta-rotas-comerciais-na-europa-e-revela-vestigios-da-segunda-guerra.ghtml",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/06/-guerra-encarece-querosene-e-gera-r-52-bilhoes-de-gastos-a-mais-as-aereas.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297432Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Prefeitura do Rio cancela aulas por previsão de ventos fortes nesta sexta",
-      "description": "",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/06/prefeitura-do-rio-aulas-previsao-ventania.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297430Z",
-      "category": "brasil"
-    },
-    {
-      "title": "VÍDEOS: Jornal Anhanguera 2ª Edição de quinta-feira, 6 de agosto de 2026",
-      "description": "",
-      "url": "https://g1.globo.com/go/goias/playlist/videos-jornal-anhanguera-2-edicao-de-quinta-feira-6-de-agosto-de-2026.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:59.297408Z",
-      "category": "brasil"
-    },
-    {
-      "title": "Time de Vozinha no Chile tenta contratação de zagueiro do Atlético-MG",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/06/time-de-vozinha-no-chile-tenta-contratacao-de-zagueiro-do-atletico-mg.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154087Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Zagueiro cogitado pelo Vasco faz gol e aproxima Copenhagen da Conference",
-      "description": "",
-      "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/06/um-dos-cogitados-pelo-vasco-zagueiro-faz-gol-e-aproxima-copenhagen-da-conference.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154091Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Lucro da Petrobras sobe 96,8% no 2º trimestre, para R$ 52,4 bilhões",
-      "description": "",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/06/lucro-petrobras-2o-trimestre.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593644Z",
+      "publishedAt": "2026-08-07T01:59:23.393040Z",
       "category": "economia"
     },
     {
-      "title": "Explosão deixa 2 mortos e 13 feridos em cidade nos arredores de Damasco, na Síria",
+      "title": "Corinthians x Inter: Memphis acompanha jogo em camarote da Neo Química Arena",
       "description": "",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/explosao-deixa-mortos-em-cidade-nos-arredores-de-damasco-na-siria.ghtml",
+      "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/06/corinthians-x-inter-memphis-acompanha-jogo-em-camarote-da-neo-quimica-arena.ghtml",
       "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:04.501130Z",
+      "publishedAt": "2026-08-07T01:59:20.202959Z",
+      "category": "futebol"
+    },
+    {
+      "title": "PF investiga ex-governador do MT e empresas do deputado Fábio Garcia, do União Brasil, por suspeita de desvio de R$ 308 mi em dinheiro público",
+      "description": "",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/06/pf-investiga-ex-governador-do-mt-e-empresas-do-deputado-fabio-garcia-do-uniao-brasil-por-suspeita-de-desvio-de-r-308-mi-em-dinheiro-publico.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086340Z",
+      "category": "brasil"
+    },
+    {
+      "title": "OpenAI prepara aparelho de IA sem tela para rivalizar com celular; preço deve passar de R$ 1,5 mil",
+      "description": "",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/06/openai-prepara-aparelho-de-ia-sem-tela-para-rivalizar-com-celular.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:23.393039Z",
+      "category": "economia"
+    },
+    {
+      "title": "Roberto Carlos anuncia saída de filho de Erasmo Carlos de sua equipe de shows",
+      "description": "",
+      "url": "https://g1.globo.com/pop-arte/noticia/2026/08/06/roberto-carlos-anuncia-saida-de-filho-de-erasmo-carlos-de-sua-equipe-de-shows.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:22.086322Z",
+      "category": "brasil"
+    },
+    {
+      "title": "Trump assina decreto para negar cidadania em casos de 'turismo de nascimento'",
+      "description": "",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/06/trump-planeja-decreto-para-negar-cidadania-em-casos-de-turismo-de-nascimento-diz-site.ghtml",
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+      "publishedAt": "2026-08-07T01:59:26.367223Z",
       "category": "mundo"
-    },
-    {
-      "title": "Cartola 2026: veja seis dicas pouco visadas para a defesa na rodada #22 do Brasileirão",
-      "description": "",
-      "url": "https://ge.globo.com/cartola/dicas/noticia/2026/08/06/cartola-2026-veja-seis-dicas-pouco-visadas-para-a-defesa-na-rodada-22-do-brasileirao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:35:57.154093Z",
-      "category": "futebol"
-    },
-    {
-      "title": "Crise do BRB: Durigan nega 'inércia' da União e diz que reclamação do governo do DF prejudica acordo",
-      "description": "",
-      "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/06/durigan-nega-inercia-em-analise-de-emprestimo-para-o-brb-e-diz-que-fala-do-governo-do-df-atrapalha-negociacao.ghtml",
-      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
-      "publishedAt": "2026-08-07T00:36:01.593650Z",
-      "category": "economia"
     }
   ]
 }

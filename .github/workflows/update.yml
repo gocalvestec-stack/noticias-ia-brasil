@@ -13,6 +13,7 @@ concurrency:
 permissions:
   contents: write
 
+
 jobs:
   atualizar:
     runs-on: ubuntu-latest
@@ -36,10 +37,12 @@ jobs:
 
       - name: Buscar noticias RSS
         run: |
+
           python3 <<'PY'
 
           import json
           import feedparser
+          import requests
           from bs4 import BeautifulSoup
           from datetime import datetime
 
@@ -61,49 +64,91 @@ jobs:
           }
 
 
+
           def pegar_imagem(item):
 
-              if "media_content" in item:
-                  try:
-                      return item.media_content[0]["url"]
-                  except:
-                      pass
+              # imagem RSS
+              try:
+                  if item.get("media_content"):
+                      return item.media_content[0].get("url")
+              except:
+                  pass
 
 
-              if "media_thumbnail" in item:
-                  try:
-                      return item.media_thumbnail[0]["url"]
-                  except:
-                      pass
+              # thumbnail RSS
+              try:
+                  if item.get("media_thumbnail"):
+                      return item.media_thumbnail[0].get("url")
+              except:
+                  pass
 
 
-              html = item.get("summary","")
-
-              soup = BeautifulSoup(
-                  html,
-                  "html.parser"
-              )
-
-              img = soup.find("img")
-
-              if img and img.get("src"):
-                  return img.get("src")
+              # enclosure
+              try:
+                  if item.get("enclosures"):
+                      return item.enclosures[0].get("url")
+              except:
+                  pass
 
 
-              return "https://images.unsplash.com/photo-1504711434969-e33886168f5c"
+
+              # buscar imagem na página
+              try:
+
+                  link = item.get("link")
+
+
+                  resposta = requests.get(
+                      link,
+                      headers={
+                          "User-Agent":"Mozilla/5.0"
+                      },
+                      timeout=10
+                  )
+
+
+                  soup = BeautifulSoup(
+                      resposta.text,
+                      "html.parser"
+                  )
+
+
+                  imagem = soup.find(
+                      "meta",
+                      property="og:image"
+                  )
+
+
+                  if imagem:
+                      return imagem.get("content")
+
+
+              except:
+                  pass
+
+
+
+              # imagem padrão
+              return "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200"
+
 
 
           articles = []
 
 
+
           for categoria, url in feeds.items():
+
 
               feed = feedparser.parse(url)
 
 
+
               for item in feed.entries[:10]:
 
+
                   articles.append({
+
 
                       "title":
                       item.get(
@@ -111,11 +156,13 @@ jobs:
                           "Sem título"
                       ),
 
+
                       "description":
                       BeautifulSoup(
                           item.get("summary",""),
                           "html.parser"
                       ).text[:250],
+
 
                       "url":
                       item.get(
@@ -123,16 +170,21 @@ jobs:
                           "#"
                       ),
 
+
                       "image":
                       pegar_imagem(item),
+
 
                       "publishedAt":
                       datetime.utcnow().isoformat()+"Z",
 
+
                       "category":
                       categoria
 
+
                   })
+
 
 
           with open(
@@ -141,9 +193,10 @@ jobs:
               encoding="utf-8"
           ) as f:
 
+
               json.dump(
                   {
-                      "articles": articles
+                      "articles":articles
                   },
                   f,
                   ensure_ascii=False,

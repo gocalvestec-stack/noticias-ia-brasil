@@ -25,30 +25,6 @@
       "publishedAt": "2026-08-07T17:58:40.856033Z"
     },
     {
-      "title": "Trump volta a atacar Lisa Cook após derrota na Suprema Corte dos EUA",
-      "description": "O presidente dos Estados Unidos retomou a tentativa de demitir a diretora do Federal Reserve.",
-      "url": "https://g1.globo.com/economia/noticia/2026/08/07/trump-lisa-cook.ghtml",
-      "image": "https://s2-g1.glbimg.com/Reg27VQHixs2jsJejYXdQyw0ozI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/E/A/tOhU1ES16P1GA0mzPXSQ/afp-20250822-72934we-v2-midres-combofilesuspoliticstrumpfedcook.jpg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856152Z"
-    },
-    {
-      "title": "Integração entre Direito e Contabilidade avança nas empresas",
-      "description": "Crescente complexidade do ambiente empresarial exige leitura integrada sobre tributação e estrutura jurídica.",
-      "url": "https://g1.globo.com/pr/parana/especial-publicitario/domann-contabilidade-estrategia-tributaria-para-empresas/noticia/2026/08/07/integracao-entre-direito-e-contabilidade-avanca-nas-empresas.ghtml",
-      "image": "https://s2-g1.glbimg.com/75aSxvqlSRyXuekWBvqBNENADcc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/n/AFZtG4Riiu1Oi3BNW22g/imagem-interna-1-1400x788.png",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856293Z"
-    },
-    {
-      "title": "Vídeo mostra assalto à mão armada em Niterói; homem é preso horas depois",
-      "description": "Câmera de segurança registrou assalto na Região Oceânica de Niterói.",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/07/video-mostra-assalto-a-mao-armada-em-niteroi.ghtml",
-      "image": "https://s2-g1.glbimg.com/CKnwQDoNZ5czDX4QZeJc9Fx8XAY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/O/PbDjkCTXWkACW1cjT6Xw/whatsapp-image-2026-08-07-at-14.20.50.jpeg",
-      "category": "Brasil",
-      "publishedAt": "2026-08-07T17:58:40.856498Z"
-    },
-    {
       "title": "Modelo de IA chinês encontra brecha em teste de segurança e escapa de ambiente isolado",
       "description": "O modelo Kimi K3 conseguiu contornar restrições durante testes de segurança em ambiente isolado.",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/modelo-de-ia-chines-encontra-brecha-em-teste-de-seguranca-e-escapa-de-ambiente-isolado.ghtml",
@@ -73,20 +49,44 @@
       "publishedAt": "2026-08-07T17:58:42.430402Z"
     },
     {
-      "title": "Copa do Brasil: Fluminense e Vasco definem vaga nas oitavas em clássico decisivo",
-      "description": "Equipes se enfrentam no jogo de volta valendo vaga nas quartas de final com transmissão ao vivo pela TV Globo e ge.",
-      "url": "https://ge.globo.com/futebol/copa-do-brasil/",
-      "image": "https://s2-ge.glbimg.com/exemplo-fluminense-vasco.jpg",
+      "title": "Brasileirão Série A: confira a tabela, jogos da rodada e classificação atualizada",
+      "description": "Acompanhe todos os confrontos do fim de semana, notícias dos clubes e prováveis escalações no ge.",
+      "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
+      "image": "https://s2-ge.glbimg.com/futebol/brasileirao.jpg",
       "category": "Futebol",
-      "publishedAt": "2026-08-07T18:00:00.000000Z"
+      "publishedAt": "2026-08-07T18:10:00.000000Z"
     },
     {
-      "title": "Brasileirão Série A: confira a classificação e as novidades dos clubes para a rodada",
-      "description": "Acompanhe tudo sobre os treinos, escalações e bastidores dos times no ge.",
-      "url": "https://ge.globo.com/futebol/brasileirao-serie-a/",
-      "image": "https://s2-ge.glbimg.com/exemplo-brasileirao.jpg",
+      "title": "Copa do Brasil: sorteio e confrontos decisivos das próximas fases",
+      "description": "Veja o chaveamento atualizado, datas dos jogos de ida e volta e onde assistir aos confrontos ao vivo.",
+      "url": "https://ge.globo.com/futebol/copa-do-brasil/",
+      "image": "https://s2-ge.glbimg.com/futebol/copa-do-brasil.jpg",
       "category": "Futebol",
-      "publishedAt": "2026-08-07T18:05:00.000000Z"
+      "publishedAt": "2026-08-07T18:12:00.000000Z"
+    },
+    {
+      "title": "Mercado da Bola: veja as últimas contratações, rumores e rescisões do futebol brasileiro",
+      "description": "Saiba quem chega e quem sai no seu time com a cobertura completa de transferências no ge.",
+      "url": "https://ge.globo.com/futebol/mercado-da-bola/",
+      "image": "https://s2-ge.glbimg.com/futebol/mercado-da-bola.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T18:15:00.000000Z"
+    },
+    {
+      "title": "Copa Libertadores e Sul-Americana: horários e notícias das oitavas de final",
+      "description": "Confira como os clubes brasileiros chegam para os duelos decisivos pelas competições continentais.",
+      "url": "https://ge.globo.com/futebol/copa-libertadores/",
+      "image": "https://s2-ge.glbimg.com/futebol/libertadores.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T18:18:00.000000Z"
+    },
+    {
+      "title": "Futebol Internacional: início da temporada europeia e destaques da Champions League",
+      "description": "Acompanhe as principais ligas mundiais, Champions League, Premier League e desempenho dos brasileiros no exterior.",
+      "url": "https://ge.globo.com/futebol/futebol-internacional/",
+      "image": "https://s2-ge.glbimg.com/futebol/internacional.jpg",
+      "category": "Futebol",
+      "publishedAt": "2026-08-07T18:20:00.000000Z"
     }
   ]
 }

@@ -41,28 +41,36 @@
       "publishedAt": "2026-08-08T01:01:16.910681Z"
     },
     {
-      "title": "Grêmio empata com o Mirassol e vaga para as quartas da Copa do Brasil fica aberta",
-      "description": "Tricolor gaúcho segura placar fora de casa e vai definir a classificação diante da torcida na Arena.",
-      "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/",
-      "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      "title": "Fluminense x Vasco: decisão esquenta o Maracanã pelas oitavas da Copa do Brasil",
+      "description": "Clássico carioca reúne grande público no Maracanã para definir quem avança no torneio nacional.",
+      "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/",
+      "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80",
       "category": "Futebol",
       "publishedAt": "2026-08-08T01:05:00.000000Z"
     },
     {
-      "title": "Fluminense x Vasco: clássico decisivo movimenta o Maracanã nas oitavas da Copa do Brasil",
-      "description": "Rivais cariocas entram em campo em duelo eletrizante no Maracanã buscando a classificação.",
-      "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/",
-      "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80",
+      "title": "Grêmio busca vaga nas quartas da Copa do Brasil em duelo decisivo na Arena",
+      "description": "Tricolor gaúcho define a classificação diante do Mirassol com apoio massivo da torcida em Porto Alegre.",
+      "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/",
+      "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
       "category": "Futebol",
       "publishedAt": "2026-08-08T01:06:00.000000Z"
     },
     {
-      "title": "Internacional vence o Corinthians no jogo de ida das oitavas da Copa do Brasil",
-      "description": "Com grande atuação coletiva, o Colorado supera o Corinthians e abre vantagem rumo às quartas de final.",
-      "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/",
+      "title": "Cruzeiro joga no Mineirão por vaga no mata-mata da Copa do Brasil",
+      "description": "Raposa joga em casa buscando confirmar a classificação no torneio nacional contra a Chapecoense.",
+      "url": "https://ge.globo.com/mg/futebol/copa-do-brasil/",
       "image": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=800&q=80",
       "category": "Futebol",
       "publishedAt": "2026-08-08T01:07:00.000000Z"
+    },
+    {
+      "title": "Entenda como o River Plate virou potência financeira na América do Sul",
+      "description": "Análise do ge mostra a reestruturação do clube argentino e os investimentos pesados no mercado internacional.",
+      "url": "https://ge.globo.com/futebol-internacional/",
+      "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80",
+      "category": "Futebol",
+      "publishedAt": "2026-08-08T01:08:00.000000Z"
     }
   ]
 }

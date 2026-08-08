@@ -1,72 +1,84 @@
 {
-"name": "New",
-"version": "1.0",
-"language": "pt-BR",
-
-"categories": [
-"Futebol",
-"Brasil",
-"Mundo",
-"Tecnologia",
-"Economia"
-],
-
-"sources": [
-{
-"name": "G1",
-"url": "https://g1.globo.com/",
-"categories": [
-"Futebol",
-"Brasil",
-"Mundo",
-"Tecnologia",
-"Economia"
-],
-"image": {
-"mode": "original",
-"fallback": "interactive"
-}
-}
-],
-
-"news": {
-"fields": {
-"title": "string",
-"description": "string",
-"url": "string",
-"source": "string",
-"category": "string",
-"publishedAt": "datetime",
-"image": "string",
-"imageType": "original|interactive"
-},
-
-"imageRules": {
-  "useSourceImage": true,
-  "fallbackWhenMissing": true,
-  "fallbackType": "interactive",
-  "fallbackByCategory": {
-    "Futebol": "football",
-    "Brasil": "brazil",
-    "Mundo": "world",
-    "Tecnologia": "technology",
-    "Economia": "economy"
-  }
-},
-
-"filters": {
-  "removeDuplicates": true,
-  "ignoreEmptyTitles": true,
-  "ignoreInvalidUrls": true
-}
-
-},
-
-"display": {
-"showImage": true,
-"showSource": true,
-"showCategory": true,
-"showDate": true,
-"interactiveImageFallback": true
-}
+  "articles": [
+    {
+      "title": "Vasco vence o Fluminense por 3 a 1 no Maracanã e garante vaga nas quartas da Copa do Brasil",
+      "description": "Com atuação decisiva no segundo tempo, o Cruzmaltino superou o Tricolor no clássico carioca e confirmou a classificação no torneio nacional.",
+      "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/",
+      "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80",
+      "category": "Futebol",
+      "publishedAt": "2026-08-08T01:00:00.000000Z"
+    },
+    {
+      "title": "Brasileirão 2026: Grêmio e São Paulo abrem a 22ª rodada neste sábado na Arena",
+      "description": "Tricolor gaúcho recebe a equipe paulista em Porto Alegre buscando subir na tabela de classificação do Campeonato Brasileiro.",
+      "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/",
+      "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      "category": "Futebol",
+      "publishedAt": "2026-08-08T01:05:00.000000Z"
+    },
+    {
+      "title": "Cruzeiro bate a Chapecoense no Mineirão e avança de fase na Copa do Brasil",
+      "description": "Raposa domina a partida em Belo Horizonte, vence por 2 a 0 e avança entre os oito melhores clubes da competição.",
+      "url": "https://ge.globo.com/mg/futebol/copa-do-brasil/",
+      "image": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=800&q=80",
+      "category": "Futebol",
+      "publishedAt": "2026-08-08T01:10:00.000000Z"
+    },
+    {
+      "title": "Prefeitura de Manaus decreta situação de emergência por causa de deslizamentos de solo",
+      "description": "Situação de anormalidade provocada por deslizamentos de solo em Manaus motivaram decreto municipal publicado no Diário Oficial.",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/08/07/prefeitura-de-manaus-decreta-situacao-de-emergencia-por-causa-de-deslizamentos-de-solo.ghtml",
+      "image": "https://s2-g1.glbimg.com/gR-fhFEvRYkU6XTQTSqF2E2cRqg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/G/H/doh0iSSUqDp6KChGQKNg/deslizamento-manaus.bmp",
+      "category": "Brasil",
+      "publishedAt": "2026-08-08T01:31:39.032201Z"
+    },
+    {
+      "title": "Morador de Campinas perde bolsa em faculdade porque mãe apostava em jogos",
+      "description": "O autônomo Eduardo Luvizetto dos Santos perdeu a bolsa do ProUni após a faculdade identificar movimentações financeiras em bancas de apostas.",
+      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/08/07/morador-campinas-perde-bolsa-faculdade-mae-apostava-jogos-perdi-sem-nunca-ter-apostado.ghtml",
+      "image": "https://s2-g1.glbimg.com/asq6x3pmJUFJL_PaNI2xA6tqdQQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/F/1CPuEdTBWbcYG6hzyRlw/vlcsnap-2026-08-07-21h57m54s183.png",
+      "category": "Brasil",
+      "publishedAt": "2026-08-08T01:31:39.032485Z"
+    },
+    {
+      "title": "Em meio à crise diplomática, Senado dos EUA aprova indicação do novo embaixador no Brasil",
+      "description": "O Senado dos Estados Unidos aprovou a indicação de Daniel Perez para o cargo de embaixador no Brasil.",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/07/em-meio-a-crise-diplomatica-senado-dos-eua-aprova-indicacao-do-novo-embaixador-no-brasil.ghtml",
+      "image": "https://s2-g1.glbimg.com/36xKk4pp5N2QTtPe-D18S40-ydQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/F/dYy895TcO7VGc2Hq7XwA/globo-canal-4-20260807-2000-frame-90026.jpeg",
+      "category": "Brasil",
+      "publishedAt": "2026-08-08T01:31:39.032710Z"
+    },
+    {
+      "title": "EUA planejam enviar US$ 1 bilhão para a Colômbia para ajudar na segurança do país",
+      "description": "Os Estados Unidos pretendem fornecer R$ 5 bilhões em assistência de segurança ao governo do novo presidente colombiano.",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/07/eua-planejam-enviar-us-1-bilhao-para-a-colombia-para-ajudar-na-seguranca-do-pais.ghtml",
+      "image": "https://s2-g1.glbimg.com/pBa0cb47gBccmb6SNf6hNgZg63s=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/X/gjif7eRJyTht1JBBNbYg/2026-08-07t215301z-1579875945-rc2wtmahbfso-rtrmadp-3-colombia-politics.jpg",
+      "category": "Mundo",
+      "publishedAt": "2026-08-08T01:31:39.032919Z"
+    },
+    {
+      "title": "ANPD abre processo contra Discord após morte de adolescente de 13 anos",
+      "description": "A Agência Nacional de Proteção de Dados (ANPD) iniciou processo de fiscalização contra o Discord sobre proteção de menores.",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/08/07/anpd-abre-processo-contra-discord-apos-morte-de-adolescente-de-13-anos.ghtml",
+      "image": "https://s2-g1.glbimg.com/jxhJeVNveYPzOOSGnjwPBXJDq48=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/N/4/FuKFTVTPib1qU0pOd4hA/51203949789-df936dea2c-k.jpg",
+      "category": "Tecnologia",
+      "publishedAt": "2026-08-08T01:31:40.703441Z"
+    },
+    {
+      "title": "Brasil pode enfrentar novas tarifas? Senado dos EUA aprova projeto sobre petróleo russo",
+      "description": "Proposta norte-americana endurece as sanções e autoriza o presidente a taxar países que continuam comprando petróleo russo.",
+      "url": "https://g1.globo.com/economia/noticia/2026/08/07/senado-dos-eua-aprova-projeto-contra-compradores-de-petroleo-russo.ghtml",
+      "image": "https://s2-g1.glbimg.com/eCdqshFTi1zC1J58RvSQsbM2Lmk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/p/JjTGfpSBiHYgYL6ARwTA/globo-canal-4-20260507-2000-frame-119711.jpeg",
+      "category": "Economia",
+      "publishedAt": "2026-08-08T01:31:40.703582Z"
+    },
+    {
+      "title": "Confira o Olhar Digital News na íntegra",
+      "description": "Acompanhe detalhes da investigação sobre um fenômeno aéreo não identificado registrado no Brasil e as principais atualizações em tecnologia.",
+      "url": "https://olhardigital.com.br/2026/08/07/videos/confira-o-olhar-digital-news-na-integra-07-08-2026/",
+      "image": "https://olhardigital.com.br/wp-content/uploads/2026/08/marisa-1024x576.png",
+      "category": "Tecnologia",
+      "publishedAt": "2026-08-08T01:31:42.450141Z"
+    }
+  ]
 }

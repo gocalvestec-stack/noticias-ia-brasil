@@ -228,56 +228,27 @@ jobs:
 
                   for item in feed.entries[:10]:
 
+    titulo = item.get("title", "")
+    descricao = BeautifulSoup(
+        item.get("summary", ""),
+        "html.parser"
+    ).text[:300]
 
-                      noticias.append({
+    texto = (titulo + " " + descricao + " " + item.get("link", "")).lower()
 
+    categoria_final = categoria
 
-                          "title":
-                          item.get(
-                              "title",
-                              "Sem título"
-                          ),
+    if categoria == "Futebol":
+        categoria_final = "Futebol"
 
-
-
-                          "description":
-                          BeautifulSoup(
-                              item.get(
-                                  "summary",
-                                  ""
-                              ),
-                              "html.parser"
-
-                          ).text[:300],
-
-
-
-                          "url":
-                          item.get(
-                              "link",
-                              "#"
-                          ),
-
-
-
-                          "image":
-                          buscar_imagem(
-                              item,
-                              categoria
-                          ),
-
-
-
-                          "category":
-                          categoria,
-
-
-
-                          "publishedAt":
-                          datetime.utcnow().isoformat()+"Z"
-
-
-                      })
+    noticias.append({
+        "title": titulo,
+        "description": descricao,
+        "url": item.get("link", "#"),
+        "image": buscar_imagem(item, categoria_final),
+        "category": categoria_final,
+        "publishedAt": datetime.utcnow().isoformat() + "Z"
+    })
 
 
 

@@ -635,19 +635,23 @@
         });
       }
 
-      lista = embaralhar(lista);
-
       const area = document.getElementById("noticias");
       const destaqueArea = document.getElementById("destaque");
+      
       area.innerHTML = "";
+      destaqueArea.innerHTML = "";
 
+      // Se não houver NENHUMA notícia na categoria
       if (lista.length === 0) {
-        destaqueArea.innerHTML = "";
         area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;'>Nenhuma notícia encontrada para esta categoria.</p>";
         return;
       }
 
+      lista = embaralhar(lista);
+
+      // O primeiro item vira o Destaque
       const destaque = lista[0];
+      // Os itens restantes vão para o Grid
       const ultimasNoticias = lista.slice(1);
 
       // Renderiza Destaque Principal
@@ -656,30 +660,34 @@
         <a href="${destaque?.url || '#'}" target="_blank" class="destaque-card">
           <img src="${imgDestaque}" alt="${destaque?.title || ''}" class="destaque-img-bg" onerror="this.onerror=null; this.src='${imagemPadrao}';">
           <div class="destaque-overlay">
-            <span class="destaque-badge">Destaque do Dia</span>
+            <span class="destaque-badge">${destaque?.category || destaque?.categoria || "Destaque"}</span>
             <h1 class="destaque-title">${destaque?.title || "Sem título disponível"}</h1>
           </div>
         </a>
       `;
 
-      // Renderiza Cards do Grid
-      ultimasNoticias.forEach(n => {
-        const imgCard = obterImagem(n);
-        area.innerHTML += `
-          <article class="card">
-            <a href="${n.url || '#'}" target="_blank" class="card-img-wrapper">
-              <img src="${imgCard}" alt="${n.title || ''}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
-            </a>
-            <div class="card-body">
-              <h3 class="card-title">${n.title || "Sem título"}</h3>
-              <div class="card-meta">
-                <span>${data(n.publishedAt || n.date)}</span>
-                <a href="${n.url || '#'}" target="_blank" class="card-btn">Ler ➔</a>
+      // Renderiza Cards do Grid se houver mais de uma notícia
+      if (ultimasNoticias.length > 0) {
+        ultimasNoticias.forEach(n => {
+          const imgCard = obterImagem(n);
+          area.innerHTML += `
+            <article class="card">
+              <a href="${n.url || '#'}" target="_blank" class="card-img-wrapper">
+                <img src="${imgCard}" alt="${n.title || ''}" class="card-img" onerror="this.onerror=null; this.src='${imagemPadrao}';">
+              </a>
+              <div class="card-body">
+                <h3 class="card-title">${n.title || "Sem título"}</h3>
+                <div class="card-meta">
+                  <span>${data(n.publishedAt || n.date)}</span>
+                  <a href="${n.url || '#'}" target="_blank" class="card-btn">Ler ➔</a>
+                </div>
               </div>
-            </div>
-          </article>
-        `;
-      });
+            </article>
+          `;
+        });
+      } else {
+        area.innerHTML = "<p style='grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 20px;'>Todas as notícias desta categoria estão em destaque acima.</p>";
+      }
     }
 
     function data(d) {

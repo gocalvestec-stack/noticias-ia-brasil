@@ -1,4 +1,4 @@
-Name: Atualizar noticias
+name: Atualizar noticias
 
 on:
   schedule:
@@ -41,11 +41,11 @@ jobs:
 
           feeds = {
               "Futebol": [
-                  "https://ge.globo.com/rss/g1/esportes/",
+                  "https://ge.globo.com/rss/ge/futebol/",
                   "https://www.espn.com.br/rss/futebol"
               ],
               "Brasil": [
-                  "https://g1.globo.com/rss/g1/"
+                  "https://g1.globo.com/rss/g1/brasil/"
               ],
               "Mundo": [
                   "https://g1.globo.com/rss/g1/mundo/"
@@ -67,6 +67,7 @@ jobs:
               "Economia": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200"
           }
 
+          # MANTIDA NA ÍNTEGRA: Busca a foto do G1/GE nas tags de mídia ou na página do artigo
           def buscar_imagem(item, categoria):
               try:
                   if item.get("media_content"):
@@ -118,7 +119,7 @@ jobs:
                       data_pub = datetime.utcnow().isoformat() + "Z"
                       link_url = item.get("link", "#")
 
-                      # Artigo para a categoria específica
+                      # Item da Categoria Específica (Futebol, Brasil, Mundo, Tecnologia, Economia)
                       noticias.append({
                           "title": titulo,
                           "description": descricao,
@@ -128,7 +129,7 @@ jobs:
                           "publishedAt": data_pub
                       })
 
-                      # Artigo duplicado para a categoria "Todas"
+                      # Item da Categoria "Todas"
                       noticias.append({
                           "title": titulo,
                           "description": descricao,

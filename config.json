@@ -1,17 +1,17 @@
 {
   "nome": "RD NEWS",
   "logo": "https://raw.githubusercontent.com/gocalvestec-stack/noticiasbrasil/main/logo.png.jpeg",
-  "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil, economia, tecnologia e mundo.",
+  "descricao": "RD NEWS - Portal inteligente de notícias de futebol, Brasil, mundo, tecnologia e economia.",
 
   "tema": {
     "corPrincipal": "#0b1f3a",
     "corSecundaria": "#e50914",
-    "corFundo": "#f4f6f9",
-    "corTexto": "#222222",
+    "corFundo": "#121212",
+    "corTexto": "#ffffff",
     "modoEscuro": true
   },
 
-  "categoriaPadrao": "Futebol",
+  "categoriaPadrao": "Todas",
 
   "filtroNoticias": {
     "ativo": false,
@@ -72,16 +72,6 @@
       "id": "Economia",
       "nome": "Economia",
       "icone": "💰"
-    },
-    {
-      "id": "Saúde",
-      "nome": "Saúde",
-      "icone": "🏥"
-    },
-    {
-      "id": "Entretenimento",
-      "nome": "Entretenimento",
-      "icone": "🎬"
     }
   ],
 
@@ -98,8 +88,8 @@
 
   "seo": {
     "titulo": "RD NEWS - Notícias Atualizadas",
-    "descricao": "Últimas notícias do Brasil, futebol, economia, tecnologia, saúde e mundo.",
-    "palavrasChave": "notícias, futebol, brasileirão, economia, tecnologia, brasil, mundo"
+    "descricao": "Últimas notícias de Futebol, Brasil, Mundo, Tecnologia e Economia.",
+    "palavrasChave": "notícias, futebol, brasil, mundo, tecnologia, economia"
   },
 
   "atualizacao": {

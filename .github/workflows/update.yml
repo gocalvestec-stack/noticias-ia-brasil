@@ -1,4 +1,4 @@
-name: Atualizar noticias
+Name: Atualizar noticias
 
 on:
   schedule:
@@ -13,294 +13,149 @@ concurrency:
 permissions:
   contents: write
 
-
 jobs:
-
   atualizar:
-
     runs-on: ubuntu-latest
 
-
     steps:
-
       - name: Baixar projeto
         uses: actions/checkout@v4
-
 
       - name: Instalar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-
       - name: Instalar bibliotecas
         run: |
           pip install feedparser requests beautifulsoup4
 
-
       - name: Buscar noticias RSS
         run: |
-
           python3 <<'PY'
-
           import json
           import feedparser
           import requests
-
           from bs4 import BeautifulSoup
           from datetime import datetime
 
-
-
           feeds = {
-
-
-              "Futebol":[
+              "Futebol": [
                   "https://ge.globo.com/rss/g1/esportes/",
                   "https://www.espn.com.br/rss/futebol"
               ],
-
-
-              "Brasil":[
+              "Brasil": [
                   "https://g1.globo.com/rss/g1/"
               ],
-
-
-              "Economia":[
-                  "https://g1.globo.com/rss/g1/economia/"
-              ],
-
-
-              "Saúde":[
-                  "https://g1.globo.com/rss/g1/ciencia-e-saude/"
-              ],
-
-
-              "Tecnologia":[
-                  "https://olhardigital.com.br/feed/"
-              ],
-
-
-              "Mundo":[
+              "Mundo": [
                   "https://g1.globo.com/rss/g1/mundo/"
               ],
-
-
-              "Entretenimento":[
-                  "https://g1.globo.com/rss/g1/pop-arte/"
+              "Tecnologia": [
+                  "https://olhardigital.com.br/feed/"
+              ],
+              "Economia": [
+                  "https://g1.globo.com/rss/g1/economia/"
               ]
-
           }
-
-
-
 
           imagens = {
-
-
-              "Futebol":
-              "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200",
-
-
-              "Brasil":
-              "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
-
-
-              "Economia":
-              "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200",
-
-
-              "Saúde":
-              "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1200",
-
-
-              "Tecnologia":
-              "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
-
-
-              "Mundo":
-              "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
-
-
-              "Entretenimento":
-              "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200"
-
+              "Todas": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200",
+              "Futebol": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200",
+              "Brasil": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
+              "Mundo": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1200",
+              "Tecnologia": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+              "Economia": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200"
           }
 
-
-
-
-          def buscar_imagem(item,categoria):
-
-
+          def buscar_imagem(item, categoria):
               try:
-
                   if item.get("media_content"):
-
-                      img=item.media_content[0].get("url")
-
+                      img = item.media_content[0].get("url")
                       if img:
                           return img
-
               except:
                   pass
 
-
-
               try:
-
                   if item.get("media_thumbnail"):
-
-                      img=item.media_thumbnail[0].get("url")
-
+                      img = item.media_thumbnail[0].get("url")
                       if img:
                           return img
-
               except:
                   pass
 
-
-
-
               try:
-
-                  pagina=requests.get(
-
+                  pagina = requests.get(
                       item.get("link"),
-
-                      headers={
-                          "User-Agent":"Mozilla/5.0"
-                      },
-
+                      headers={"User-Agent": "Mozilla/5.0"},
                       timeout=8
-
                   )
-
-
-                  soup=BeautifulSoup(
-                      pagina.text,
-                      "html.parser"
-                  )
-
-
-                  og=soup.find(
-                      "meta",
-                      property="og:image"
-                  )
-
-
+                  soup = BeautifulSoup(pagina.text, "html.parser")
+                  og = soup.find("meta", property="og:image")
                   if og:
-
-                      imagem=og.get("content")
-
+                      imagem = og.get("content")
                       if imagem:
                           return imagem
-
-
               except:
                   pass
 
+              return imagens.get(categoria)
 
+          noticias = []
 
-              return imagens.get(
-                  categoria
-              )
-
-
-
-
-
-
-          noticias=[]
-
-
-
-
-          for categoria,lista_urls in feeds.items():
-
-
+          for categoria, lista_urls in feeds.items():
               for url in lista_urls:
-
-
-                  feed=feedparser.parse(url)
-
-
+                  feed = feedparser.parse(url)
 
                   for item in feed.entries[:10]:
+                      titulo = item.get("title", "")
+                      descricao = BeautifulSoup(
+                          item.get("summary", ""),
+                          "html.parser"
+                      ).text[:300]
 
-    titulo = item.get("title", "")
-    descricao = BeautifulSoup(
-        item.get("summary", ""),
-        "html.parser"
-    ).text[:300]
+                      imagem_url = buscar_imagem(item, categoria)
+                      data_pub = datetime.utcnow().isoformat() + "Z"
+                      link_url = item.get("link", "#")
 
-    texto = (titulo + " " + descricao + " " + item.get("link", "")).lower()
+                      # Artigo para a categoria específica
+                      noticias.append({
+                          "title": titulo,
+                          "description": descricao,
+                          "url": link_url,
+                          "image": imagem_url,
+                          "category": categoria,
+                          "publishedAt": data_pub
+                      })
 
-    categoria_final = categoria
+                      # Artigo duplicado para a categoria "Todas"
+                      noticias.append({
+                          "title": titulo,
+                          "description": descricao,
+                          "url": link_url,
+                          "image": imagem_url,
+                          "category": "Todas",
+                          "publishedAt": data_pub
+                      })
 
-    if categoria == "Futebol":
-        categoria_final = "Futebol"
-
-    noticias.append({
-        "title": titulo,
-        "description": descricao,
-        "url": item.get("link", "#"),
-        "image": buscar_imagem(item, categoria_final),
-        "category": categoria_final,
-        "publishedAt": datetime.utcnow().isoformat() + "Z"
-    })
-
-
-
-
-
-          with open(
-              "news.json",
-              "w",
-              encoding="utf-8"
-          ) as f:
-
-
+          with open("news.json", "w", encoding="utf-8") as f:
               json.dump(
-
-                  {
-                      "articles":noticias
-                  },
-
+                  {"articles": noticias},
                   f,
-
                   ensure_ascii=False,
-
                   indent=2
-
               )
 
-
-
-          print(
-              f"{len(noticias)} noticias criadas"
-          )
-
-
+          print(f"{len(noticias)} noticias criadas")
           PY
-
-
-
 
       - name: Commit das noticias
         run: |
-
           git config user.name "github-actions"
-
           git config user.email "github-actions@github.com"
-
           git add news.json
-
           git diff --cached --quiet || git commit -m "Atualizar noticias"
-
-
 
       - name: Enviar alterações
         run: |
-
           git push

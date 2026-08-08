@@ -44,42 +44,42 @@
 
   "categorias": [
     {
-      "id": "todas",
+      "id": "Todas",
       "nome": "Todas",
       "icone": "📰"
     },
     {
-      "id": "futebol",
+      "id": "Futebol",
       "nome": "Futebol",
       "icone": "⚽"
     },
     {
-      "id": "brasil",
+      "id": "Brasil",
       "nome": "Brasil",
       "icone": "🇧🇷"
     },
     {
-      "id": "mundo",
+      "id": "Mundo",
       "nome": "Mundo",
       "icone": "🌎"
     },
     {
-      "id": "tecnologia",
+      "id": "Tecnologia",
       "nome": "Tecnologia",
       "icone": "💻"
     },
     {
-      "id": "economia",
+      "id": "Economia",
       "nome": "Economia",
       "icone": "💰"
     },
     {
-      "id": "saude",
+      "id": "Saúde",
       "nome": "Saúde",
       "icone": "🏥"
     },
     {
-      "id": "entretenimento",
+      "id": "Entretenimento",
       "nome": "Entretenimento",
       "icone": "🎬"
     }
